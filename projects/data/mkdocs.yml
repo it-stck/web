@@ -38,16 +38,16 @@ theme:
    # Selector de paleta para modo claro
    - media: "(prefers-color-scheme: light)"
      scheme: default
-     primary: green
-     accent: blue
+     primary: blue
+     accent: green
      toggle:
        icon: material/toggle-switch
        name: Switch to dark mode
    # Selector de paleta para modo oscuro
    - media: "(prefers-color-scheme: dark)"
      scheme: slate
-     primary: green
-     accent: blue
+     primary: blue
+     accent: green
      toggle:
        icon: material/toggle-switch-off-outline
        name: Switch to light mode
