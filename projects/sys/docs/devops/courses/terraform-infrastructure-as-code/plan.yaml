@@ -1,0 +1,86 @@
+title: Terraform Infrastructure as Code
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Terraform and IaC
+  sections:
+  - id: '01.01'
+    title: What is Terraform and Infrastructure as Code
+    objective: Define Terraform's role in infrastructure automation and explain the
+      core principles of Infrastructure as Code (IaC) and its benefits for DevOps
+      workflows.
+  - id: '01.02'
+    title: Terraform Architecture and Core Concepts
+    objective: Describe Terraform's architecture, including providers, resources,
+      configurations, and the plan/apply workflow, and explain how it abstracts infrastructure
+      management.
+- id: '02'
+  title: HCL Syntax and Configuration Basics
+  sections:
+  - id: '02.01'
+    title: 'HCL Fundamentals: Blocks, Attributes, and Expressions'
+    objective: Teach the structure of HashiCorp Configuration Language (HCL), including
+      blocks, attributes, dynamic blocks, and interpolation expressions for variable
+      handling.
+  - id: '02.02'
+    title: Data Sources and Resource Types
+    objective: Explain how to use Terraform data sources for existing infrastructure
+      and define resource types for provisioning new infrastructure with providers.
+- id: '03'
+  title: State Management and Workspaces
+  sections:
+  - id: '03.01'
+    title: 'Terraform State Files: Management and Security'
+    objective: Detail state file operations, including storage, locking mechanisms,
+      and best practices for securing and backing up state data.
+  - id: '03.02'
+    title: Workspaces for Environment Isolation
+    objective: Demonstrate how to use workspaces to manage multiple environments (dev,
+      staging, prod) and isolate state data across parallel runs.
+- id: '04'
+  title: Modules and Reusability
+  sections:
+  - id: '04.01'
+    title: Creating and Reusing Terraform Modules
+    objective: Guide users through creating modularized Terraform configurations,
+      including input and output variables, and best practices for reusability across
+      projects.
+  - id: '04.02'
+    title: Module Sources and Dependency Management
+    objective: Explain how to source modules from local paths, versioned repositories,
+      and the Terraform Registry, and manage dependencies between modules.
+- id: '05'
+  title: Remote Backends and Collaboration
+  sections:
+  - id: '05.01'
+    title: 'Remote State Backends: S3, Azure, and Consul'
+    objective: Describe how to configure remote backends for state storage using cloud
+      services (e.g., AWS S3, Azure Blob Storage) and distributed coordination tools
+      like Consul.
+  - id: '05.02'
+    title: Team Collaboration with State Locking and Workspaces
+    objective: Explain state locking mechanisms, team collaboration workflows, and
+      how to prevent conflicts using workspaces and remote state backends.
+- id: '06'
+  title: Advanced Operations and Best Practices
+  sections:
+  - id: '06.01'
+    title: Drift Detection and Remediation
+    objective: Detail how to use Terraform's `terraform destroy` and `terraform apply`
+      with the `-replace` flag to detect and correct configuration drift.
+  - id: '06.02'
+    title: Custom Providers and Third-Party Integration
+    objective: Explain how to develop or use custom Terraform providers for proprietary
+      systems and integrate them with existing infrastructure.
+- id: '07'
+  title: CI/CD Integration and Automation
+  sections:
+  - id: '07.01'
+    title: Automating Terraform with CI/CD Pipelines
+    objective: Demonstrate integrating Terraform with CI/CD tools like Jenkins, GitLab
+      CI, and GitHub Actions to automate infrastructure provisioning and validation.
+  - id: '07.02'
+    title: Terraform Enterprise and Cloud-Native Workflows
+    objective: Discuss Terraform Enterprise features, cloud-native deployment patterns,
+      and how to enforce compliance and governance in production environments.

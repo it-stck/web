@@ -1,0 +1,67 @@
+title: macOS Red Teaming and Persistence
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: macOS Security Foundations
+  sections:
+  - id: '01.01'
+    title: Understanding TCC and Sandboxing
+    objective: Explain the role of Transparency, Consent, and Control (TCC) and sandboxing
+      in macOS security architecture.
+  - id: '01.02'
+    title: macOS Privilege Separation Model
+    objective: Detail how macOS enforces privilege separation through user accounts,
+      entitlements, and process isolation.
+- id: '02'
+  title: TCC Bypass Techniques
+  sections:
+  - id: '02.01'
+    title: TCC Database Manipulation
+    objective: Demonstrate methods to modify or bypass TCC database entries to evade
+      application restrictions.
+  - id: '02.02'
+    title: Exploiting Legacy TCC Vulnerabilities
+    objective: Cover historical TCC bypasses and how to leverage deprecated APIs for
+      privilege escalation.
+- id: '03'
+  title: Launchd Persistence
+  sections:
+  - id: '03.01'
+    title: Launchd Service Architecture
+    objective: Outline how launchd manages system services and its role in persistence
+      mechanisms.
+  - id: '03.02'
+    title: Creating Persistent Launchd Services
+    objective: Provide step-by-step instructions for crafting malicious launchd plist
+      files for persistence.
+- id: '04'
+  title: Plist Modifications
+  sections:
+  - id: '04.01'
+    title: Plist File Structure and Syntax
+    objective: Teach how to parse and modify plist files to inject malicious configurations.
+  - id: '04.02'
+    title: Stealthy Plist Persistence Techniques
+    objective: Explain methods to hide malicious plists within legitimate system directories.
+- id: '05'
+  title: Dylib Injection
+  sections:
+  - id: '05.01'
+    title: Dynamic Library Injection Mechanisms
+    objective: Detail techniques for injecting dylibs into processes using LD_PRELOAD
+      and other methods.
+  - id: '05.02'
+    title: Evading ASLR with Dylib Injection
+    objective: Cover strategies to bypass Address Space Layout Randomization (ASLR)
+      via dylib manipulation.
+- id: '06'
+  title: Mach-O Binary Manipulation
+  sections:
+  - id: '06.01'
+    title: Mach-O File Format Overview
+    objective: Explain the structure of Mach-O binaries and how they execute on macOS.
+  - id: '06.02'
+    title: Binary Patching and Code Signing Bypasses
+    objective: Demonstrate how to modify Mach-O binaries to bypass code signing checks
+      and execute payloads.

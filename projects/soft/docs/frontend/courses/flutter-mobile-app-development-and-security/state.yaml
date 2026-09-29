@@ -1,0 +1,79 @@
+status: completed
+title: Flutter Mobile App Development and Security
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: State Management with BLoC
+  section_id: '01.01'
+  title: Understanding BLoC Architecture
+  status: completed
+- chapter_id: '01'
+  chapter_title: State Management with BLoC
+  section_id: '01.02'
+  title: Implementing BLoC Patterns
+  status: completed
+- chapter_id: '01'
+  chapter_title: State Management with BLoC
+  section_id: '01.03'
+  title: Best Practices for BLoC Optimization
+  status: completed
+- chapter_id: '02'
+  chapter_title: Secure Storage in Flutter
+  section_id: '02.01'
+  title: Flutter Secure Storage Fundamentals
+  status: completed
+- chapter_id: '02'
+  chapter_title: Secure Storage in Flutter
+  section_id: '02.02'
+  title: Encrypting Data with AES
+  status: completed
+- chapter_id: '02'
+  chapter_title: Secure Storage in Flutter
+  section_id: '02.03'
+  title: Key Management Strategies
+  status: completed
+- chapter_id: '03'
+  chapter_title: Network Security - Certificate Pinning
+  section_id: '03.01'
+  title: Why Certificate Pinning Matters
+  status: completed
+- chapter_id: '03'
+  chapter_title: Network Security - Certificate Pinning
+  section_id: '03.02'
+  title: Implementing Certificate Pinning
+  status: completed
+- chapter_id: '03'
+  chapter_title: Network Security - Certificate Pinning
+  section_id: '03.03'
+  title: Handling Pinning Exceptions
+  status: completed
+- chapter_id: '04'
+  chapter_title: Native Channels and Secure Communication
+  section_id: '04.01'
+  title: Platform Channels Fundamentals
+  status: completed
+- chapter_id: '04'
+  chapter_title: Native Channels and Secure Communication
+  section_id: '04.02'
+  title: Securing Native Code Interactions
+  status: completed
+- chapter_id: '04'
+  chapter_title: Native Channels and Secure Communication
+  section_id: '04.03'
+  title: Secure Inter-Process Communication
+  status: completed
+- chapter_id: '05'
+  chapter_title: App Obfuscation and Protection
+  section_id: '05.01'
+  title: Code Obfuscation Techniques
+  status: completed
+- chapter_id: '05'
+  chapter_title: App Obfuscation and Protection
+  section_id: '05.02'
+  title: Anti-Tampering Strategies
+  status: completed
+- chapter_id: '05'
+  chapter_title: App Obfuscation and Protection
+  section_id: '05.03'
+  title: Secure Build Configurations
+  status: completed

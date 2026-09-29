@@ -1,0 +1,80 @@
+title: React and Next.js Enterprise Architecture
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Server Components and App Router Foundations
+  sections:
+  - id: '01.01'
+    title: Server Components Architecture Overview
+    objective: Explain the principles of server components in Next.js 13, including
+      their role in separating UI logic from rendering processes.
+  - id: '01.02'
+    title: App Router Structure and Navigation
+    objective: Demonstrate how to implement nested routing, dynamic segments, and
+      API route integration in the App Router framework.
+  - id: '01.03'
+    title: Migrating from Pages to App Router
+    objective: Provide step-by-step guidance for migrating existing Next.js projects
+      from the Pages Router to the App Router architecture.
+  - id: '01.04'
+    title: Server Component Performance Best Practices
+    objective: Outline strategies for optimizing server component rendering, including
+      data fetching and suspense patterns.
+- id: '02'
+  title: 'Rendering Strategies: SSR, SSG, ISR'
+  sections:
+  - id: '02.01'
+    title: Server-Side Rendering (SSR) Implementation
+    objective: Detail how to configure and optimize SSR in Next.js, including API
+      route integration and hydration techniques.
+  - id: '02.02'
+    title: Static Site Generation (SSG) Patterns
+    objective: Explain static generation workflows, including pre-rendering, incremental
+      static regeneration, and route-level SSG.
+  - id: '02.03'
+    title: Incremental Static Regeneration (ISR) Mechanics
+    objective: Describe how ISR works, its use cases, and techniques for triggering
+      regenerations based on data changes.
+  - id: '02.04'
+    title: Comparing SSR, SSG, and ISR Use Cases
+    objective: Provide a decision matrix for selecting between SSR, SSG, and ISR based
+      on application requirements and constraints.
+- id: '03'
+  title: State Management in Enterprise Applications
+  sections:
+  - id: '03.01'
+    title: Context API for Global State
+    objective: Demonstrate how to implement and optimize the Context API for managing
+      global state in React applications.
+  - id: '03.02'
+    title: Redux Toolkit Integration with Next.js
+    objective: Explain how to integrate Redux Toolkit for state management, including
+      slice creation and middleware configuration.
+  - id: '03.03'
+    title: TanStack Query for Data Fetching
+    objective: Detail the implementation of TanStack Query for managing data fetching,
+      caching, and synchronization in React apps.
+  - id: '03.04'
+    title: State Management Patterns for Micro Frontends
+    objective: Outline strategies for decoupling state management in micro frontend
+      architectures using shared context or service layers.
+- id: '04'
+  title: Bundle Optimization and Performance
+  sections:
+  - id: '04.01'
+    title: Code Splitting and Dynamic Imports
+    objective: Explain how to implement code splitting using dynamic imports and React.lazy
+      for optimized bundle delivery.
+  - id: '04.02'
+    title: Image and Asset Optimization Techniques
+    objective: Detail best practices for optimizing images, fonts, and assets using
+      Next.js built-in tools and third-party libraries.
+  - id: '04.03'
+    title: Lazy Loading and Preloading Strategies
+    objective: Describe techniques for lazy loading components, routes, and resources
+      while maintaining optimal performance.
+  - id: '04.04'
+    title: Performance Monitoring and Optimization Tools
+    objective: Outline how to use Lighthouse, Web Vitals, and Next.js analytics to
+      measure and improve application performance.

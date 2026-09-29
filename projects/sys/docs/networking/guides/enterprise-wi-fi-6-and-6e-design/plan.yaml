@@ -1,0 +1,82 @@
+title: Enterprise Wi-Fi 6 and 6E Design
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: RF Fundamentals for Wi-Fi 6/6E
+  sections:
+  - id: '01.01'
+    title: RF Concepts and Spectrum Bands
+    objective: Explain RF fundamentals including frequency bands, modulation techniques,
+      and the differences between 2.4 GHz, 5 GHz, and 6 GHz spectrum bands for Wi-Fi
+      6/6E.
+  - id: '01.02'
+    title: Signal Propagation and Attenuation
+    objective: Describe how RF signals propagate through environments, factors affecting
+      signal strength, and methods to calculate path loss and interference.
+- id: '02'
+  title: Channel Planning and Coexistence
+  sections:
+  - id: '02.01'
+    title: Channel Selection and DFS Compliance
+    objective: Detail channel selection strategies for Wi-Fi 6/6E, including DFS (Dynamic
+      Frequency Selection) requirements and coexistence with radar systems.
+  - id: '02.02'
+    title: Interference Mitigation Techniques
+    objective: Outline methods to minimize interference through channel bonding, non-overlapping
+      channels, and dynamic frequency selection in dense environments.
+- id: '03'
+  title: Roaming Optimization
+  sections:
+  - id: '03.01'
+    title: Wi-Fi Roaming Mechanisms
+    objective: Explain the technical principles of seamless roaming in Wi-Fi 6/6E,
+      including 802.11k/v/r standards and mobility management.
+  - id: '03.02'
+    title: Roaming Optimization Strategies
+    objective: Provide best practices for optimizing roaming performance through RSSI
+      thresholds, prediction algorithms, and multi-band support.
+- id: '04'
+  title: WPA3 Enterprise Security
+  sections:
+  - id: '04.01'
+    title: WPA3 Protocol Architecture
+    objective: Describe the security architecture of WPA3, including Simultaneous
+      Authentication of Equals (SAE) and enhanced encryption compared to WPA2.
+  - id: '04.02'
+    title: Implementing WPA3 in Enterprise Networks
+    objective: Outline steps to deploy WPA3 with EAP methods, certificate management,
+      and compatibility considerations for legacy devices.
+- id: '05'
+  title: Site Survey Analysis
+  sections:
+  - id: '05.01'
+    title: Pre-Survey Planning and Tools
+    objective: Detail the process of pre-survey planning, including tools like Ekahau
+      and WiFi Analyzer, and environmental factors to consider.
+  - id: '05.02'
+    title: Interpreting Survey Results
+    objective: Explain how to analyze heatmaps, coverage gaps, and signal strength
+      metrics to refine network design.
+- id: '06'
+  title: Capacity Planning
+  sections:
+  - id: '06.01'
+    title: Factors Affecting Network Capacity
+    objective: Identify key factors impacting Wi-Fi 6/6E capacity, including device
+      density, data rates, and channel utilization.
+  - id: '06.02'
+    title: Capacity Planning Tools and Metrics
+    objective: Describe tools for capacity planning and metrics like utilization thresholds,
+      client-to-ap ratios, and QoS requirements.
+- id: '07'
+  title: Beamforming and Spatial Reuse
+  sections:
+  - id: '07.01'
+    title: Beamforming Technology Overview
+    objective: Explain how beamforming works in Wi-Fi 6/6E, including spatial streams
+      and antenna array configurations.
+  - id: '07.02'
+    title: Optimizing Spatial Reuse
+    objective: Discuss techniques to maximize spatial reuse and minimize interference
+      through beamforming optimization strategies.

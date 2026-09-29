@@ -1,0 +1,89 @@
+status: draft
+title: MLOps with MLflow and Kubeflow
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Experiment Tracking with MLflow
+  section_id: '01.01'
+  title: Introduction to Experiment Tracking
+  status: pending
+- chapter_id: '01'
+  chapter_title: Experiment Tracking with MLflow
+  section_id: '01.02'
+  title: MLflow Tracking Overview
+  status: pending
+- chapter_id: '01'
+  chapter_title: Experiment Tracking with MLflow
+  section_id: '01.03'
+  title: Logging Metrics and Artifacts
+  status: pending
+- chapter_id: '02'
+  chapter_title: Model Registry and Lifecycle Management
+  section_id: '02.01'
+  title: Model Registry Concepts
+  status: pending
+- chapter_id: '02'
+  chapter_title: Model Registry and Lifecycle Management
+  section_id: '02.03'
+  title: Model Lifecycle Stages
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Versioning with DVC
+  section_id: '03.01'
+  title: Data Versioning Fundamentals
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Versioning with DVC
+  section_id: '03.02'
+  title: DVC Integration with MLflow
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Versioning with DVC
+  section_id: '03.03'
+  title: Data Pipeline Workflows
+  status: pending
+- chapter_id: '04'
+  chapter_title: Pipeline Orchestration with Kubeflow
+  section_id: '04.01'
+  title: Kubeflow Architecture Overview
+  status: pending
+- chapter_id: '04'
+  chapter_title: Pipeline Orchestration with Kubeflow
+  section_id: '04.02'
+  title: Kubeflow Pipelines Setup
+  status: pending
+- chapter_id: '04'
+  chapter_title: Pipeline Orchestration with Kubeflow
+  section_id: '04.03'
+  title: Advanced Pipeline Patterns
+  status: pending
+- chapter_id: '05'
+  chapter_title: Model Monitoring and Drift Detection
+  section_id: '05.01'
+  title: Model Performance Monitoring
+  status: pending
+- chapter_id: '05'
+  chapter_title: Model Monitoring and Drift Detection
+  section_id: '05.02'
+  title: Drift Detection Techniques
+  status: pending
+- chapter_id: '05'
+  chapter_title: Model Monitoring and Drift Detection
+  section_id: '05.03'
+  title: Alerting and Remediation
+  status: pending
+- chapter_id: '06'
+  chapter_title: CI/CD for Machine Learning
+  section_id: '06.01'
+  title: CI/CD Principles for ML
+  status: pending
+- chapter_id: '06'
+  chapter_title: CI/CD for Machine Learning
+  section_id: '06.02'
+  title: Automating Model Deployments
+  status: pending
+- chapter_id: '06'
+  chapter_title: CI/CD for Machine Learning
+  section_id: '06.03'
+  title: Blue-Green Deployment Strategies
+  status: pending

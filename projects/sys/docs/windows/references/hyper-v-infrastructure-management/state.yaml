@@ -1,0 +1,64 @@
+status: completed
+title: Hyper-V Infrastructure Management
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Virtual Switches Configuration
+  section_id: '01.01'
+  title: Creating and Configuring Virtual Switches
+  status: completed
+- chapter_id: '01'
+  chapter_title: Virtual Switches Configuration
+  section_id: '01.02'
+  title: Managing Virtual Switch Port Settings
+  status: completed
+- chapter_id: '01'
+  chapter_title: Virtual Switches Configuration
+  section_id: '01.03'
+  title: Troubleshooting Virtual Switch Connectivity
+  status: completed
+- chapter_id: '02'
+  chapter_title: Live Migration and High Availability
+  section_id: '02.01'
+  title: Live Migration Setup and Execution
+  status: completed
+- chapter_id: '02'
+  chapter_title: Live Migration and High Availability
+  section_id: '02.02'
+  title: Failover Clustering Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Live Migration and High Availability
+  section_id: '02.03'
+  title: Managing Clustered Virtual Machines
+  status: completed
+- chapter_id: '03'
+  chapter_title: Storage Spaces Direct Implementation
+  section_id: '03.01'
+  title: Setting Up Storage Spaces Direct
+  status: completed
+- chapter_id: '03'
+  chapter_title: Storage Spaces Direct Implementation
+  section_id: '03.02'
+  title: Optimizing Storage Spaces Performance
+  status: completed
+- chapter_id: '04'
+  chapter_title: VHDX File Optimization
+  section_id: '04.01'
+  title: VHDX File Management Best Practices
+  status: completed
+- chapter_id: '04'
+  chapter_title: VHDX File Optimization
+  section_id: '04.02'
+  title: Tools for VHDX Optimization
+  status: completed
+- chapter_id: '05'
+  chapter_title: Replica and Disaster Recovery
+  section_id: '05.01'
+  title: Hyper-V Replica Configuration
+  status: completed
+- chapter_id: '05'
+  chapter_title: Replica and Disaster Recovery
+  section_id: '05.02'
+  title: Disaster Recovery Procedures
+  status: completed

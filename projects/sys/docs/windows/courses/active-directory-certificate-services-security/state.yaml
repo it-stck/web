@@ -1,0 +1,104 @@
+status: completed
+title: Active Directory Certificate Services Security
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: AD CS Templates
+  section_id: '01.01'
+  title: Understanding Certificate Templates
+  status: completed
+- chapter_id: '01'
+  chapter_title: AD CS Templates
+  section_id: '01.02'
+  title: Creating and Configuring Certificate Templates
+  status: completed
+- chapter_id: '01'
+  chapter_title: AD CS Templates
+  section_id: '01.03'
+  title: Managing Certificate Templates
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.01'
+  title: ESC1 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.02'
+  title: ESC2 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.03'
+  title: ESC3 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.04'
+  title: ESC4 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.05'
+  title: ESC5 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.06'
+  title: ESC6 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.07'
+  title: ESC7 Vulnerability Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: ESC Vulnerabilities
+  section_id: '02.08'
+  title: ESC8 Vulnerability Overview
+  status: completed
+- chapter_id: '03'
+  chapter_title: CertSrv Configuration
+  section_id: '03.01'
+  title: Installing and Configuring Certificate Services
+  status: completed
+- chapter_id: '03'
+  chapter_title: CertSrv Configuration
+  section_id: '03.02'
+  title: Configuring Certificate Authority Roles
+  status: completed
+- chapter_id: '03'
+  chapter_title: CertSrv Configuration
+  section_id: '03.03'
+  title: Securing Certificate Services Infrastructure
+  status: completed
+- chapter_id: '04'
+  chapter_title: PKINIT Authentication
+  section_id: '04.01'
+  title: PKINIT Overview and Requirements
+  status: completed
+- chapter_id: '04'
+  chapter_title: PKINIT Authentication
+  section_id: '04.02'
+  title: Configuring PKINIT for Kerberos
+  status: completed
+- chapter_id: '04'
+  chapter_title: PKINIT Authentication
+  section_id: '04.03'
+  title: Troubleshooting PKINIT Issues
+  status: completed
+- chapter_id: '05'
+  chapter_title: Auto Enrollment
+  section_id: '05.01'
+  title: Enabling Auto Enrollment for Certificates
+  status: completed
+- chapter_id: '05'
+  chapter_title: Auto Enrollment
+  section_id: '05.02'
+  title: Auto Enrollment Policies and Scenarios
+  status: completed
+- chapter_id: '05'
+  chapter_title: Auto Enrollment
+  section_id: '05.03'
+  title: Troubleshooting Auto Enrollment Failures
+  status: completed

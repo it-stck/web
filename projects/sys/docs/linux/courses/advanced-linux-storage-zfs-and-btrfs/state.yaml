@@ -1,0 +1,29 @@
+status: completed
+title: Advanced Linux Storage ZFS and Btrfs
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: ZFS Fundamentals
+  section_id: '01.01'
+  title: ZFS Pool Creation
+  status: completed
+- chapter_id: '01'
+  chapter_title: ZFS Fundamentals
+  section_id: '01.02'
+  title: Snapshots and Clones
+  status: completed
+- chapter_id: '01'
+  chapter_title: ZFS Fundamentals
+  section_id: '01.03'
+  title: ZFS Send and Receive
+  status: completed
+- chapter_id: '01'
+  chapter_title: ZFS Fundamentals
+  section_id: '01.04'
+  title: RAIDZ Configurations
+  status: completed
+- chapter_id: '02'
+  chapter_title: Btrfs Essentials
+  section_id: '02.01'
+  title: Btrfs Subvolumes
+  status: completed

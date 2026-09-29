@@ -1,0 +1,129 @@
+site_name: ITSTCK | Open IT Stack & Knowledge Base
+site_description: Enterprise IT knowledge base and infrastructure documentation covering DevOps, Cybersecurity, Linux, Windows, Cloud Architecture, Networking, and AI Engineering.
+site_author: ITSTCK
+site_url: https://itstck.com/
+docs_dir: root
+
+copyright: >-
+  &copy; SINCE 2026 <a href="https://itstck.com" target="_blank" rel="noopener" style="color:var(--md-accent-fg-color)"><strong>ITSTCK.COM</strong></a> | All rights reserved. |  <a href="https://itstck.com/contact" target="_blank" rel="noopener">Contact ↗</a>
+
+repo_name: it-stck/web
+repo_url: https://github.com/it-stck/web
+edit_uri: edit/main/web/
+
+# ── Theme & Language Configuration ──
+theme:
+  name: material
+  language: en
+  logo: assets/img/ITSTCK.png
+  favicon: assets/img/ITSTCK.png
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    # Default Dark Mode (Slate / Cyan Highlight)
+    - scheme: slate
+      primary: slate
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    # Light Mode Alternate
+    - scheme: default
+      primary: slate
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+# ── Markdown Extensions ──
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+# ── Plugins (Monorepo / Multi-Project Support) ──
+plugins:
+  - search
+  - tags
+  - meta
+  - projects
+
+# ── Extra Stylesheets & Analytics ──
+extra_css:
+  - assets/css/extra.css 
+
+extra:
+  scope: /
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/it-stck
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/itstck
+    - icon: fontawesome/solid/envelope
+      link: mailto:hello@itstck.com
+
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Yes, absolutely
+          data: 1
+          note: Thank you for your feedback!
+        - icon: material/thumb-down-outline
+          name: Not quite
+          data: 0
+          note: Thanks! We will review this section to make improvements.
+
+  consent:
+    title: Cookie Consent
+    description: >-
+      We use cookies to analyze web traffic and deliver an optimal technical browsing experience.
+      You can manage your preferences at any time.
+    actions:
+      - accept
+      - manage
+
+# ── Navigation Architecture (Multi-Domain Tabs) ──
+nav:
+  - Home: index.md
+  - Systems & Infrastructure: /sys/
+  - Cybersecurity & Governance: /cyb/
+  - Software Engineering: /soft/
+  - Data & Artificial Intelligence: /data/

@@ -1,0 +1,74 @@
+status: completed
+title: Command and Control C2 Infrastructure Design
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: C2 Fundamentals
+  section_id: '01.01'
+  title: C2 Architecture Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: C2 Fundamentals
+  section_id: '01.02'
+  title: Communication Protocols
+  status: completed
+- chapter_id: '01'
+  chapter_title: C2 Fundamentals
+  section_id: '01.03'
+  title: Redirector Mechanics
+  status: completed
+- chapter_id: '02'
+  chapter_title: C2 Redirectors
+  section_id: '02.01'
+  title: Redirector Implementation
+  status: completed
+- chapter_id: '02'
+  chapter_title: C2 Redirectors
+  section_id: '02.02'
+  title: Advanced Redirector Configurations
+  status: completed
+- chapter_id: '03'
+  chapter_title: Domain-Fronting Techniques
+  section_id: '03.01'
+  title: Domain-Fronting Mechanics
+  status: completed
+- chapter_id: '03'
+  chapter_title: Domain-Fronting Techniques
+  section_id: '03.02'
+  title: Practical Domain-Fronting Setup
+  status: completed
+- chapter_id: '04'
+  chapter_title: Malleable C2 Profiles
+  section_id: '04.01'
+  title: Dynamic Configuration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Malleable C2 Profiles
+  section_id: '04.02'
+  title: Profile Encoding Techniques
+  status: completed
+- chapter_id: '05'
+  chapter_title: Sliver-C2 Framework
+  section_id: '05.01'
+  title: Sliver-C2 Architecture
+  status: completed
+- chapter_id: '05'
+  chapter_title: Sliver-C2 Framework
+  section_id: '05.02'
+  title: Sliver-C2 Integration
+  status: completed
+- chapter_id: '06'
+  chapter_title: Evasion Techniques
+  section_id: '06.01'
+  title: Traffic Obfuscation
+  status: completed
+- chapter_id: '06'
+  chapter_title: Evasion Techniques
+  section_id: '06.02'
+  title: Anti-Analysis Tactics
+  status: completed
+- chapter_id: '06'
+  chapter_title: Evasion Techniques
+  section_id: '06.03'
+  title: Environment-Specific Evasion
+  status: completed

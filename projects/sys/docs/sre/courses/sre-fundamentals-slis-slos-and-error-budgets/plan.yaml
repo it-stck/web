@@ -1,0 +1,70 @@
+title: SRE Fundamentals SLIs SLOs and Error Budgets
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: SRE Fundamentals and Core Principles
+  sections:
+  - id: '01.01'
+    title: What is Site Reliability Engineering?
+    objective: Define Site Reliability Engineering (SRE) and explain its role in balancing
+      system reliability, operational efficiency, and business objectives.
+  - id: '01.02'
+    title: SLIs, SLOs, and Error Budgets Overview
+    objective: Introduce the core concepts of Service Level Indicators (SLIs), Service
+      Level Objectives (SLOs), and error budgets as foundational elements of SRE practice.
+- id: '02'
+  title: SLIs and SLOs in Practice
+  sections:
+  - id: '02.01'
+    title: Defining and Measuring SLIs
+    objective: Explain how to select, measure, and monitor SLIs that accurately reflect
+      system reliability and user experience.
+  - id: '02.02'
+    title: Establishing and Managing SLOs
+    objective: Detail the process of defining SLOs, aligning them with business goals,
+      and maintaining them over time.
+- id: '03'
+  title: Error Budgets and Reliability Trade-Offs
+  sections:
+  - id: '03.01'
+    title: Calculating and Managing Error Budgets
+    objective: Teach how to calculate error budgets, set thresholds, and use them
+      to guide reliability decisions.
+  - id: '03.02'
+    title: Reliability vs. Other Business Goals
+    objective: Discuss the trade-offs between reliability, innovation, and operational
+      efficiency using error budgets as a framework.
+- id: '04'
+  title: Toil Reduction and Operational Excellence
+  sections:
+  - id: '04.01'
+    title: Identifying and Reducing Toil
+    objective: Explain how to identify operational toil, assess its impact, and implement
+      strategies to automate repetitive tasks.
+  - id: '04.02'
+    title: Tools and Practices for Toil Reduction
+    objective: Review tools, processes, and best practices for reducing toil and improving
+      operational efficiency.
+- id: '05'
+  title: Alerting Burn Rate and Incident Management
+  sections:
+  - id: '05.01'
+    title: Understanding Alerting Burn Rate
+    objective: Define alerting burn rate, explain its impact on team productivity,
+      and describe how to measure it.
+  - id: '05.02'
+    title: Mitigating Alert Fatigue
+    objective: Provide strategies to reduce alert fatigue, prioritize critical alerts,
+      and align alerts with SLOs.
+- id: '06'
+  title: SRE Metrics and Observability
+  sections:
+  - id: '06.01'
+    title: Key Metrics for SRE Success
+    objective: Identify and explain the most important metrics for evaluating system
+      reliability, performance, and operational health.
+  - id: '06.02'
+    title: Building an Observability Stack
+    objective: Outline how to design an observability stack using tools like Prometheus,
+      Grafana, and distributed tracing for effective SRE practices.

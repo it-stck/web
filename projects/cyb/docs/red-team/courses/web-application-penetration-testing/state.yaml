@@ -1,0 +1,124 @@
+status: completed
+title: Web Application Penetration Testing
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Reconnaissance Techniques
+  section_id: '01.01'
+  title: Passive vs Active Reconnaissance
+  status: completed
+- chapter_id: '01'
+  chapter_title: Reconnaissance Techniques
+  section_id: '01.02'
+  title: Web Application Mapping
+  status: completed
+- chapter_id: '01'
+  chapter_title: Reconnaissance Techniques
+  section_id: '01.03'
+  title: 'Case Study: Reconnaissance in Real-World Scenarios'
+  status: completed
+- chapter_id: '02'
+  chapter_title: SQL Injection Attacks
+  section_id: '02.01'
+  title: SQLi Fundamentals
+  status: completed
+- chapter_id: '02'
+  chapter_title: SQL Injection Attacks
+  section_id: '02.02'
+  title: Exploitation Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: SQL Injection Attacks
+  section_id: '02.03'
+  title: Database Enumeration and Privilege Escalation
+  status: completed
+- chapter_id: '03'
+  chapter_title: Cross-Site Scripting (XSS) Attacks
+  section_id: '03.01'
+  title: XSS Attack Vectors
+  status: completed
+- chapter_id: '03'
+  chapter_title: Cross-Site Scripting (XSS) Attacks
+  section_id: '03.02'
+  title: Exploitation and Payload Delivery
+  status: completed
+- chapter_id: '03'
+  chapter_title: Cross-Site Scripting (XSS) Attacks
+  section_id: '03.03'
+  title: Mitigation Bypass Techniques
+  status: completed
+- chapter_id: '04'
+  chapter_title: CSRF and SSRF Vulnerabilities
+  section_id: '04.01'
+  title: CSRF Attack Mechanics
+  status: completed
+- chapter_id: '04'
+  chapter_title: CSRF and SSRF Vulnerabilities
+  section_id: '04.02'
+  title: SSRF Attack Vectors
+  status: completed
+- chapter_id: '04'
+  chapter_title: CSRF and SSRF Vulnerabilities
+  section_id: '04.03'
+  title: Defensive Countermeasures
+  status: completed
+- chapter_id: '05'
+  chapter_title: Authentication Bypass Techniques
+  section_id: '05.01'
+  title: Session Fixation and Token Manipulation
+  status: completed
+- chapter_id: '05'
+  chapter_title: Authentication Bypass Techniques
+  section_id: '05.02'
+  title: OAuth and API Token Exploitation
+  status: completed
+- chapter_id: '05'
+  chapter_title: Authentication Bypass Techniques
+  section_id: '05.03'
+  title: Password Cracking and Credential Stuffing
+  status: completed
+- chapter_id: '06'
+  chapter_title: API Security Analysis
+  section_id: '06.01'
+  title: API Enumeration and Testing
+  status: completed
+- chapter_id: '06'
+  chapter_title: API Security Analysis
+  section_id: '06.02'
+  title: Authentication and Rate Limiting
+  status: completed
+- chapter_id: '06'
+  chapter_title: API Security Analysis
+  section_id: '06.03'
+  title: Data Validation and Injection
+  status: completed
+- chapter_id: '07'
+  chapter_title: Deserialization Vulnerabilities
+  section_id: '07.01'
+  title: Deserialization Attack Mechanics
+  status: completed
+- chapter_id: '07'
+  chapter_title: Deserialization Vulnerabilities
+  section_id: '07.02'
+  title: Exploitation with RCE
+  status: completed
+- chapter_id: '07'
+  chapter_title: Deserialization Vulnerabilities
+  section_id: '07.03'
+  title: Mitigation and Detection
+  status: completed
+- chapter_id: 08
+  chapter_title: Burp Suite Advanced Usage
+  section_id: '08.01'
+  title: Custom Scanner Rules
+  status: completed
+- chapter_id: 08
+  chapter_title: Burp Suite Advanced Usage
+  section_id: '08.02'
+  title: Intruder and Payload Processing
+  status: completed
+- chapter_id: 08
+  chapter_title: Burp Suite Advanced Usage
+  section_id: '08.03'
+  title: Reconnaissance with Burp
+  status: completed

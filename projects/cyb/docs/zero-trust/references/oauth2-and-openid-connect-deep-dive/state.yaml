@@ -1,0 +1,79 @@
+status: completed
+title: OAuth2 and OpenID Connect Deep Dive
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Authorization Code Grant Flow
+  section_id: '01.01'
+  title: Authorization Code Grant Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Authorization Code Grant Flow
+  section_id: '01.02'
+  title: Security Considerations for Authorization Code Flow
+  status: completed
+- chapter_id: '01'
+  chapter_title: Authorization Code Grant Flow
+  section_id: '01.03'
+  title: Integration with Identity Providers
+  status: completed
+- chapter_id: '02'
+  chapter_title: PKCE Flow for Public Clients
+  section_id: '02.01'
+  title: PKCE Flow Mechanics
+  status: completed
+- chapter_id: '02'
+  chapter_title: PKCE Flow for Public Clients
+  section_id: '02.02'
+  title: Mitigating Replay Attacks with PKCE
+  status: completed
+- chapter_id: '02'
+  chapter_title: PKCE Flow for Public Clients
+  section_id: '02.03'
+  title: Implementing PKCE in Real-World Scenarios
+  status: completed
+- chapter_id: '03'
+  chapter_title: JWT Token Validation
+  section_id: '03.01'
+  title: JWT Structure and Claims
+  status: completed
+- chapter_id: '03'
+  chapter_title: JWT Token Validation
+  section_id: '03.02'
+  title: Validation Algorithms and Trust Chains
+  status: completed
+- chapter_id: '03'
+  chapter_title: JWT Token Validation
+  section_id: '03.03'
+  title: Tools for JWT Debugging and Analysis
+  status: completed
+- chapter_id: '04'
+  chapter_title: Token Introspection
+  section_id: '04.01'
+  title: Token Introspection Endpoint
+  status: completed
+- chapter_id: '04'
+  chapter_title: Token Introspection
+  section_id: '04.02'
+  title: Use Cases and Security Implications
+  status: completed
+- chapter_id: '04'
+  chapter_title: Token Introspection
+  section_id: '04.03'
+  title: Integration with Vault and Keycloak
+  status: completed
+- chapter_id: '05'
+  chapter_title: Scopes and Claims Management
+  section_id: '05.01'
+  title: Scopes in OAuth2 and OpenID Connect
+  status: completed
+- chapter_id: '05'
+  chapter_title: Scopes and Claims Management
+  section_id: '05.02'
+  title: Claim Types and Custom Claims
+  status: completed
+- chapter_id: '05'
+  chapter_title: Scopes and Claims Management
+  section_id: '05.03'
+  title: Best Practices for Scope and Claim Usage
+  status: completed

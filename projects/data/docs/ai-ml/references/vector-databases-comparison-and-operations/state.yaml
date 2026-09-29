@@ -1,0 +1,34 @@
+status: draft
+title: Vector Databases Comparison and Operations
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Core Concepts and Indexing Methods
+  section_id: '01.01'
+  title: Introduction to Vector Databases
+  status: pending
+- chapter_id: '01'
+  chapter_title: Core Concepts and Indexing Methods
+  section_id: '01.02'
+  title: 'Indexing Techniques: HNSW, Cosine, Dot, and Euclidean'
+  status: pending
+- chapter_id: '01'
+  chapter_title: Core Concepts and Indexing Methods
+  section_id: '01.03'
+  title: Filtering and Metadata Operations
+  status: pending
+- chapter_id: '02'
+  chapter_title: Vector Database Systems Comparison
+  section_id: '02.01'
+  title: Overview of qdrant, PGVector, Chroma, and Pinecone
+  status: pending
+- chapter_id: '03'
+  chapter_title: Advanced Operations and Optimization
+  section_id: '03.01'
+  title: Sharding Vector Indexes
+  status: pending
+- chapter_id: '03'
+  chapter_title: Advanced Operations and Optimization
+  section_id: '03.02'
+  title: Latency Benchmarking and Optimization
+  status: pending

@@ -1,0 +1,39 @@
+title: Cloud FinOps and Cost Optimization Strategies
+content_type: tips
+language: en
+chapters:
+- id: '01'
+  title: Instance Cost Optimization
+  sections:
+  - id: '01.01'
+    title: Reserved Instances and Savings Plans
+    objective: Explain how AWS Reserved Instances and Savings Plans work, their cost-saving
+      benefits, and how to implement them for predictable cloud spending.
+  - id: '01.02'
+    title: Spot Instances for Cost Efficiency
+    objective: Detail the use cases, advantages, and limitations of AWS Spot Instances,
+      and provide strategies for leveraging them in workloads with flexible requirements.
+- id: '02'
+  title: Storage Cost Optimization
+  sections:
+  - id: '02.01'
+    title: Storage Tiering Strategies
+    objective: Outline best practices for implementing storage tiering across AWS,
+      Azure, and GCP, including selecting appropriate storage classes (e.g., S3 Standard,
+      Glacier) and lifecycle policies.
+  - id: '02.02'
+    title: Idle Resource Cleanup
+    objective: Provide actionable steps for identifying and decommissioning idle or
+      underutilized storage resources using automation and monitoring tools.
+- id: '03'
+  title: Cost Governance and Monitoring
+  sections:
+  - id: '03.01'
+    title: Cost Allocation Tags
+    objective: Demonstrate how to use cost allocation tags across cloud providers
+      to categorize expenses, enforce budget limits, and generate detailed cost reports.
+  - id: '03.02'
+    title: Anomaly Detection and Alerts
+    objective: Explain how to configure anomaly detection for cloud spending, set
+      up real-time alerts, and troubleshoot unexpected cost spikes using provider-native
+      tools and third-party platforms.

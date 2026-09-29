@@ -1,0 +1,49 @@
+status: draft
+title: Clean Architecture and Domain-Driven Design
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Clean Architecture and DDD
+  section_id: '01.01'
+  title: Introduction to Clean Architecture
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Clean Architecture and DDD
+  section_id: '01.02'
+  title: Introduction to Domain-Driven Design
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Clean Architecture and DDD
+  section_id: '01.03'
+  title: Bounded Contexts in DDD
+  status: pending
+- chapter_id: '02'
+  chapter_title: Core DDD Concepts
+  section_id: '02.01'
+  title: Entities, Value Objects, and Aggregates
+  status: pending
+- chapter_id: '02'
+  chapter_title: Core DDD Concepts
+  section_id: '02.02'
+  title: Modeling Business Rules with Entities
+  status: pending
+- chapter_id: '03'
+  chapter_title: Application Layer and Use Cases
+  section_id: '03.01'
+  title: Use Cases in Clean Architecture
+  status: pending
+- chapter_id: '03'
+  chapter_title: Application Layer and Use Cases
+  section_id: '03.02'
+  title: Implementing the Repository Pattern
+  status: pending
+- chapter_id: '04'
+  chapter_title: Architectural Strategies
+  section_id: '04.01'
+  title: Dependency Inversion Principle
+  status: pending
+- chapter_id: '04'
+  chapter_title: Architectural Strategies
+  section_id: '04.02'
+  title: Hexagonal Architecture Implementation
+  status: pending

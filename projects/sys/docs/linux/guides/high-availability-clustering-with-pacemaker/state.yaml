@@ -1,0 +1,79 @@
+status: completed
+title: High Availability Clustering with Pacemaker
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Corosync Messaging Fundamentals
+  section_id: '01.01'
+  title: Corosync Messaging Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Corosync Messaging Fundamentals
+  section_id: '01.02'
+  title: Configuring Corosync Messaging
+  status: completed
+- chapter_id: '01'
+  chapter_title: Corosync Messaging Fundamentals
+  section_id: '01.03'
+  title: Securing Corosync Communication
+  status: completed
+- chapter_id: '02'
+  chapter_title: Pacemaker Resources and Cluster Configuration
+  section_id: '02.01'
+  title: Pacemaker Resource Management
+  status: completed
+- chapter_id: '02'
+  chapter_title: Pacemaker Resources and Cluster Configuration
+  section_id: '02.02'
+  title: Creating and Managing Resources
+  status: completed
+- chapter_id: '02'
+  chapter_title: Pacemaker Resources and Cluster Configuration
+  section_id: '02.03'
+  title: Resource Groups and Colocation
+  status: completed
+- chapter_id: '03'
+  chapter_title: STONITH Fencing and Node Protection
+  section_id: '03.01'
+  title: STONITH Fencing Concepts
+  status: completed
+- chapter_id: '03'
+  chapter_title: STONITH Fencing and Node Protection
+  section_id: '03.02'
+  title: Configuring STONITH Devices
+  status: completed
+- chapter_id: '03'
+  chapter_title: STONITH Fencing and Node Protection
+  section_id: '03.03'
+  title: Testing and Validating Fencing
+  status: completed
+- chapter_id: '04'
+  chapter_title: Virtual IP Failover and Network Resilience
+  section_id: '04.01'
+  title: Virtual IP Address Configuration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Virtual IP Failover and Network Resilience
+  section_id: '04.02'
+  title: VIP Failover Automation
+  status: completed
+- chapter_id: '04'
+  chapter_title: Virtual IP Failover and Network Resilience
+  section_id: '04.03'
+  title: Network Resilience Best Practices
+  status: completed
+- chapter_id: '05'
+  chapter_title: Cluster Monitoring and Maintenance
+  section_id: '05.01'
+  title: Monitoring Cluster Health
+  status: completed
+- chapter_id: '05'
+  chapter_title: Cluster Monitoring and Maintenance
+  section_id: '05.02'
+  title: Setting Up Cluster Alerts
+  status: completed
+- chapter_id: '05'
+  chapter_title: Cluster Monitoring and Maintenance
+  section_id: '05.03'
+  title: Cluster Maintenance and Troubleshooting
+  status: completed

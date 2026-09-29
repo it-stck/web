@@ -1,0 +1,54 @@
+status: completed
+title: Kubernetes Advanced Operations
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Cluster Bootstrap and Initialization
+  section_id: '01.01'
+  title: Cluster Bootstrap Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: Data Persistence and Backup
+  section_id: '02.01'
+  title: etcd Backup and Restore
+  status: completed
+- chapter_id: '02'
+  chapter_title: Data Persistence and Backup
+  section_id: '02.02'
+  title: Disaster Recovery Strategies
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kubernetes Extensions
+  section_id: '03.01'
+  title: Custom Resource Definitions
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kubernetes Extensions
+  section_id: '03.02'
+  title: Operators and Operator Patterns
+  status: completed
+- chapter_id: '04'
+  chapter_title: Tooling and Deployment
+  section_id: '04.01'
+  title: Helm Chart Development
+  status: completed
+- chapter_id: '05'
+  chapter_title: Security and Network Policies
+  section_id: '05.01'
+  title: Role-Based Access Control
+  status: completed
+- chapter_id: '05'
+  chapter_title: Security and Network Policies
+  section_id: '05.02'
+  title: Network Policy Enforcement
+  status: completed
+- chapter_id: '06'
+  chapter_title: Scalability and Resilience
+  section_id: '06.01'
+  title: Cluster Autoscaling
+  status: completed
+- chapter_id: '07'
+  chapter_title: GitOps with Argo CD
+  section_id: '07.01'
+  title: Argo CD Continuous Deployment
+  status: completed

@@ -1,0 +1,49 @@
+status: completed
+title: CSPM and Cloud Compliance Automation
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: CSPM Fundamentals
+  section_id: '01.01'
+  title: Introduction to Cloud Security Posture Management
+  status: completed
+- chapter_id: '01'
+  chapter_title: CSPM Fundamentals
+  section_id: '01.02'
+  title: Key Components of CSPM
+  status: completed
+- chapter_id: '02'
+  chapter_title: Cloud Asset Inventory
+  section_id: '02.01'
+  title: Automating Cloud Infrastructure Discovery
+  status: completed
+- chapter_id: '03'
+  chapter_title: Policy Compliance
+  section_id: '03.01'
+  title: Designing Cloud Compliance Policies
+  status: completed
+- chapter_id: '03'
+  chapter_title: Policy Compliance
+  section_id: '03.02'
+  title: 'Prowler: Policy Enforcement Tool'
+  status: completed
+- chapter_id: '04'
+  chapter_title: Misconfiguration Scanning
+  section_id: '04.01'
+  title: Common Cloud Misconfiguration Patterns
+  status: completed
+- chapter_id: '04'
+  chapter_title: Misconfiguration Scanning
+  section_id: '04.02'
+  title: Automated Misconfiguration Detection
+  status: completed
+- chapter_id: '05'
+  chapter_title: Auto-Remediation Strategies
+  section_id: '05.01'
+  title: Implementing Self-Healing Cloud Environments
+  status: completed
+- chapter_id: '05'
+  chapter_title: Auto-Remediation Strategies
+  section_id: '05.02'
+  title: CI/CD Integration for Compliance
+  status: completed

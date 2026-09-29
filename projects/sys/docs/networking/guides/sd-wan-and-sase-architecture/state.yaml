@@ -1,0 +1,54 @@
+status: draft
+title: SD-WAN and SASE Architecture
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to SD-WAN and SASE
+  section_id: '01.01'
+  title: SD-WAN and SASE Overview
+  status: pending
+- chapter_id: '01'
+  chapter_title: Introduction to SD-WAN and SASE
+  section_id: '01.02'
+  title: Key Concepts and Benefits
+  status: pending
+- chapter_id: '02'
+  chapter_title: SD-WAN Architecture Fundamentals
+  section_id: '02.01'
+  title: Overlay vs. Underlay Networks
+  status: pending
+- chapter_id: '02'
+  chapter_title: SD-WAN Architecture Fundamentals
+  section_id: '02.02'
+  title: Tunnel Encapsulation Techniques
+  status: pending
+- chapter_id: '03'
+  chapter_title: Security in SASE Architecture
+  section_id: '03.01'
+  title: Zero-Trust Network Access (ZTNA)
+  status: pending
+- chapter_id: '03'
+  chapter_title: Security in SASE Architecture
+  section_id: '03.02'
+  title: Cloud Access Security Brokers (CASB)
+  status: pending
+- chapter_id: '04'
+  chapter_title: Cloud Integration and Traffic Management
+  section_id: '04.01'
+  title: Cloud Onramp Architecture
+  status: pending
+- chapter_id: '04'
+  chapter_title: Cloud Integration and Traffic Management
+  section_id: '04.02'
+  title: Traffic Steering and Optimization
+  status: pending
+- chapter_id: '05'
+  chapter_title: Advanced Operations and Reliability
+  section_id: '05.01'
+  title: Failover and High Availability Policies
+  status: pending
+- chapter_id: '05'
+  chapter_title: Advanced Operations and Reliability
+  section_id: '05.02'
+  title: Troubleshooting and Monitoring
+  status: pending

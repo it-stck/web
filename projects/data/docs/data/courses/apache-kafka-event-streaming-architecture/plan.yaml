@@ -1,0 +1,49 @@
+title: Apache Kafka Event Streaming Architecture
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Kafka Event Streaming
+  sections:
+  - id: '01.01'
+    title: Topics and Partitions
+    objective: Explain the structure of Kafka topics, the role of partitions in parallelism,
+      and how partitioning affects data distribution and fault tolerance.
+  - id: '01.02'
+    title: Producers and Consumers
+    objective: Describe the responsibilities of producers in writing data to Kafka
+      and consumers in reading data, including acknowledgment mechanisms and batch
+      processing.
+  - id: '01.03'
+    title: Consumer Groups
+    objective: Detail how consumer groups enable load balancing, offset management,
+      and fault tolerance in distributed consumer architectures.
+- id: '02'
+  title: Advanced Kafka Components
+  sections:
+  - id: '02.01'
+    title: Kafka Connect
+    objective: Outline the architecture and use cases of Kafka Connect for integrating
+      Kafka with external systems, including source and sink connectors.
+  - id: '02.02'
+    title: Kafka Streams
+    objective: Explain how Kafka Streams enables building real-time stream processing
+      applications, including topology design and stateful operations.
+- id: '03'
+  title: Data Management and Configuration
+  sections:
+  - id: '03.01'
+    title: Schema Registry
+    objective: Discuss the role of the Schema Registry in enforcing schema evolution,
+      compatibility, and serialization standards for Kafka data.
+  - id: '03.02'
+    title: Retention Policies
+    objective: Explain Kafka's retention strategies for logs, including time-based
+      and size-based deletion, and how they impact storage and performance.
+- id: '04'
+  title: System Configuration and Scaling
+  sections:
+  - id: '04.01'
+    title: Cluster Sizing
+    objective: Provide guidelines for calculating Kafka cluster sizing based on throughput,
+      latency requirements, and hardware constraints.

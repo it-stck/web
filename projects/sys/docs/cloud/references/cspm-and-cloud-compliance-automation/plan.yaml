@@ -1,0 +1,55 @@
+title: CSPM and Cloud Compliance Automation
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: CSPM Fundamentals
+  sections:
+  - id: '01.01'
+    title: Introduction to Cloud Security Posture Management
+    objective: Define CSPM, explain its role in multi-cloud environments, and outline
+      its relationship to compliance and risk management.
+  - id: '01.02'
+    title: Key Components of CSPM
+    objective: Detail the core elements of CSPM, including asset inventory, policy
+      enforcement, and continuous monitoring.
+- id: '02'
+  title: Cloud Asset Inventory
+  sections:
+  - id: '02.01'
+    title: Automating Cloud Infrastructure Discovery
+    objective: Explain methods for inventorying cloud assets, including tools like
+      cloud-asset-inventory, and their role in CSPM.
+- id: '03'
+  title: Policy Compliance
+  sections:
+  - id: '03.01'
+    title: Designing Cloud Compliance Policies
+    objective: Guide readers on creating and enforcing compliance policies across
+      AWS, Azure, and GCP using frameworks like CIS and NIST.
+  - id: '03.02'
+    title: 'Prowler: Policy Enforcement Tool'
+    objective: Demonstrate how Prowler automates policy checks, identifies deviations,
+      and integrates with CI/CD pipelines.
+- id: '04'
+  title: Misconfiguration Scanning
+  sections:
+  - id: '04.01'
+    title: Common Cloud Misconfiguration Patterns
+    objective: Identify frequent misconfigurations in IAM, networking, and storage,
+      and their impact on security and compliance.
+  - id: '04.02'
+    title: Automated Misconfiguration Detection
+    objective: Explain tools and techniques for continuous misconfiguration scanning,
+      including Prowler's role in this process.
+- id: '05'
+  title: Auto-Remediation Strategies
+  sections:
+  - id: '05.01'
+    title: Implementing Self-Healing Cloud Environments
+    objective: Outline approaches to automate remediation of misconfigurations using
+      cloud-native tools and third-party integrations.
+  - id: '05.02'
+    title: CI/CD Integration for Compliance
+    objective: Show how to embed auto-remediation workflows into DevOps pipelines
+      to enforce compliance in real time.

@@ -1,0 +1,94 @@
+status: completed
+title: IoT Firmware Analysis and Reverse Engineering
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to IoT Firmware Analysis
+  section_id: '01.01'
+  title: Firmware Structure and Components
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to IoT Firmware Analysis
+  section_id: '01.02'
+  title: Tools and Methodologies Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to IoT Firmware Analysis
+  section_id: '01.03'
+  title: Analysis Workflow and Challenges
+  status: completed
+- chapter_id: '02'
+  chapter_title: Binwalk Firmware Extraction
+  section_id: '02.01'
+  title: Binwalk Installation and Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Binwalk Firmware Extraction
+  section_id: '02.02'
+  title: Firmware Extraction Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: Binwalk Firmware Extraction
+  section_id: '02.03'
+  title: Analyzing Extracted Files
+  status: completed
+- chapter_id: '03'
+  chapter_title: Squashfs Filesystem Analysis
+  section_id: '03.01'
+  title: Squashfs Structure and Features
+  status: completed
+- chapter_id: '03'
+  chapter_title: Squashfs Filesystem Analysis
+  section_id: '03.02'
+  title: Extracting and Analyzing Squashfs
+  status: completed
+- chapter_id: '03'
+  chapter_title: Squashfs Filesystem Analysis
+  section_id: '03.03'
+  title: Mounting and Inspecting Squashfs
+  status: completed
+- chapter_id: '04'
+  chapter_title: Ghidra for Embedded Reverse Engineering
+  section_id: '04.01'
+  title: Ghidra Setup and Configuration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Ghidra for Embedded Reverse Engineering
+  section_id: '04.02'
+  title: Reverse Engineering Firmware Binaries
+  status: completed
+- chapter_id: '04'
+  chapter_title: Ghidra for Embedded Reverse Engineering
+  section_id: '04.03'
+  title: Identifying Vulnerabilities in Code
+  status: completed
+- chapter_id: '05'
+  chapter_title: Emulation with QEMU
+  section_id: '05.01'
+  title: QEMU Setup for IoT Emulation
+  status: completed
+- chapter_id: '05'
+  chapter_title: Emulation with QEMU
+  section_id: '05.02'
+  title: Running and Debugging Firmware in QEMU
+  status: completed
+- chapter_id: '05'
+  chapter_title: Emulation with QEMU
+  section_id: '05.03'
+  title: Advanced Emulation Techniques
+  status: completed
+- chapter_id: '06'
+  chapter_title: Hardcoded Credentials Detection
+  section_id: '06.01'
+  title: Detecting Hardcoded Credentials in Firmware
+  status: completed
+- chapter_id: '06'
+  chapter_title: Hardcoded Credentials Detection
+  section_id: '06.02'
+  title: Automated Credential Scanning Tools
+  status: completed
+- chapter_id: '06'
+  chapter_title: Hardcoded Credentials Detection
+  section_id: '06.03'
+  title: Case Studies and Mitigation Strategies
+  status: completed

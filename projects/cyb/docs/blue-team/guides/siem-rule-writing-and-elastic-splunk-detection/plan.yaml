@@ -1,0 +1,62 @@
+title: SIEM Rule Writing and Elastic Splunk Detection
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Foundational Concepts
+  sections:
+  - id: '01.01'
+    title: SIEM Overview and Use Cases
+    objective: Explain the role of SIEM systems in security operations and provide
+      examples of use cases for detection engineering.
+  - id: '01.02'
+    title: Log Ingestion Pipelines
+    objective: Detail the components of log ingestion pipelines and their importance
+      in ensuring data quality for detection.
+  - id: '01.03'
+    ' ': objective
+- id: '02'
+  title: Rule Writing Foundations
+  sections:
+  - id: '02.01'
+    title: Sigma Rules Syntax and Structure
+    objective: Teach how to write Sigma rules, including syntax, rule components,
+      and best practices for detection logic.
+  - id: '02.02'
+    title: SPL Queries for Event Analysis
+    objective: Guide readers in crafting SPL queries for log analysis, including filtering,
+      aggregation, and time-based correlation.
+  - id: '02.03'
+    title: EQL Syntax for Real-Time Detection
+    objective: Explain EQL syntax for event correlation, with examples of real-time
+      threat detection use cases.
+- id: '03'
+  title: Correlation and Rule Optimization
+  sections:
+  - id: '03.01'
+    title: Correlation Rule Design Principles
+    objective: Outline strategies for designing effective correlation rules, including
+      thresholding and context-aware logic.
+  - id: '03.02'
+    title: Optimizing Correlation Rules
+    objective: Provide techniques to optimize correlation rules for performance and
+      accuracy in large datasets.
+  - id: '03.03'
+    title: False Positive Reduction Techniques
+    objective: Explain methods to reduce false positives, including machine learning,
+      rule prioritization, and automation.
+- id: '04'
+  title: Advanced Detection Engineering
+  sections:
+  - id: '04.01'
+    title: Building Complex Detection Logic
+    objective: Demonstrate how to combine Sigma, SPL, and EQL for multi-layered threat
+      detection scenarios.
+  - id: '04.02'
+    title: Real-Time Detection with EQL
+    objective: Cover advanced EQL patterns for real-time event correlation and anomaly
+      detection.
+  - id: '04.03'
+    title: Troubleshooting Detection Rules
+    objective: Provide a framework for diagnosing and resolving common issues in SIEM
+      rule implementations.

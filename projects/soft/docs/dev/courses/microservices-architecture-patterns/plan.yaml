@@ -1,0 +1,61 @@
+title: Microservices Architecture Patterns
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Microservices Architecture
+  sections:
+  - id: '01.01'
+    title: Overview of Microservices Architecture
+    objective: Define microservices architecture, contrast it with monolithic systems,
+      and explain its core principles such as loose coupling and decentralized data
+      management.
+  - id: '01.02'
+    title: API Gateway Pattern
+    objective: Explain the role of an API gateway in aggregating microservices, discuss
+      its implementation patterns (e.g., routing, authentication, rate limiting),
+      and evaluate trade-offs between centralized vs. decentralized gateways.
+  - id: '01.03'
+    title: Service Mesh Pattern
+    objective: Describe service mesh architecture, its benefits for inter-service
+      communication, and implementation options like Istio or Linkerd, focusing on
+      traffic management and observability.
+- id: '02'
+  title: Distributed Transactions and Event-Driven Systems
+  sections:
+  - id: '02.01'
+    title: Saga Pattern for Distributed Transactions
+    objective: Detail the saga pattern for managing distributed transactions, including
+      choreography vs. orchestration, and provide examples of compensating transactions
+      in real-world scenarios.
+  - id: '02.02'
+    title: Event Sourcing Pattern
+    objective: Explain event sourcing principles, its use cases, and implementation
+      challenges, including how to store and replay events for audit trails and state
+      reconstruction.
+  - id: '02.03'
+    title: CQRS Pattern for Event-Driven Systems
+    objective: Describe the Command Query Responsibility Segregation (CQRS) pattern,
+      its integration with event sourcing, and how to design separate read/write models
+      for scalability.
+- id: '03'
+  title: Resilience and Observability
+  sections:
+  - id: '03.01'
+    title: Circuit Breaker Pattern
+    objective: Explain the circuit breaker pattern for handling failures in distributed
+      systems, including its states (closed, open, half-open), and implementation
+      strategies using libraries like Hystrix.
+  - id: '03.02'
+    title: Distributed Tracing for Observability
+    objective: Discuss distributed tracing principles, tools like Jaeger or Zipkin,
+      and how to instrument microservices to monitor request flows and identify performance
+      bottlenecks.
+- id: '04'
+  title: Data Management Strategies
+  sections:
+  - id: '04.01'
+    title: Database-per-Service Pattern
+    objective: Explain the database-per-service pattern, its benefits for data independence,
+      and challenges like data consistency, along with strategies for cross-service
+      data access.

@@ -1,0 +1,411 @@
+site_name: ITSTCK | Cybersecurity & GRC
+site_description: Offensive Operations, Blue Team, Zero Trust, IoT Security, and Regulatory Governance.
+site_url: https://itstck.com/cyb/
+
+repo_name: it-stck/web/projects/cyb
+repo_url: https://github.com/it-stck/web/projects/cyb
+edit_uri: edit/main/web/projects/cyb/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  logo: https://itstck.com/assets/img/logo.webp
+  favicon: https://itstck.com/assets/img/favicon.ico
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: slate
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: slate
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+
+plugins:
+  - search
+  - meta
+
+nav:
+  - Home: index.md
+
+  # ── BLUE TEAM & DEFENSIVE SEC ──
+  - Blue Team & Cyberdefense:
+      - Overview: blue-team/index.md
+      - Courses:
+          - Digital Forensics & Memory Analysis: blue-team/courses/digital-forensics-and-memory-analysis/index.md
+          - Incident Response & Threat Hunting: blue-team/courses/incident-response-and-threat-hunting/index.md
+          - Malware Reverse Engineering (Ghidra):
+              - Ghidra Installation: blue-team/courses/malware-reverse-engineering-with-ghidra/01.01-ghidra-installation-and-configuration.md
+              - Reverse Engineering Basics: blue-team/courses/malware-reverse-engineering-with-ghidra/01.02-basic-reverse-engineering-concepts.md
+              - Navigating Ghidra UI: blue-team/courses/malware-reverse-engineering-with-ghidra/01.03-navigating-ghidra-s-ui-and-features.md
+              - x86 Instruction Set: blue-team/courses/malware-reverse-engineering-with-ghidra/02.01-x86-instruction-set-overview.md
+              - x64 Architecture: blue-team/courses/malware-reverse-engineering-with-ghidra/02.02-x64-architecture-and-modern-techniques.md
+              - Function Mapping: blue-team/courses/malware-reverse-engineering-with-ghidra/02.03-assembly-to-ghidra-function-mapping.md
+              - Static Disassembly: blue-team/courses/malware-reverse-engineering-with-ghidra/03.01-static-disassembly-with-ghidra.md
+              - Decompilation & Control Flow: blue-team/courses/malware-reverse-engineering-with-ghidra/03.02-decompilation-and-control-flow-analysis.md
+              - Obfuscation & Packing: blue-team/courses/malware-reverse-engineering-with-ghidra/03.03-identifying-obfuscation-and-packing.md
+              - Symbolic Execution: blue-team/courses/malware-reverse-engineering-with-ghidra/04.01-symbolic-execution-fundamentals.md
+              - Path Exploration: blue-team/courses/malware-reverse-engineering-with-ghidra/04.02-path-exploration-and-constraint-solving.md
+              - Dynamic Analysis Tools: blue-team/courses/malware-reverse-engineering-with-ghidra/04.03-integrating-with-dynamic-analysis-tools.md
+              - Unpacking Techniques: blue-team/courses/malware-reverse-engineering-with-ghidra/05.01-binary-unpacking-techniques.md
+              - Resolving API Calls: blue-team/courses/malware-reverse-engineering-with-ghidra/05.02-resolving-api-calls-in-obfuscated-code.md
+              - System APIs Analysis: blue-team/courses/malware-reverse-engineering-with-ghidra/05.03-analyzing-network-and-system-apis.md
+      - Guides:
+          - Purple Team Operations (Atomic Red Team):
+              - Overview: blue-team/guides/purple-team-operations-with-atomic-red-team/01.01-atomic-red-team-overview.md
+              - Environment Setup: blue-team/guides/purple-team-operations-with-atomic-red-team/01.02-setting-up-atomic-red-team.md
+              - Core Concepts: blue-team/guides/purple-team-operations-with-atomic-red-team/01.03-core-concepts-and-terminology.md
+              - Mapping MITRE ATT&CK: blue-team/guides/purple-team-operations-with-atomic-red-team/02.01-mapping-atomic-tests-to-mitre-att-ck.md
+              - Customizing Techniques: blue-team/guides/purple-team-operations-with-atomic-red-team/02.02-customizing-mitre-mapped-techniques.md
+              - Case Studies: blue-team/guides/purple-team-operations-with-atomic-red-team/02.03-case-studies-mitre-integration.md
+              - Execution Frameworks: blue-team/guides/purple-team-operations-with-atomic-red-team/03.01-designing-execution-frameworks.md
+              - Automating Execution: blue-team/guides/purple-team-operations-with-atomic-red-team/03.02-automating-atomic-test-execution.md
+              - CI/CD Integration: blue-team/guides/purple-team-operations-with-atomic-red-team/03.03-ci-cd-integration-for-red-team-operations.md
+              - Validating Detection Rules: blue-team/guides/purple-team-operations-with-atomic-red-team/04.01-validating-detection-rules.md
+              - Evasion Countermeasures: blue-team/guides/purple-team-operations-with-atomic-red-team/04.02-evasion-techniques-and-countermeasures.md
+              - Validation Tools: blue-team/guides/purple-team-operations-with-atomic-red-team/04.03-tools-for-detection-validation.md
+              - Telemetry Coverage: blue-team/guides/purple-team-operations-with-atomic-red-team/05.01-analyzing-telemetry-coverage.md
+              - Telemetry Gaps: blue-team/guides/purple-team-operations-with-atomic-red-team/05.02-identifying-critical-telemetry-gaps.md
+              - Remediating Gaps: blue-team/guides/purple-team-operations-with-atomic-red-team/05.03-remediating-telemetry-gaps.md
+          - SIEM Rule Writing (Elastic & Splunk): blue-team/guides/siem-rule-writing-and-elastic-splunk-detection/index.md
+          - SOC Incident Handling Playbooks: blue-team/guides/soc-analyst-incident-handling-playbooks/index.md
+      - References:
+          - EDR Architecture: blue-team/references/endpoint-detection-and-response-edr-architecture/index.md
+          - Threat Hunting with KQL (Sentinel):
+              - KQL Introduction: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/01.01-introduction-to-kql-in-microsoft-sentinel.md
+              - Query Syntax: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/01.02-kql-query-structure-and-syntax.md
+              - Summarizing Logs: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/01.03-summarizing-and-rendering-log-data.md
+              - Event Correlation: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/02.01-event-correlation-techniques.md
+              - Pattern Recognition: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/02.02-pattern-recognition-in-log-data.md
+              - Time-Series Analysis: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/02.03-time-series-analysis-for-threat-detection.md
+              - Target Hunting Queries: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/03.01-building-targeted-hunting-queries.md
+              - Query Optimization: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/03.02-query-optimization-and-performance.md
+              - Query Validation: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/03.03-validating-hunting-query-effectiveness.md
+              - Workbooks in Sentinel: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/04.01-creating-hunting-workbooks-in-sentinel.md
+              - Dashboards Design: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/04.02-designing-effective-dashboards.md
+              - Automation Integration: blue-team/references/threat-hunting-with-kql-in-microsoft-sentinel/04.03-integrating-workbooks-with-automation.md
+
+  # ── GOVERNANCE, RISK & COMPLIANCE ──
+  - Governance, Risk & Compliance:
+      - Overview: governance/index.md
+      - Courses:
+          - ISO 27001 ISMS Implementation:
+              - Risk Assessment: governance/courses/iso-27001-isms-implementation-roadmap/01.01-understanding-risk-assessment-in-iso-27001.md
+              - Assessment Process: governance/courses/iso-27001-isms-implementation-roadmap/01.02-conducting-a-risk-assessment-process.md
+              - Documenting Findings: governance/courses/iso-27001-isms-implementation-roadmap/01.03-documenting-risk-assessment-findings.md
+              - Statement of Applicability: governance/courses/iso-27001-isms-implementation-roadmap/02.01-purpose-and-scope-of-statement-of-applicability.md
+              - Selecting Controls: governance/courses/iso-27001-isms-implementation-roadmap/02.02-selecting-controls-for-the-soa.md
+              - Documenting SoA: governance/courses/iso-27001-isms-implementation-roadmap/02.03-documenting-the-statement-of-applicability.md
+              - Annex A Controls: governance/courses/iso-27001-isms-implementation-roadmap/03.01-overview-of-iso-27001-annex-a-controls.md
+              - Control Practices: governance/courses/iso-27001-isms-implementation-roadmap/03.02-implementing-control-objects-and-practices.md
+              - Tailoring Controls: governance/courses/iso-27001-isms-implementation-roadmap/03.03-tailoring-controls-to-organizational-needs.md
+              - Internal Audits: governance/courses/iso-27001-isms-implementation-roadmap/04.01-planning-internal-audits-for-isms.md
+              - Conducting Audits: governance/courses/iso-27001-isms-implementation-roadmap/04.02-conducting-effective-isms-audits.md
+              - Reporting & Follow-up: governance/courses/iso-27001-isms-implementation-roadmap/04.03-reporting-and-follow-up-actions.md
+              - Management Review: governance/courses/iso-27001-isms-implementation-roadmap/05.01-purpose-of-management-review-in-iso-27001.md
+              - Review Meetings: governance/courses/iso-27001-isms-implementation-roadmap/05.02-preparing-for-management-review-meetings.md
+              - Continuous Improvement: governance/courses/iso-27001-isms-implementation-roadmap/05.03-driving-continuous-improvement-in-isms.md
+          - PCI DSS v4 Infrastructure Design:
+              - CDE Principles: governance/courses/pci-dss-4-compliance-infrastructure-design/01.01-cde-design-principles.md
+              - Tokenization: governance/courses/pci-dss-4-compliance-infrastructure-design/02.01-tokenization-implementation.md
+              - Scope Minimization: governance/courses/pci-dss-4-compliance-infrastructure-design/03.01-scope-minimization-techniques.md
+              - Tailoring Requirements: governance/courses/pci-dss-4-compliance-infrastructure-design/04.01-tailoring-compliance-requirements.md
+              - CDE Segmentation: governance/courses/pci-dss-4-compliance-infrastructure-design/05.01-segmentation-for-cde-protection.md
+      - Guides:
+          - GDPR Technical Compliance & Privacy:
+              - Compliance Overview: governance/guides/gdpr-technical-compliance-and-privacy/01.01-gdpr-technical-compliance-overview.md
+              - Data Principles: governance/guides/gdpr-technical-compliance-and-privacy/01.02-data-protection-principles.md
+              - Legal Basis: governance/guides/gdpr-technical-compliance-and-privacy/01.03-legal-basis-for-data-processing.md
+              - Data Minimization: governance/guides/gdpr-technical-compliance-and-privacy/02.01-data-minimization-definition-and-scope.md
+              - Minimization Practice: governance/guides/gdpr-technical-compliance-and-privacy/02.02-implementing-data-minimization.md
+              - Minimization Challenges: governance/guides/gdpr-technical-compliance-and-privacy/02.03-challenges-in-data-minimization.md
+              - Pseudonymization Concepts: governance/guides/gdpr-technical-compliance-and-privacy/03.01-pseudonymization-concepts.md
+              - Pseudonymization Frameworks: governance/guides/gdpr-technical-compliance-and-privacy/03.02-technical-frameworks-for-pseudonymization.md
+              - Pipelines Pseudonymization: governance/guides/gdpr-technical-compliance-and-privacy/03.03-pseudonymization-in-data-pipelines.md
+              - Right to be Forgotten: governance/guides/gdpr-technical-compliance-and-privacy/04.01-right-to-be-forgotten-requirements.md
+              - Erasure Mechanisms: governance/guides/gdpr-technical-compliance-and-privacy/04.02-technical-erasure-mechanisms.md
+              - Auditing Erasure: governance/guides/gdpr-technical-compliance-and-privacy/04.03-auditing-erasure-compliance.md
+              - Privacy by Design: governance/guides/gdpr-technical-compliance-and-privacy/05.01-privacy-by-design-framework.md
+              - Impact Assessments: governance/guides/gdpr-technical-compliance-and-privacy/05.02-privacy-impact-assessments.md
+              - PETs Technologies: governance/guides/gdpr-technical-compliance-and-privacy/05.03-privacy-enhancing-technologies.md
+              - DPIA Overview: governance/guides/gdpr-technical-compliance-and-privacy/06.01-dpia-purpose-and-scope.md
+              - Technical DPIA Workflow: governance/guides/gdpr-technical-compliance-and-privacy/06.02-technical-dpia-workflow.md
+              - DPIA Documentation: governance/guides/gdpr-technical-compliance-and-privacy/06.03-dpia-documentation-and-review.md
+          - NIST CSF 2.0 Implementation:
+              - CSF 2.0 Overview: governance/guides/nist-cybersecurity-framework-2-implementation/01.01-nist-csf-2-0-overview.md
+              - Principles & Alignment: governance/guides/nist-cybersecurity-framework-2-implementation/01.02-core-principles-and-alignment.md
+              - Implementation Roadmap: governance/guides/nist-cybersecurity-framework-2-implementation/01.03-implementation-roadmap.md
+              - Function IDENTIFY: governance/guides/nist-cybersecurity-framework-2-implementation/02.01-core-functions-of-identify.md
+              - IDENTIFY Steps: governance/guides/nist-cybersecurity-framework-2-implementation/02.02-implementation-steps.md
+              - Integration: governance/guides/nist-cybersecurity-framework-2-implementation/02.03-integration-with-other-frameworks.md
+              - Function PROTECT: governance/guides/nist-cybersecurity-framework-2-implementation/03.01-core-functions-of-protect.md
+              - PROTECT Steps: governance/guides/nist-cybersecurity-framework-2-implementation/03.02-implementation-steps.md
+              - PCI & SOC2 Alignment: governance/guides/nist-cybersecurity-framework-2-implementation/03.03-compliance-with-pci-dss-and-soc-2.md
+              - Function DETECT: governance/guides/nist-cybersecurity-framework-2-implementation/04.01-core-functions-of-detect.md
+              - DETECT Steps: governance/guides/nist-cybersecurity-framework-2-implementation/04.02-implementation-steps.md
+              - DETECT Integration: governance/guides/nist-cybersecurity-framework-2-implementation/04.03-integration-with-nist-csf-2-0.md
+              - Function RESPOND: governance/guides/nist-cybersecurity-framework-2-implementation/05.01-core-functions-of-respond.md
+              - RESPOND Steps: governance/guides/nist-cybersecurity-framework-2-implementation/05.02-implementation-steps.md
+              - GDPR & SOC2 Alignment: governance/guides/nist-cybersecurity-framework-2-implementation/05.03-compliance-with-gdpr-and-soc-2.md
+              - Function RECOVER: governance/guides/nist-cybersecurity-framework-2-implementation/06.01-core-functions-of-recover.md
+              - RECOVER Steps: governance/guides/nist-cybersecurity-framework-2-implementation/06.02-implementation-steps.md
+              - RECOVER Integration: governance/guides/nist-cybersecurity-framework-2-implementation/06.03-integration-with-pci-dss.md
+              - Function GOVERN: governance/guides/nist-cybersecurity-framework-2-implementation/07.01-core-functions-of-govern.md
+              - GOVERN Steps: governance/guides/nist-cybersecurity-framework-2-implementation/07.02-implementation-steps.md
+              - ISO 27001 Alignment: governance/guides/nist-cybersecurity-framework-2-implementation/07.03-alignment-with-iso-27001.md
+              - Profiles Creation: governance/guides/nist-cybersecurity-framework-2-implementation/08.01-creating-organizational-profiles.md
+              - Profiles Mapping: governance/guides/nist-cybersecurity-framework-2-implementation/08.02-mapping-to-nist-csf-2-0.md
+              - Tier Assessments: governance/guides/nist-cybersecurity-framework-2-implementation/09.01-understanding-tier-assessments.md
+              - Conducting Tiers: governance/guides/nist-cybersecurity-framework-2-implementation/09.02-conducting-tier-assessments.md
+              - Action Plans: governance/guides/nist-cybersecurity-framework-2-implementation/10.01-developing-action-plans.md
+              - Plan Monitoring: governance/guides/nist-cybersecurity-framework-2-implementation/10.02-monitoring-and-updating-plans.md
+
+  # ── IOT & HARDWARE SECURITY ──
+  - IoT & Hardware Security:
+      - Overview: iot/index.md
+      - Courses:
+          - Embedded Linux with Yocto: iot/courses/embedded-linux-custom-images-with-yocto/index.md
+          - Firmware Analysis & Reverse Engineering:
+              - Firmware Structure: iot/courses/iot-firmware-analysis-and-reverse-engineering/01.01-firmware-structure-and-components.md
+              - Methodologies: iot/courses/iot-firmware-analysis-and-reverse-engineering/01.02-tools-and-methodologies-overview.md
+              - Analysis Workflow: iot/courses/iot-firmware-analysis-and-reverse-engineering/01.03-analysis-workflow-and-challenges.md
+              - Binwalk Setup: iot/courses/iot-firmware-analysis-and-reverse-engineering/02.01-binwalk-installation-and-configuration.md
+              - Extraction Techniques: iot/courses/iot-firmware-analysis-and-reverse-engineering/02.02-firmware-extraction-techniques.md
+              - Analyzing Files: iot/courses/iot-firmware-analysis-and-reverse-engineering/02.03-analyzing-extracted-files.md
+              - SquashFS Structure: iot/courses/iot-firmware-analysis-and-reverse-engineering/03.01-squashfs-structure-and-features.md
+              - Extracting SquashFS: iot/courses/iot-firmware-analysis-and-reverse-engineering/03.02-extracting-and-analyzing-squashfs.md
+              - Inspecting SquashFS: iot/courses/iot-firmware-analysis-and-reverse-engineering/03.03-mounting-and-inspecting-squashfs.md
+              - Ghidra Setup: iot/courses/iot-firmware-analysis-and-reverse-engineering/04.01-ghidra-setup-and-configuration.md
+              - Reversing Binaries: iot/courses/iot-firmware-analysis-and-reverse-engineering/04.02-reverse-engineering-firmware-binaries.md
+              - Code Vulnerabilities: iot/courses/iot-firmware-analysis-and-reverse-engineering/04.03-identifying-vulnerabilities-in-code.md
+              - QEMU Setup: iot/courses/iot-firmware-analysis-and-reverse-engineering/05.01-qemu-setup-for-iot-emulation.md
+              - Debugging in QEMU: iot/courses/iot-firmware-analysis-and-reverse-engineering/05.02-running-and-debugging-firmware-in-qemu.md
+              - Emulation Techniques: iot/courses/iot-firmware-analysis-and-reverse-engineering/05.03-advanced-emulation-techniques.md
+              - Hardcoded Credentials: iot/courses/iot-firmware-analysis-and-reverse-engineering/06.01-detecting-hardcoded-credentials-in-firmware.md
+              - Credential Scanners: iot/courses/iot-firmware-analysis-and-reverse-engineering/06.02-automated-credential-scanning-tools.md
+              - Mitigation Strategies: iot/courses/iot-firmware-analysis-and-reverse-engineering/06.03-case-studies-and-mitigation-strategies.md
+      - Guides:
+          - Hardware Hacking (JTAG & UART):
+              - UART Pinout: iot/guides/hardware-hacking-with-jtag-and-uart/01.01-uart-pinout-discovery.md
+              - Bus Pirate: iot/guides/hardware-hacking-with-jtag-and-uart/01.02-bus-pirate-for-uart-communication.md
+              - OpenOCD Config: iot/guides/hardware-hacking-with-jtag-and-uart/02.01-openocd-configuration-and-usage.md
+              - JTAG Debugging: iot/guides/hardware-hacking-with-jtag-and-uart/03.01-jtag-debugging-workflow.md
+              - Memory Extraction: iot/guides/hardware-hacking-with-jtag-and-uart/04.01-jtag-based-memory-extraction.md
+          - MQTT & CoAP Protocol Security:
+              - MQTT TLS: iot/guides/mqtt-and-coap-iot-protocol-security/01.01-mqtt-tls-implementation.md
+              - Broker Auth: iot/guides/mqtt-and-coap-iot-protocol-security/01.02-broker-authentication-mechanisms.md
+              - Topic ACLs: iot/guides/mqtt-and-coap-iot-protocol-security/01.03-topic-based-access-control.md
+              - CoAP DTLS: iot/guides/mqtt-and-coap-iot-protocol-security/02.01-coap-dtls-configuration.md
+              - Payload Encryption: iot/guides/mqtt-and-coap-iot-protocol-security/02.02-payload-encryption-techniques.md
+              - Cross-Protocol Security: iot/guides/mqtt-and-coap-iot-protocol-security/03.01-cross-protocol-security-best-practices.md
+              - Securing Hybrid Systems: iot/guides/mqtt-and-coap-iot-protocol-security/03.02-securing-hybrid-mqtt-coap-systems.md
+      - References:
+          - Side-Channel Attacks & Fault Injection:
+              - Side-Channel Principles: iot/references/side-channel-attacks-and-fault-injection/01.01-principles-of-side-channel-analysis.md
+              - SPA Analysis: iot/references/side-channel-attacks-and-fault-injection/01.02-simple-power-analysis-spa.md
+              - DPA Analysis: iot/references/side-channel-attacks-and-fault-injection/01.03-differential-power-analysis-dpa.md
+              - Clock Glitching: iot/references/side-channel-attacks-and-fault-injection/02.01-clock-glitching.md
+              - Voltage Glitching: iot/references/side-channel-attacks-and-fault-injection/02.02-voltage-glitching.md
+              - Simple Fault Injection: iot/references/side-channel-attacks-and-fault-injection/02.03-simple-fault-injection.md
+              - Countermeasure Design: iot/references/side-channel-attacks-and-fault-injection/03.01-side-channel-countermeasure-design.md
+              - Fault Resilience: iot/references/side-channel-attacks-and-fault-injection/03.02-fault-detection-and-resilience.md
+              - Secure System Design: iot/references/side-channel-attacks-and-fault-injection/03.03-secure-system-design-principles.md
+
+  # ── RED TEAM & OFFENSIVE OPS ──
+  - Red Team & Pentesting:
+      - Overview: red-team/index.md
+      - Courses:
+          - Active Directory Exploitation & Kerberos:
+              - AD Architecture: red-team/courses/active-directory-exploitation-and-kerberos-attacks/01.01-active-directory-architecture-overview.md
+              - Kerberos Protocol: red-team/courses/active-directory-exploitation-and-kerberos-attacks/01.02-kerberos-protocol-mechanics.md
+              - Domain Controllers: red-team/courses/active-directory-exploitation-and-kerberos-attacks/01.03-domain-controller-roles-and-services.md
+              - Kerberoasting: red-team/courses/active-directory-exploitation-and-kerberos-attacks/02.01-kerberoasting-attack-mechanics.md
+              - AS-REP Roasting: red-team/courses/active-directory-exploitation-and-kerberos-attacks/02.02-as-rep-roasting-and-password-policies.md
+              - Attack Tools: red-team/courses/active-directory-exploitation-and-kerberos-attacks/02.03-tools-for-kerberos-attacks.md
+              - Golden Tickets: red-team/courses/active-directory-exploitation-and-kerberos-attacks/03.01-golden-ticket-creation-and-usage.md
+              - Silver Tickets: red-team/courses/active-directory-exploitation-and-kerberos-attacks/03.02-silver-ticket-techniques-and-limitations.md
+              - Ticket Mitigation: red-team/courses/active-directory-exploitation-and-kerberos-attacks/03.03-mitigating-ticket-based-attacks.md
+              - BloodHound Analysis: red-team/courses/active-directory-exploitation-and-kerberos-attacks/04.01-bloodhound-graph-analysis-overview.md
+              - BQL Queries: red-team/courses/active-directory-exploitation-and-kerberos-attacks/04.02-bloodhound-query-language-bql-basics.md
+              - MITRE Integration: red-team/courses/active-directory-exploitation-and-kerberos-attacks/04.03-bloodhound-integration-with-mitre-att-ck.md
+              - DCSync Attacks: red-team/courses/active-directory-exploitation-and-kerberos-attacks/05.01-dcsync-attack-mechanics.md
+              - Unconstrained Delegation: red-team/courses/active-directory-exploitation-and-kerberos-attacks/05.02-unconstrained-delegation-exploitation.md
+              - Delegation Mitigation: red-team/courses/active-directory-exploitation-and-kerberos-attacks/05.03-mitigating-dcsync-and-delegation-risks.md
+              - AD CS Overview: red-team/courses/active-directory-exploitation-and-kerberos-attacks/06.01-active-directory-certificate-services-overview.md
+              - Certipy Attacks: red-team/courses/active-directory-exploitation-and-kerberos-attacks/06.02-certipy-tool-for-certificate-attacks.md
+              - Certificate PrivEsc: red-team/courses/active-directory-exploitation-and-kerberos-attacks/06.03-certificate-based-privilege-escalation.md
+          - Command & Control (C2) Design:
+              - C2 Architecture: red-team/courses/command-and-control-c2-infrastructure-design/01.01-c2-architecture-overview.md
+              - Communication Protocols: red-team/courses/command-and-control-c2-infrastructure-design/01.02-communication-protocols.md
+              - Redirector Mechanics: red-team/courses/command-and-control-c2-infrastructure-design/01.03-redirector-mechanics.md
+              - Redirector Setup: red-team/courses/command-and-control-c2-infrastructure-design/02.01-redirector-implementation.md
+              - Advanced Redirectors: red-team/courses/command-and-control-c2-infrastructure-design/02.02-advanced-redirector-configurations.md
+              - Domain Fronting: red-team/courses/command-and-control-c2-infrastructure-design/03.01-domain-fronting-mechanics.md
+              - Fronting Setup: red-team/courses/command-and-control-c2-infrastructure-design/03.02-practical-domain-fronting-setup.md
+              - Dynamic Config: red-team/courses/command-and-control-c2-infrastructure-design/04.01-dynamic-configuration.md
+              - Profile Encoding: red-team/courses/command-and-control-c2-infrastructure-design/04.02-profile-encoding-techniques.md
+              - Sliver C2 Architecture: red-team/courses/command-and-control-c2-infrastructure-design/05.01-sliver-c2-architecture.md
+              - Sliver C2 Integration: red-team/courses/command-and-control-c2-infrastructure-design/05.02-sliver-c2-integration.md
+              - Traffic Obfuscation: red-team/courses/command-and-control-c2-infrastructure-design/06.01-traffic-obfuscation.md
+              - Anti-Analysis Tactics: red-team/courses/command-and-control-c2-infrastructure-design/06.02-anti-analysis-tactics.md
+              - Environment Evasion: red-team/courses/command-and-control-c2-infrastructure-design/06.03-environment-specific-evasion.md
+          - Web Application Pentesting:
+              - Reconnaissance: red-team/courses/web-application-penetration-testing/01.01-passive-vs-active-reconnaissance.md
+              - App Mapping: red-team/courses/web-application-penetration-testing/01.02-web-application-mapping.md
+              - Recon Case Study: red-team/courses/web-application-penetration-testing/01.03-case-study-reconnaissance-in-real-world-scenarios.md
+              - SQLi Fundamentals: red-team/courses/web-application-penetration-testing/02.01-sqli-fundamentals.md
+              - SQLi Exploitation: red-team/courses/web-application-penetration-testing/02.02-exploitation-techniques.md
+              - Database Enumeration: red-team/courses/web-application-penetration-testing/02.03-database-enumeration-and-privilege-escalation.md
+              - XSS Attack Vectors: red-team/courses/web-application-penetration-testing/03.01-xss-attack-vectors.md
+              - Payload Delivery: red-team/courses/web-application-penetration-testing/03.02-exploitation-and-payload-delivery.md
+              - Mitigation Bypass: red-team/courses/web-application-penetration-testing/03.03-mitigation-bypass-techniques.md
+              - CSRF Mechanics: red-team/courses/web-application-penetration-testing/04.01-csrf-attack-mechanics.md
+              - SSRF Vectors: red-team/courses/web-application-penetration-testing/04.02-ssrf-attack-vectors.md
+              - Defensive Countermeasures: red-team/courses/web-application-penetration-testing/04.03-defensive-countermeasures.md
+              - Session Fixation: red-team/courses/web-application-penetration-testing/05.01-session-fixation-and-token-manipulation.md
+              - OAuth Exploitation: red-team/courses/web-application-penetration-testing/05.02-oauth-and-api-token-exploitation.md
+              - Credential Stuffing: red-team/courses/web-application-penetration-testing/05.03-password-cracking-and-credential-stuffing.md
+              - API Testing: red-team/courses/web-application-penetration-testing/06.01-api-enumeration-and-testing.md
+              - Rate Limiting: red-team/courses/web-application-penetration-testing/06.02-authentication-and-rate-limiting.md
+              - Data Validation: red-team/courses/web-application-penetration-testing/06.03-data-validation-and-injection.md
+              - Deserialization Attacks: red-team/courses/web-application-penetration-testing/07.01-deserialization-attack-mechanics.md
+              - Exploitation with RCE: red-team/courses/web-application-penetration-testing/07.02-exploitation-with-rce.md
+              - Deserialization Mitigation: red-team/courses/web-application-penetration-testing/07.03-mitigation-and-detection.md
+              - Burp Scanner Rules: red-team/courses/web-application-penetration-testing/08.01-custom-scanner-rules.md
+              - Intruder Payloads: red-team/courses/web-application-penetration-testing/08.02-intruder-and-payload-processing.md
+              - Recon with Burp: red-team/courses/web-application-penetration-testing/08.03-reconnaissance-with-burp.md
+      - Guides:
+          - macOS Red Teaming & Persistence:
+              - TCC & Sandboxing: red-team/guides/macos-red-teaming-and-persistence/01.01-understanding-tcc-and-sandboxing.md
+              - Privilege Separation: red-team/guides/macos-red-teaming-and-persistence/01.02-macos-privilege-separation-model.md
+              - TCC Database Manipulation: red-team/guides/macos-red-teaming-and-persistence/02.01-tcc-database-manipulation.md
+              - Exploiting TCC: red-team/guides/macos-red-teaming-and-persistence/02.02-exploiting-legacy-tcc-vulnerabilities.md
+              - launchd Architecture: red-team/guides/macos-red-teaming-and-persistence/03.01-launchd-service-architecture.md
+              - launchd Persistence: red-team/guides/macos-red-teaming-and-persistence/03.02-creating-persistent-launchd-services.md
+              - plist Structure: red-team/guides/macos-red-teaming-and-persistence/04.01-plist-file-structure-and-syntax.md
+              - Stealthy plist Persistence: red-team/guides/macos-red-teaming-and-persistence/04.02-stealthy-plist-persistence-techniques.md
+              - dylib Injection: red-team/guides/macos-red-teaming-and-persistence/05.01-dynamic-library-injection-mechanisms.md
+              - Evading ASLR: red-team/guides/macos-red-teaming-and-persistence/05.02-evading-aslr-with-dylib-injection.md
+              - Mach-O Format: red-team/guides/macos-red-teaming-and-persistence/06.01-mach-o-file-format-overview.md
+              - Code Signing Bypasses: red-team/guides/macos-red-teaming-and-persistence/06.02-binary-patching-and-code-signing-bypasses.md
+          - Privilege Escalation (Windows & Linux):
+              - PrivEsc Concepts: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/01.01-understanding-privilege-escalation.md
+              - Windows vs Linux Mechanics: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/01.02-windows-vs-linux-escalation-mechanisms.md
+              - Misconfigured Services: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/02.01-exploiting-misconfigured-services.md
+              - Unquoted Service Paths (Win): red-team/guides/privilege-escalation-techniques-in-windows-and-linux/02.02-unquoted-service-paths-in-windows.md
+              - Unquoted Service Paths (Linux): red-team/guides/privilege-escalation-techniques-in-windows-and-linux/02.03-unquoted-service-paths-in-linux.md
+              - Sudo Abuse: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/03.01-sudo-abuse-and-configuration-exploits.md
+              - SUID Binaries: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/03.02-exploiting-suid-binaries.md
+              - Token Manipulation (Linux): red-team/guides/privilege-escalation-techniques-in-windows-and-linux/03.03-token-manipulation-in-linux.md
+              - Token Impersonation (Win): red-team/guides/privilege-escalation-techniques-in-windows-and-linux/04.01-token-manipulation-and-impersonation.md
+              - Windows Kernel Exploits: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/04.02-kernel-mode-exploits-in-windows.md
+              - Potato Attacks: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/05.01-potato-attacks-and-privilege-escalation.md
+              - Cross-Platform Kernel Exploits: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/05.02-kernel-exploits-across-platforms.md
+              - Mitigating Escalation: red-team/guides/privilege-escalation-techniques-in-windows-and-linux/05.03-mitigating-privilege-escalation-risks.md
+          - Wireless Network Hacking & Defense:
+              - Wireless Protocols: red-team/guides/wireless-network-hacking-and-defense-analysis/01.01-wireless-network-architecture-and-protocols.md
+              - Security Concepts: red-team/guides/wireless-network-hacking-and-defense-analysis/01.02-wireless-security-concepts-and-vulnerabilities.md
+              - Analysis Tools: red-team/guides/wireless-network-hacking-and-defense-analysis/01.03-tools-for-wireless-network-analysis.md
+              - WPA2/WPA3 Protocols: red-team/guides/wireless-network-hacking-and-defense-analysis/02.01-understanding-wpa2-wpa3-protocols.md
+              - Capturing Handshakes: red-team/guides/wireless-network-hacking-and-defense-analysis/02.02-capturing-and-analyzing-handshakes.md
+              - Cracking WPA2/WPA3: red-team/guides/wireless-network-hacking-and-defense-analysis/02.03-cracking-wpa2-wpa3-with-dictionary-and-brute-force-attacks.md
+              - Rogue AP Detection: red-team/guides/wireless-network-hacking-and-defense-analysis/03.01-rogue-access-point-detection-and-mitigation.md
+              - Evil Twin Attacks: red-team/guides/wireless-network-hacking-and-defense-analysis/03.02-evil-twin-attack-mechanics-and-prevention.md
+              - EAPHammer Enterprise: red-team/guides/wireless-network-hacking-and-defense-analysis/04.01-eap-hammer-targeting-enterprise-authentication.md
+              - Deauth Attacks: red-team/guides/wireless-network-hacking-and-defense-analysis/04.02-deauthentication-attacks-and-mitigation.md
+              - WiFi Assessment Framework: red-team/guides/wireless-network-hacking-and-defense-analysis/05.01-enterprise-wifi-security-assessment-framework.md
+              - Enterprise WiFi Hardening: red-team/guides/wireless-network-hacking-and-defense-analysis/05.02-hardening-enterprise-wireless-infrastructure.md
+      - References:
+          - OSINT & Social Engineering Frameworks:
+              - Domain Footprinting: red-team/references/social-engineering-and-osint-frameworks/01.01-domain-footprinting-techniques.md
+              - Corporate Reconnaissance: red-team/references/social-engineering-and-osint-frameworks/01.02-corporate-reconnaissance-methodologies.md
+              - Shodan & Censys: red-team/references/social-engineering-and-osint-frameworks/02.01-shodan-and-censys-for-network-discovery.md
+              - Maltego Framework: red-team/references/social-engineering-and-osint-frameworks/03.01-maltego-framework-and-data-mapping.md
+              - Phishing Campaigns: red-team/references/social-engineering-and-osint-frameworks/04.01-phishing-tools-and-campaign-design.md
+              - Digital Metadata: red-team/references/social-engineering-and-osint-frameworks/05.01-extracting-metadata-from-digital-artifacts.md
+              - Credential Dumping: red-team/references/social-engineering-and-osint-frameworks/06.01-password-extraction-and-credential-dumping.md
+
+  # ── ZERO TRUST ARCHITECTURE ──
+  - Zero Trust & Identity:
+      - Overview: zero-trust/index.md
+      - Courses:
+          - HashiCorp Vault Production Security: zero-trust/courses/hashicorp-vault-production-security/index.md
+          - Zero Trust Architecture Implementation:
+              - Never Trust Always Verify: zero-trust/courses/zero-trust-architecture-implementation/01.01-never-trust-always-verify-framework.md
+              - Least Privilege Access: zero-trust/courses/zero-trust-architecture-implementation/01.02-least-privilege-access.md
+              - Data Protection in ZT: zero-trust/courses/zero-trust-architecture-implementation/01.03-data-protection-in-zero-trust.md
+              - Microsegmentation Overview: zero-trust/courses/zero-trust-architecture-implementation/02.01-network-microsegmentation-overview.md
+              - Policy Segmentation: zero-trust/courses/zero-trust-architecture-implementation/02.02-policy-based-segmentation.md
+              - Integration: zero-trust/courses/zero-trust-architecture-implementation/02.03-integration-with-zero-trust.md
+              - Identity Perimeter: zero-trust/courses/zero-trust-architecture-implementation/03.01-identity-as-the-new-perimeter.md
+              - Keycloak IAM: zero-trust/courses/zero-trust-architecture-implementation/03.02-keycloak-integration-for-iam.md
+              - OAuth2/OIDC Federated: zero-trust/courses/zero-trust-architecture-implementation/03.03-oauth2-oidc-for-federated-access.md
+              - Device Auth: zero-trust/courses/zero-trust-architecture-implementation/04.01-device-authentication-in-zero-trust.md
+              - PKI Integration: zero-trust/courses/zero-trust-architecture-implementation/04.02-public-key-infrastructure-pki-integration.md
+              - HashiCorp Vault Secrets: zero-trust/courses/zero-trust-architecture-implementation/04.03-hashicorp-vault-for-secret-management.md
+              - Real-time Risk Assessment: zero-trust/courses/zero-trust-architecture-implementation/05.01-real-time-risk-assessment.md
+              - Automated Threat Detection: zero-trust/courses/zero-trust-architecture-implementation/05.02-automated-threat-detection.md
+              - Automated Incident Response: zero-trust/courses/zero-trust-architecture-implementation/05.03-incident-response-and-remediation.md
+      - Guides:
+          - Enterprise PKI & Internal CA:
+              - Root & Sub CA Architecture: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/01.01-root-ca-and-sub-ca-architecture.md
+              - Multi-CA Design: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/01.02-designing-a-multi-ca-infrastructure.md
+              - CRLs Revocation: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/02.01-certificate-revocation-with-crls.md
+              - OCSP Stapling: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/02.02-ocsp-stapling-for-real-time-revocation.md
+              - Mutual TLS Auth: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/03.01-implementing-tls-mutual-auth.md
+              - mTLS Use Cases: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/03.02-use-cases-and-security-considerations.md
+              - Auto-Renewal Tools: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/04.01-auto-renewal-with-pki-tools.md
+              - Renewal in CI/CD: zero-trust/guides/enterprise-pki-and-internal-certificate-authority/04.02-integrating-renewal-with-ci-cd-pipelines.md
+          - Keycloak IAM Setup: zero-trust/guides/keycloak-identity-and-access-management/index.md
+      - References:
+          - OAuth2 & OpenID Connect Deep Dive:
+              - Authorization Code Flow: zero-trust/references/oauth2-and-openid-connect-deep-dive/01.01-authorization-code-grant-overview.md
+              - Security Considerations: zero-trust/references/oauth2-and-openid-connect-deep-dive/01.02-security-considerations-for-authorization-code-flow.md
+              - IdP Integration: zero-trust/references/oauth2-and-openid-connect-deep-dive/01.03-integration-with-identity-providers.md
+              - PKCE Flow Mechanics: zero-trust/references/oauth2-and-openid-connect-deep-dive/02.01-pkce-flow-mechanics.md
+              - Replay Attacks Mitigation: zero-trust/references/oauth2-and-openid-connect-deep-dive/02.02-mitigating-replay-attacks-with-pkce.md
+              - PKCE Implementation: zero-trust/references/oauth2-and-openid-connect-deep-dive/02.03-implementing-pkce-in-real-world-scenarios.md
+              - JWT Structure & Claims: zero-trust/references/oauth2-and-openid-connect-deep-dive/03.01-jwt-structure-and-claims.md
+              - Validation & Trust Chains: zero-trust/references/oauth2-and-openid-connect-deep-dive/03.02-validation-algorithms-and-trust-chains.md
+              - JWT Debugging Tools: zero-trust/references/oauth2-and-openid-connect-deep-dive/03.03-tools-for-jwt-debugging-and-analysis.md
+              - Introspection Endpoint: zero-trust/references/oauth2-and-openid-connect-deep-dive/04.01-token-introspection-endpoint.md
+              - Use Cases & Implications: zero-trust/references/oauth2-and-openid-connect-deep-dive/04.02-use-cases-and-security-implications.md
+              - Vault & Keycloak Integration: zero-trust/references/oauth2-and-openid-connect-deep-dive/04.03-integration-with-vault-and-keycloak.md
+              - Scopes in OAuth2/OIDC: zero-trust/references/oauth2-and-openid-connect-deep-dive/05.01-scopes-in-oauth2-and-openid-connect.md
+              - Custom Claims: zero-trust/references/oauth2-and-openid-connect-deep-dive/05.02-claim-types-and-custom-claims.md
+              - Scope & Claim Best Practices: zero-trust/references/oauth2-and-openid-connect-deep-dive/05.03-best-practices-for-scope-and-claim-usage.md

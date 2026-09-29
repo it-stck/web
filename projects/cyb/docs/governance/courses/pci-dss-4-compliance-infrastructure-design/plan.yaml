@@ -1,0 +1,39 @@
+title: PCI DSS 4 Compliance Infrastructure Design
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Cardholder Data Environment
+  sections:
+  - id: '01.01'
+    title: CDE Design Principles
+    objective: Define the core design principles for securing the cardholder data
+      environment (CDE) under PCI DSS 4, including physical and logical boundaries.
+- id: '02'
+  title: Tokenization
+  sections:
+  - id: '02.01'
+    title: Tokenization Implementation
+    objective: Explain how tokenization reduces cardholder data exposure and its integration
+      into PCI DSS 4 compliance infrastructure.
+- id: '03'
+  title: Scope Reduction
+  sections:
+  - id: '03.01'
+    title: Scope Minimization Techniques
+    objective: Detail methods to reduce PCI DSS scope through data minimization and
+      system segmentation.
+- id: '04'
+  title: Customized Approach
+  sections:
+  - id: '04.01'
+    title: Tailoring Compliance Requirements
+    objective: Outline strategies for adapting PCI DSS 4 requirements to organizational
+      workflows while maintaining compliance.
+- id: '05'
+  title: Network Segmentation
+  sections:
+  - id: '05.01'
+    title: Segmentation for CDE Protection
+    objective: Describe how network segmentation isolates cardholder data and mitigates
+      breach risks in PCI DSS 4 infrastructure.

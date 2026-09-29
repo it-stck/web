@@ -1,0 +1,49 @@
+status: draft
+title: Local LLM Deployment and Optimization
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Local LLM Deployment
+  section_id: '01.01'
+  title: Ollama Configuration and Installation
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Local LLM Deployment
+  section_id: '01.02'
+  title: GGUF Quantization for Model Optimization
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Local LLM Deployment
+  section_id: '01.03'
+  title: vLLM Serving Architecture Setup
+  status: pending
+- chapter_id: '02'
+  chapter_title: Performance Optimization Techniques
+  section_id: '02.01'
+  title: Model Benchmarking with vLLM
+  status: pending
+- chapter_id: '02'
+  chapter_title: Performance Optimization Techniques
+  section_id: '02.02'
+  title: GPU Offloading Strategies
+  status: pending
+- chapter_id: '02'
+  chapter_title: Performance Optimization Techniques
+  section_id: '02.03'
+  title: LoRA Adapters for Fine-Tuning
+  status: pending
+- chapter_id: '03'
+  chapter_title: Advanced Deployment and Tuning
+  section_id: '03.01'
+  title: Context Window Tuning Best Practices
+  status: pending
+- chapter_id: '03'
+  chapter_title: Advanced Deployment and Tuning
+  section_id: '03.02'
+  title: Production-Grade Serving Optimization
+  status: pending
+- chapter_id: '03'
+  chapter_title: Advanced Deployment and Tuning
+  section_id: '03.03'
+  title: Monitoring and Troubleshooting
+  status: pending

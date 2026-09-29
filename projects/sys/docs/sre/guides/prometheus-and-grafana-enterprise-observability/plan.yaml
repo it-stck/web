@@ -1,0 +1,79 @@
+title: Prometheus and Grafana Enterprise Observability
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Prometheus Architecture
+  sections:
+  - id: '01.01'
+    title: Core Components and Data Model
+    objective: Explain Prometheus' core components (scrape targets, time series data
+      model, storage) and how they enable scalable metric collection.
+  - id: '01.02'
+    title: Federation and Distributed Architecture
+    objective: Describe Prometheus Federation for aggregating metrics across clusters
+      and its role in enterprise-scale observability.
+  - id: '01.03'
+    title: High Availability and Scalability Patterns
+    objective: Outline strategies for deploying Prometheus in high-availability environments
+      and horizontally scaling metric collection.
+- id: '02'
+  title: 'PromQL: Querying Metrics'
+  sections:
+  - id: '02.01'
+    title: Basic Query Syntax and Aggregation
+    objective: Teach fundamental PromQL syntax for filtering, aggregating, and transforming
+      time series data.
+  - id: '02.02'
+    title: Advanced Querying Techniques
+    objective: Demonstrate complex PromQL operations like range vectors, alignment
+      joins, and rate calculations for anomaly detection.
+  - id: '02.03'
+    title: Subqueries and Pipeline Operators
+    objective: Explain advanced PromQL features for nested queries and data processing
+      pipelines.
+- id: '03'
+  title: Alertmanager Configuration
+  sections:
+  - id: '03.01'
+    title: Alert Routing and Escalation Policies
+    objective: Detail how to configure Alertmanager to route alerts to teams, channels,
+      and implement escalation rules.
+  - id: '03.02'
+    title: Notification Templates and Customization
+    objective: Show how to create custom alert templates for email, Slack, and PagerDuty
+      integrations.
+  - id: '03.03'
+    title: Alert Suppression and Deduplication
+    objective: Explain strategies to prevent alert floods and suppress redundant notifications
+      in production environments.
+- id: '04'
+  title: Grafana Dashboards
+  sections:
+  - id: '04.01'
+    title: Connecting to Prometheus Data Sources
+    objective: Guide users through configuring Grafana to connect to Prometheus servers
+      and query metrics.
+  - id: '04.02'
+    title: Dashboard Design Patterns for SRE
+    objective: Present best practices for creating maintainable dashboards with panels,
+      thresholds, and visualization techniques.
+  - id: '04.03'
+    title: Advanced Dashboard Features
+    objective: Demonstrate use of variables, row links, and dashboard-specific alerting
+      rules in Grafana.
+- id: '05'
+  title: Metrics Retention Strategies
+  sections:
+  - id: '05.01'
+    title: Retention Policies and Storage Configuration
+    objective: Explain how to configure Prometheus' retention policies and storage
+      limits for long-term metric storage.
+  - id: '05.02'
+    title: Data Archiving and Tiered Storage
+    objective: Describe strategies for archiving historical metrics to cheaper storage
+      and implementing tiered retention models.
+  - id: '05.03'
+    title: Compliance and Data Retention Policies
+    objective: Outline how to align metric retention with regulatory requirements
+      and organizational data governance policies.

@@ -1,0 +1,44 @@
+status: draft
+title: Apache Kafka Event Streaming Architecture
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Kafka Event Streaming
+  section_id: '01.01'
+  title: Topics and Partitions
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Kafka Event Streaming
+  section_id: '01.02'
+  title: Producers and Consumers
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Kafka Event Streaming
+  section_id: '01.03'
+  title: Consumer Groups
+  status: pending
+- chapter_id: '02'
+  chapter_title: Advanced Kafka Components
+  section_id: '02.01'
+  title: Kafka Connect
+  status: pending
+- chapter_id: '02'
+  chapter_title: Advanced Kafka Components
+  section_id: '02.02'
+  title: Kafka Streams
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Management and Configuration
+  section_id: '03.01'
+  title: Schema Registry
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Management and Configuration
+  section_id: '03.02'
+  title: Retention Policies
+  status: pending
+- chapter_id: '04'
+  chapter_title: System Configuration and Scaling
+  section_id: '04.01'
+  title: Cluster Sizing
+  status: pending

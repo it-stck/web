@@ -1,0 +1,99 @@
+title: Chaos Engineering with LitmusChaos and Gremlin
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Chaos Engineering
+  sections:
+  - id: '01.01'
+    title: Chaos Engineering Fundamentals
+    objective: Define Chaos Engineering, explain its purpose in building resilient
+      systems, and outline key principles such as hypothesis-driven experiments and
+      steady-state validation.
+  - id: '01.02'
+    title: 'Tools Overview: LitmusChaos and Gremlin'
+    objective: Compare LitmusChaos (Kubernetes-native) and Gremlin (multi-cloud) tooling,
+      highlighting their core capabilities, use cases, and integration with observability
+      platforms.
+  - id: '01.03'
+    title: Setting Up Chaos Engineering Practices
+    objective: Guide readers through establishing chaos engineering workflows, including
+      team roles, approval processes, and environment segmentation for production
+      readiness.
+- id: '02'
+  title: Fault Injection with LitmusChaos
+  sections:
+  - id: '02.01'
+    title: Getting Started with LitmusChaos
+    objective: Walk through installing LitmusChaos on Kubernetes, configuring namespaces,
+      and running basic fault injection experiments using Chaos Monkey patterns.
+  - id: '02.02'
+    title: LitmusChaos Fault Types and Use Cases
+    objective: Detail supported faults (e.g., network partition, CPU throttling) and
+      demonstrate how to apply them to test specific failure scenarios in microservices
+      architectures.
+  - id: '02.03'
+    title: LitmusChaos Best Practices
+    objective: Explain how to design fault injection experiments with measurable SLI
+      metrics, avoid false positives, and integrate with CI/CD pipelines.
+- id: '03'
+  title: Kubernetes Chaos with Gremlin
+  sections:
+  - id: '03.01'
+    title: Gremlin Kubernetes Chaos Setup
+    objective: Demonstrate deploying Gremlin agents on Kubernetes clusters, configuring
+      permissions, and launching distributed chaos experiments across nodes and pods.
+  - id: '03.02'
+    title: Advanced Kubernetes Chaos Scenarios
+    objective: Showcase complex chaos patterns like pod eviction, storage I/O latency,
+      and network latency injection tailored for Kubernetes-native applications.
+  - id: '03.03'
+    title: Gremlin and Observability Integration
+    objective: Illustrate how to correlate chaos experiments with Prometheus/Grafana
+      metrics, using dashboards to visualize system behavior during chaos events.
+- id: '04'
+  title: Resilience Testing Strategies
+  sections:
+  - id: '04.01'
+    title: Designing Resilience Tests
+    objective: Teach how to create testable hypotheses for system resilience, using
+      chaos experiments to validate failover mechanisms and redundancy configurations.
+  - id: '04.02'
+    title: Automating Resilience Workflows
+    objective: Explain integrating chaos experiments into CI/CD pipelines, using tools
+      like ArgoCD and GitOps to enforce resilience as a code quality gate.
+  - id: '04.03'
+    title: Post-Experiment Analysis
+    objective: Outline methods for analyzing chaos experiment results, including error
+      budget impact, SLI degradation, and root cause identification using logs and
+      traces.
+- id: '05'
+  title: Steady-State and Chaos Orchestration
+  sections:
+  - id: '05.01'
+    title: Understanding Steady-State in Chaos
+    objective: Define steady-state metrics, explain how to detect deviations during
+      chaos experiments, and use them to validate system recovery.
+  - id: '05.02'
+    title: Orchestration with Chaos Mesh and Litmus
+    objective: Demonstrate orchestrating multi-step chaos experiments across services,
+      including conditional fault injection and parallel fault execution.
+  - id: '05.03'
+    title: Chaos Hypothesis Validation
+    objective: Guide readers through the process of formulating, testing, and refining
+      chaos hypotheses to improve system reliability and SLO adherence.
+- id: '06'
+  title: Game Days and Real-World Applications
+  sections:
+  - id: '06.01'
+    title: Planning and Executing Game Days
+    objective: Detail how to organize cross-team chaos events, simulate real-world
+      incidents, and measure system behavior under coordinated failure scenarios.
+  - id: '06.02'
+    title: Postmortem Analysis for Game Days
+    objective: Explain techniques for analyzing Game Day outcomes, including incident
+      timeline reconstruction, root cause analysis, and documentation best practices.
+  - id: '06.03'
+    title: Scaling Chaos Engineering to Production
+    objective: Discuss strategies for transitioning chaos practices from development
+      to production, including chaos gates, canary testing, and error budget management.

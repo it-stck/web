@@ -1,0 +1,74 @@
+status: completed
+title: Terraform Infrastructure as Code
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Terraform and IaC
+  section_id: '01.01'
+  title: What is Terraform and Infrastructure as Code
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Terraform and IaC
+  section_id: '01.02'
+  title: Terraform Architecture and Core Concepts
+  status: completed
+- chapter_id: '02'
+  chapter_title: HCL Syntax and Configuration Basics
+  section_id: '02.01'
+  title: 'HCL Fundamentals: Blocks, Attributes, and Expressions'
+  status: completed
+- chapter_id: '02'
+  chapter_title: HCL Syntax and Configuration Basics
+  section_id: '02.02'
+  title: Data Sources and Resource Types
+  status: completed
+- chapter_id: '03'
+  chapter_title: State Management and Workspaces
+  section_id: '03.01'
+  title: 'Terraform State Files: Management and Security'
+  status: completed
+- chapter_id: '03'
+  chapter_title: State Management and Workspaces
+  section_id: '03.02'
+  title: Workspaces for Environment Isolation
+  status: completed
+- chapter_id: '04'
+  chapter_title: Modules and Reusability
+  section_id: '04.01'
+  title: Creating and Reusing Terraform Modules
+  status: completed
+- chapter_id: '04'
+  chapter_title: Modules and Reusability
+  section_id: '04.02'
+  title: Module Sources and Dependency Management
+  status: completed
+- chapter_id: '05'
+  chapter_title: Remote Backends and Collaboration
+  section_id: '05.01'
+  title: 'Remote State Backends: S3, Azure, and Consul'
+  status: completed
+- chapter_id: '05'
+  chapter_title: Remote Backends and Collaboration
+  section_id: '05.02'
+  title: Team Collaboration with State Locking and Workspaces
+  status: completed
+- chapter_id: '06'
+  chapter_title: Advanced Operations and Best Practices
+  section_id: '06.01'
+  title: Drift Detection and Remediation
+  status: completed
+- chapter_id: '06'
+  chapter_title: Advanced Operations and Best Practices
+  section_id: '06.02'
+  title: Custom Providers and Third-Party Integration
+  status: completed
+- chapter_id: '07'
+  chapter_title: CI/CD Integration and Automation
+  section_id: '07.01'
+  title: Automating Terraform with CI/CD Pipelines
+  status: completed
+- chapter_id: '07'
+  chapter_title: CI/CD Integration and Automation
+  section_id: '07.02'
+  title: Terraform Enterprise and Cloud-Native Workflows
+  status: completed

@@ -1,0 +1,95 @@
+title: Azure Identity and Microsoft Entra ID Management
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Azure Identity
+  sections:
+  - id: '01.01'
+    title: Azure AD and Microsoft Entra ID Overview
+    objective: Explain the role of Azure Active Directory (Azure AD) and Microsoft
+      Entra ID in identity management, including their evolution from Azure AD to
+      Entra ID and their core functionalities.
+  - id: '01.02'
+    title: Core Identity Management Principles
+    objective: Detail best practices for user lifecycle management, including provisioning,
+      deprovisioning, and access governance in Azure AD.
+  - id: '01.03'
+    title: Application Registration Fundamentals
+    objective: Guide readers through creating and configuring application registrations,
+      including permissions, secrets, and certificates for service-to-service communication.
+- id: '02'
+  title: Conditional Access and Security Policies
+  sections:
+  - id: '02.01'
+    title: Conditional Access Policy Design
+    objective: Teach how to create and configure conditional access policies to enforce
+      security requirements based on user, device, and location contexts.
+  - id: '02.02'
+    title: Risk-Based Access Control
+    objective: Explain integrating Azure AD Risk-based Conditional Access with Microsoft
+      Defender for Identity to mitigate threats based on risk levels.
+  - id: '02.03'
+    title: Policy Troubleshooting and Monitoring
+    objective: Provide techniques for diagnosing policy failures, using audit logs,
+      and monitoring compliance with Azure AD Reports.
+- id: '03'
+  title: Privileged Identity Management (PIM)
+  sections:
+  - id: '03.01'
+    title: PIM Role Management Concepts
+    objective: Outline how PIM enables just-in-time (JIT) access to privileged roles,
+      including role activation, duration, and access reviews.
+  - id: '03.02'
+    title: Configuring Privileged Access Workflows
+    objective: Walk through setting up PIM to manage elevated privileges for administrative
+      roles, including approval workflows and access logging.
+  - id: '03.03'
+    title: PIM Integration with Azure Security Center
+    objective: Demonstrate how to leverage PIM insights within Azure Security Center
+      for detecting and mitigating privileged access risks.
+- id: '04'
+  title: Hybrid and Federated Identity
+  sections:
+  - id: '04.01'
+    title: Hybrid Identity with Entra Connect
+    objective: Explain deploying Azure AD Connect to synchronize on-premises Active
+      Directory with Azure AD, including password hash synchronization and federation.
+  - id: '04.02'
+    title: Federated Identity Trust Relationships
+    objective: Detail configuring federated identity using Azure AD B2B and B2C for
+      secure cross-organization collaboration and external user access.
+  - id: '04.03'
+    title: Hybrid Identity Troubleshooting
+    objective: Provide strategies for resolving common hybrid identity issues, including
+      synchronization errors and federation protocol failures.
+- id: '05'
+  title: External Identity Management (B2B/B2C)
+  sections:
+  - id: '05.01'
+    title: Azure AD B2B Collaboration
+    objective: Guide readers through inviting external users to Azure AD via B2B collaboration,
+      including access control and license management.
+  - id: '05.02'
+    title: Azure AD B2C Customization
+    objective: Explain designing and customizing B2C user flows, including identity
+      providers, multi-factor authentication, and user journey orchestration.
+  - id: '05.03'
+    title: B2B/B2C Integration Patterns
+    objective: Showcase integration scenarios for B2B and B2C with Azure APIs, SaaS
+      applications, and third-party identity providers.
+- id: '06'
+  title: Multi-Factor Authentication (MFA) Strategies
+  sections:
+  - id: '06.01'
+    title: MFA Policy Configuration
+    objective: Detail creating and enforcing MFA policies for user sign-in, including
+      conditional MFA and user experience customization.
+  - id: '06.02'
+    title: MFA Methods and User Adoption
+    objective: Explain managing MFA methods (phone, email, authenticator apps) and
+      strategies to improve user adoption and reduce friction.
+  - id: '06.03'
+    title: MFA Troubleshooting and Recovery
+    objective: Provide solutions for common MFA failures, including account lockout
+      recovery, backup codes, and authentication app troubleshooting.

@@ -1,0 +1,64 @@
+status: completed
+title: Threat Hunting with KQL in Microsoft Sentinel
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: KQL Fundamentals for Threat Hunting
+  section_id: '01.01'
+  title: Introduction to KQL in Microsoft Sentinel
+  status: completed
+- chapter_id: '01'
+  chapter_title: KQL Fundamentals for Threat Hunting
+  section_id: '01.02'
+  title: KQL Query Structure and Syntax
+  status: completed
+- chapter_id: '01'
+  chapter_title: KQL Fundamentals for Threat Hunting
+  section_id: '01.03'
+  title: Summarizing and Rendering Log Data
+  status: completed
+- chapter_id: '02'
+  chapter_title: Event Correlation and Pattern Recognition
+  section_id: '02.01'
+  title: Event Correlation Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: Event Correlation and Pattern Recognition
+  section_id: '02.02'
+  title: Pattern Recognition in Log Data
+  status: completed
+- chapter_id: '02'
+  chapter_title: Event Correlation and Pattern Recognition
+  section_id: '02.03'
+  title: Time-Series Analysis for Threat Detection
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Hunting Queries
+  section_id: '03.01'
+  title: Building Targeted Hunting Queries
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Hunting Queries
+  section_id: '03.02'
+  title: Query Optimization and Performance
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Hunting Queries
+  section_id: '03.03'
+  title: Validating Hunting Query Effectiveness
+  status: completed
+- chapter_id: '04'
+  chapter_title: Workbooks and Dashboards for Threat Hunting
+  section_id: '04.01'
+  title: Creating Hunting Workbooks in Sentinel
+  status: completed
+- chapter_id: '04'
+  chapter_title: Workbooks and Dashboards for Threat Hunting
+  section_id: '04.02'
+  title: Designing Effective Dashboards
+  status: completed
+- chapter_id: '04'
+  chapter_title: Workbooks and Dashboards for Threat Hunting
+  section_id: '04.03'
+  title: Integrating Workbooks with Automation
+  status: completed

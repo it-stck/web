@@ -1,0 +1,84 @@
+title: GDPR Technical Compliance and Privacy
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: GDPR Technical Compliance Foundations
+  sections:
+  - id: '01.01'
+    title: GDPR Technical Compliance Overview
+    objective: Explain the core technical requirements of GDPR and their role in data
+      protection.
+  - id: '01.02'
+    title: Data Protection Principles
+    objective: Detail the GDPR data protection principles and their technical implementation
+      implications.
+  - id: '01.03'
+    title: Legal Basis for Data Processing
+    objective: Outline the legal bases for data processing under GDPR and their technical
+      validation methods.
+- id: '02'
+  title: Data Minimization Techniques
+  sections:
+  - id: '02.01'
+    title: Data Minimization Definition and Scope
+    objective: Define data minimization and its relevance to GDPR compliance.
+  - id: '02.02'
+    title: Implementing Data Minimization
+    objective: Provide technical strategies for reducing data collection and retention.
+  - id: '02.03'
+    title: Challenges in Data Minimization
+    objective: Discuss technical and organizational challenges in achieving data minimization.
+- id: '03'
+  title: Pseudonymization Implementation
+  sections:
+  - id: '03.01'
+    title: Pseudonymization Concepts
+    objective: Explain pseudonymization techniques and their alignment with GDPR Article
+      4(5).
+  - id: '03.02'
+    title: Technical Frameworks for Pseudonymization
+    objective: Describe cryptographic and data masking methods for pseudonymization.
+  - id: '03.03'
+    title: Pseudonymization in Data Pipelines
+    objective: Illustrate integrating pseudonymization into data processing workflows.
+- id: '04'
+  title: Right-to-be-Forgotten Compliance
+  sections:
+  - id: '04.01'
+    title: Right-to-be-Forgotten Requirements
+    objective: Define the legal obligations and technical steps for erasure requests.
+  - id: '04.02'
+    title: Technical Erasure Mechanisms
+    objective: Detail database deletion, anonymization, and data retention policy
+      enforcement.
+  - id: '04.03'
+    title: Auditing Erasure Compliance
+    objective: Explain tools and processes for verifying right-to-be-forgotten implementation.
+- id: '05'
+  title: Privacy-by-Design Integration
+  sections:
+  - id: '05.01'
+    title: Privacy-by-Design Framework
+    objective: Describe the technical components of embedding privacy into system
+      design.
+  - id: '05.02'
+    title: Privacy Impact Assessments
+    objective: Outline technical considerations for conducting privacy impact assessments.
+  - id: '05.03'
+    title: Privacy-Enhancing Technologies
+    objective: Review technical solutions like differential privacy and secure data
+      sharing.
+- id: '06'
+  title: Data Protection Impact Assessments (DPIA)
+  sections:
+  - id: '06.01'
+    title: DPIA Purpose and Scope
+    objective: Explain when and how DPIAs are required under GDPR.
+  - id: '06.02'
+    title: Technical DPIA Workflow
+    objective: Detail the technical steps for conducting a DPIA, including risk evaluation.
+  - id: '06.03'
+    title: DPIA Documentation and Review
+    objective: Provide guidelines for technical documentation and stakeholder review
+      of DPIAs.

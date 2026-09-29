@@ -1,0 +1,69 @@
+status: completed
+title: Privilege Escalation Techniques in Windows and Linux
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Privilege Escalation
+  section_id: '01.01'
+  title: Understanding Privilege Escalation
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Privilege Escalation
+  section_id: '01.02'
+  title: Windows vs. Linux Escalation Mechanisms
+  status: completed
+- chapter_id: '02'
+  chapter_title: Misconfigured Services and Unquoted Paths
+  section_id: '02.01'
+  title: Exploiting Misconfigured Services
+  status: completed
+- chapter_id: '02'
+  chapter_title: Misconfigured Services and Unquoted Paths
+  section_id: '02.02'
+  title: Unquoted Service Paths in Windows
+  status: completed
+- chapter_id: '02'
+  chapter_title: Misconfigured Services and Unquoted Paths
+  section_id: '02.03'
+  title: Unquoted Service Paths in Linux
+  status: completed
+- chapter_id: '03'
+  chapter_title: Linux-Specific Escalation Techniques
+  section_id: '03.01'
+  title: Sudo Abuse and Configuration Exploits
+  status: completed
+- chapter_id: '03'
+  chapter_title: Linux-Specific Escalation Techniques
+  section_id: '03.02'
+  title: Exploiting SUID Binaries
+  status: completed
+- chapter_id: '03'
+  chapter_title: Linux-Specific Escalation Techniques
+  section_id: '03.03'
+  title: Token Manipulation in Linux
+  status: completed
+- chapter_id: '04'
+  chapter_title: Windows-Specific Escalation Techniques
+  section_id: '04.01'
+  title: Token Manipulation and Impersonation
+  status: completed
+- chapter_id: '04'
+  chapter_title: Windows-Specific Escalation Techniques
+  section_id: '04.02'
+  title: Kernel-Mode Exploits in Windows
+  status: completed
+- chapter_id: '05'
+  chapter_title: Advanced Techniques and Mitigations
+  section_id: '05.01'
+  title: Potato Attacks and Privilege Escalation
+  status: completed
+- chapter_id: '05'
+  chapter_title: Advanced Techniques and Mitigations
+  section_id: '05.02'
+  title: Kernel Exploits Across Platforms
+  status: completed
+- chapter_id: '05'
+  chapter_title: Advanced Techniques and Mitigations
+  section_id: '05.03'
+  title: Mitigating Privilege Escalation Risks
+  status: completed

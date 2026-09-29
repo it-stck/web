@@ -1,0 +1,34 @@
+status: draft
+title: Wireshark Network Traffic Analysis Reference
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Display Filters
+  section_id: '01.01'
+  title: Display Filters
+  status: pending
+- chapter_id: '02'
+  chapter_title: TCP Handshake Analysis
+  section_id: '02.01'
+  title: TCP Handshake Analysis
+  status: pending
+- chapter_id: '03'
+  chapter_title: Retransmissions and Latency Analysis
+  section_id: '03.01'
+  title: Retransmissions and Latency Analysis
+  status: pending
+- chapter_id: '04'
+  chapter_title: HTTP2 and QUIC Decryption
+  section_id: '04.01'
+  title: HTTP2 and QUIC Decryption
+  status: pending
+- chapter_id: '05'
+  chapter_title: DNS Troubleshooting
+  section_id: '05.01'
+  title: DNS Troubleshooting
+  status: pending
+- chapter_id: '06'
+  chapter_title: VoIP and SIP Capture
+  section_id: '06.01'
+  title: VoIP and SIP Capture
+  status: pending

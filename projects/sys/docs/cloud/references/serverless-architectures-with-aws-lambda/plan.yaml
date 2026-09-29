@@ -1,0 +1,49 @@
+title: Serverless Architectures with AWS Lambda
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Foundational Concepts
+  sections:
+  - id: '01.01'
+    title: Event Source Mappings
+    objective: Explain how AWS Lambda event source mappings enable seamless integration
+      with services like S3, DynamoDB, and Kinesis, and demonstrate their configuration
+      for real-time data processing.
+  - id: '01.02'
+    title: API Gateway Integration
+    objective: Detail the process of connecting AWS Lambda to API Gateway for HTTP-triggered
+      functions, including security configurations like IAM roles and request validation.
+- id: '02'
+  title: Advanced Configuration
+  sections:
+  - id: '02.01'
+    title: Concurrency Limits and Management
+    objective: Discuss AWS Lambda concurrency limits, strategies for managing concurrent
+      executions, and use cases for provisioned concurrency to optimize performance
+      under load.
+  - id: '02.02'
+    title: Lambda Layers and Extensions
+    objective: Describe the use of Lambda layers for code reuse and dependency management,
+      and explore custom runtime extensions for extending Lambda's execution environment.
+- id: '03'
+  title: Orchestration and Workflow
+  sections:
+  - id: '03.01'
+    title: Step Functions Integration
+    objective: Outline how AWS Step Functions coordinate multiple Lambda functions
+      into stateful workflows, including error handling, retries, and parallel processing
+      patterns.
+- id: '04'
+  title: Performance Optimization
+  sections:
+  - id: '04.01'
+    title: Mitigating Cold Starts
+    objective: Analyze the causes of Lambda cold starts and provide actionable strategies
+      to minimize latency, such as using provisioned concurrency and optimizing package
+      size.
+  - id: '04.02'
+    title: X-Ray Tracing for Debugging
+    objective: Explain how to enable and interpret AWS X-Ray tracing for Lambda functions,
+      including integrating traces with API Gateway and Step Functions for end-to-end
+      visibility.

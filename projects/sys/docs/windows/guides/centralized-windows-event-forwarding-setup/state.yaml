@@ -1,0 +1,79 @@
+status: completed
+title: Centralized Windows Event Forwarding Setup
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Understanding Windows Event Forwarding Components
+  section_id: '01.01'
+  title: Overview of Windows Event Forwarding
+  status: completed
+- chapter_id: '01'
+  chapter_title: Understanding Windows Event Forwarding Components
+  section_id: '01.02'
+  title: Key Components of WEF Architecture
+  status: completed
+- chapter_id: '01'
+  chapter_title: Understanding Windows Event Forwarding Components
+  section_id: '01.03'
+  title: WEF Architecture Diagram and Workflow
+  status: completed
+- chapter_id: '02'
+  chapter_title: Setting Up the Event Forwarding Collector
+  section_id: '02.01'
+  title: Installing and Configuring the Event Collector
+  status: completed
+- chapter_id: '02'
+  chapter_title: Setting Up the Event Forwarding Collector
+  section_id: '02.02'
+  title: Configuring Event Log Channels for Forwarding
+  status: completed
+- chapter_id: '02'
+  chapter_title: Setting Up the Event Forwarding Collector
+  section_id: '02.03'
+  title: Testing Collector Connectivity and Logs
+  status: completed
+- chapter_id: '03'
+  chapter_title: Creating Subscription Filters for Event Selection
+  section_id: '03.01'
+  title: Designing Subscription Filters with XPath Queries
+  status: completed
+- chapter_id: '03'
+  chapter_title: Creating Subscription Filters for Event Selection
+  section_id: '03.02'
+  title: Managing and Testing Subscription Filters
+  status: completed
+- chapter_id: '03'
+  chapter_title: Creating Subscription Filters for Event Selection
+  section_id: '03.03'
+  title: Troubleshooting Filter-Related Event Drops
+  status: completed
+- chapter_id: '04'
+  chapter_title: Configuring WinRM for Remote Event Management
+  section_id: '04.01'
+  title: Enabling WinRM for Event Forwarding
+  status: completed
+- chapter_id: '04'
+  chapter_title: Configuring WinRM for Remote Event Management
+  section_id: '04.02'
+  title: Securing WinRM Communication with TLS
+  status: completed
+- chapter_id: '04'
+  chapter_title: Configuring WinRM for Remote Event Management
+  section_id: '04.03'
+  title: Testing WinRM Connectivity and Permissions
+  status: completed
+- chapter_id: '05'
+  chapter_title: Securing Event Forwarding and Auditing
+  section_id: '05.01'
+  title: Implementing TLS and Encryption for Event Streams
+  status: completed
+- chapter_id: '05'
+  chapter_title: Securing Event Forwarding and Auditing
+  section_id: '05.02'
+  title: Configuring Authentication and Authorization for WEF
+  status: completed
+- chapter_id: '05'
+  chapter_title: Securing Event Forwarding and Auditing
+  section_id: '05.03'
+  title: Auditing and Monitoring Event Forwarding Activity
+  status: completed

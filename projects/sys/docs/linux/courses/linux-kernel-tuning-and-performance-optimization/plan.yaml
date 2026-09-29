@@ -1,0 +1,128 @@
+title: Linux Kernel Tuning and Performance Optimization
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Sysctl Parameters and Kernel Configuration
+  sections:
+  - id: '01.01'
+    title: Sysctl Parameter Overview
+    objective: Introduce sysctl parameters, their location in /proc/sys, and methods
+      to view and persist changes using sysctl.conf and systemd.
+  - id: '01.02'
+    title: Network Performance Tuning
+    objective: Teach how to optimize TCP/IP parameters, congestion control algorithms,
+      and packet handling for high-throughput networks.
+  - id: '01.03'
+    title: Memory Management Tuning
+    objective: Explain kernel memory parameters like vm.swappiness and kernel.shmall
+      for optimizing system memory usage.
+  - id: '01.04'
+    title: Storage I/O Tuning
+    objective: Cover parameters for disk I/O scheduling, read/write amplification,
+      and latency optimization for block devices.
+- id: '02'
+  title: Memory Management and Swap Optimization
+  sections:
+  - id: '02.01'
+    title: Linux Virtual Memory Architecture
+    objective: Detail how the kernel manages physical and virtual memory, including
+      page caching and buffer pools.
+  - id: '02.02'
+    title: Swap Space Configuration
+    objective: Guide on creating, sizing, and configuring swap partitions/files for
+      systems with limited RAM.
+  - id: '02.03'
+    title: Swappiness Tuning
+    objective: Explain the swappiness parameter's impact on memory pressure and strategies
+      to balance swap usage with RAM efficiency.
+- id: '03'
+  title: I/O Schedulers and Disk Performance
+  sections:
+  - id: '03.01'
+    title: I/O Scheduler Overview
+    objective: Compare noop, cfq, deadline, and mq-deadline schedulers and their use
+      cases for different workloads.
+  - id: '03.02'
+    title: Scheduler Configuration
+    objective: Show how to select and tune I/O schedulers using sysfs and kernel parameters
+      for SSD/HDD optimization.
+  - id: '03.03'
+    title: Advanced I/O Optimization
+    objective: Cover I/O merging, elevator algorithms, and latency reduction techniques
+      for high-performance storage systems.
+- id: '04'
+  title: Cgroups v2 and Resource Management
+  sections:
+  - id: '04.01'
+    title: Cgroups v2 Architecture
+    objective: Explain the hierarchical resource management model, control groups,
+      and namespace isolation in Linux 5.1+.
+  - id: '04.02'
+    title: CPU and Memory Limiting
+    objective: Demonstrate how to enforce CPU shares, memory limits, and throttling
+      for containers and processes.
+  - id: '04.03'
+    title: Cgroups Monitoring and Debugging
+    objective: Teach using cgroups statistics, systemd units, and tools like cgclassify
+      for troubleshooting resource contention.
+- id: '05'
+  title: CPU Frequency Scaling and Power Management
+  sections:
+  - id: '05.01'
+    title: CPU Governor Overview
+    objective: Describe performance, powersave, and ondemand governors and their impact
+      on CPU throttling and thermal management.
+  - id: '05.02'
+    title: Dynamic Frequency Scaling
+    objective: Explain how to configure cpufrequtils, kernel parameters, and BIOS
+      settings for workload-aware power optimization.
+  - id: '05.03'
+    title: Real-Time CPU Scheduling
+    objective: Cover real-time (RT) kernel patches, schedulers, and latency optimization
+      for critical workloads.
+- id: '06'
+  title: eBPF Monitoring and Kernel Telemetry
+  sections:
+  - id: '06.01'
+    title: eBPF Fundamentals
+    objective: Introduce eBPF programs, CO-RE, and tools like BCC for safe kernel
+      instrumentation without module loading.
+  - id: '06.02'
+    title: Performance Monitoring with eBPF
+    objective: Demonstrate tracing syscalls, tracking I/O patterns, and analyzing
+      memory allocation with eBPF programs.
+  - id: '06.03'
+    title: eBPF for Security and Debugging
+    objective: Show how to use eBPF for detecting kernel leaks, tracking process behavior,
+      and debugging performance bottlenecks.
+- id: '07'
+  title: Profiling Tools and Performance Analysis
+  sections:
+  - id: '07.01'
+    title: perf Tool Suite
+    objective: Explain using perf to profile CPU usage, track function calls, and
+      analyze kernel stack traces.
+  - id: '07.02'
+    title: SystemTap for Dynamic Tracing
+    objective: Guide on writing SystemTap scripts to monitor kernel events, system
+      calls, and resource contention.
+  - id: '07.03'
+    title: Analyzing Profiling Data
+    objective: Teach interpreting perf and SystemTap output, identifying hotspots,
+      and correlating metrics with system behavior.
+- id: 08
+  title: Advanced Swap and Memory Optimization
+  sections:
+  - id: '08.01'
+    title: Swap Partition Best Practices
+    objective: Cover RAID configurations, swapfile encryption, and ZRAM integration
+      for memory-optimized systems.
+  - id: '08.02'
+    title: Memory Pressure Mitigation
+    objective: Explain kernel memory reclaim strategies, OOM killer behavior, and
+      tuning for large-scale workloads.
+  - id: '08.03'
+    title: Persistent Memory and Swap
+    objective: Discuss using PMEM devices, swap-backed memory, and hybrid memory architectures
+      for performance-critical applications.

@@ -1,0 +1,49 @@
+status: draft
+title: GCP Networking and Interconnect
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Core Networking Concepts in GCP
+  section_id: '01.01'
+  title: Understanding VPCs and Subnets
+  status: pending
+- chapter_id: '01'
+  chapter_title: Core Networking Concepts in GCP
+  section_id: '01.02'
+  title: Network Service Tiers
+  status: pending
+- chapter_id: '01'
+  chapter_title: Core Networking Concepts in GCP
+  section_id: '01.03'
+  title: Cloud DNS Overview
+  status: pending
+- chapter_id: '02'
+  chapter_title: Inter-VPC Connectivity
+  section_id: '02.01'
+  title: VPC Peering
+  status: pending
+- chapter_id: '02'
+  chapter_title: Inter-VPC Connectivity
+  section_id: '02.02'
+  title: Shared VPC
+  status: pending
+- chapter_id: '03'
+  chapter_title: Connectivity to On-Premises and Other Clouds
+  section_id: '03.01'
+  title: Cloud VPN
+  status: pending
+- chapter_id: '03'
+  chapter_title: Connectivity to On-Premises and Other Clouds
+  section_id: '03.02'
+  title: Cloud Interconnect
+  status: pending
+- chapter_id: '04'
+  chapter_title: Traffic Management and Security
+  section_id: '04.01'
+  title: Load Balancing
+  status: pending
+- chapter_id: '04'
+  chapter_title: Traffic Management and Security
+  section_id: '04.02'
+  title: Firewall Rules
+  status: pending

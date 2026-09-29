@@ -1,0 +1,39 @@
+status: completed
+title: Social Engineering and OSINT Frameworks
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Social Engineering and OSINT
+  section_id: '01.01'
+  title: Domain Footprinting Techniques
+  status: completed
+- chapter_id: '01'
+  chapter_title: Foundations of Social Engineering and OSINT
+  section_id: '01.02'
+  title: Corporate Reconnaissance Methodologies
+  status: completed
+- chapter_id: '02'
+  chapter_title: 'OSINT Tooling: Shodan & Censys'
+  section_id: '02.01'
+  title: Shodan and Censys for Network Discovery
+  status: completed
+- chapter_id: '03'
+  chapter_title: Maltego for Link Analysis
+  section_id: '03.01'
+  title: Maltego Framework and Data Mapping
+  status: completed
+- chapter_id: '04'
+  chapter_title: Phishing Frameworks and Automation
+  section_id: '04.01'
+  title: Phishing Tools and Campaign Design
+  status: completed
+- chapter_id: '05'
+  chapter_title: Metadata Extraction and Analysis
+  section_id: '05.01'
+  title: Extracting Metadata from Digital Artifacts
+  status: completed
+- chapter_id: '06'
+  chapter_title: Credential Harvesting Techniques
+  section_id: '06.01'
+  title: Password Extraction and Credential Dumping
+  status: completed

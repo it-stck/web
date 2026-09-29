@@ -1,0 +1,79 @@
+status: completed
+title: ISO 27001 ISMS Implementation Roadmap
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Risk Assessment Foundations
+  section_id: '01.01'
+  title: Understanding Risk Assessment in ISO 27001
+  status: completed
+- chapter_id: '01'
+  chapter_title: Risk Assessment Foundations
+  section_id: '01.02'
+  title: Conducting a Risk Assessment Process
+  status: completed
+- chapter_id: '01'
+  chapter_title: Risk Assessment Foundations
+  section_id: '01.03'
+  title: Documenting Risk Assessment Findings
+  status: completed
+- chapter_id: '02'
+  chapter_title: Statement of Applicability
+  section_id: '02.01'
+  title: Purpose and Scope of Statement of Applicability
+  status: completed
+- chapter_id: '02'
+  chapter_title: Statement of Applicability
+  section_id: '02.02'
+  title: Selecting Controls for the SoA
+  status: completed
+- chapter_id: '02'
+  chapter_title: Statement of Applicability
+  section_id: '02.03'
+  title: Documenting the Statement of Applicability
+  status: completed
+- chapter_id: '03'
+  chapter_title: Annex A Controls Implementation
+  section_id: '03.01'
+  title: Overview of ISO 27001 Annex A Controls
+  status: completed
+- chapter_id: '03'
+  chapter_title: Annex A Controls Implementation
+  section_id: '03.02'
+  title: Implementing Control Objects and Practices
+  status: completed
+- chapter_id: '03'
+  chapter_title: Annex A Controls Implementation
+  section_id: '03.03'
+  title: Tailoring Controls to Organizational Needs
+  status: completed
+- chapter_id: '04'
+  chapter_title: Internal Audit Processes
+  section_id: '04.01'
+  title: Planning Internal Audits for ISMS
+  status: completed
+- chapter_id: '04'
+  chapter_title: Internal Audit Processes
+  section_id: '04.02'
+  title: Conducting Effective ISMS Audits
+  status: completed
+- chapter_id: '04'
+  chapter_title: Internal Audit Processes
+  section_id: '04.03'
+  title: Reporting and Follow-Up Actions
+  status: completed
+- chapter_id: '05'
+  chapter_title: Management Review and Continuous Improvement
+  section_id: '05.01'
+  title: Purpose of Management Review in ISO 27001
+  status: completed
+- chapter_id: '05'
+  chapter_title: Management Review and Continuous Improvement
+  section_id: '05.02'
+  title: Preparing for Management Review Meetings
+  status: completed
+- chapter_id: '05'
+  chapter_title: Management Review and Continuous Improvement
+  section_id: '05.03'
+  title: Driving Continuous Improvement in ISMS
+  status: completed

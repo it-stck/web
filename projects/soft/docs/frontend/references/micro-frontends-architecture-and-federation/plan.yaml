@@ -1,0 +1,79 @@
+title: Micro Frontends Architecture and Federation
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Micro Frontends
+  sections:
+  - id: '01.01'
+    title: What Are Micro Frontends?
+    objective: Define micro frontends as an architectural pattern for splitting large
+      frontend applications into smaller, independently deployable units.
+  - id: '01.02'
+    title: Benefits and Challenges
+    objective: Compare advantages like team autonomy and scalability with challenges
+      such as integration complexity and shared state management.
+  - id: '01.03'
+    title: Micro Frontends vs. Microservices
+    objective: Highlight architectural differences between micro frontends and microservices,
+      focusing on frontend-specific constraints and opportunities.
+- id: '02'
+  title: Module Federation and Webpack 5
+  sections:
+  - id: '02.01'
+    title: Module Federation Basics
+    objective: Explain how module federation enables dynamic loading of remote code
+      via Webpack 5's container and remote modules.
+  - id: '02.02'
+    title: Webpack 5 Configuration
+    objective: Detail the setup process for Webpack 5, including container and remote
+      configurations for federated modules.
+  - id: '02.03'
+    title: Federated Module Communication
+    objective: Demonstrate techniques for inter-microfrontends communication using
+      shared variables and dynamic imports.
+- id: '03'
+  title: Deployment and Shared Dependencies
+  sections:
+  - id: '03.01'
+    title: Isolated Deployments
+    objective: Outline strategies for deploying micro frontends independently while
+      maintaining a unified user experience.
+  - id: '03.02'
+    title: Shared Dependency Management
+    objective: Explain techniques for managing shared dependencies across micro frontends,
+      including versioning and tree-shaking.
+  - id: '03.03'
+    title: Performance Considerations
+    objective: Discuss optimization strategies for federated modules, including lazy
+      loading and caching.
+- id: '04'
+  title: Advanced Integration Patterns
+  sections:
+  - id: '04.01'
+    title: Single-Spa Integration
+    objective: Demonstrate how to integrate micro frontends with single-spa for unified
+      routing and lifecycle management.
+  - id: '04.02'
+    title: Custom Container Solutions
+    objective: Explore alternatives to Webpack 5 containers, including custom bundlers
+      and iframe-based approaches.
+  - id: '04.03'
+    title: Security Best Practices
+    objective: Identify security risks in federated architectures and mitigation strategies
+      like CSP and module validation.
+- id: '05'
+  title: Troubleshooting and Optimization
+  sections:
+  - id: '05.01'
+    title: Common Integration Pitfalls
+    objective: Diagnose issues like version conflicts, missing exports, and network
+      latency in federated systems.
+  - id: '05.02'
+    title: Performance Monitoring
+    objective: Recommend tools and metrics for monitoring federated micro frontend
+      performance and reliability.
+  - id: '05.03'
+    title: Scaling Strategies
+    objective: Provide guidance on scaling micro frontends across teams, including
+      governance and CI/CD practices.

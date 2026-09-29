@@ -1,0 +1,64 @@
+status: completed
+title: Systemd Deep Dive and Service Management
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Unit Files and Service Configuration
+  section_id: '01.01'
+  title: Understanding Systemd Unit Files
+  status: completed
+- chapter_id: '01'
+  chapter_title: Unit Files and Service Configuration
+  section_id: '01.02'
+  title: Writing Custom Service Unit Files
+  status: completed
+- chapter_id: '01'
+  chapter_title: Unit Files and Service Configuration
+  section_id: '01.03'
+  title: Unit File Syntax and Best Practices
+  status: completed
+- chapter_id: '02'
+  chapter_title: Targets and Runlevel Management
+  section_id: '02.01'
+  title: Systemd Targets and Runlevels
+  status: completed
+- chapter_id: '02'
+  chapter_title: Targets and Runlevel Management
+  section_id: '02.02'
+  title: Managing Targets and Multi-User Environments
+  status: completed
+- chapter_id: '03'
+  chapter_title: Journalctl and Logging
+  section_id: '03.01'
+  title: Systemd Journalctl Basics
+  status: completed
+- chapter_id: '03'
+  chapter_title: Journalctl and Logging
+  section_id: '03.02'
+  title: Querying and Filtering Journal Logs
+  status: completed
+- chapter_id: '04'
+  chapter_title: Systemd Timers and Scheduling
+  section_id: '04.01'
+  title: Systemd Timer Units Overview
+  status: completed
+- chapter_id: '04'
+  chapter_title: Systemd Timers and Scheduling
+  section_id: '04.02'
+  title: Configuring Systemd Timers
+  status: completed
+- chapter_id: '05'
+  chapter_title: Resource Limits and Sandboxing
+  section_id: '05.01'
+  title: Setting Resource Limits for Services
+  status: completed
+- chapter_id: '06'
+  chapter_title: Sandboxing and Containers
+  section_id: '06.01'
+  title: Using nspawn for Containerization
+  status: completed
+- chapter_id: '07'
+  chapter_title: Troubleshooting Systemd Issues
+  section_id: '07.01'
+  title: Diagnosing Boot Failures with Systemd
+  status: completed

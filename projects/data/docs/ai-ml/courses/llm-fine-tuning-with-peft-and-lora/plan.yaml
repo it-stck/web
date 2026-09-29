@@ -1,0 +1,94 @@
+title: LLM Fine Tuning with PEFT and LoRA
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Foundations of PEFT and LoRA
+  sections:
+  - id: '01.01'
+    title: 'PEFT: Parameter-Efficient Fine-Tuning Overview'
+    objective: Explain the principles of Parameter-Efficient Fine-Tuning (PEFT) and
+      its role in reducing computational costs for LLM adaptation.
+  - id: '01.02'
+    title: 'LoRA: Low-Rank Adaptation Mechanics'
+    objective: Detail how LoRA (Low-Rank Adaptation) works, including rank decomposition
+      and its advantages over full fine-tuning.
+  - id: '01.03'
+    '5': 'QLoRA: Quantization-aware LoRA Training'
+    objective: Describe QLoRA's integration of 4-bit quantization with LoRA, enabling
+      efficient training on limited hardware.
+- id: '02'
+  title: HuggingFace TRL and Training Setup
+  sections:
+  - id: '02.01'
+    title: HuggingFace TRL Framework Overview
+    objective: Introduce HuggingFace's Transformers Reinforcement Learning (TRL) library
+      and its role in LoRA implementation.
+  - id: '02.02'
+    title: Environment Setup for PEFT Training
+    objective: Guide users through installing dependencies, configuring hardware acceleration,
+      and initializing PEFT models.
+  - id: '02.03'
+    title: Training Loop Customization with TRL
+    objective: Demonstrate how to customize reward models, optimizers, and training
+      loops for PEFT-based fine-tuning.
+- id: '03'
+  title: Dataset Formatting and Preprocessing
+  sections:
+  - id: '03.01'
+    title: PEFT-Compatible Dataset Structures
+    objective: Outline best practices for formatting datasets to align with LoRA's
+      low-rank adaptation requirements.
+  - id: '03.02'
+    title: Tokenization and Padding Strategies
+    objective: Explain tokenization techniques, padding methods, and handling sequence
+      length constraints for PEFT.
+  - id: '03.03'
+    title: Data Augmentation for Generalization
+    objective: Provide strategies to enhance dataset diversity while maintaining compatibility
+      with parameter-efficient training.
+- id: '04'
+  title: Hyperparameter Tuning and Optimization
+  sections:
+  - id: '04.01'
+    title: Key Hyperparameters for PEFT Training
+    objective: Identify critical hyperparameters (learning rate, rank, dropout) and
+      their impact on PEFT performance.
+  - id: '04.02'
+    title: Automated Hyperparameter Search Techniques
+    objective: Explore grid search, random search, and Bayesian optimization for tuning
+      PEFT models.
+  - id: '04.03'
+    title: Monitoring Training Metrics
+    objective: Explain how to track loss, gradient norms, and validation performance
+      during PEFT training.
+- id: '05'
+  title: Quantization and Deployment
+  sections:
+  - id: '05.01'
+    title: 4-bit Quantization with Bitsandbytes
+    objective: Demonstrate how to apply 4-bit quantization to LoRA models using Bitsandbytes
+      library.
+  - id: '05.02'
+    title: Quantization-aware Training Best Practices
+    objective: Provide guidelines for maintaining model accuracy during quantization-aware
+      training.
+  - id: '05.03'
+    title: Deploying Quantized PEFT Models
+    objective: Explain inference optimization techniques and deployment strategies
+      for quantized LoRA models.
+- id: '06'
+  title: Advanced Topics and Troubleshooting
+  sections:
+  - id: '06.01'
+    title: PEFT Model Versioning and Collaboration
+    objective: Discuss strategies for versioning, sharing, and collaborative development
+      of PEFT models.
+  - id: '06.02'
+    title: Common Training Pitfalls and Solutions
+    objective: Address issues like rank mismatch, quantization artifacts, and training
+      instability in PEFT.
+  - id: '06.03'
+    title: Benchmarking PEFT vs Full Fine-Tuning
+    objective: Compare performance, resource usage, and trade-offs between PEFT and
+      traditional fine-tuning approaches.

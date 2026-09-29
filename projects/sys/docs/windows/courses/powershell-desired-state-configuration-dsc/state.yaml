@@ -1,0 +1,94 @@
+status: completed
+title: PowerShell Desired State Configuration DSC
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to DSC
+  section_id: '01.01'
+  title: DSC Overview and Purpose
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to DSC
+  section_id: '01.02'
+  title: Core DSC Concepts
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to DSC
+  section_id: '01.03'
+  title: Basic Configuration Syntax
+  status: completed
+- chapter_id: '02'
+  chapter_title: DSC Resources
+  section_id: '02.01'
+  title: Built-in Resource Types
+  status: completed
+- chapter_id: '02'
+  chapter_title: DSC Resources
+  section_id: '02.02'
+  title: Resource Properties and Parameters
+  status: completed
+- chapter_id: '02'
+  chapter_title: DSC Resources
+  section_id: '02.03'
+  title: Resource Behavior and Operations
+  status: completed
+- chapter_id: '03'
+  chapter_title: LCM Configuration
+  section_id: '03.01'
+  title: LCM Basics and Configuration
+  status: completed
+- chapter_id: '03'
+  chapter_title: LCM Configuration
+  section_id: '03.02'
+  title: LCM Settings and Reboot Control
+  status: completed
+- chapter_id: '03'
+  chapter_title: LCM Configuration
+  section_id: '03.03'
+  title: LCM Validation and Compliance
+  status: completed
+- chapter_id: '04'
+  chapter_title: Pull vs Push Server
+  section_id: '04.01'
+  title: Pull Server Architecture
+  status: completed
+- chapter_id: '04'
+  chapter_title: Pull vs Push Server
+  section_id: '04.02'
+  title: Push Server Configuration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Pull vs Push Server
+  section_id: '04.03'
+  title: Pull vs Push Server Comparison
+  status: completed
+- chapter_id: '05'
+  chapter_title: Custom DSC Resources
+  section_id: '05.01'
+  title: Creating Custom Resources
+  status: completed
+- chapter_id: '05'
+  chapter_title: Custom DSC Resources
+  section_id: '05.02'
+  title: Registering and Using Custom Resources
+  status: completed
+- chapter_id: '05'
+  chapter_title: Custom DSC Resources
+  section_id: '05.03'
+  title: Testing Custom Resources
+  status: completed
+- chapter_id: '06'
+  chapter_title: Composite Resources
+  section_id: '06.01'
+  title: Creating Composite Resources
+  status: completed
+- chapter_id: '06'
+  chapter_title: Composite Resources
+  section_id: '06.02'
+  title: Using Composite Resources in Configurations
+  status: completed
+- chapter_id: '06'
+  chapter_title: Composite Resources
+  section_id: '06.03'
+  title: Best Practices for Composite Resources
+  status: completed

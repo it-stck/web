@@ -1,0 +1,49 @@
+status: completed
+title: Side Channel Attacks and Fault Injection
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Side-Channel Attacks
+  section_id: '01.01'
+  title: Principles of Side-Channel Analysis
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Side-Channel Attacks
+  section_id: '01.02'
+  title: Simple Power Analysis (SPA)
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Side-Channel Attacks
+  section_id: '01.03'
+  title: Differential Power Analysis (DPA)
+  status: completed
+- chapter_id: '02'
+  chapter_title: Fault Injection Techniques
+  section_id: '02.01'
+  title: Clock Glitching
+  status: completed
+- chapter_id: '02'
+  chapter_title: Fault Injection Techniques
+  section_id: '02.02'
+  title: Voltage Glitching
+  status: completed
+- chapter_id: '02'
+  chapter_title: Fault Injection Techniques
+  section_id: '02.03'
+  title: Simple Fault Injection
+  status: completed
+- chapter_id: '03'
+  chapter_title: Countermeasures and Mitigation
+  section_id: '03.01'
+  title: Side-Channel Countermeasure Design
+  status: completed
+- chapter_id: '03'
+  chapter_title: Countermeasures and Mitigation
+  section_id: '03.02'
+  title: Fault Detection and Resilience
+  status: completed
+- chapter_id: '03'
+  chapter_title: Countermeasures and Mitigation
+  section_id: '03.03'
+  title: Secure System Design Principles
+  status: completed

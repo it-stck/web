@@ -1,0 +1,139 @@
+status: completed
+title: Kubernetes from Zero
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Kubernetes Architecture
+  section_id: '01.01'
+  title: Core Concepts and Components
+  status: completed
+- chapter_id: '01'
+  chapter_title: Kubernetes Architecture
+  section_id: '01.02'
+  title: Cluster Architecture and Design Patterns
+  status: completed
+- chapter_id: '01'
+  chapter_title: Kubernetes Architecture
+  section_id: '01.03'
+  title: Networking and Security Model
+  status: completed
+- chapter_id: '02'
+  chapter_title: Installation and Setup
+  section_id: '02.01'
+  title: Prerequisites and Environment Setup
+  status: completed
+- chapter_id: '02'
+  chapter_title: Installation and Setup
+  section_id: '02.02'
+  title: Single-Node Cluster Installation
+  status: completed
+- chapter_id: '02'
+  chapter_title: Installation and Setup
+  section_id: '02.03'
+  title: Multi-Node Cluster Setup
+  status: completed
+- chapter_id: '03'
+  chapter_title: Workloads and Pods
+  section_id: '03.01'
+  title: Pod Structure and Lifecycle
+  status: completed
+- chapter_id: '03'
+  chapter_title: Workloads and Pods
+  section_id: '03.02'
+  title: Pod Management and Orchestration
+  status: completed
+- chapter_id: '03'
+  chapter_title: Workloads and Pods
+  section_id: '03.03'
+  title: Pod Security and Best Practices
+  status: completed
+- chapter_id: '04'
+  chapter_title: Deployments and Services
+  section_id: '04.01'
+  title: Deployment Concepts and Strategies
+  status: completed
+- chapter_id: '04'
+  chapter_title: Deployments and Services
+  section_id: '04.02'
+  title: Service Types and Networking
+  status: completed
+- chapter_id: '04'
+  chapter_title: Deployments and Services
+  section_id: '04.03'
+  title: Service Mesh Integration
+  status: completed
+- chapter_id: '05'
+  chapter_title: Ingress and External Access
+  section_id: '05.01'
+  title: Ingress Controllers and Configuration
+  status: completed
+- chapter_id: '05'
+  chapter_title: Ingress and External Access
+  section_id: '05.02'
+  title: TLS Termination and Certificate Management
+  status: completed
+- chapter_id: '05'
+  chapter_title: Ingress and External Access
+  section_id: '05.03'
+  title: Ingress Routing and Path Matching
+  status: completed
+- chapter_id: '06'
+  chapter_title: Storage and Volumes
+  section_id: '06.01'
+  title: Persistent Volumes and Claims
+  status: completed
+- chapter_id: '06'
+  chapter_title: Storage and Volumes
+  section_id: '06.02'
+  title: Volume Types and CSI Integration
+  status: completed
+- chapter_id: '06'
+  chapter_title: Storage and Volumes
+  section_id: '06.03'
+  title: Stateful Applications and Operators
+  status: completed
+- chapter_id: '07'
+  chapter_title: Security and Compliance
+  section_id: '07.01'
+  title: RBAC and Access Control
+  status: completed
+- chapter_id: '07'
+  chapter_title: Security and Compliance
+  section_id: '07.02'
+  title: Network Policies and Pod Security
+  status: completed
+- chapter_id: '07'
+  chapter_title: Security and Compliance
+  section_id: '07.03'
+  title: Secrets Management and Encryption
+  status: completed
+- chapter_id: 08
+  chapter_title: Observability and Monitoring
+  section_id: '08.01'
+  title: Metrics and Logging Integration
+  status: completed
+- chapter_id: 08
+  chapter_title: Observability and Monitoring
+  section_id: '08.02'
+  title: Tracing and Distributed Context
+  status: completed
+- chapter_id: 08
+  chapter_title: Observability and Monitoring
+  section_id: '08.03'
+  title: Service Mesh Observability
+  status: completed
+- chapter_id: 09
+  chapter_title: Troubleshooting and Optimization
+  section_id: '09.01'
+  title: Debugging Pods and Deployments
+  status: completed
+- chapter_id: 09
+  chapter_title: Troubleshooting and Optimization
+  section_id: '09.02'
+  title: Performance Tuning and Scaling
+  status: completed
+- chapter_id: 09
+  chapter_title: Troubleshooting and Optimization
+  section_id: '09.03'
+  title: Common Errors and Mitigation
+  status: completed

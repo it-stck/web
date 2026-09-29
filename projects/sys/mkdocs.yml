@@ -1,0 +1,642 @@
+site_name: ITSTCK | Systems & Infrastructure
+site_description: Enterprise Cloud Architecture, DevOps, Linux, Windows, Networking & SRE.
+site_url: https://itstck.com/sys/
+
+repo_name: it-stck/web/projects/sys
+repo_url: https://github.com/it-stck/web/projects/sys
+edit_uri: edit/main/web/projects/sys/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  logo: https://itstck.com/assets/img/logo.webp
+  favicon: https://itstck.com/assets/img/favicon.ico
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: slate
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: slate
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+
+plugins:
+  - search
+  - meta
+
+nav:
+  - Home: index.md
+
+  # ── CLOUD ARCHITECTURE ──
+  - Cloud Architecture:
+      - Overview: cloud/index.md
+      - Courses:
+          - AWS Well-Architected Framework: cloud/courses/aws-cloud-architecture-well-architected-framework/index.md
+      - Guides:
+          - AWS Threat Detection & Security Hub:
+              - Overview: cloud/guides/aws-threat-detection-and-security-hub/01.01-aws-threat-detection-overview.md
+              - Components & Integration: cloud/guides/aws-threat-detection-and-security-hub/01.02-core-components-and-integration.md
+              - GuardDuty Setup: cloud/guides/aws-threat-detection-and-security-hub/02.01-guardduty-setup-and-configuration.md
+              - GuardDuty Findings: cloud/guides/aws-threat-detection-and-security-hub/02.02-analyzing-guardduty-findings.md
+              - Security Hub Controls: cloud/guides/aws-threat-detection-and-security-hub/03.01-security-hub-controls-configuration.md
+              - Automated Workflows: cloud/guides/aws-threat-detection-and-security-hub/03.02-automating-security-hub-workflows.md
+              - Macie Data Discovery: cloud/guides/aws-threat-detection-and-security-hub/04.01-macie-data-discovery-and-classification.md
+              - Macie Integration: cloud/guides/aws-threat-detection-and-security-hub/04.02-macie-integration-with-security-hub.md
+              - AWS Config Rules: cloud/guides/aws-threat-detection-and-security-hub/05.01-aws-config-rule-creation.md
+              - Monitoring Compliance: cloud/guides/aws-threat-detection-and-security-hub/05.02-monitoring-compliance-with-config.md
+              - Lambda Triggers: cloud/guides/aws-threat-detection-and-security-hub/06.01-lambda-triggers-for-security-events.md
+              - Automated Remediation: cloud/guides/aws-threat-detection-and-security-hub/06.02-automated-remediation-patterns.md
+          - Azure Identity & Entra ID: cloud/guides/azure-identity-and-microsoft-entra-id-management/index.md
+          - GCP Networking & Interconnect: cloud/guides/gcp-networking-and-interconnect/index.md
+      - References:
+          - CSPM & Cloud Compliance:
+              - CSPM Introduction: cloud/references/cspm-and-cloud-compliance-automation/01.01-introduction-to-cloud-security-posture-management.md
+              - CSPM Components: cloud/references/cspm-and-cloud-compliance-automation/01.02-key-components-of-cspm.md
+              - Infrastructure Discovery: cloud/references/cspm-and-cloud-compliance-automation/02.01-automating-cloud-infrastructure-discovery.md
+              - Compliance Policies: cloud/references/cspm-and-cloud-compliance-automation/03.01-designing-cloud-compliance-policies.md
+              - Prowler Policy Enforcement: cloud/references/cspm-and-cloud-compliance-automation/03.02-prowler-policy-enforcement-tool.md
+              - Misconfiguration Patterns: cloud/references/cspm-and-cloud-compliance-automation/04.01-common-cloud-misconfiguration-patterns.md
+              - Automated Detection: cloud/references/cspm-and-cloud-compliance-automation/04.02-automated-misconfiguration-detection.md
+              - Self-Healing Environments: cloud/references/cspm-and-cloud-compliance-automation/05.01-implementing-self-healing-cloud-environments.md
+              - CI/CD Compliance: cloud/references/cspm-and-cloud-compliance-automation/05.02-ci-cd-integration-for-compliance.md
+          - Serverless Architectures with AWS Lambda: cloud/references/serverless-architectures-with-aws-lambda/index.md
+      - Tips:
+          - FinOps & Cost Optimization: cloud/tips/cloud-finops-and-cost-optimization-strategies/index.md
+          - Container Image Signing with Cosign:
+              - Signing Overview: cloud/tips/container-image-signing-with-cosign/01.01-overview-of-container-image-signing.md
+              - Cosign & Sigstore: cloud/tips/container-image-signing-with-cosign/01.02-cosign-and-sigstore-integration.md
+              - Keyless Signing: cloud/tips/container-image-signing-with-cosign/01.03-keyless-signing-with-cosign.md
+              - Fulcio Certificates: cloud/tips/container-image-signing-with-cosign/02.01-fulcio-certificate-issuance.md
+              - Rekor Transparency Log: cloud/tips/container-image-signing-with-cosign/02.02-rekor-transparency-log-integration.md
+              - Kyverno Signature Verification: cloud/tips/container-image-signing-with-cosign/03.01-kyverno-for-signature-verification.md
+              - Registry Policies: cloud/tips/container-image-signing-with-cosign/03.02-registry-policies-for-signed-images.md
+              - Common Issues: cloud/tips/container-image-signing-with-cosign/04.01-common-issues-and-solutions.md
+              - Best Practices: cloud/tips/container-image-signing-with-cosign/04.02-best-practices-for-secure-signing.md
+
+  # ── DEVOPS & CI/CD ──
+  - DevOps & CI/CD:
+      - Overview: devops/index.md
+      - Courses:
+          - DevSecOps Security Controls in CI/CD:
+              - Principles & Integration: devops/courses/devsecops-security-controls-in-ci-cd/01.01-devsecops-principles-and-ci-cd-integration.md
+              - Key Security Controls: devops/courses/devsecops-security-controls-in-ci-cd/01.02-key-security-controls-in-ci-cd.md
+              - SAST & DAST Tools: devops/courses/devsecops-security-controls-in-ci-cd/02.01-static-and-dynamic-analysis-tools.md
+              - Pipeline Integration: devops/courses/devsecops-security-controls-in-ci-cd/02.02-integrating-sast-dast-into-ci-cd-pipelines.md
+              - SAST/DAST Best Practices: devops/courses/devsecops-security-controls-in-ci-cd/02.03-best-practices-for-sast-dast-implementation.md
+              - Dependency Risks: devops/courses/devsecops-security-controls-in-ci-cd/03.01-dependency-vulnerability-risks.md
+              - Dependency Scanning Tools: devops/courses/devsecops-security-controls-in-ci-cd/03.02-tools-for-dependency-scanning.md
+              - Automating Scans: devops/courses/devsecops-security-controls-in-ci-cd/03.03-automating-dependency-scans-in-ci-cd.md
+              - Securing Secrets: devops/courses/devsecops-security-controls-in-ci-cd/04.01-securing-secrets-in-ci-cd.md
+              - Secrets Scanning: devops/courses/devsecops-security-controls-in-ci-cd/04.02-secrets-scanning-tools-and-techniques.md
+              - Secret Management: devops/courses/devsecops-security-controls-in-ci-cd/04.03-implementing-secure-secret-management.md
+              - Policy as Code: devops/courses/devsecops-security-controls-in-ci-cd/05.01-policy-as-code-fundamentals.md
+              - Policy Enforcement: devops/courses/devsecops-security-controls-in-ci-cd/05.02-tools-for-policy-enforcement.md
+              - Policy in CI/CD: devops/courses/devsecops-security-controls-in-ci-cd/05.03-policy-integration-in-ci-cd-pipelines.md
+              - Conftest Overview: devops/courses/devsecops-security-controls-in-ci-cd/06.01-conftest-overview-and-use-cases.md
+              - OPA Dynamic Enforcement: devops/courses/devsecops-security-controls-in-ci-cd/06.02-opa-for-dynamic-policy-enforcement.md
+              - Conftest & OPA Integration: devops/courses/devsecops-security-controls-in-ci-cd/06.03-combining-conftest-and-opa-for-security.md
+          - Kubernetes Advanced Operations:
+              - Cluster Bootstrap: devops/courses/kubernetes-advanced-operations/01.01-cluster-bootstrap-techniques.md
+              - etcd Backup & Restore: devops/courses/kubernetes-advanced-operations/02.01-etcd-backup-and-restore.md
+              - Disaster Recovery: devops/courses/kubernetes-advanced-operations/02.02-disaster-recovery-strategies.md
+              - CRDs: devops/courses/kubernetes-advanced-operations/03.01-custom-resource-definitions.md
+              - Operators: devops/courses/kubernetes-advanced-operations/03.02-operators-and-operator-patterns.md
+              - Helm Development: devops/courses/kubernetes-advanced-operations/04.01-helm-chart-development.md
+              - RBAC: devops/courses/kubernetes-advanced-operations/05.01-role-based-access-control.md
+              - Network Policies: devops/courses/kubernetes-advanced-operations/05.02-network-policy-enforcement.md
+              - Autoscaling: devops/courses/kubernetes-advanced-operations/06.01-cluster-autoscaling.md
+              - Argo CD: devops/courses/kubernetes-advanced-operations/07.01-argo-cd-continuous-deployment.md
+          - Kubernetes from Zero:
+              - Core Concepts: devops/courses/kubernetes-from-zero/01.01-core-concepts-and-components.md
+              - Cluster Architecture: devops/courses/kubernetes-from-zero/01.02-cluster-architecture-and-design-patterns.md
+              - Networking & Security: devops/courses/kubernetes-from-zero/01.03-networking-and-security-model.md
+              - Prerequisites: devops/courses/kubernetes-from-zero/02.01-prerequisites-and-environment-setup.md
+              - Single-Node Setup: devops/courses/kubernetes-from-zero/02.02-single-node-cluster-installation.md
+              - Multi-Node Setup: devops/courses/kubernetes-from-zero/02.03-multi-node-cluster-setup.md
+              - Pod Structure: devops/courses/kubernetes-from-zero/03.01-pod-structure-and-lifecycle.md
+              - Pod Management: devops/courses/kubernetes-from-zero/03.02-pod-management-and-orchestration.md
+              - Pod Security: devops/courses/kubernetes-from-zero/03.03-pod-security-and-best-practices.md
+              - Deployments: devops/courses/kubernetes-from-zero/04.01-deployment-concepts-and-strategies.md
+              - Services: devops/courses/kubernetes-from-zero/04.02-service-types-and-networking.md
+              - Service Mesh: devops/courses/kubernetes-from-zero/04.03-service-mesh-integration.md
+              - Ingress Controllers: devops/courses/kubernetes-from-zero/05.01-ingress-controllers-and-configuration.md
+              - TLS Termination: devops/courses/kubernetes-from-zero/05.02-tls-termination-and-certificate-management.md
+              - Ingress Routing: devops/courses/kubernetes-from-zero/05.03-ingress-routing-and-path-matching.md
+              - Persistent Volumes: devops/courses/kubernetes-from-zero/06.01-persistent-volumes-and-claims.md
+              - CSI Integration: devops/courses/kubernetes-from-zero/06.02-volume-types-and-csi-integration.md
+              - Stateful Apps: devops/courses/kubernetes-from-zero/06.03-stateful-applications-and-operators.md
+              - Access Control: devops/courses/kubernetes-from-zero/07.01-rbac-and-access-control.md
+              - Network Policies: devops/courses/kubernetes-from-zero/07.02-network-policies-and-pod-security.md
+              - Secrets Encryption: devops/courses/kubernetes-from-zero/07.03-secrets-management-and-encryption.md
+              - Metrics & Logging: devops/courses/kubernetes-from-zero/08.01-metrics-and-logging-integration.md
+              - Distributed Tracing: devops/courses/kubernetes-from-zero/08.02-tracing-and-distributed-context.md
+              - Observability: devops/courses/kubernetes-from-zero/08.03-service-mesh-observability.md
+              - Debugging Pods: devops/courses/kubernetes-from-zero/09.01-debugging-pods-and-deployments.md
+              - Performance Tuning: devops/courses/kubernetes-from-zero/09.02-performance-tuning-and-scaling.md
+              - Troubleshooting: devops/courses/kubernetes-from-zero/09.03-common-errors-and-mitigation.md
+          - Terraform Infrastructure as Code:
+              - IaC Introduction: devops/courses/terraform-infrastructure-as-code/01.01-what-is-terraform-and-infrastructure-as-code.md
+              - Architecture: devops/courses/terraform-infrastructure-as-code/01.02-terraform-architecture-and-core-concepts.md
+              - HCL Fundamentals: devops/courses/terraform-infrastructure-as-code/02.01-hcl-fundamentals-blocks-attributes-and-expressions.md
+              - Data Sources & Resources: devops/courses/terraform-infrastructure-as-code/02.02-data-sources-and-resource-types.md
+              - State Management: devops/courses/terraform-infrastructure-as-code/03.01-terraform-state-files-management-and-security.md
+              - Workspaces: devops/courses/terraform-infrastructure-as-code/03.02-workspaces-for-environment-isolation.md
+              - Modules Creation: devops/courses/terraform-infrastructure-as-code/04.01-creating-and-reusing-terraform-modules.md
+              - Dependency Management: devops/courses/terraform-infrastructure-as-code/04.02-module-sources-and-dependency-management.md
+              - Remote Backends: devops/courses/terraform-infrastructure-as-code/05.01-remote-state-backends-s3-azure-and-consul.md
+              - State Locking: devops/courses/terraform-infrastructure-as-code/05.02-team-collaboration-with-state-locking-and-workspaces.md
+              - Drift Detection: devops/courses/terraform-infrastructure-as-code/06.01-drift-detection-and-remediation.md
+              - Custom Providers: devops/courses/terraform-infrastructure-as-code/06.02-custom-providers-and-third-party-integration.md
+              - CI/CD Pipelines: devops/courses/terraform-infrastructure-as-code/07.01-automating-terraform-with-ci-cd-pipelines.md
+              - Enterprise Workflows: devops/courses/terraform-infrastructure-as-code/07.02-terraform-enterprise-and-cloud-native-workflows.md
+      - Guides:
+          - Ansible Automation Handbook:
+              - Overview: devops/guides/ansible-automation-handbook/01.01-overview-of-ansible.md
+              - Idempotency: devops/guides/ansible-automation-handbook/01.02-understanding-idempotency.md
+              - Static Inventory: devops/guides/ansible-automation-handbook/02.01-static-inventory-configuration.md
+              - Dynamic Inventory: devops/guides/ansible-automation-handbook/02.02-dynamic-inventory-concepts.md
+              - Playbook Syntax: devops/guides/ansible-automation-handbook/03.01-playbook-structure-and-syntax.md
+              - Playbook Best Practices: devops/guides/ansible-automation-handbook/03.02-best-practices-for-playbook-design.md
+              - Role Structure: devops/guides/ansible-automation-handbook/04.01-role-structure-and-organization.md
+              - Role Best Practices: devops/guides/ansible-automation-handbook/04.02-role-best-practices.md
+              - Ansible Vault: devops/guides/ansible-automation-handbook/05.01-securing-sensitive-data.md
+              - Custom Modules: devops/guides/ansible-automation-handbook/06.01-creating-custom-modules.md
+              - AWX / Tower: devops/guides/ansible-automation-handbook/07.01-integrating-with-awx-tower.md
+          - Docker & Container Hardening:
+              - Image Scanning: devops/guides/docker-and-container-security-hardening/01.01-image-scanning-with-docker-and-third-party-tools.md
+              - Vulnerability Patching: devops/guides/docker-and-container-security-hardening/01.02-vulnerability-management-and-patching-strategies.md
+              - Rootless Containers: devops/guides/docker-and-container-security-hardening/02.01-rootless-containers-for-enhanced-privilege-isolation.md
+              - Seccomp Profiles: devops/guides/docker-and-container-security-hardening/02.02-securing-container-runtimes-with-seccomp-profiles.md
+              - Linux Capabilities: devops/guides/docker-and-container-security-hardening/03.01-dropping-linux-capabilities-in-container-processes.md
+              - Multi-Stage Builds: devops/guides/docker-and-container-security-hardening/03.02-multi-stage-builds-for-minimal-base-images.md
+              - Container Secrets: devops/guides/docker-and-container-security-hardening/04.01-secure-secret-management-in-containerized-applications.md
+              - Hardening Configs: devops/guides/docker-and-container-security-hardening/04.02-hardening-container-configuration-files.md
+              - Security Logging: devops/guides/docker-and-container-security-hardening/05.01-monitoring-and-logging-for-container-security.md
+              - Runtime Auditing: devops/guides/docker-and-container-security-hardening/05.02-advanced-runtime-security-auditing-and-compliance.md
+          - Kubernetes Runtime Security with Falco:
+              - Overview: devops/guides/kubernetes-runtime-security-with-falco/01.01-overview-of-falco-and-kubernetes-security-challenges.md
+              - Architecture: devops/guides/kubernetes-runtime-security-with-falco/01.02-falco-architecture-and-integration-with-kubernetes.md
+              - Rule Syntax: devops/guides/kubernetes-runtime-security-with-falco/02.01-understanding-falco-rules-and-rule-syntax.md
+              - Testing Rules: devops/guides/kubernetes-runtime-security-with-falco/02.02-writing-and-testing-basic-falco-rules.md
+              - Syscall Monitoring: devops/guides/kubernetes-runtime-security-with-falco/03.01-syscall-monitoring-fundamentals-with-falco.md
+              - Detection Policies: devops/guides/kubernetes-runtime-security-with-falco/03.02-configuring-syscall-based-detection-policies.md
+              - Audit Log Correlation: devops/guides/kubernetes-runtime-security-with-falco/04.01-correlating-falco-alerts-with-kubernetes-audit-logs.md
+              - Analyzing Security Events: devops/guides/kubernetes-runtime-security-with-falco/04.02-analyzing-combined-security-event-data.md
+              - Alert Outputs: devops/guides/kubernetes-runtime-security-with-falco/05.01-configuring-falco-alert-outputs.md
+              - Visualizing Alerts: devops/guides/kubernetes-runtime-security-with-falco/05.02-visualizing-falco-alerts-with-monitoring-tools.md
+              - Custom Threat Rules: devops/guides/kubernetes-runtime-security-with-falco/06.01-building-custom-falco-rules-for-advanced-threats.md
+              - Deploying Policies: devops/guides/kubernetes-runtime-security-with-falco/06.02-deploying-and-validating-custom-security-policies.md
+      - References:
+          - GitHub Actions Pipelines:
+              - Workflows Intro: devops/references/github-actions-and-ci-cd-pipelines/01.01-introduction-to-github-actions-workflows.md
+              - Workflow Syntax: devops/references/github-actions-and-ci-cd-pipelines/01.02-workflow-syntax-fundamentals.md
+              - Jobs & Steps: devops/references/github-actions-and-ci-cd-pipelines/01.03-job-and-step-configuration.md
+              - Custom Actions: devops/references/github-actions-and-ci-cd-pipelines/02.01-creating-custom-actions.md
+              - Inputs & Outputs: devops/references/github-actions-and-ci-cd-pipelines/02.02-using-action-inputs-and-outputs.md
+              - Matrix Builds: devops/references/github-actions-and-ci-cd-pipelines/03.01-matrix-builds-for-multi-configuration.md
+              - Caching Optimization: devops/references/github-actions-and-ci-cd-pipelines/03.02-caching-for-build-optimization.md
+              - Artifacts Management: devops/references/github-actions-and-ci-cd-pipelines/04.01-managing-build-artifacts.md
+              - Deployment Automation: devops/references/github-actions-and-ci-cd-pipelines/04.02-deployment-automation-patterns.md
+              - Security Scanning: devops/references/github-actions-and-ci-cd-pipelines/05.01-security-scanning-integration.md
+              - Reusable Workflows: devops/references/github-actions-and-ci-cd-pipelines/06.01-reusable-workflows-for-complex-pipelines.md
+              - Deployment Gates: devops/references/github-actions-and-ci-cd-pipelines/06.02-deployment-gates-and-approval-workflows.md
+
+  # ── LINUX SYSTEMS ──
+  - Linux Systems:
+      - Overview: linux/index.md
+      - Courses:
+          - Advanced Linux Storage (ZFS & Btrfs):
+              - ZFS Pools: linux/courses/advanced-linux-storage-zfs-and-btrfs/01.01-zfs-pool-creation.md
+              - Snapshots & Clones: linux/courses/advanced-linux-storage-zfs-and-btrfs/01.02-snapshots-and-clones.md
+              - ZFS Send & Receive: linux/courses/advanced-linux-storage-zfs-and-btrfs/01.03-zfs-send-and-receive.md
+              - RAIDZ Configurations: linux/courses/advanced-linux-storage-zfs-and-btrfs/01.04-raidz-configurations.md
+              - Btrfs Subvolumes: linux/courses/advanced-linux-storage-zfs-and-btrfs/02.01-btrfs-subvolumes.md
+          - BASH Scripting Mastery:
+              - Variables & Scope: linux/courses/bash-scripting-mastery/01.01-variable-declaration-and-scope.md
+              - Arrays: linux/courses/bash-scripting-mastery/01.02-array-manipulation.md
+              - Special Parameters: linux/courses/bash-scripting-mastery/01.03-special-variables-and-parameters.md
+              - Conditionals: linux/courses/bash-scripting-mastery/02.01-conditional-statements.md
+              - Loops: linux/courses/bash-scripting-mastery/02.02-loops-and-iteration.md
+              - Loop Control: linux/courses/bash-scripting-mastery/02.03-loop-control-and-break-continue.md
+              - Functions: linux/courses/bash-scripting-mastery/03.01-function-definition-and-invocation.md
+              - Local Variables: linux/courses/bash-scripting-mastery/03.02-local-variables-and-scope.md
+              - Return Values: linux/courses/bash-scripting-mastery/03.03-function-return-values.md
+              - Pattern Matching: linux/courses/bash-scripting-mastery/04.01-pattern-matching-basics.md
+              - Regex Tests: linux/courses/bash-scripting-mastery/04.02-regex-in-conditional-tests.md
+              - Regex Substitution: linux/courses/bash-scripting-mastery/04.03-regex-substitution.md
+              - sed Fundamentals: linux/courses/bash-scripting-mastery/05.01-sed-command-fundamentals.md
+              - awk Data Analysis: linux/courses/bash-scripting-mastery/05.02-awk-for-data-analysis.md
+              - Combining sed & awk: linux/courses/bash-scripting-mastery/05.03-combining-sed-and-awk.md
+              - Exit Codes & Debugging: linux/courses/bash-scripting-mastery/06.01-exit-codes-and-debugging.md
+              - Trap Command: linux/courses/bash-scripting-mastery/06.02-trap-command-for-cleanup.md
+              - Error Logging: linux/courses/bash-scripting-mastery/06.03-error-logging-and-reporting.md
+              - Argument Parsing: linux/courses/bash-scripting-mastery/07.01-getopts-for-argument-parsing.md
+              - Positional Parameters: linux/courses/bash-scripting-mastery/07.02-handling-positional-parameters.md
+              - Redirection: linux/courses/bash-scripting-mastery/08.01-input-output-redirection.md
+              - Here Documents: linux/courses/bash-scripting-mastery/08.02-here-documents-and-herestrings.md
+              - Subshells & Jobs: linux/courses/bash-scripting-mastery/09.01-subshells-and-background-jobs.md
+              - Process Substitution: linux/courses/bash-scripting-mastery/09.02-process-substitution.md
+              - Logging Best Practices: linux/courses/bash-scripting-mastery/10.01-logging-best-practices.md
+              - Debugging Techniques: linux/courses/bash-scripting-mastery/10.02-debugging-techniques.md
+          - Linux Kernel Module Development:
+              - Module Overview: linux/courses/linux-kernel-module-development/01.01-kernel-module-overview.md
+              - Dev Environment: linux/courses/linux-kernel-module-development/01.02-development-environment-setup.md
+              - First Module: linux/courses/linux-kernel-module-development/01.03-writing-a-simple-module.md
+              - Compilation & Loading: linux/courses/linux-kernel-module-development/01.04-compilation-and-loading.md
+              - Char Devices: linux/courses/linux-kernel-module-development/02.01-character-device-fundamentals.md
+              - Device Creation: linux/courses/linux-kernel-module-development/02.02-creating-a-character-device.md
+              - File Operations: linux/courses/linux-kernel-module-development/02.03-file-operation-implementation.md
+              - Driver Lifecycle: linux/courses/linux-kernel-module-development/02.04-device-driver-lifecycle.md
+              - procfs Overview: linux/courses/linux-kernel-module-development/03.01-procfs-filesystem-overview.md
+              - sysfs Fundamentals: linux/courses/linux-kernel-module-development/03.02-sysfs-filesystem-fundamentals.md
+              - procfs Entries: linux/courses/linux-kernel-module-development/03.03-creating-procfs-entries.md
+              - sysfs Attributes: linux/courses/linux-kernel-module-development/03.04-sysfs-attribute-implementation.md
+              - Concurrency: linux/courses/linux-kernel-module-development/04.01-concurrency-challenges.md
+              - Spinlocks & Mutexes: linux/courses/linux-kernel-module-development/04.02-spinlocks-and-mutexes.md
+              - Atomic Operations: linux/courses/linux-kernel-module-development/04.03-atomic-operations.md
+              - Interrupts: linux/courses/linux-kernel-module-development/04.04-interrupt-handling.md
+              - Kernel Memory: linux/courses/linux-kernel-module-development/05.01-kernel-memory-overview.md
+              - kmalloc & kfree: linux/courses/linux-kernel-module-development/05.02-kmalloc-and-kfree-usage.md
+              - Slab Allocator: linux/courses/linux-kernel-module-development/05.03-slab-allocator-fundamentals.md
+              - Memory Best Practices: linux/courses/linux-kernel-module-development/05.04-memory-management-best-practices.md
+          - Kernel Tuning & Performance:
+              - sysctl Parameters: linux/courses/linux-kernel-tuning-and-performance-optimization/01.01-sysctl-parameter-overview.md
+              - Network Tuning: linux/courses/linux-kernel-tuning-and-performance-optimization/01.02-network-performance-tuning.md
+              - Memory Tuning: linux/courses/linux-kernel-tuning-and-performance-optimization/01.03-memory-management-tuning.md
+              - Storage I/O Tuning: linux/courses/linux-kernel-tuning-and-performance-optimization/01.04-storage-i-o-tuning.md
+              - Virtual Memory: linux/courses/linux-kernel-tuning-and-performance-optimization/02.01-linux-virtual-memory-architecture.md
+              - Swap Configuration: linux/courses/linux-kernel-tuning-and-performance-optimization/02.02-swap-space-configuration.md
+              - Swappiness Tuning: linux/courses/linux-kernel-tuning-and-performance-optimization/02.03-swappiness-tuning.md
+              - I/O Schedulers: linux/courses/linux-kernel-tuning-and-performance-optimization/03.01-i-o-scheduler-overview.md
+              - Scheduler Config: linux/courses/linux-kernel-tuning-and-performance-optimization/03.02-scheduler-configuration.md
+              - I/O Optimization: linux/courses/linux-kernel-tuning-and-performance-optimization/03.03-advanced-i-o-optimization.md
+              - cgroups v2: linux/courses/linux-kernel-tuning-and-performance-optimization/04.01-cgroups-v2-architecture.md
+              - Resource Limits: linux/courses/linux-kernel-tuning-and-performance-optimization/04.02-cpu-and-memory-limiting.md
+              - cgroups Monitoring: linux/courses/linux-kernel-tuning-and-performance-optimization/04.03-cgroups-monitoring-and-debugging.md
+              - CPU Governors: linux/courses/linux-kernel-tuning-and-performance-optimization/05.01-cpu-governor-overview.md
+              - Frequency Scaling: linux/courses/linux-kernel-tuning-and-performance-optimization/05.02-dynamic-frequency-scaling.md
+              - Real-time CPU: linux/courses/linux-kernel-tuning-and-performance-optimization/05.03-real-time-cpu-scheduling.md
+              - eBPF Fundamentals: linux/courses/linux-kernel-tuning-and-performance-optimization/06.01-ebpf-fundamentals.md
+              - eBPF Tracing: linux/courses/linux-kernel-tuning-and-performance-optimization/06.02-performance-monitoring-with-ebpf.md
+              - eBPF Debugging: linux/courses/linux-kernel-tuning-and-performance-optimization/06.03-ebpf-for-security-and-debugging.md
+              - perf Suite: linux/courses/linux-kernel-tuning-and-performance-optimization/07.01-perf-tool-suite.md
+              - SystemTap Tracing: linux/courses/linux-kernel-tuning-and-performance-optimization/07.02-systemtap-for-dynamic-tracing.md
+              - Profiling Data: linux/courses/linux-kernel-tuning-and-performance-optimization/07.03-analyzing-profiling-data.md
+              - Swap Best Practices: linux/courses/linux-kernel-tuning-and-performance-optimization/08.01-swap-partition-best-practices.md
+              - Memory Pressure: linux/courses/linux-kernel-tuning-and-performance-optimization/08.02-memory-pressure-mitigation.md
+              - Persistent Memory: linux/courses/linux-kernel-tuning-and-performance-optimization/08.03-persistent-memory-and-swap.md
+      - Guides:
+          - Hardening Enterprise Linux:
+              - SELinux & AppArmor: linux/guides/hardening-enterprise-linux-servers/01.01-selinux-and-apparmor-overview.md
+              - PAM Configuration: linux/guides/hardening-enterprise-linux-servers/02.01-pam-configuration-for-secure-authentication.md
+              - SSH Hardening: linux/guides/hardening-enterprise-linux-servers/03.01-ssh-hardening-techniques.md
+              - Firewalld & nftables: linux/guides/hardening-enterprise-linux-servers/04.01-configuring-firewalld-and-nftables-for-network-security.md
+              - Auditd Setup: linux/guides/hardening-enterprise-linux-servers/05.01-implementing-auditd-for-security-auditing.md
+              - LUKS Encryption: linux/guides/hardening-enterprise-linux-servers/06.01-luks-disk-encryption-for-data-security.md
+              - Kernel Hardening: linux/guides/hardening-enterprise-linux-servers/07.01-kernel-hardening-techniques.md
+          - HA Clustering with Pacemaker:
+              - Corosync Overview: linux/guides/high-availability-clustering-with-pacemaker/01.01-corosync-messaging-overview.md
+              - Corosync Config: linux/guides/high-availability-clustering-with-pacemaker/01.02-configuring-corosync-messaging.md
+              - Securing Corosync: linux/guides/high-availability-clustering-with-pacemaker/01.03-securing-corosync-communication.md
+              - Pacemaker Resources: linux/guides/high-availability-clustering-with-pacemaker/02.01-pacemaker-resource-management.md
+              - Resource Groups: linux/guides/high-availability-clustering-with-pacemaker/02.02-creating-and-managing-resources.md
+              - Colocation Rules: linux/guides/high-availability-clustering-with-pacemaker/02.03-resource-groups-and-colocation.md
+              - STONITH Concepts: linux/guides/high-availability-clustering-with-pacemaker/03.01-stonith-fencing-concepts.md
+              - Fencing Devices: linux/guides/high-availability-clustering-with-pacemaker/03.02-configuring-stonith-devices.md
+              - Validating Fencing: linux/guides/high-availability-clustering-with-pacemaker/03.03-testing-and-validating-fencing.md
+              - Virtual IP Config: linux/guides/high-availability-clustering-with-pacemaker/04.01-virtual-ip-address-configuration.md
+              - VIP Failover: linux/guides/high-availability-clustering-with-pacemaker/04.02-vip-failover-automation.md
+              - Network Resilience: linux/guides/high-availability-clustering-with-pacemaker/04.03-network-resilience-best-practices.md
+              - Cluster Health: linux/guides/high-availability-clustering-with-pacemaker/05.01-monitoring-cluster-health.md
+              - Cluster Alerts: linux/guides/high-availability-clustering-with-pacemaker/05.02-setting-up-cluster-alerts.md
+              - Troubleshooting: linux/guides/high-availability-clustering-with-pacemaker/05.03-cluster-maintenance-and-troubleshooting.md
+          - systemd Deep Dive:
+              - Unit Files Syntax: linux/guides/systemd-deep-dive-and-service-management/01.01-understanding-systemd-unit-files.md
+              - Custom Services: linux/guides/systemd-deep-dive-and-service-management/01.02-writing-custom-service-unit-files.md
+              - Best Practices: linux/guides/systemd-deep-dive-and-service-management/01.03-unit-file-syntax-and-best-practices.md
+              - Targets & Runlevels: linux/guides/systemd-deep-dive-and-service-management/02.01-systemd-targets-and-runlevels.md
+              - Multi-User Envs: linux/guides/systemd-deep-dive-and-service-management/02.02-managing-targets-and-multi-user-environments.md
+              - journalctl Basics: linux/guides/systemd-deep-dive-and-service-management/03.01-systemd-journalctl-basics.md
+              - Querying Logs: linux/guides/systemd-deep-dive-and-service-management/03.02-querying-and-filtering-journal-logs.md
+              - Timer Units: linux/guides/systemd-deep-dive-and-service-management/04.01-systemd-timer-units-overview.md
+              - Configuring Timers: linux/guides/systemd-deep-dive-and-service-management/04.02-configuring-systemd-timers.md
+              - Resource Limits: linux/guides/systemd-deep-dive-and-service-management/05.01-setting-resource-limits-for-services.md
+              - systemd-nspawn: linux/guides/systemd-deep-dive-and-service-management/06.01-using-nspawn-for-containerization.md
+              - Boot Failures: linux/guides/systemd-deep-dive-and-service-management/07.01-diagnosing-boot-failures-with-systemd.md
+      - References:
+          - eBPF Performance Tracing (BCC):
+              - BCC Toolchain: linux/references/ebpf-performance-tracing-with-bcc/01.01-ebpf-overview-and-use-cases.md
+              - Architecture: linux/references/ebpf-performance-tracing-with-bcc/01.02-bcc-toolchain-architecture.md
+              - Setup: linux/references/ebpf-performance-tracing-with-bcc/01.03-setting-up-bcc-on-linux.md
+              - bpftrace Basics: linux/references/ebpf-performance-tracing-with-bcc/02.01-bpftrace-basics-and-syntax.md
+              - Tracing Scripts: linux/references/ebpf-performance-tracing-with-bcc/02.02-writing-performance-tracing-scripts.md
+              - Debugging Scripts: linux/references/ebpf-performance-tracing-with-bcc/02.03-debugging-bpftrace-scripts.md
+              - Probes (kprobes/uprobes): linux/references/ebpf-performance-tracing-with-bcc/03.01-kprobes-and-kretprobes-overview.md
+              - uprobes Usage: linux/references/ebpf-performance-tracing-with-bcc/03.02-using-uprobes-for-user-space-tracing.md
+              - Probe Config: linux/references/ebpf-performance-tracing-with-bcc/03.03-advanced-probe-configuration.md
+              - Tracepoints: linux/references/ebpf-performance-tracing-with-bcc/04.01-linux-tracepoint-mechanism.md
+              - Collecting Data: linux/references/ebpf-performance-tracing-with-bcc/04.02-collecting-tracepoint-data-with-bcc.md
+              - Filtering Data: linux/references/ebpf-performance-tracing-with-bcc/04.03-filtering-and-aggregating-tracepoint-data.md
+              - Profiling CPU/Memory: linux/references/ebpf-performance-tracing-with-bcc/05.01-cpu-and-memory-profiling-with-bcc.md
+              - I/O Latency: linux/references/ebpf-performance-tracing-with-bcc/05.02-i-o-and-network-latency-analysis.md
+              - Benchmarking: linux/references/ebpf-performance-tracing-with-bcc/05.03-benchmarking-with-bcc-tools.md
+          - Linux Network Stack & eBPF:
+              - Network Stack Overview: linux/references/linux-network-stack-and-ebpf-deep-dive/01.01-linux-network-stack-overview.md
+              - Socket Options: linux/references/linux-network-stack-and-ebpf-deep-dive/01.02-socket-options-and-configuration.md
+              - Netfilter & nftables: linux/references/linux-network-stack-and-ebpf-deep-dive/01.03-netfilter-and-iptables-nftables.md
+              - Routing Tables: linux/references/linux-network-stack-and-ebpf-deep-dive/02.01-routing-table-configuration.md
+              - Traffic Control (tc): linux/references/linux-network-stack-and-ebpf-deep-dive/02.02-traffic-control-with-tc.md
+              - XDP Basics: linux/references/linux-network-stack-and-ebpf-deep-dive/03.01-ebpf-overview-and-xdp-basics.md
+              - Packet Tracing: linux/references/linux-network-stack-and-ebpf-deep-dive/03.02-ebpf-for-packet-tracing-and-analysis.md
+              - Interface Bonding: linux/references/linux-network-stack-and-ebpf-deep-dive/04.01-interface-bonding-and-load-balancing.md
+              - VLAN Tagging: linux/references/linux-network-stack-and-ebpf-deep-dive/04.02-vlan-tagging-and-802-1q-configuration.md
+              - tcpdump & Wireshark: linux/references/linux-network-stack-and-ebpf-deep-dive/05.01-packet-tracing-with-tcpdump-and-wireshark.md
+              - Performance Monitoring: linux/references/linux-network-stack-and-ebpf-deep-dive/05.02-performance-monitoring-and-optimization.md
+      - Tips:
+          - Linux OOM Killer Analysis:
+              - OOM Basics: linux/tips/linux-out-of-memory-oom-analysis/01.01-oom-basics-and-the-oom-killer.md
+              - Analyzing OOM: linux/tips/linux-out-of-memory-oom-analysis/01.02-analyzing-oom-events-with-dmesg-and-proc.md
+              - SysRq Trigger: linux/tips/linux-out-of-memory-oom-analysis/01.03-using-sysrq-trigger-for-oom-debugging.md
+              - oom_score_adj: linux/tips/linux-out-of-memory-oom-analysis/02.01-adjusting-oom-score-adj-for-process-prioritization.md
+              - VM Overcommit: linux/tips/linux-out-of-memory-oom-analysis/02.02-configuring-vm-overcommit-for-memory-management.md
+              - Swap Behavior: linux/tips/linux-out-of-memory-oom-analysis/02.03-optimizing-swap-space-and-behavior.md
+              - cgroups Limits: linux/tips/linux-out-of-memory-oom-analysis/02.04-enforcing-memory-limits-with-cgroups.md
+
+  # ── NETWORKING & TELECOM ──
+  - Networking & Telecom:
+      - Overview: networking/index.md
+      - Courses:
+          - BGP Routing & ISP Architecture: networking/courses/bgp-routing-protocol-and-isp-architecture/index.md
+          - Cisco CCNA Core Mastery: networking/courses/cisco-ccna-core-networking-mastery/index.md
+      - Guides:
+          - Enterprise Wi-Fi 6 & 6E Design: networking/guides/enterprise-wi-fi-6-and-6e-design/index.md
+          - SD-WAN & SASE Architecture: networking/guides/sd-wan-and-sase-architecture/index.md
+      - References:
+          - Wireshark Traffic Analysis: networking/references/wireshark-network-traffic-analysis-reference/index.md
+
+  # ── SRE & OBSERVABILITY ──
+  - SRE & Observability:
+      - Overview: sre/index.md
+      - Courses:
+          - SRE Fundamentals (SLIs, SLOs & Error Budgets):
+              - SRE Introduction: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/01.01-what-is-site-reliability-engineering.md
+              - SLIs & SLOs Overview: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/01.02-slis-slos-and-error-budgets-overview.md
+              - Measuring SLIs: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/02.01-defining-and-measuring-slis.md
+              - Managing SLOs: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/02.02-establishing-and-managing-slos.md
+              - Error Budgets: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/03.01-calculating-and-managing-error-budgets.md
+              - Business Goals Balance: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/03.02-reliability-vs-other-business-goals.md
+              - Identifying Toil: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/04.01-identifying-and-reducing-toil.md
+              - Reducing Toil: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/04.02-tools-and-practices-for-toil-reduction.md
+              - Burn Rate Alerting: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/05.01-understanding-alerting-burn-rate.md
+              - Alert Fatigue: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/05.02-mitigating-alert-fatigue.md
+              - Success Metrics: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/06.01-key-metrics-for-sre-success.md
+              - Observability Stack: sre/courses/sre-fundamentals-slis-slos-and-error-budgets/06.02-building-an-observability-stack.md
+      - Guides:
+          - Chaos Engineering (LitmusChaos & Gremlin):
+              - Fundamentals: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/01.01-chaos-engineering-fundamentals.md
+              - Tools Overview: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/01.02-tools-overview-litmuschaos-and-gremlin.md
+              - Practices Setup: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/01.03-setting-up-chaos-engineering-practices.md
+              - LitmusChaos Setup: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/02.01-getting-started-with-litmuschaos.md
+              - Litmus Faults: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/02.02-litmuschaos-fault-types-and-use-cases.md
+              - Litmus Best Practices: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/02.03-litmuschaos-best-practices.md
+              - Gremlin Kubernetes: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/03.01-gremlin-kubernetes-chaos-setup.md
+              - Advanced Scenarios: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/03.02-advanced-kubernetes-chaos-scenarios.md
+              - Observability Integration: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/03.03-gremlin-and-observability-integration.md
+              - Resilience Tests: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/04.01-designing-resilience-tests.md
+              - Automating Resilience: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/04.02-automating-resilience-workflows.md
+              - Post-Experiment Analysis: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/04.03-post-experiment-analysis.md
+              - Steady State: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/05.01-understanding-steady-state-in-chaos.md
+              - Chaos Mesh & Litmus: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/05.02-orchestration-with-chaos-mesh-and-litmus.md
+              - Hypothesis Validation: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/05.03-chaos-hypothesis-validation.md
+              - Game Days: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/06.01-planning-and-executing-game-days.md
+              - Game Day Postmortems: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/06.02-postmortem-analysis-for-game-days.md
+              - Production Chaos: sre/guides/chaos-engineering-with-litmuschaos-and-gremlin/06.03-scaling-chaos-engineering-to-production.md
+          - OpenTelemetry Tracing & Metrics:
+              - Overview: sre/guides/opentelemetry-distributed-tracing-and-metrics/01.01-overview-of-opentelemetry.md
+              - Concepts: sre/guides/opentelemetry-distributed-tracing-and-metrics/01.02-key-concepts-and-terminology.md
+              - Setup: sre/guides/opentelemetry-distributed-tracing-and-metrics/02.01-installation-and-setup.md
+              - Processing Pipelines: sre/guides/opentelemetry-distributed-tracing-and-metrics/02.02-configuration-and-processing-pipelines.md
+              - Exporting Data: sre/guides/opentelemetry-distributed-tracing-and-metrics/02.03-exporting-data-to-monitoring-tools.md
+              - Auto-Instrumentation: sre/guides/opentelemetry-distributed-tracing-and-metrics/03.01-how-auto-instrumentation-works.md
+              - Use Cases: sre/guides/opentelemetry-distributed-tracing-and-metrics/03.02-use-cases-and-limitations.md
+              - Trace Context: sre/guides/opentelemetry-distributed-tracing-and-metrics/04.01-understanding-trace-context.md
+              - Trace Propagation: sre/guides/opentelemetry-distributed-tracing-and-metrics/04.02-implementing-trace-propagation.md
+              - Jaeger Setup: sre/guides/opentelemetry-distributed-tracing-and-metrics/05.01-setting-up-jaeger-with-opentelemetry.md
+              - Tracing & Sampling: sre/guides/opentelemetry-distributed-tracing-and-metrics/05.02-configuring-tracing-and-sampling.md
+          - Prometheus & Grafana Observability:
+              - Data Model: sre/guides/prometheus-and-grafana-enterprise-observability/01.01-core-components-and-data-model.md
+              - Federation: sre/guides/prometheus-and-grafana-enterprise-observability/01.02-federation-and-distributed-architecture.md
+              - High Availability: sre/guides/prometheus-and-grafana-enterprise-observability/01.03-high-availability-and-scalability-patterns.md
+              - PromQL Basics: sre/guides/prometheus-and-grafana-enterprise-observability/02.01-basic-query-syntax-and-aggregation.md
+              - Advanced PromQL: sre/guides/prometheus-and-grafana-enterprise-observability/02.02-advanced-querying-techniques.md
+              - Subqueries: sre/guides/prometheus-and-grafana-enterprise-observability/02.03-subqueries-and-pipeline-operators.md
+              - Alert Routing: sre/guides/prometheus-and-grafana-enterprise-observability/03.01-alert-routing-and-escalation-policies.md
+              - Notification Templates: sre/guides/prometheus-and-grafana-enterprise-observability/03.02-notification-templates-and-customization.md
+              - Alert Suppression: sre/guides/prometheus-and-grafana-enterprise-observability/03.03-alert-suppression-and-deduplication.md
+              - Data Sources: sre/guides/prometheus-and-grafana-enterprise-observability/04.01-connecting-to-prometheus-data-sources.md
+              - Dashboard Design: sre/guides/prometheus-and-grafana-enterprise-observability/04.02-dashboard-design-patterns-for-sre.md
+              - Advanced Dashboards: sre/guides/prometheus-and-grafana-enterprise-observability/04.03-advanced-dashboard-features.md
+              - Storage Retention: sre/guides/prometheus-and-grafana-enterprise-observability/05.01-retention-policies-and-storage-configuration.md
+              - Tiered Storage: sre/guides/prometheus-and-grafana-enterprise-observability/05.02-data-archiving-and-tiered-storage.md
+              - Compliance Policies: sre/guides/prometheus-and-grafana-enterprise-observability/05.03-compliance-and-data-retention-policies.md
+      - References:
+          - Blameless Postmortems & Incident Management:
+              - Incident Command: sre/references/blameless-postmortems-and-incident-management/01.01-incident-command-structure.md
+              - Timeline Reconstruction: sre/references/blameless-postmortems-and-incident-management/01.02-timeline-reconstruction.md
+              - Protocols: sre/references/blameless-postmortems-and-incident-management/01.03-communication-protocols.md
+              - Template Design: sre/references/blameless-postmortems-and-incident-management/02.01-postmortem-template-design.md
+              - Root Cause Analysis: sre/references/blameless-postmortems-and-incident-management/02.02-root-cause-analysis-techniques.md
+              - Action Items: sre/references/blameless-postmortems-and-incident-management/02.03-action-item-prioritization.md
+
+  # ── WINDOWS & ACTIVE DIRECTORY ──
+  - Windows & Active Directory:
+      - Overview: windows/index.md
+      - Courses:
+          - Active Directory Certificate Services (AD CS):
+              - Templates Overview: windows/courses/active-directory-certificate-services-security/01.01-understanding-certificate-templates.md
+              - Configuring Templates: windows/courses/active-directory-certificate-services-security/01.02-creating-and-configuring-certificate-templates.md
+              - Managing Templates: windows/courses/active-directory-certificate-services-security/01.03-managing-certificate-templates.md
+              - ESC1 Vulnerability: windows/courses/active-directory-certificate-services-security/02.01-esc1-vulnerability-overview.md
+              - ESC2 Vulnerability: windows/courses/active-directory-certificate-services-security/02.02-esc2-vulnerability-overview.md
+              - ESC3 Vulnerability: windows/courses/active-directory-certificate-services-security/02.03-esc3-vulnerability-overview.md
+              - ESC4 Vulnerability: windows/courses/active-directory-certificate-services-security/02.04-esc4-vulnerability-overview.md
+              - ESC5 Vulnerability: windows/courses/active-directory-certificate-services-security/02.05-esc5-vulnerability-overview.md
+              - ESC6 Vulnerability: windows/courses/active-directory-certificate-services-security/02.06-esc6-vulnerability-overview.md
+              - ESC7 Vulnerability: windows/courses/active-directory-certificate-services-security/02.07-esc7-vulnerability-overview.md
+              - ESC8 Vulnerability: windows/courses/active-directory-certificate-services-security/02.08-esc8-vulnerability-overview.md
+              - Installing AD CS: windows/courses/active-directory-certificate-services-security/03.01-installing-and-configuring-certificate-services.md
+              - CA Roles: windows/courses/active-directory-certificate-services-security/03.02-configuring-certificate-authority-roles.md
+              - Securing AD CS: windows/courses/active-directory-certificate-services-security/03.03-securing-certificate-services-infrastructure.md
+              - PKINIT Overview: windows/courses/active-directory-certificate-services-security/04.01-pkinit-overview-and-requirements.md
+              - Configuring PKINIT: windows/courses/active-directory-certificate-services-security/04.02-configuring-pkinit-for-kerberos.md
+              - Troubleshooting PKINIT: windows/courses/active-directory-certificate-services-security/04.03-troubleshooting-pkinit-issues.md
+              - Auto-Enrollment: windows/courses/active-directory-certificate-services-security/05.01-enabling-auto-enrollment-for-certificates.md
+              - Auto-Enrollment Policies: windows/courses/active-directory-certificate-services-security/05.02-auto-enrollment-policies-and-scenarios.md
+              - Troubleshooting Auto-Enrollment: windows/courses/active-directory-certificate-services-security/05.03-troubleshooting-auto-enrollment-failures.md
+          - PowerShell DSC (Desired State Configuration):
+              - DSC Overview: windows/courses/powershell-desired-state-configuration-dsc/01.01-dsc-overview-and-purpose.md
+              - Core Concepts: windows/courses/powershell-desired-state-configuration-dsc/01.02-core-dsc-concepts.md
+              - Syntax Basics: windows/courses/powershell-desired-state-configuration-dsc/01.03-basic-configuration-syntax.md
+              - Built-in Resources: windows/courses/powershell-desired-state-configuration-dsc/02.01-built-in-resource-types.md
+              - Resource Properties: windows/courses/powershell-desired-state-configuration-dsc/02.02-resource-properties-and-parameters.md
+              - Resource Behavior: windows/courses/powershell-desired-state-configuration-dsc/02.03-resource-behavior-and-operations.md
+              - LCM Basics: windows/courses/powershell-desired-state-configuration-dsc/03.01-lcm-basics-and-configuration.md
+              - LCM Settings: windows/courses/powershell-desired-state-configuration-dsc/03.02-lcm-settings-and-reboot-control.md
+              - LCM Validation: windows/courses/powershell-desired-state-configuration-dsc/03.03-lcm-validation-and-compliance.md
+              - Pull Server Architecture: windows/courses/powershell-desired-state-configuration-dsc/04.01-pull-server-architecture.md
+              - Push Configuration: windows/courses/powershell-desired-state-configuration-dsc/04.02-push-server-configuration.md
+              - Pull vs Push: windows/courses/powershell-desired-state-configuration-dsc/04.03-pull-vs-push-server-comparison.md
+              - Custom Resources: windows/courses/powershell-desired-state-configuration-dsc/05.01-creating-custom-resources.md
+              - Registering Resources: windows/courses/powershell-desired-state-configuration-dsc/05.02-registering-and-using-custom-resources.md
+              - Testing Resources: windows/courses/powershell-desired-state-configuration-dsc/05.03-testing-custom-resources.md
+              - Composite Resources: windows/courses/powershell-desired-state-configuration-dsc/06.01-creating-composite-resources.md
+              - Using Composite Resources: windows/courses/powershell-desired-state-configuration-dsc/06.02-using-composite-resources-in-configurations.md
+              - Best Practices: windows/courses/powershell-desired-state-configuration-dsc/06.03-best-practices-for-composite-resources.md
+          - PowerShell Enterprise Automation:
+              - PowerShell Objects: windows/courses/powershell-enterprise-automation/01.01-understanding-powershell-objects.md
+              - Pipeline Mastery: windows/courses/powershell-enterprise-automation/01.02-mastering-the-pipeline.md
+              - Scripting Pipeline: windows/courses/powershell-enterprise-automation/01.03-working-with-the-pipeline-in-scripts.md
+              - Module Structure: windows/courses/powershell-enterprise-automation/02.01-module-structure-and-best-practices.md
+              - Cmdlets & Functions: windows/courses/powershell-enterprise-automation/02.02-building-cmdlets-and-functions.md
+              - Publishing Modules: windows/courses/powershell-enterprise-automation/02.03-publishing-and-consuming-modules.md
+              - Remoting Basics: windows/courses/powershell-enterprise-automation/03.01-powershell-remoting-basics.md
+              - Advanced PSRP: windows/courses/powershell-enterprise-automation/03.02-advanced-psrp-techniques.md
+              - Securing Remote PS: windows/courses/powershell-enterprise-automation/03.03-securing-remote-powershell.md
+              - Error Handling: windows/courses/powershell-enterprise-automation/04.01-error-handling-strategies.md
+              - Debugging Scripts: windows/courses/powershell-enterprise-automation/04.02-debugging-powershell-scripts.md
+              - Logging & Monitoring: windows/courses/powershell-enterprise-automation/04.03-logging-and-monitoring.md
+              - WMI Fundamentals: windows/courses/powershell-enterprise-automation/05.01-wmi-fundamentals.md
+              - CIM Integration: windows/courses/powershell-enterprise-automation/05.02-cim-and-powershell-5-1-integration.md
+              - Advanced WMI/CIM: windows/courses/powershell-enterprise-automation/05.03-advanced-wmi-cim-automation.md
+              - JIT Admin: windows/courses/powershell-enterprise-automation/06.01-just-in-time-jit-administration.md
+              - JEA Admin: windows/courses/powershell-enterprise-automation/06.02-just-enough-administration-jea.md
+              - Securing PowerShell: windows/courses/powershell-enterprise-automation/06.03-securing-enterprise-powershell.md
+              - REST API Calls: windows/courses/powershell-enterprise-automation/07.01-making-rest-api-calls.md
+              - Authentication & Headers: windows/courses/powershell-enterprise-automation/07.02-authentication-and-headers.md
+              - API-driven Systems: windows/courses/powershell-enterprise-automation/07.03-automating-api-driven-systems.md
+      - Guides:
+          - Active Directory Replication Troubleshooting:
+              - Replication Topology: windows/guides/active-directory-replication-troubleshooting/01.01-replication-topology-and-site-links.md
+              - Topology Deep Dive: windows/guides/active-directory-replication-troubleshooting/01.01-understanding-active-directory-replication-topology.md
+              - AD Replication Status Tool: windows/guides/active-directory-replication-troubleshooting/01.02-analyzing-replication-topology-with-ad-replication-status-tool.md
+              - Tombstone Lifetime: windows/guides/active-directory-replication-troubleshooting/01.02-tombstone-lifetime-and-replication-conflicts.md
+              - repadmin Check Status: windows/guides/active-directory-replication-troubleshooting/02.01-using-repadmin-exe-to-check-replication-status.md
+              - repadmin Troubleshooting: windows/guides/active-directory-replication-troubleshooting/02.01-using-repadmin-for-replication-troubleshooting.md
+              - Forcing Replication: windows/guides/active-directory-replication-troubleshooting/02.02-forcing-replication-with-repadmin-and-troubleshooting-failures.md
+              - dcdiag Health Checks: windows/guides/active-directory-replication-troubleshooting/02.02-using-dcdiag-for-replication-health-checks.md
+              - Interpreting Event Logs: windows/guides/active-directory-replication-troubleshooting/03.01-interpreting-event-logs-for-replication-failures.md
+              - Running dcdiag: windows/guides/active-directory-replication-troubleshooting/03.01-running-dcdiag-exe-to-test-replication-health.md
+              - Fixing dcdiag Issues: windows/guides/active-directory-replication-troubleshooting/03.02-interpreting-dcdiag-results-and-fixing-replication-issues.md
+              - Monitoring Event Logs: windows/guides/active-directory-replication-troubleshooting/04.01-monitoring-event-logs-for-replication-failures.md
+              - Resolving Replication Errors: windows/guides/active-directory-replication-troubleshooting/04.01-resolving-common-active-directory-replication-errors.md
+              - PowerShell Event Analysis: windows/guides/active-directory-replication-troubleshooting/04.02-analyzing-replication-events-with-powershell.md
+              - SYSVOL DFSR Troubleshooting: windows/guides/active-directory-replication-troubleshooting/05.01-configuring-and-troubleshooting-sysvol-dfs-replication.md
+              - Resolving Block Errors: windows/guides/active-directory-replication-troubleshooting/05.01-resolving-common-replication-block-errors.md
+              - Fixing Latency & Site Links: windows/guides/active-directory-replication-troubleshooting/05.02-fixing-replication-latency-and-site-link-issues.md
+              - Real-World Scenarios: windows/guides/active-directory-replication-troubleshooting/06.01-real-world-replication-scenarios-and-solutions.md
+              - Advanced Persistence Fixes: windows/guides/active-directory-replication-troubleshooting/06.02-advanced-techniques-for-persistent-replication-issues.md
+          - Centralized Windows Event Forwarding (WEF):
+              - WEF Overview: windows/guides/centralized-windows-event-forwarding-setup/01.01-overview-of-windows-event-forwarding.md
+              - WEF Architecture Components: windows/guides/centralized-windows-event-forwarding-setup/01.02-key-components-of-wef-architecture.md
+              - Architecture & Workflow: windows/guides/centralized-windows-event-forwarding-setup/01.03-wef-architecture-diagram-and-workflow.md
+              - Collector Configuration: windows/guides/centralized-windows-event-forwarding-setup/02.01-installing-and-configuring-the-event-collector.md
+              - Log Channels: windows/guides/centralized-windows-event-forwarding-setup/02.02-configuring-event-log-channels-for-forwarding.md
+              - Collector Testing: windows/guides/centralized-windows-event-forwarding-setup/02.03-testing-collector-connectivity-and-logs.md
+              - Subscription XPath Filters: windows/guides/centralized-windows-event-forwarding-setup/03.01-designing-subscription-filters-with-xpath-queries.md
+              - Filter Management: windows/guides/centralized-windows-event-forwarding-setup/03.02-managing-and-testing-subscription-filters.md
+              - Drops Troubleshooting: windows/guides/centralized-windows-event-forwarding-setup/03.03-troubleshooting-filter-related-event-drops.md
+              - Enabling WinRM: windows/guides/centralized-windows-event-forwarding-setup/04.01-enabling-winrm-for-event-forwarding.md
+              - Securing WinRM with TLS: windows/guides/centralized-windows-event-forwarding-setup/04.02-securing-winrm-communication-with-tls.md
+              - WinRM Testing: windows/guides/centralized-windows-event-forwarding-setup/04.03-testing-winrm-connectivity-and-permissions.md
+              - Stream Encryption: windows/guides/centralized-windows-event-forwarding-setup/05.01-implementing-tls-and-encryption-for-event-streams.md
+              - Auth & Permissions: windows/guides/centralized-windows-event-forwarding-setup/05.02-configuring-authentication-and-authorization-for-wef.md
+              - Activity Auditing: windows/guides/centralized-windows-event-forwarding-setup/05.03-auditing-and-monitoring-event-forwarding-activity.md
+          - Windows Defender Application Control (WDAC):
+              - Policy Creation: windows/guides/windows-defender-application-control-hardening/01.01-creating-wdac-policies.md
+              - Code Integrity Rules: windows/guides/windows-defender-application-control-hardening/01.02-code-integrity-rules.md
+              - Publisher Rules: windows/guides/windows-defender-application-control-hardening/01.03-publisher-rules.md
+              - Audit Mode: windows/guides/windows-defender-application-control-hardening/02.01-audit-mode-configuration.md
+              - Enforce Mode: windows/guides/windows-defender-application-control-hardening/02.02-enforce-mode-setup.md
+              - Transitioning Modes: windows/guides/windows-defender-application-control-hardening/02.03-transitioning-between-modes.md
+              - Managed Installer: windows/guides/windows-defender-application-control-hardening/03.01-managed-installer-overview.md
+              - Managed Installer Integration: windows/guides/windows-defender-application-control-hardening/03.02-integration-with-wdac.md
+              - Best Practices: windows/guides/windows-defender-application-control-hardening/03.03-best-practices.md
+          - Windows Server Hardening & GPO:
+              - GPO Architecture: windows/guides/windows-server-security-hardening-and-gpo/01.01-gpo-architecture-and-scope.md
+              - Configuring GPOs: windows/guides/windows-server-security-hardening-and-gpo/01.02-creating-and-configuring-gpos.md
+              - LAPS Overview: windows/guides/windows-server-security-hardening-and-gpo/02.01-laps-overview-and-requirements.md
+              - Deploying LAPS: windows/guides/windows-server-security-hardening-and-gpo/02.02-deploying-laps-with-gpo.md
+              - Credential Guard Setup: windows/guides/windows-server-security-hardening-and-gpo/03.01-credential-guard-requirements-and-setup.md
+              - Credential Guard Policies: windows/guides/windows-server-security-hardening-and-gpo/03.02-configuring-credential-guard-policies.md
+              - Defender ATP Overview: windows/guides/windows-server-security-hardening-and-gpo/04.01-windows-defender-atp-overview.md
+              - Defender ATP GPO: windows/guides/windows-server-security-hardening-and-gpo/04.02-configuring-defender-atp-with-gpo.md
+              - Audit Policies Framework: windows/guides/windows-server-security-hardening-and-gpo/05.01-audit-policy-framework-and-scope.md
+              - Audit Policies GPO: windows/guides/windows-server-security-hardening-and-gpo/05.02-configuring-audit-policies-via-gpo.md
+              - BitLocker Escrow: windows/guides/windows-server-security-hardening-and-gpo/06.01-bitlocker-encryption-and-escrow-requirements.md
+              - Setting BitLocker GPO: windows/guides/windows-server-security-hardening-and-gpo/06.02-setting-up-bitlocker-escrow-with-gpo.md
+              - AppLocker & WDAC: windows/guides/windows-server-security-hardening-and-gpo/07.01-applocker-overview-and-use-cases.md
+              - Policy Enforcement: windows/guides/windows-server-security-hardening-and-gpo/07.02-wdac-templates-and-policy-enforcement.md
+      - References:
+          - Hyper-V Infrastructure Management:
+              - Virtual Switches: windows/references/hyper-v-infrastructure-management/01.01-creating-and-configuring-virtual-switches.md
+              - Port Settings: windows/references/hyper-v-infrastructure-management/01.02-managing-virtual-switch-port-settings.md
+              - Switch Connectivity: windows/references/hyper-v-infrastructure-management/01.03-troubleshooting-virtual-switch-connectivity.md
+              - Live Migration: windows/references/hyper-v-infrastructure-management/02.01-live-migration-setup-and-execution.md
+              - Failover Clustering: windows/references/hyper-v-infrastructure-management/02.02-failover-clustering-configuration.md
+              - Clustered VMs: windows/references/hyper-v-infrastructure-management/02.03-managing-clustered-virtual-machines.md
+              - Storage Spaces Direct (S2D): windows/references/hyper-v-infrastructure-management/03.01-setting-up-storage-spaces-direct.md
+              - S2D Performance: windows/references/hyper-v-infrastructure-management/03.02-optimizing-storage-spaces-performance.md
+              - VHDX Management: windows/references/hyper-v-infrastructure-management/04.01-vhdx-file-management-best-practices.md
+              - VHDX Optimization: windows/references/hyper-v-infrastructure-management/04.02-tools-for-vhdx-optimization.md
+              - Hyper-V Replica: windows/references/hyper-v-infrastructure-management/05.01-hyper-v-replica-configuration.md
+              - Disaster Recovery: windows/references/hyper-v-infrastructure-management/05.02-disaster-recovery-procedures.md
+      - Tips:
+          - Entra ID Connect Sync:
+              - IDFix Tool: windows/tips/entra-id-connect-sync-troubleshooting/01.01-using-the-idfix-tool-for-sync-issues.md
+              - Synchronization Service Manager: windows/tips/entra-id-connect-sync-troubleshooting/02.01-managing-sync-with-the-service-manager.md
+              - Delta Sync Issues: windows/tips/entra-id-connect-sync-troubleshooting/03.01-resolving-delta-sync-problems.md
+              - Attribute Filtering: windows/tips/entra-id-connect-sync-troubleshooting/04.01-troubleshooting-attribute-filtering.md
+              - Password Hash Sync: windows/tips/entra-id-connect-sync-troubleshooting/05.01-fixing-password-hash-sync-errors.md
+          - WSUS Patch Management:
+              - DB Optimization: windows/tips/wsus-patch-management-best-practices/01.01-optimizing-wsus-database-performance.md
+              - Patch Grouping: windows/tips/wsus-patch-management-best-practices/02.01-efficient-patch-grouping-techniques.md
+              - Superseded Updates: windows/tips/wsus-patch-management-best-practices/03.01-managing-superseded-updates.md
+              - Maintenance Scripts: windows/tips/wsus-patch-management-best-practices/04.01-creating-maintenance-scripts-for-wsus.md
+              - Client Connectivity: windows/tips/wsus-patch-management-best-practices/05.01-resolving-common-client-connectivity-issues.md
+              - Custom WSUS Reports: windows/tips/wsus-patch-management-best-practices/06.01-generating-custom-wsus-reports.md

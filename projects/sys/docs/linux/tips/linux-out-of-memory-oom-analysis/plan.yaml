@@ -1,0 +1,38 @@
+title: Linux Out of Memory OOM Analysis
+content_type: tips
+language: en
+chapters:
+- id: '01'
+  title: Understanding OOM and Analysis Tools
+  sections:
+  - id: '01.01'
+    title: OOM Basics and the OOM Killer
+    objective: Explain how Linux handles out-of-memory conditions, the role of the
+      OOM killer, and how it selects processes to terminate.
+  - id: '01.02'
+    title: Analyzing OOM Events with dmesg and /proc
+    objective: Demonstrate how to use dmesg logs and /proc/<pid>/status to identify
+      the cause of OOM events and affected processes.
+  - id: '01.03'
+    title: Using sysrq-trigger for OOM Debugging
+    objective: Detail how to use the sysrq-trigger command to capture memory dumps
+      and diagnostic information during OOM events.
+- id: '02'
+  title: OOM Tuning Parameters
+  sections:
+  - id: '02.01'
+    title: Adjusting oom-score-adj for Process Prioritization
+    objective: Guide users on modifying oom-score-adj values to prioritize critical
+      processes and reduce OOM risks.
+  - id: '02.02'
+    title: Configuring vm.overcommit for Memory Management
+    objective: Explain the vm.overcommit settings and their impact on memory allocation
+      and system stability.
+  - id: '02.03'
+    title: Optimizing Swap Space and Behavior
+    objective: Provide best practices for configuring swap space and tuning kernel
+      parameters to mitigate OOM issues.
+  - id: '02.04'
+    title: Enforcing Memory Limits with cgroups
+    objective: Show how to use cgroups to set memory limits for processes and prevent
+      OOM in containerized environments.

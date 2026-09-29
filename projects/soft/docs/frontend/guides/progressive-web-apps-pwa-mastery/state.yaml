@@ -1,0 +1,44 @@
+status: completed
+title: Progressive Web Apps PWA Mastery
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of PWA Development
+  section_id: '01.01'
+  title: Service Worker Essentials
+  status: completed
+- chapter_id: '01'
+  chapter_title: Foundations of PWA Development
+  section_id: '01.02'
+  title: Web App Manifest Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Offline Capabilities
+  section_id: '02.01'
+  title: IndexedDB for Offline Storage
+  status: completed
+- chapter_id: '02'
+  chapter_title: Offline Capabilities
+  section_id: '02.02'
+  title: Offline First Architecture Patterns
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced PWA Features
+  section_id: '03.01'
+  title: Push Notifications Implementation
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced PWA Features
+  section_id: '03.02'
+  title: Background Sync Mechanics
+  status: completed
+- chapter_id: '04'
+  chapter_title: Performance Optimization
+  section_id: '04.01'
+  title: Caching Strategies for PWAs
+  status: completed
+- chapter_id: '04'
+  chapter_title: Performance Optimization
+  section_id: '04.02'
+  title: Service Worker Lifecycle Management
+  status: completed

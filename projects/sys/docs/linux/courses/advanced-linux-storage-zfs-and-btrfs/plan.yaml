@@ -1,0 +1,27 @@
+title: Advanced Linux Storage ZFS and Btrfs
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: ZFS Fundamentals
+  sections:
+  - id: '01.01'
+    title: ZFS Pool Creation
+    objective: Teach how to create and configure ZFS pools with optimal storage configuration.
+  - id: '01.02'
+    title: Snapshots and Clones
+    objective: Explain how to create, manage, and leverage snapshots and clones for
+      data protection.
+  - id: '01.03'
+    title: ZFS Send and Receive
+    objective: Detail the use of zfs send/recv for data replication and disaster recovery.
+  - id: '01.04'
+    title: RAIDZ Configurations
+    objective: Guide on setting up and managing RAIDZ configurations for fault tolerance.
+- id: '02'
+  title: Btrfs Essentials
+  sections:
+  - id: '02.01'
+    title: Btrfs Subvolumes
+    objective: Explain how to create, manage, and utilize Btrfs subvolumes for logical
+      storage organization.

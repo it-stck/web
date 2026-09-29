@@ -1,0 +1,94 @@
+status: draft
+title: Azure Identity and Microsoft Entra ID Management
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Azure Identity
+  section_id: '01.01'
+  title: Azure AD and Microsoft Entra ID Overview
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Azure Identity
+  section_id: '01.02'
+  title: Core Identity Management Principles
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Azure Identity
+  section_id: '01.03'
+  title: Application Registration Fundamentals
+  status: pending
+- chapter_id: '02'
+  chapter_title: Conditional Access and Security Policies
+  section_id: '02.01'
+  title: Conditional Access Policy Design
+  status: pending
+- chapter_id: '02'
+  chapter_title: Conditional Access and Security Policies
+  section_id: '02.02'
+  title: Risk-Based Access Control
+  status: pending
+- chapter_id: '02'
+  chapter_title: Conditional Access and Security Policies
+  section_id: '02.03'
+  title: Policy Troubleshooting and Monitoring
+  status: pending
+- chapter_id: '03'
+  chapter_title: Privileged Identity Management (PIM)
+  section_id: '03.01'
+  title: PIM Role Management Concepts
+  status: pending
+- chapter_id: '03'
+  chapter_title: Privileged Identity Management (PIM)
+  section_id: '03.02'
+  title: Configuring Privileged Access Workflows
+  status: pending
+- chapter_id: '03'
+  chapter_title: Privileged Identity Management (PIM)
+  section_id: '03.03'
+  title: PIM Integration with Azure Security Center
+  status: pending
+- chapter_id: '04'
+  chapter_title: Hybrid and Federated Identity
+  section_id: '04.01'
+  title: Hybrid Identity with Entra Connect
+  status: pending
+- chapter_id: '04'
+  chapter_title: Hybrid and Federated Identity
+  section_id: '04.02'
+  title: Federated Identity Trust Relationships
+  status: pending
+- chapter_id: '04'
+  chapter_title: Hybrid and Federated Identity
+  section_id: '04.03'
+  title: Hybrid Identity Troubleshooting
+  status: pending
+- chapter_id: '05'
+  chapter_title: External Identity Management (B2B/B2C)
+  section_id: '05.01'
+  title: Azure AD B2B Collaboration
+  status: pending
+- chapter_id: '05'
+  chapter_title: External Identity Management (B2B/B2C)
+  section_id: '05.02'
+  title: Azure AD B2C Customization
+  status: pending
+- chapter_id: '05'
+  chapter_title: External Identity Management (B2B/B2C)
+  section_id: '05.03'
+  title: B2B/B2C Integration Patterns
+  status: pending
+- chapter_id: '06'
+  chapter_title: Multi-Factor Authentication (MFA) Strategies
+  section_id: '06.01'
+  title: MFA Policy Configuration
+  status: pending
+- chapter_id: '06'
+  chapter_title: Multi-Factor Authentication (MFA) Strategies
+  section_id: '06.02'
+  title: MFA Methods and User Adoption
+  status: pending
+- chapter_id: '06'
+  chapter_title: Multi-Factor Authentication (MFA) Strategies
+  section_id: '06.03'
+  title: MFA Troubleshooting and Recovery
+  status: pending

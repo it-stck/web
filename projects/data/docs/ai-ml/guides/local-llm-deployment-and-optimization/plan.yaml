@@ -1,0 +1,59 @@
+title: Local LLM Deployment and Optimization
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Local LLM Deployment Foundation
+  sections:
+  - id: '01.01'
+    title: Ollama Configuration for Local Deployment
+    objective: Guide readers through installing Ollama, configuring model repositories,
+      and setting up persistent storage for local LLM deployment.
+  - id: '01.02'
+    title: GGUF Quantization for Resource Efficiency
+    objective: Explain GGUF format benefits, quantization levels (Q2, Q3, Q4), and
+      steps to convert and optimize models for low-memory deployment.
+- id: '02'
+  title: Efficient Model Serving Architecture
+  sections:
+  - id: '02.01'
+    title: vLLM Serving Setup and Optimization
+    objective: Detail vLLM installation, model loading pipelines, and performance
+      tuning for batched inference and memory management.
+  - ',': id
+    title: GPU Offloading Techniques for vLLM
+    objective: Demonstrate how to configure GPU offloading in vLLM to balance CPU/GPU
+      resource usage during large-scale inference.
+- id: '03'
+  title: Model Optimization Strategies
+  sections:
+  - id: '03.01'
+    title: LoRA Adapters for Fine-Tuning Efficiency
+    objective: Walk through implementing LoRA adapters for efficient fine-tuning,
+      model merging, and deployment compatibility.
+  - id: '03.02'
+    title: Context Window Tuning and Truncation Strategies
+    objective: Explain techniques to adjust context window sizes, handle long-context
+      inputs, and optimize token truncation for specific workloads.
+- id: '04'
+  title: Performance Evaluation and Benchmarking
+  sections:
+  - id: '04.01'
+    title: Model Benchmarking Frameworks and Metrics
+    objective: Outline tools like MLflow and custom scripts to measure inference latency,
+      throughput, and resource utilization across deployment configurations.
+  - id: '04.02'
+    title: Comparative Analysis of Quantization and Offloading
+    objective: Provide a structured methodology to compare performance tradeoffs between
+      GGUF quantization, GPU offloading, and LoRA adapters.
+- id: '05'
+  title: Advanced Troubleshooting and Best Practices
+  sections:
+  - id: '05.01'
+    title: Common Deployment Pitfalls and Solutions
+    objective: Identify and resolve issues like memory leaks, inference stalls, and
+      compatibility conflicts in local LLM deployments.
+  - id: '05.02'
+    title: Optimization Best Practices for Production Workloads
+    objective: Recommend strategies for monitoring, auto-scaling, and maintaining
+      model performance in production environments.

@@ -1,0 +1,79 @@
+title: Centralized Windows Event Forwarding Setup
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Understanding Windows Event Forwarding Components
+  sections:
+  - id: '01.01'
+    title: Overview of Windows Event Forwarding
+    objective: Explain the purpose of Windows Event Forwarding (WEF) and its role
+      in centralized logging and monitoring.
+  - id: '01.02'
+    title: Key Components of WEF Architecture
+    objective: Identify and describe the roles of Event Collectors, Event Log Subscriptions,
+      and Forwarding Providers in WEF.
+  - id: '01.03'
+    title: WEF Architecture Diagram and Workflow
+    objective: Illustrate the WEF architecture with a diagram and explain the event
+      forwarding workflow from source to collector.
+- id: '02'
+  title: Setting Up the Event Forwarding Collector
+  sections:
+  - id: '02.01'
+    title: Installing and Configuring the Event Collector
+    objective: Guide users through installing the Event Collector service and configuring
+      its basic settings for centralized event aggregation.
+  - id: '02.02'
+    title: Configuring Event Log Channels for Forwarding
+    objective: Demonstrate how to set up event log channels to direct events from
+      local systems to the collector.
+  - id: '02.03'
+    title: Testing Collector Connectivity and Logs
+    objective: Provide steps to verify collector functionality by generating test
+      events and checking collector logs.
+- id: '03'
+  title: Creating Subscription Filters for Event Selection
+  sections:
+  - id: '03.01'
+    title: Designing Subscription Filters with XPath Queries
+    objective: Teach users how to create subscription filters using XPath to select
+      specific event types for forwarding.
+  - id: '03.02'
+    title: Managing and Testing Subscription Filters
+    objective: Explain how to edit, prioritize, and validate subscription filters
+      to ensure accurate event selection.
+  - id: '03.03'
+    title: Troubleshooting Filter-Related Event Drops
+    objective: Provide strategies to diagnose and resolve issues where events are
+      not being forwarded due to filter misconfiguration.
+- id: '04'
+  title: Configuring WinRM for Remote Event Management
+  sections:
+  - id: '04.01'
+    title: Enabling WinRM for Event Forwarding
+    objective: Outline the steps to configure WinRM on Windows systems to enable remote
+      event log collection.
+  - id: '04.02'
+    title: Securing WinRM Communication with TLS
+    objective: Guide users in setting up TLS encryption and authentication for secure
+      WinRM-based event forwarding.
+  - id: '04.03'
+    title: Testing WinRM Connectivity and Permissions
+    objective: Demonstrate how to verify WinRM connectivity and troubleshoot permission
+      issues for remote event access.
+- id: '05'
+  title: Securing Event Forwarding and Auditing
+  sections:
+  - id: '05.01'
+    title: Implementing TLS and Encryption for Event Streams
+    objective: Explain how to configure TLS encryption for secure communication between
+      event sources and the collector.
+  - id: '05.02'
+    title: Configuring Authentication and Authorization for WEF
+    objective: Detail the setup of Kerberos or NTLM authentication and role-based
+      access control for event forwarding.
+  - id: '05.03'
+    title: Auditing and Monitoring Event Forwarding Activity
+    objective: Provide methods to enable auditing for WEF operations and monitor security-related
+      events in the collector.

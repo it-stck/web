@@ -1,0 +1,70 @@
+title: GitHub Actions and CI CD Pipelines
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Workflow Syntax and Structure
+  sections:
+  - id: '01.01'
+    title: Introduction to GitHub Actions Workflows
+    objective: Explain the core concepts of GitHub Actions, including events, jobs,
+      and runners, and their role in CI/CD pipelines.
+  - id: '01.02'
+    title: Workflow Syntax Fundamentals
+    objective: Detail the YAML syntax for defining workflows, including triggers,
+      jobs, steps, and environment variables.
+  - id: '01.03'
+    title: Job and Step Configuration
+    objective: Describe how to configure jobs, steps, and conditional logic to control
+      workflow execution flow.
+- id: '02'
+  title: Custom Actions and Reusability
+  sections:
+  - id: '02.01'
+    title: Creating Custom Actions
+    objective: Guide on developing reusable custom actions using JavaScript or Docker,
+      including packaging and versioning.
+  - id: '02.02'
+    title: Using Action Inputs and Outputs
+    objective: Explain how to define and consume inputs/outputs in custom actions
+      for dynamic workflow interactions.
+- id: '03'
+  title: Advanced Build Strategies
+  sections:
+  - id: '03.01'
+    title: Matrix Builds for Multi-Configuration
+    objective: Demonstrate how to use matrix strategies to run parallel builds across
+      different OS, node versions, or architectures.
+  - id: '03.02'
+    title: Caching for Build Optimization
+    objective: Cover caching mechanisms to speed up dependency resolution and reduce
+      build times.
+- id: '04'
+  title: Artifact Management and Deployment
+  sections:
+  - id: '04.01'
+    title: Managing Build Artifacts
+    objective: Explain artifact storage, retrieval, and versioning strategies for
+      CI/CD pipelines.
+  - id: '04.02'
+    title: Deployment Automation Patterns
+    objective: Detail techniques for automating deployments using GitHub Actions,
+      including blue-green and canary strategies.
+- id: '05'
+  title: Security and Compliance
+  sections:
+  - id: '05.01'
+    title: Security Scanning Integration
+    objective: Describe how to integrate dependency scanning, secret scanning, and
+      code quality checks into workflows.
+- id: '06'
+  title: Workflow Optimization and Best Practices
+  sections:
+  - id: '06.01'
+    title: Reusable Workflows for Complex Pipelines
+    objective: Explain how to create and compose reusable workflows for modular, maintainable
+      CI/CD pipelines.
+  - id: '06.02'
+    title: Deployment Gates and Approval Workflows
+    objective: Cover implementing deployment gates, manual approvals, and branch protection
+      rules for controlled releases.

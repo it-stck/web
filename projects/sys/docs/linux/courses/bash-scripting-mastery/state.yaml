@@ -1,0 +1,134 @@
+status: completed
+title: BASH Scripting Mastery
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Variables and Arrays
+  section_id: '01.01'
+  title: Variable Declaration and Scope
+  status: completed
+- chapter_id: '01'
+  chapter_title: Variables and Arrays
+  section_id: '01.02'
+  title: Array Manipulation
+  status: completed
+- chapter_id: '01'
+  chapter_title: Variables and Arrays
+  section_id: '01.03'
+  title: Special Variables and Parameters
+  status: completed
+- chapter_id: '02'
+  chapter_title: Control Structures
+  section_id: '02.01'
+  title: Conditional Statements
+  status: completed
+- chapter_id: '02'
+  chapter_title: Control Structures
+  section_id: '02.02'
+  title: Loops and Iteration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Control Structures
+  section_id: '02.03'
+  title: Loop Control and Break/Continue
+  status: completed
+- chapter_id: '03'
+  chapter_title: Functions and Scope
+  section_id: '03.01'
+  title: Function Definition and Invocation
+  status: completed
+- chapter_id: '03'
+  chapter_title: Functions and Scope
+  section_id: '03.02'
+  title: Local Variables and Scope
+  status: completed
+- chapter_id: '03'
+  chapter_title: Functions and Scope
+  section_id: '03.03'
+  title: Function Return Values
+  status: completed
+- chapter_id: '04'
+  chapter_title: Regular Expressions
+  section_id: '04.01'
+  title: Pattern Matching Basics
+  status: completed
+- chapter_id: '04'
+  chapter_title: Regular Expressions
+  section_id: '04.02'
+  title: Regex in Conditional Tests
+  status: completed
+- chapter_id: '04'
+  chapter_title: Regular Expressions
+  section_id: '04.03'
+  title: Regex Substitution
+  status: completed
+- chapter_id: '05'
+  chapter_title: Text Processing Tools
+  section_id: '05.01'
+  title: sed Command Fundamentals
+  status: completed
+- chapter_id: '05'
+  chapter_title: Text Processing Tools
+  section_id: '05.02'
+  title: awk for Data Analysis
+  status: completed
+- chapter_id: '05'
+  chapter_title: Text Processing Tools
+  section_id: '05.03'
+  title: Combining sed and awk
+  status: completed
+- chapter_id: '06'
+  chapter_title: Error Handling
+  section_id: '06.01'
+  title: Exit Codes and Debugging
+  status: completed
+- chapter_id: '06'
+  chapter_title: Error Handling
+  section_id: '06.02'
+  title: Trap Command for Cleanup
+  status: completed
+- chapter_id: '06'
+  chapter_title: Error Handling
+  section_id: '06.03'
+  title: Error Logging and Reporting
+  status: completed
+- chapter_id: '07'
+  chapter_title: Command-Line Arguments
+  section_id: '07.01'
+  title: getopts for Argument Parsing
+  status: completed
+- chapter_id: '07'
+  chapter_title: Command-Line Arguments
+  section_id: '07.02'
+  title: Handling Positional Parameters
+  status: completed
+- chapter_id: 08
+  chapter_title: Process Redirection
+  section_id: '08.01'
+  title: Input/Output Redirection
+  status: completed
+- chapter_id: 08
+  chapter_title: Process Redirection
+  section_id: '08.02'
+  title: Here Documents and Herestrings
+  status: completed
+- chapter_id: 09
+  chapter_title: Advanced Topics
+  section_id: '09.01'
+  title: Subshells and Background Jobs
+  status: completed
+- chapter_id: 09
+  chapter_title: Advanced Topics
+  section_id: '09.02'
+  title: Process Substitution
+  status: completed
+- chapter_id: '10'
+  chapter_title: Script Logging and Debugging
+  section_id: '10.01'
+  title: Logging Best Practices
+  status: completed
+- chapter_id: '10'
+  chapter_title: Script Logging and Debugging
+  section_id: '10.02'
+  title: Debugging Techniques
+  status: completed

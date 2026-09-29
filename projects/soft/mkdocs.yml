@@ -1,0 +1,158 @@
+site_name: ITSTCK | Software Engineering
+site_description: Microservices, Clean Architecture, Async Python, Rust, React, Next.js, Flutter, and Frontend Architecture.
+site_url: https://itstck.com/soft/
+
+repo_name: it-stck/web/projects/soft
+repo_url: https://github.com/it-stck/web/projects/soft
+edit_uri: edit/main/web/projects/soft/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  logo: https://itstck.com/assets/img/logo.webp
+  favicon: https://itstck.com/assets/img/favicon.ico
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: slate
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: slate
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+
+plugins:
+  - search
+  - meta
+
+nav:
+  - Home: index.md
+
+  # ── BACKEND & SYSTEM ARCHITECTURE ──
+  - Backend & Systems:
+      - Overview: dev/index.md
+      - Courses:
+          - Microservices Architecture Patterns: dev/courses/microservices-architecture-patterns/index.md
+          - Python Async & High Performance: dev/courses/python-advanced-performance-and-async-programming/index.md
+      - Guides:
+          - Clean Architecture & DDD: dev/guides/clean-architecture-and-domain-driven-design/index.md
+          - Rust for Enterprise Systems: dev/guides/rust-for-enterprise-systems-programming/index.md
+      - References:
+          - REST & gRPC API Standards: dev/references/rest-and-grpc-api-design-standards/index.md
+
+  # ── FRONTEND & MOBILE ENGINEERING ──
+  - Frontend & Mobile:
+      - Overview: frontend/index.md
+      - Courses:
+          - Flutter Mobile App Security:
+              - BLoC Architecture: frontend/courses/flutter-mobile-app-development-and-security/01.01-understanding-bloc-architecture.md
+              - Implementing BLoC: frontend/courses/flutter-mobile-app-development-and-security/01.02-implementing-bloc-patterns.md
+              - BLoC Optimization: frontend/courses/flutter-mobile-app-development-and-security/01.03-best-practices-for-bloc-optimization.md
+              - Secure Storage: frontend/courses/flutter-mobile-app-development-and-security/02.01-flutter-secure-storage-fundamentals.md
+              - AES Encryption: frontend/courses/flutter-mobile-app-development-and-security/02.02-encrypting-data-with-aes.md
+              - Key Management: frontend/courses/flutter-mobile-app-development-and-security/02.03-key-management-strategies.md
+              - Certificate Pinning: frontend/courses/flutter-mobile-app-development-and-security/03.01-why-certificate-pinning-matters.md
+              - Implementing Pinning: frontend/courses/flutter-mobile-app-development-and-security/03.02-implementing-certificate-pinning.md
+              - Pinning Exceptions: frontend/courses/flutter-mobile-app-development-and-security/03.03-handling-pinning-exceptions.md
+              - Platform Channels: frontend/courses/flutter-mobile-app-development-and-security/04.01-platform-channels-fundamentals.md
+              - Native Code Security: frontend/courses/flutter-mobile-app-development-and-security/04.02-securing-native-code-interactions.md
+              - Secure IPC: frontend/courses/flutter-mobile-app-development-and-security/04.03-secure-inter-process-communication.md
+              - Code Obfuscation: frontend/courses/flutter-mobile-app-development-and-security/05.01-code-obfuscation-techniques.md
+              - Anti-Tampering: frontend/courses/flutter-mobile-app-development-and-security/05.02-anti-tampering-strategies.md
+              - Secure Build Configs: frontend/courses/flutter-mobile-app-development-and-security/05.03-secure-build-configurations.md
+          - React & Next.js Architecture:
+              - Server Components: frontend/courses/react-and-nextjs-enterprise-architecture/01.01-server-components-architecture-overview.md
+              - App Router Navigation: frontend/courses/react-and-nextjs-enterprise-architecture/01.02-app-router-structure-and-navigation.md
+              - Pages to App Migration: frontend/courses/react-and-nextjs-enterprise-architecture/01.03-migrating-from-pages-to-app-router.md
+              - RSC Performance: frontend/courses/react-and-nextjs-enterprise-architecture/01.04-server-component-performance-best-practices.md
+              - SSR Implementation: frontend/courses/react-and-nextjs-enterprise-architecture/02.01-server-side-rendering-ssr-implementation.md
+              - SSG Patterns: frontend/courses/react-and-nextjs-enterprise-architecture/02.02-static-site-generation-ssg-patterns.md
+              - ISR Mechanics: frontend/courses/react-and-nextjs-enterprise-architecture/02.03-incremental-static-regeneration-isr-mechanics.md
+              - SSR vs SSG vs ISR: frontend/courses/react-and-nextjs-enterprise-architecture/02.04-comparing-ssr-ssg-and-isr-use-cases.md
+              - Context API: frontend/courses/react-and-nextjs-enterprise-architecture/03.01-context-api-for-global-state.md
+              - Redux Toolkit Integration: frontend/courses/react-and-nextjs-enterprise-architecture/03.02-redux-toolkit-integration-with-next-js.md
+              - TanStack Query: frontend/courses/react-and-nextjs-enterprise-architecture/03.03-tanstack-query-for-data-fetching.md
+              - State in Micro-Frontends: frontend/courses/react-and-nextjs-enterprise-architecture/03.04-state-management-patterns-for-micro-frontends.md
+              - Code Splitting: frontend/courses/react-and-nextjs-enterprise-architecture/04.01-code-splitting-and-dynamic-imports.md
+              - Asset Optimization: frontend/courses/react-and-nextjs-enterprise-architecture/04.02-image-and-asset-optimization-techniques.md
+              - Lazy Loading: frontend/courses/react-and-nextjs-enterprise-architecture/04.03-lazy-loading-and-preloading-strategies.md
+              - Performance Tools: frontend/courses/react-and-nextjs-enterprise-architecture/04.04-performance-monitoring-and-optimization-tools.md
+      - Guides:
+          - Progressive Web Apps (PWA) Mastery:
+              - Service Workers: frontend/guides/progressive-web-apps-pwa-mastery/01.01-service-worker-essentials.md
+              - Web App Manifest: frontend/guides/progressive-web-apps-pwa-mastery/01.02-web-app-manifest-configuration.md
+              - IndexedDB Storage: frontend/guides/progressive-web-apps-pwa-mastery/02.01-indexeddb-for-offline-storage.md
+              - Offline-First Patterns: frontend/guides/progressive-web-apps-pwa-mastery/02.02-offline-first-architecture-patterns.md
+              - Push Notifications: frontend/guides/progressive-web-apps-pwa-mastery/03.01-push-notifications-implementation.md
+              - Background Sync: frontend/guides/progressive-web-apps-pwa-mastery/03.02-background-sync-mechanics.md
+              - Caching Strategies: frontend/guides/progressive-web-apps-pwa-mastery/04.01-caching-strategies-for-pwas.md
+              - Lifecycle Management: frontend/guides/progressive-web-apps-pwa-mastery/04.02-service-worker-lifecycle-management.md
+          - Web Performance Tuning & Core Web Vitals:
+              - Core Web Vitals Intro: frontend/guides/web-performance-tuning-and-core-web-vitals/01.01-understanding-lcp-inp-and-cls.md
+              - Measuring Metrics: frontend/guides/web-performance-tuning-and-core-web-vitals/01.02-measuring-core-web-vitals.md
+              - LCP Optimization: frontend/guides/web-performance-tuning-and-core-web-vitals/02.01-lcp-fundamentals-and-impact.md
+              - LCP Strategies: frontend/guides/web-performance-tuning-and-core-web-vitals/02.02-strategies-for-lcp-optimization.md
+              - INP & User Experience: frontend/guides/web-performance-tuning-and-core-web-vitals/03.01-inp-and-user-experience.md
+              - Reducing INP: frontend/guides/web-performance-tuning-and-core-web-vitals/03.02-reducing-inp-through-code-improvements.md
+              - CLS Causes: frontend/guides/web-performance-tuning-and-core-web-vitals/04.01-cls-causes-and-consequences.md
+              - Preventing Layout Shifts: frontend/guides/web-performance-tuning-and-core-web-vitals/04.02-preventing-layout-shifts.md
+              - Dynamic Imports: frontend/guides/web-performance-tuning-and-core-web-vitals/05.01-dynamic-import-and-code-splitting.md
+              - Route Splitting: frontend/guides/web-performance-tuning-and-core-web-vitals/05.02-splitting-by-route-and-feature.md
+              - Image Formats: frontend/guides/web-performance-tuning-and-core-web-vitals/06.01-image-formats-and-compression.md
+              - Responsive Images: frontend/guides/web-performance-tuning-and-core-web-vitals/06.02-responsive-images-and-lazy-loading.md
+              - Critical CSS: frontend/guides/web-performance-tuning-and-core-web-vitals/07.01-critical-css-concepts.md
+              - Injecting Critical CSS: frontend/guides/web-performance-tuning-and-core-web-vitals/07.02-generating-and-injecting-critical-css.md
+              - Resource Hints: frontend/guides/web-performance-tuning-and-core-web-vitals/08.01-understanding-resource-hints.md
+              - Resource Hints Setup: frontend/guides/web-performance-tuning-and-core-web-vitals/08.02-implementing-resource-hints.md
+      - References:
+          - Micro-Frontends & Module Federation:
+              - What are Micro-Frontends: frontend/references/micro-frontends-architecture-and-federation/01.01-what-are-micro-frontends.md
+              - Benefits & Challenges: frontend/references/micro-frontends-architecture-and-federation/01.02-benefits-and-challenges.md
+              - MF vs Microservices: frontend/references/micro-frontends-architecture-and-federation/01.03-micro-frontends-vs-microservices.md
+              - Module Federation Basics: frontend/references/micro-frontends-architecture-and-federation/02.01-module-federation-basics.md
+              - Webpack 5 Configuration: frontend/references/micro-frontends-architecture-and-federation/02.02-webpack-5-configuration.md
+              - Module Communication: frontend/references/micro-frontends-architecture-and-federation/02.03-federated-module-communication.md
+              - Isolated Deployments: frontend/references/micro-frontends-architecture-and-federation/03.01-isolated-deployments.md
+              - Shared Dependencies: frontend/references/micro-frontends-architecture-and-federation/03.02-shared-dependency-management.md
+              - Performance Considerations: frontend/references/micro-frontends-architecture-and-federation/03.03-performance-considerations.md
+              - single-spa Integration: frontend/references/micro-frontends-architecture-and-federation/04.01-single-spa-integration.md
+              - Custom Containers: frontend/references/micro-frontends-architecture-and-federation/04.02-custom-container-solutions.md
+              - Security Best Practices: frontend/references/micro-frontends-architecture-and-federation/04.03-security-best-practices.md
+              - Common Pitfalls: frontend/references/micro-frontends-architecture-and-federation/05.01-common-integration-pitfalls.md
+              - Performance Monitoring: frontend/references/micro-frontends-architecture-and-federation/05.02-performance-monitoring.md
+              - Scaling Strategies: frontend/references/micro-frontends-architecture-and-federation/05.03-scaling-strategies.md

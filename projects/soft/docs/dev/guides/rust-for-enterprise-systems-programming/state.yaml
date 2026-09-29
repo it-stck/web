@@ -1,0 +1,94 @@
+status: draft
+title: Rust for Enterprise Systems Programming
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Rust Ownership and Borrowing
+  section_id: '01.01'
+  title: Understanding Ownership and Borrowing
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Rust Ownership and Borrowing
+  section_id: '01.02'
+  title: Lifetimes and Borrow Checker Mechanics
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundations of Rust Ownership and Borrowing
+  section_id: '01.03'
+  title: Move Semantics and Value Ownership
+  status: pending
+- chapter_id: '02'
+  chapter_title: Concurrency and Parallelism in Rust
+  section_id: '02.01'
+  title: Thread Safety and Send/Shared Traits
+  status: pending
+- chapter_id: '02'
+  chapter_title: Concurrency and Parallelism in Rust
+  section_id: '02.02'
+  title: Arc and Mutex for Shared State Management
+  status: pending
+- chapter_id: '02'
+  chapter_title: Concurrency and Parallelism in Rust
+  section_id: '02.03'
+  title: Async/Await and Non-Blocking I/O
+  status: pending
+- chapter_id: '03'
+  chapter_title: Error Handling and Result Types
+  section_id: '03.01'
+  title: Result<T, E> and the Propagation Pattern
+  status: pending
+- chapter_id: '03'
+  chapter_title: Error Handling and Result Types
+  section_id: '03.02'
+  title: Custom Error Types and Contextual Messaging
+  status: pending
+- chapter_id: '03'
+  chapter_title: Error Handling and Result Types
+  section_id: '03.03'
+  title: Error Handling in Async Contexts
+  status: pending
+- chapter_id: '04'
+  chapter_title: Advanced Type System Patterns
+  section_id: '04.01'
+  title: Traits and Abstraction Design
+  status: pending
+- chapter_id: '04'
+  chapter_title: Advanced Type System Patterns
+  section_id: '04.02'
+  title: Generics and Type Parameters
+  status: pending
+- chapter_id: '04'
+  chapter_title: Advanced Type System Patterns
+  section_id: '04.03'
+  title: Orphan Rule and Crate Design
+  status: pending
+- chapter_id: '05'
+  chapter_title: Cargo Ecosystem and Project Management
+  section_id: '05.01'
+  title: Cargo Workspaces and Multi-Module Projects
+  status: pending
+- chapter_id: '05'
+  chapter_title: Cargo Ecosystem and Project Management
+  section_id: '05.02'
+  title: Custom Build Scripts and Configuration
+  status: pending
+- chapter_id: '05'
+  chapter_title: Cargo Ecosystem and Project Management
+  section_id: '05.03'
+  title: Dependency Management and Crate Integration
+  status: pending
+- chapter_id: '06'
+  chapter_title: FFI Interoperability and Systems Integration
+  section_id: '06.01'
+  title: Unsafe Code and Foreign Function Interfaces
+  status: pending
+- chapter_id: '06'
+  chapter_title: FFI Interoperability and Systems Integration
+  section_id: '06.02'
+  title: Binding Generation with bindgen
+  status: pending
+- chapter_id: '06'
+  chapter_title: FFI Interoperability and Systems Integration
+  section_id: '06.03'
+  title: Cross-Language Error Handling Patterns
+  status: pending

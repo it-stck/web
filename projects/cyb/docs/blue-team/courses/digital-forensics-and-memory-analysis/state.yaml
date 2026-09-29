@@ -1,0 +1,79 @@
+status: draft
+title: Digital Forensics and Memory Analysis
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Digital Forensics
+  section_id: '01.01'
+  title: Digital Forensics Principles
+  status: pending
+- chapter_id: '01'
+  chapter_title: Introduction to Digital Forensics
+  section_id: '01.02'
+  title: Legal and Ethical Considerations
+  status: pending
+- chapter_id: '01'
+  chapter_title: Introduction to Digital Forensics
+  section_id: '01.03'
+  title: Tools and Workflows
+  status: pending
+- chapter_id: '02'
+  chapter_title: Memory Analysis Fundamentals
+  section_id: '02.01'
+  title: Memory Acquisition Concepts
+  status: pending
+- chapter_id: '02'
+  chapter_title: Memory Analysis Fundamentals
+  section_id: '02.02'
+  title: Volatility Framework Overview
+  status: pending
+- chapter_id: '02'
+  chapter_title: Memory Analysis Fundamentals
+  section_id: '02.03'
+  title: Memory Analysis Techniques
+  status: pending
+- chapter_id: '03'
+  chapter_title: Triage and Initial Analysis
+  section_id: '03.01'
+  title: KAPE Triage Tool
+  status: pending
+- chapter_id: '03'
+  chapter_title: Triage and Initial Analysis
+  section_id: '03.02'
+  title: Volatility vs. KAPE
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Source Analysis
+  section_id: '04.01'
+  title: Registry Analysis
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Source Analysis
+  section_id: '04.02'
+  title: Event Log Parsing
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Source Analysis
+  section_id: '04.03'
+  title: MFT and USNJRNL Analysis
+  status: pending
+- chapter_id: '05'
+  chapter_title: Browser and User Artifacts
+  section_id: '05.01'
+  title: Browser Artifact Locations
+  status: pending
+- chapter_id: '05'
+  chapter_title: Browser and User Artifacts
+  section_id: '05.02'
+  title: Analyzing Browser Data
+  status: pending
+- chapter_id: '06'
+  chapter_title: Disk Imaging and Preservation
+  section_id: '06.01'
+  title: Disk Imaging Techniques
+  status: pending
+- chapter_id: '06'
+  chapter_title: Disk Imaging and Preservation
+  section_id: '06.02'
+  title: Image Analysis Workflow
+  status: pending

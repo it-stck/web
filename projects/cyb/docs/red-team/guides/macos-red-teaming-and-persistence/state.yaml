@@ -1,0 +1,64 @@
+status: completed
+title: macOS Red Teaming and Persistence
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: macOS Security Foundations
+  section_id: '01.01'
+  title: Understanding TCC and Sandboxing
+  status: completed
+- chapter_id: '01'
+  chapter_title: macOS Security Foundations
+  section_id: '01.02'
+  title: macOS Privilege Separation Model
+  status: completed
+- chapter_id: '02'
+  chapter_title: TCC Bypass Techniques
+  section_id: '02.01'
+  title: TCC Database Manipulation
+  status: completed
+- chapter_id: '02'
+  chapter_title: TCC Bypass Techniques
+  section_id: '02.02'
+  title: Exploiting Legacy TCC Vulnerabilities
+  status: completed
+- chapter_id: '03'
+  chapter_title: Launchd Persistence
+  section_id: '03.01'
+  title: Launchd Service Architecture
+  status: completed
+- chapter_id: '03'
+  chapter_title: Launchd Persistence
+  section_id: '03.02'
+  title: Creating Persistent Launchd Services
+  status: completed
+- chapter_id: '04'
+  chapter_title: Plist Modifications
+  section_id: '04.01'
+  title: Plist File Structure and Syntax
+  status: completed
+- chapter_id: '04'
+  chapter_title: Plist Modifications
+  section_id: '04.02'
+  title: Stealthy Plist Persistence Techniques
+  status: completed
+- chapter_id: '05'
+  chapter_title: Dylib Injection
+  section_id: '05.01'
+  title: Dynamic Library Injection Mechanisms
+  status: completed
+- chapter_id: '05'
+  chapter_title: Dylib Injection
+  section_id: '05.02'
+  title: Evading ASLR with Dylib Injection
+  status: completed
+- chapter_id: '06'
+  chapter_title: Mach-O Binary Manipulation
+  section_id: '06.01'
+  title: Mach-O File Format Overview
+  status: completed
+- chapter_id: '06'
+  chapter_title: Mach-O Binary Manipulation
+  section_id: '06.02'
+  title: Binary Patching and Code Signing Bypasses
+  status: completed

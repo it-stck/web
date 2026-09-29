@@ -1,0 +1,93 @@
+title: Web Performance Tuning and Core Web Vitals
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Core Web Vitals Overview
+  sections:
+  - id: '01.01'
+    title: Understanding LCP, INP, and CLS
+    objective: Define Core Web Vitals and explain how LCP (Largest Contentful Paint),
+      INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift) measure user
+      experience and performance.
+  - id: '01.02'
+    title: Measuring Core Web Vitals
+    objective: Demonstrate how to use Lighthouse, Chrome DevTools, and Web Vitals
+      library to audit and analyze Core Web Vitals metrics in real-world scenarios.
+- id: '02'
+  title: Optimizing Largest Contentful Paint (LCP)
+  sections:
+  - id: '02.01'
+    title: LCP Fundamentals and Impact
+    objective: Explain how LCP affects perceived performance and identify common causes
+      like large images, unoptimized text, and slow server responses.
+  - id: '02.02'
+    title: Strategies for LCP Optimization
+    objective: Provide actionable techniques to reduce LCP, including server-side
+      rendering, preloading, and optimizing critical render path assets.
+- id: '03'
+  title: Optimizing Interaction to Next Paint (INP)
+  sections:
+  - id: '03.01'
+    title: INP and User Experience
+    objective: Clarify how INP measures input responsiveness and its correlation with
+      user satisfaction and conversion rates.
+  - id: '03.02'
+    title: Reducing INP Through Code Improvements
+    objective: Detail methods to minimize INP, such as reducing JavaScript execution
+      time, deferring non-critical scripts, and optimizing event handlers.
+- id: '04'
+  title: Optimizing Cumulative Layout Shift (CLS)
+  sections:
+  - id: '04.01'
+    title: CLS Causes and Consequences
+    objective: Identify common causes of CLS, such as dynamically loaded images, font
+      loading, and third-party tags, and explain its impact on user trust.
+  - id: '04.02'
+    title: Preventing Layout Shifts
+    objective: Teach techniques to prevent CLS, including reserving space for dynamic
+      content, using CSS placeholders, and managing font loading.
+- id: '05'
+  title: Code Splitting Techniques
+  sections:
+  - id: '05.01'
+    title: Dynamic Import and Code Splitting
+    objective: Explain how to split code into chunks using dynamic imports in React/Next.js
+      and the benefits of lazy loading for performance.
+  - id: '05.02'
+    title: Splitting by Route and Feature
+    objective: Demonstrate how to implement route-based code splitting in Next.js
+      and split features into separate bundles for micro-frontends.
+- id: '06'
+  title: Image Optimization Strategies
+  sections:
+  - id: '06.01'
+    title: Image Formats and Compression
+    objective: Compare image formats (WebP, AVIF) and compression techniques to balance
+      quality and file size for faster loading.
+  - id: '06.02'
+    title: Responsive Images and Lazy Loading
+    objective: Show how to implement responsive images with srcset and lazy loading
+      to improve performance across devices.
+- id: '07'
+  title: Critical CSS Implementation
+  sections:
+  - id: '07.01'
+    title: Critical CSS Concepts
+    objective: Define critical CSS and explain its role in reducing render-blocking
+      styles to improve LCP and first contentful paint.
+  - id: '07.02'
+    title: Generating and Injecting Critical CSS
+    objective: Provide step-by-step guidance on extracting critical CSS using tools
+      like PurgeCSS and injecting it into HTML for faster rendering.
+- id: 08
+  title: Resource Hints and Performance Optimization
+  sections:
+  - id: '08.01'
+    title: Understanding Resource Hints
+    objective: Explain how resource hints like preload, prefetch, and preconnect improve
+      performance by optimizing resource loading.
+  - id: '08.02'
+    title: Implementing Resource Hints
+    objective: Demonstrate how to use <link> tags and HTTP headers to apply resource
+      hints effectively in modern web applications.

@@ -1,0 +1,79 @@
+title: Flutter Mobile App Development and Security
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: State Management with BLoC
+  sections:
+  - id: '01.01'
+    title: Understanding BLoC Architecture
+    objective: Explain the core principles of BLoC (Business Logic Component) architecture
+      and its role in separating state management from UI in Flutter apps.
+  - id: '01.02'
+    title: Implementing BLoC Patterns
+    objective: Guide developers through creating BLoC classes, event streams, and
+      state transformations to manage app state in a reactive manner.
+  - id: '01.03'
+    title: Best Practices for BLoC Optimization
+    objective: Discuss advanced techniques for optimizing BLoC performance, including
+      memory management and error handling in state streams.
+- id: '02'
+  title: Secure Storage in Flutter
+  sections:
+  - id: '02.01'
+    title: Flutter Secure Storage Fundamentals
+    objective: Introduce Flutter's secure storage API and its use cases for storing
+      sensitive data like credentials or tokens.
+  - id: '02.02'
+    title: Encrypting Data with AES
+    objective: Demonstrate how to implement AES encryption for data at rest using
+      Flutter's cryptography libraries.
+  - id: '02.03'
+    title: Key Management Strategies
+    objective: Cover best practices for securely managing encryption keys, including
+      key derivation functions and secure key storage.
+- id: '03'
+  title: Network Security - Certificate Pinning
+  sections:
+  - id: '03.01'
+    title: Why Certificate Pinning Matters
+    objective: Explain the risks of insecure HTTPS connections and how certificate
+      pinning mitigates man-in-the-middle attacks.
+  - id: '03.02'
+    title: Implementing Certificate Pinning
+    objective: Show how to enforce certificate pinning in Flutter using the http package
+      and custom trust stores.
+  - id: '03.03'
+    title: Handling Pinning Exceptions
+    objective: Detail strategies for gracefully handling certificate mismatches and
+      expired certificates in production apps.
+- id: '04'
+  title: Native Channels and Secure Communication
+  sections:
+  - id: '04.01'
+    title: Platform Channels Fundamentals
+    objective: Explain how Flutter's platform channels enable communication between
+      Dart and native code, with security implications.
+  - id: '04.02'
+    title: Securing Native Code Interactions
+    objective: Demonstrate techniques for validating inputs, sanitizing data, and
+      preventing code injection through native channels.
+  - id: '04.03'
+    title: Secure Inter-Process Communication
+    objective: Cover best practices for encrypting data transmitted between Flutter
+      and native modules using TLS or custom protocols.
+- id: '05'
+  title: App Obfuscation and Protection
+  sections:
+  - id: '05.01'
+    title: Code Obfuscation Techniques
+    objective: Describe how to use ProGuard/R8 to obfuscate Flutter code and make
+      reverse engineering more difficult.
+  - id: '05.02'
+    title: Anti-Tampering Strategies
+    objective: Explain methods for detecting and preventing code tampering, including
+      checksum validation and runtime checks.
+  - id: '05.03'
+    title: Secure Build Configurations
+    objective: Guide developers through configuring Flutter builds with environment-specific
+      secrets and secure packaging practices.

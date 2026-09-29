@@ -1,0 +1,109 @@
+site_name: ITSTCK | Data & Artificial Intelligence
+site_description: Data Pipelines, Streaming, Data Warehousing, Agentic AI, RAG, and MLOps.
+site_url: https://itstck.com/data/
+
+repo_name: it-stck/web/projects/data
+repo_url: https://github.com/it-stck/web/projects/data
+edit_uri: edit/main/web/projects/data/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  logo: https://itstck.com/assets/img/logo.webp
+  favicon: https://itstck.com/assets/img/favicon.ico
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: slate
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: slate
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+
+plugins:
+  - search
+  - meta
+
+nav:
+  - Home: index.md
+
+  # ── AI ENGINEERING & MLOPS ──
+  - Artificial Intelligence & MLOps:
+      - Overview: ai-ml/index.md
+      - Courses:
+          - LLM Fine-Tuning (PEFT & LoRA): ai-ml/courses/llm-fine-tuning-with-peft-and-lora/index.md
+          - MLOps with MLflow & Kubeflow: ai-ml/courses/mlops-with-mlflow-and-kubeflow/index.md
+          - RAG Systems Architecture: ai-ml/courses/rag-systems-architecture-and-implementation/index.md
+      - Guides:
+          - Agentic AI Workflows (LangGraph):
+              - LangGraph Intro: ai-ml/guides/agentic-ai-workflows-with-langgraph/01.01-what-is-langgraph-and-why-use-it-for-agentic-workflows.md
+              - Nodes & Edges: ai-ml/guides/agentic-ai-workflows-with-langgraph/01.02-core-concepts-nodes-edges-and-graph-structures.md
+              - State Persistence: ai-ml/guides/agentic-ai-workflows-with-langgraph/02.01-tracking-and-persisting-workflow-state.md
+              - Stateful Node Patterns: ai-ml/guides/agentic-ai-workflows-with-langgraph/02.02-stateful-node-design-patterns.md
+              - Calling External Tools: ai-ml/guides/agentic-ai-workflows-with-langgraph/03.01-calling-external-tools-and-apis.md
+              - Retry Logic & Errors: ai-ml/guides/agentic-ai-workflows-with-langgraph/03.02-error-handling-and-retry-logic-for-tool-calls.md
+              - Multi-Agent Systems: ai-ml/guides/agentic-ai-workflows-with-langgraph/04.01-designing-multi-agent-systems-with-langgraph.md
+              - Interoperability: ai-ml/guides/agentic-ai-workflows-with-langgraph/04.02-agent-interoperability-and-data-sharing.md
+              - Human-in-the-Loop: ai-ml/guides/agentic-ai-workflows-with-langgraph/05.01-incorporating-human-feedback-loops.md
+              - Monitoring Workflows: ai-ml/guides/agentic-ai-workflows-with-langgraph/05.02-monitoring-and-auditing-agentic-workflows.md
+          - Computer Vision (PyTorch & OpenCV): ai-ml/guides/computer-vision-pipelines-with-pytorch-and-opencv/index.md
+          - Local LLM Deployment: ai-ml/guides/local-llm-deployment-and-optimization/index.md
+          - OWASP Top 10 for LLMs & Guardrails:
+              - Top 10 LLM Intro: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/01.01-introduction-to-owasp-top-10-for-llms.md
+              - Key Terminology: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/01.02-key-concepts-and-terminology.md
+              - Prompt Injection: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/02.01-understanding-prompt-injection-attacks.md
+              - Mitigating Prompt Injection: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/02.02-mitigating-prompt-injection-risks.md
+              - Data Poisoning: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/03.01-data-poisoning-in-llm-training.md
+              - Secure Curation: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/03.02-secure-data-curation-practices.md
+              - LLM DoS Attacks: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/04.01-understanding-llm-dos-vulnerabilities.md
+              - Defending DoS: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/04.02-defensive-measures-against-dos-attacks.md
+              - Neural Guardrails: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/05.01-implementing-neural-network-guardrails.md
+              - Guardrail Tools: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/05.02-tools-for-guardrail-implementation.md
+              - Securing Output: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/06.01-securing-llm-output-generation.md
+              - Output Validation: ai-ml/guides/owasp-top-10-for-llms-and-guardrails/06.02-automated-output-validation-techniques.md
+      - References:
+          - Vector Databases Operations: ai-ml/references/vector-databases-comparison-and-operations/index.md
+
+  # ── DATA ENGINEERING & STREAMING ──
+  - Data Engineering:
+      - Overview: data/index.md
+      - Courses:
+          - Apache Kafka Event Streaming: data/courses/apache-kafka-event-streaming-architecture/index.md
+      - Guides:
+          - Snowflake Data Warehousing: data/guides/snowflake-data-warehousing-best-practices/index.md

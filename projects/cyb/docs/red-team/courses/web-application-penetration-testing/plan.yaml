@@ -1,0 +1,125 @@
+title: Web Application Penetration Testing
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Reconnaissance Techniques
+  sections:
+  - id: '01.01'
+    title: Passive vs Active Reconnaissance
+    objective: Teach how to differentiate between passive information gathering (e.g.,
+      WHOIS, DNS enumeration) and active techniques (e.g., port scanning, live server
+      probing) while adhering to legal boundaries.
+  - id: '01.02'
+    title: Web Application Mapping
+    objective: Explain tools and methods for identifying endpoints, APIs, and hidden
+      resources through HTTP request analysis and server response inspection.
+  - id: '01.03'
+    title: 'Case Study: Reconnaissance in Real-World Scenarios'
+    objective: Demonstrate how to apply reconnaissance techniques to a simulated target
+      to identify exploitable vulnerabilities in its infrastructure.
+- id: '02'
+  title: SQL Injection Attacks
+  sections:
+  - id: '02.01'
+    title: SQLi Fundamentals
+    objective: Cover SQL syntax injection vectors, parameterized queries, and common
+      database interaction patterns to identify vulnerable code paths.
+  - id: '02.02'
+    title: Exploitation Techniques
+    objective: Teach how to craft payloads for union-based, blind, and time-based
+      SQLi attacks, including bypassing WAFs and obfuscation methods.
+  - id: '02.03'
+    title: Database Enumeration and Privilege Escalation
+    objective: Guide on extracting database schemas, credentials, and escalating privileges
+      through SQL injection vectors.
+- id: '03'
+  title: Cross-Site Scripting (XSS) Attacks
+  sections:
+  - id: '03.01'
+    title: XSS Attack Vectors
+    objective: Differentiate between stored, reflected, and DOM-based XSS, and identify
+      common payload delivery mechanisms.
+  - id: '03.02'
+    title: Exploitation and Payload Delivery
+    objective: Demonstrate how to craft and deliver XSS payloads for session hijacking,
+      phishing, and malware injection.
+  - id: '03.03'
+    title: Mitigation Bypass Techniques
+    objective: Show how to bypass XSS filters using encoding techniques, context-aware
+      payloads, and browser-specific vulnerabilities.
+- id: '04'
+  title: CSRF and SSRF Vulnerabilities
+  sections:
+  - id: '04.01'
+    title: CSRF Attack Mechanics
+    objective: Explain how CSRF exploits work, including token manipulation and state-changing
+      request interception.
+  - id: '04.02'
+    title: SSRF Attack Vectors
+    objective: Detail how SSRF can exploit internal services via misconfigured server-side
+      redirects and network traversal techniques.
+  - id: '04.03'
+    title: Defensive Countermeasures
+    objective: Review mitigation strategies like CSRF tokens, SameSite attributes,
+      and internal network segmentation.
+- id: '05'
+  title: Authentication Bypass Techniques
+  sections:
+  - id: '05.01'
+    title: Session Fixation and Token Manipulation
+    objective: Teach how to exploit session management weaknesses and manipulate authentication
+      tokens for unauthorized access.
+  - id: '05.02'
+    title: OAuth and API Token Exploitation
+    objective: Cover bypassing OAuth flows, token replay attacks, and insecure API
+      credential exposure.
+  - id: '05.03'
+    title: Password Cracking and Credential Stuffing
+    objective: Demonstrate tools and techniques for brute-forcing weak passwords and
+      leveraging credential databases.
+- id: '06'
+  title: API Security Analysis
+  sections:
+  - id: '06.01'
+    title: API Enumeration and Testing
+    objective: Explain how to identify and test APIs through reverse engineering,
+      Swagger analysis, and endpoint probing.
+  - id: '06.02'
+    title: Authentication and Rate Limiting
+    objective: Evaluate API security by testing for missing authentication, insecure
+      token storage, and bypassing rate-limiting mechanisms.
+  - id: '06.03'
+    title: Data Validation and Injection
+    objective: Identify vulnerabilities in API data handling, including JSON injection
+      and insecure deserialization risks.
+- id: '07'
+  title: Deserialization Vulnerabilities
+  sections:
+  - id: '07.01'
+    title: Deserialization Attack Mechanics
+    objective: Explain how deserialization vulnerabilities allow remote code execution
+      through malicious object payloads.
+  - id: '07.02'
+    title: Exploitation with RCE
+    objective: Demonstrate crafting and delivering deserialization payloads to execute
+      arbitrary code on the server.
+  - id: '07.03'
+    title: Mitigation and Detection
+    objective: Review secure deserialization practices and tools for detecting serialized
+      payload patterns.
+- id: 08
+  title: Burp Suite Advanced Usage
+  sections:
+  - id: '08.01'
+    title: Custom Scanner Rules
+    objective: Guide on creating and deploying custom Burp Suite scanner rules for
+      detecting specific web vulnerabilities.
+  - id: '08.02'
+    title: Intruder and Payload Processing
+    objective: Teach advanced Intruder configurations, payload permutations, and handling
+      complex request structures.
+  - id: '08.03'
+    title: Reconnaissance with Burp
+    objective: Show how to use Burp Suite's recon tools for mapping web applications
+      and identifying hidden endpoints.

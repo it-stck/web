@@ -1,0 +1,79 @@
+status: completed
+title: Zero Trust Architecture Implementation
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Core Principles of Zero Trust
+  section_id: '01.01'
+  title: Never-Trust-Always-Verify Framework
+  status: completed
+- chapter_id: '01'
+  chapter_title: Core Principles of Zero Trust
+  section_id: '01.02'
+  title: Least Privilege Access
+  status: completed
+- chapter_id: '01'
+  chapter_title: Core Principles of Zero Trust
+  section_id: '01.03'
+  title: Data Protection in Zero Trust
+  status: completed
+- chapter_id: '02'
+  chapter_title: Microsegmentation Implementation
+  section_id: '02.01'
+  title: Network Microsegmentation Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: Microsegmentation Implementation
+  section_id: '02.02'
+  title: Policy-Based Segmentation
+  status: completed
+- chapter_id: '02'
+  chapter_title: Microsegmentation Implementation
+  section_id: '02.03'
+  title: Integration with Zero Trust
+  status: completed
+- chapter_id: '03'
+  chapter_title: Identity-Perimeter Architecture
+  section_id: '03.01'
+  title: Identity as the New Perimeter
+  status: completed
+- chapter_id: '03'
+  chapter_title: Identity-Perimeter Architecture
+  section_id: '03.02'
+  title: Keycloak Integration for IAM
+  status: completed
+- chapter_id: '03'
+  chapter_title: Identity-Perimeter Architecture
+  section_id: '03.03'
+  title: OAuth2/OIDC for Federated Access
+  status: completed
+- chapter_id: '04'
+  chapter_title: Device Trust and PKI
+  section_id: '04.01'
+  title: Device Authentication in Zero Trust
+  status: completed
+- chapter_id: '04'
+  chapter_title: Device Trust and PKI
+  section_id: '04.02'
+  title: Public Key Infrastructure (PKI) Integration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Device Trust and PKI
+  section_id: '04.03'
+  title: HashiCorp Vault for Secret Management
+  status: completed
+- chapter_id: '05'
+  chapter_title: Continuous Evaluation and Monitoring
+  section_id: '05.01'
+  title: Real-Time Risk Assessment
+  status: completed
+- chapter_id: '05'
+  chapter_title: Continuous Evaluation and Monitoring
+  section_id: '05.02'
+  title: Automated Threat Detection
+  status: completed
+- chapter_id: '05'
+  chapter_title: Continuous Evaluation and Monitoring
+  section_id: '05.03'
+  title: Incident Response and Remediation
+  status: completed

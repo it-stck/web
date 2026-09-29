@@ -1,0 +1,79 @@
+title: Purple Team Operations with Atomic Red Team
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Atomic Red Team Fundamentals
+  sections:
+  - id: '01.01'
+    title: Atomic Red Team Overview
+    objective: Explain what Atomic Red Team is, its purpose in defensive security,
+      and its relationship to MITRE ATT&CK.
+  - id: '01.02'
+    title: Setting Up Atomic Red Team
+    objective: Guide readers through installing, configuring, and initializing the
+      Atomic Red Team framework on their environment.
+  - id: '01.03'
+    title: Core Concepts and Terminology
+    objective: Define key terms like 'atomic tests,' 'technique mapping,' and 'detection
+      validation' within the context of Purple Team operations.
+- id: '02'
+  title: MITRE ATT&CK Mapping
+  sections:
+  - id: '02.01'
+    title: Mapping Atomic Tests to MITRE ATT&CK
+    objective: Demonstrate how to correlate Atomic Red Team techniques with MITRE
+      ATT&CK framework entries for structured analysis.
+  - id: '02.02'
+    title: Customizing MITRE-Mapped Techniques
+    objective: Show how to adapt Atomic tests to align with organizational MITRE ATT&CK
+      configurations and custom tactics.
+  - id: '02.03'
+    title: 'Case Studies: MITRE Integration'
+    objective: Provide real-world examples of MITRE-mapped Atomic tests in incident
+      response scenarios.
+- id: '03'
+  title: Execution Frameworks
+  sections:
+  - id: '03.01'
+    title: Designing Execution Frameworks
+    objective: Explain how to structure modular execution frameworks using Atomic
+      Red Team for repeatable attacks.
+  - id: '03.02'
+    title: Automating Atomic Test Execution
+    objective: Detail tools and scripts to automate running Atomic tests across environments
+      with minimal manual intervention.
+  - id: '03.03'
+    title: CI/CD Integration for Red Team Operations
+    objective: Outline strategies to integrate Atomic Red Team into CI/CD pipelines
+      for continuous testing and validation.
+- id: '04'
+  title: Detection Validation
+  sections:
+  - id: '04.01'
+    title: Validating Detection Rules
+    objective: Describe methods to test and validate detection rules against Atomic
+      Red Team scenarios.
+  - id: '04.02'
+    title: Evasion Techniques and Countermeasures
+    objective: Analyze how attackers evade detection and how to strengthen defenses
+      against such tactics.
+  - id: '04.03'
+    title: Tools for Detection Validation
+    objective: Review tools like Sigma rules, ELK stack, and SIEM systems for validating
+      Atomic test outcomes.
+- id: '05'
+  title: Telemetry Gap Analysis
+  sections:
+  - id: '05.01'
+    title: Analyzing Telemetry Coverage
+    objective: Explain how to assess telemetry gaps using Atomic Red Team tests to
+      identify missing data sources.
+  - id: '05.02'
+    title: Identifying Critical Telemetry Gaps
+    objective: Provide techniques to prioritize telemetry gaps based on attack surface
+      and detection impact.
+  - id: '05.03'
+    title: Remediating Telemetry Gaps
+    objective: Offer strategies for closing telemetry gaps through logging enhancements
+      and SIEM configuration.

@@ -1,0 +1,59 @@
+title: Docker and Container Security Hardening
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Image Scanning and Vulnerability Management
+  sections:
+  - id: '01.01'
+    title: Image Scanning with Docker and Third-Party Tools
+    objective: Explain how to use Docker's built-in image scanning, Clair, Trivy,
+      and Harbor to identify vulnerabilities in container images.
+  - id: '01.02'
+    title: Vulnerability Management and Patching Strategies
+    objective: Detail processes for prioritizing and remediating vulnerabilities,
+      including SBOM integration and automated patching workflows.
+- id: '02'
+  title: Runtime Security with Rootless Containers and Seccomp
+  sections:
+  - id: '02.01'
+    title: Rootless Containers for Enhanced Privilege Isolation
+    objective: Demonstrate how to configure rootless containers using Docker's rootless
+      mode to minimize attack surface during runtime.
+  - id: '02.02'
+    title: Securing Container Runtimes with Seccomp Profiles
+    objective: Guide readers in creating and applying seccomp profiles to restrict
+      system calls and enforce security policies in containers.
+- id: '03'
+  title: 'Reducing Attack Surface: Capabilities and Build Optimization'
+  sections:
+  - id: '03.01'
+    title: Dropping Linux Capabilities in Container Processes
+    objective: Teach how to drop unnecessary Linux capabilities using Docker's --cap-drop
+      flag to limit process privileges.
+  - id: '03.02'
+    title: Multi-Stage Builds for Minimal Base Images
+    objective: Explain how to use Docker's multi-stage builds to reduce image size
+      and eliminate leftover build-time tools.
+- id: '04'
+  title: Secret Management and Secure Configuration
+  sections:
+  - id: '04.01'
+    title: Secure Secret Management in Containerized Applications
+    objective: Cover best practices for handling secrets using Kubernetes Secrets,
+      HashiCorp Vault, and environment variables with encryption.
+  - id: '04.02'
+    title: Hardening Container Configuration Files
+    objective: Provide guidance on securing Docker daemon configurations, restricting
+      API access, and disabling unused features.
+- id: '05'
+  title: Runtime Security Best Practices
+  sections:
+  - id: '05.01'
+    title: Monitoring and Logging for Container Security
+    objective: Outline tools and techniques for real-time monitoring, logging, and
+      alerting (e.g., Prometheus, ELK stack, Falco).
+  - id: '05.02'
+    title: 'Advanced Runtime Security: Auditing and Compliance'
+    objective: Detail how to implement runtime auditing, enforce compliance policies,
+      and perform regular security audits.

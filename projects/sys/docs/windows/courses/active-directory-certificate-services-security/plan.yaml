@@ -1,0 +1,96 @@
+title: Active Directory Certificate Services Security
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: AD CS Templates
+  sections:
+  - id: '01.01'
+    title: Understanding Certificate Templates
+    objective: Explain the purpose and components of certificate templates in Active
+      Directory Certificate Services.
+  - id: '01.02'
+    title: Creating and Configuring Certificate Templates
+    objective: Demonstrate how to create, configure, and deploy certificate templates
+      for different use cases.
+  - id: '01.03'
+    title: Managing Certificate Templates
+    objective: Detail the process of managing, modifying, and retiring certificate
+      templates in a production environment.
+- id: '02'
+  title: ESC Vulnerabilities
+  sections:
+  - id: '02.01'
+    title: ESC1 Vulnerability Overview
+    objective: Describe the ESC1 vulnerability, its impact, and mitigation strategies.
+  - id: '02.02'
+    title: ESC2 Vulnerability Overview
+    objective: Explain the ESC2 vulnerability, its risks, and recommended countermeasures.
+  - id: '02.03'
+    title: ESC3 Vulnerability Overview
+    objective: Detail the ESC3 vulnerability, its exploitation vectors, and preventive
+      measures.
+  - id: '02.04'
+    title: ESC4 Vulnerability Overview
+    objective: Outline the ESC4 vulnerability, its potential consequences, and remediation
+      steps.
+  - id: '02.05'
+    title: ESC5 Vulnerability Overview
+    objective: Examine the ESC5 vulnerability, its detection methods, and mitigation
+      techniques.
+  - id: '02.06'
+    title: ESC6 Vulnerability Overview
+    objective: Analyze the ESC6 vulnerability, its attack surface, and defensive configurations.
+  - id: '02.07'
+    title: ESC7 Vulnerability Overview
+    objective: Discuss the ESC7 vulnerability, its impact on certificate infrastructure,
+      and recovery procedures.
+  - id: '02.08'
+    title: ESC8 Vulnerability Overview
+    objective: Evaluate the ESC8 vulnerability, its exploitation scenarios, and long-term
+      mitigation strategies.
+- id: '03'
+  title: CertSrv Configuration
+  sections:
+  - id: '03.01'
+    title: Installing and Configuring Certificate Services
+    objective: Walk through the steps to install and configure Certificate Services
+      on a Windows Server.
+  - id: '03.02'
+    title: Configuring Certificate Authority Roles
+    objective: Detail the configuration of CA roles (Stand-alone, Enterprise, Root,
+      Subordinate) and their security implications.
+  - id: '03.03'
+    title: Securing Certificate Services Infrastructure
+    objective: Outline best practices for securing the certificate services infrastructure,
+      including firewall rules and access controls.
+- id: '04'
+  title: PKINIT Authentication
+  sections:
+  - id: '04.01'
+    title: PKINIT Overview and Requirements
+    objective: Explain the PKINIT protocol, its role in secure authentication, and
+      prerequisites for implementation.
+  - id: '04.02'
+    title: Configuring PKINIT for Kerberos
+    objective: Demonstrate how to configure PKINIT-enabled Kerberos authentication
+      in an AD environment.
+  - id: '04.03'
+    title: Troubleshooting PKINIT Issues
+    objective: Provide guidance on diagnosing and resolving common PKINIT authentication
+      failures.
+- id: '05'
+  title: Auto Enrollment
+  sections:
+  - id: '05.01'
+    title: Enabling Auto Enrollment for Certificates
+    objective: Explain how to enable and configure auto-enrollment for user and computer
+      certificates.
+  - id: '05.02'
+    title: Auto Enrollment Policies and Scenarios
+    objective: Detail the policies governing auto-enrollment and use cases for different
+      certificate types.
+  - id: '05.03'
+    title: Troubleshooting Auto Enrollment Failures
+    objective: Outline steps to diagnose and resolve common issues with auto-enrollment
+      processes.

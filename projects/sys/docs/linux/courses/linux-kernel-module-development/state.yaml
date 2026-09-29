@@ -1,0 +1,104 @@
+status: completed
+title: Linux Kernel Module Development
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Module Compilation Basics
+  section_id: '01.01'
+  title: Kernel Module Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Module Compilation Basics
+  section_id: '01.02'
+  title: Development Environment Setup
+  status: completed
+- chapter_id: '01'
+  chapter_title: Module Compilation Basics
+  section_id: '01.03'
+  title: Writing a Simple Module
+  status: completed
+- chapter_id: '01'
+  chapter_title: Module Compilation Basics
+  section_id: '01.04'
+  title: Compilation and Loading
+  status: completed
+- chapter_id: '02'
+  chapter_title: Character Device Implementation
+  section_id: '02.01'
+  title: Character Device Fundamentals
+  status: completed
+- chapter_id: '02'
+  chapter_title: Character Device Implementation
+  section_id: '02.02'
+  title: Creating a Character Device
+  status: completed
+- chapter_id: '02'
+  chapter_title: Character Device Implementation
+  section_id: '02.03'
+  title: File Operation Implementation
+  status: completed
+- chapter_id: '02'
+  chapter_title: Character Device Implementation
+  section_id: '02.04'
+  title: Device Driver Lifecycle
+  status: completed
+- chapter_id: '03'
+  chapter_title: Procfs and Sysfs Interface
+  section_id: '03.01'
+  title: Procfs Filesystem Overview
+  status: completed
+- chapter_id: '03'
+  chapter_title: Procfs and Sysfs Interface
+  section_id: '03.02'
+  title: Sysfs Filesystem Fundamentals
+  status: completed
+- chapter_id: '03'
+  chapter_title: Procfs and Sysfs Interface
+  section_id: '03.03'
+  title: Creating Procfs Entries
+  status: completed
+- chapter_id: '03'
+  chapter_title: Procfs and Sysfs Interface
+  section_id: '03.04'
+  title: Sysfs Attribute Implementation
+  status: completed
+- chapter_id: '04'
+  chapter_title: Kernel Concurrency Models
+  section_id: '04.01'
+  title: Concurrency Challenges
+  status: completed
+- chapter_id: '04'
+  chapter_title: Kernel Concurrency Models
+  section_id: '04.02'
+  title: Spinlocks and Mutexes
+  status: completed
+- chapter_id: '04'
+  chapter_title: Kernel Concurrency Models
+  section_id: '04.03'
+  title: Atomic Operations
+  status: completed
+- chapter_id: '04'
+  chapter_title: Kernel Concurrency Models
+  section_id: '04.04'
+  title: Interrupt Handling
+  status: completed
+- chapter_id: '05'
+  chapter_title: Memory Allocation Techniques
+  section_id: '05.01'
+  title: Kernel Memory Overview
+  status: completed
+- chapter_id: '05'
+  chapter_title: Memory Allocation Techniques
+  section_id: '05.02'
+  title: Kmalloc and Kfree Usage
+  status: completed
+- chapter_id: '05'
+  chapter_title: Memory Allocation Techniques
+  section_id: '05.03'
+  title: Slab Allocator Fundamentals
+  status: completed
+- chapter_id: '05'
+  chapter_title: Memory Allocation Techniques
+  section_id: '05.04'
+  title: Memory Management Best Practices
+  status: completed

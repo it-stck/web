@@ -1,0 +1,46 @@
+title: WSUS Patch Management Best Practices
+content_type: tips
+language: en
+chapters:
+- id: '01'
+  title: WSUS Database Cleanup Strategies
+  sections:
+  - id: '01.01'
+    title: Optimizing WSUS Database Performance
+    objective: Explain how to identify and remove obsolete records from the WSUS database
+      to improve performance and reduce storage usage.
+- id: '02'
+  title: Grouping Strategies for Patch Management
+  sections:
+  - id: '02.01'
+    title: Efficient Patch Grouping Techniques
+    objective: Demonstrate how to create logical groupings of computers in WSUS to
+      streamline patch deployment and compliance tracking.
+- id: '03'
+  title: Declining Superseded Patches
+  sections:
+  - id: '03.01'
+    title: Managing Superseded Updates
+    objective: Provide steps to decline superseded patches in WSUS to prevent unnecessary
+      distribution and reduce administrative overhead.
+- id: '04'
+  title: Automating Maintenance with Scripts
+  sections:
+  - id: '04.01'
+    title: Creating Maintenance Scripts for WSUS
+    objective: Guide users in writing PowerShell scripts to automate routine WSUS
+      tasks like database cleanup and update synchronization.
+- id: '05'
+  title: Client Troubleshooting in WSUS
+  sections:
+  - id: '05.01'
+    title: Resolving Common Client Connectivity Issues
+    objective: Outline methods to diagnose and fix WSUS client connectivity problems,
+      including proxy settings and GPO configuration.
+- id: '06'
+  title: WSUS Reporting and Analytics
+  sections:
+  - id: '06.01'
+    title: Generating Custom WSUS Reports
+    objective: Show how to configure WSUS to generate reports on update distribution
+      status, compliance, and client activity.

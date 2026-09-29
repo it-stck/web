@@ -1,0 +1,94 @@
+title: Snowflake Data Warehousing Best Practices
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Virtual Warehouses and Scaling
+  sections:
+  - id: '01.01'
+    title: Understanding Virtual Warehouses
+    objective: Explain what virtual warehouses are, their role in Snowflake's architecture,
+      and how they enable elastic compute scaling.
+  - id: '01.02'
+    title: Scaling Strategies for Workloads
+    objective: Provide guidance on configuring and managing virtual warehouses for
+      different workload types (batch, streaming, ad-hoc queries).
+  - id: '01.03'
+    title: Cost Management for Virtual Warehouses
+    objective: Teach techniques to optimize virtual warehouse costs through auto-scaling,
+      idle resource monitoring, and query tuning.
+- id: '02'
+  title: Data Modeling for Performance
+  sections:
+  - id: '02.01'
+    title: Snowflake Data Modeling Principles
+    objective: Outline best practices for designing schemas, including star/snowflake
+      schemas, semi-structured data handling, and partitioning strategies.
+  - id: '02.02'
+    title: Clustering Keys and Query Optimization
+    objective: Demonstrate how to select and implement clustering keys to improve
+      query performance and reduce compute costs.
+  - id: '02.03'
+    title: Data Modeling for Time-Travel Use Cases
+    objective: Explain how to design schemas that leverage time-travel features for
+      historical data analysis and auditing.
+- id: '03'
+  title: Data Management Techniques
+  sections:
+  - id: '03.01'
+    title: Zero-Copy Cloning for Data Analysis
+    objective: Describe how to use zero-copy cloning to create read-only copies of
+      tables for analytics without data duplication.
+  - id: '03.02'
+    title: Time-Travel and Data Versioning
+    objective: Explain how to use time-travel features to access historical data versions
+      and recover from accidental data modifications.
+  - id: '03.03'
+    title: Data Lifecycle Management
+    objective: Provide strategies for managing data retention, archiving, and purging
+      using Snowflake's time-travel and archival capabilities.
+- id: '04'
+  title: Data Ingestion with Snowpipe
+  sections:
+  - id: '04.01'
+    title: Snowpipe Architecture and Benefits
+    objective: Detail how Snowpipe enables continuous, serverless data ingestion and
+      its advantages over traditional batch methods.
+  - id: '04.02'
+    title: Configuring and Managing Snowpipe
+    objective: Guide users through setting up Snowpipe, managing file queues, and
+      handling ingestion errors and retries.
+  - id: '04.03'
+    title: Securing Snowpipe Data Ingestion
+    objective: Explain best practices for securing data in transit and at rest, including
+      encryption and access controls.
+- id: '05'
+  title: Data Sharing and Collaboration
+  sections:
+  - id: '05.01'
+    title: Snowflake Data Sharing Overview
+    objective: Describe how data sharing enables secure, scalable collaboration between
+      Snowflake organizations without data duplication.
+  - id: '05.02'
+    title: Setting Up Data Sharing
+    objective: Walk through creating shared databases, granting access, and managing
+      shared data objects in Snowflake.
+  - id: '05.03'
+    title: Data Sharing Security and Governance
+    objective: Discuss best practices for securing shared data, including role-based
+      access, masking, and auditing.
+- id: '06'
+  title: Cost Management and Optimization
+  sections:
+  - id: '06.01'
+    title: Monitoring Snowflake Costs
+    objective: Explain how to use Snowflake's cost monitoring tools to track compute,
+      storage, and data transfer expenses.
+  - id: '06.02'
+    title: Optimizing Query Costs
+    objective: Provide techniques to reduce query costs through caching, materialized
+      views, and efficient query patterns.
+  - id: '06.03'
+    title: Cost-Effective Data Storage Strategies
+    objective: Teach how to minimize storage costs using compression, data archiving,
+      and partitioning strategies.

@@ -1,0 +1,34 @@
+status: completed
+title: Blameless Postmortems and Incident Management
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Incident Command and Response
+  section_id: '01.01'
+  title: Incident Command Structure
+  status: completed
+- chapter_id: '01'
+  chapter_title: Incident Command and Response
+  section_id: '01.02'
+  title: Timeline Reconstruction
+  status: completed
+- chapter_id: '01'
+  chapter_title: Incident Command and Response
+  section_id: '01.03'
+  title: Communication Protocols
+  status: completed
+- chapter_id: '02'
+  chapter_title: Postmortem Process and Analysis
+  section_id: '02.01'
+  title: Postmortem Template Design
+  status: completed
+- chapter_id: '02'
+  chapter_title: Postmortem Process and Analysis
+  section_id: '02.02'
+  title: Root Cause Analysis Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: Postmortem Process and Analysis
+  section_id: '02.03'
+  title: Action Item Prioritization
+  status: completed

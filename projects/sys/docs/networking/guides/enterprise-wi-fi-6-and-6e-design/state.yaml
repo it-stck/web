@@ -1,0 +1,74 @@
+status: draft
+title: Enterprise Wi-Fi 6 and 6E Design
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: RF Fundamentals for Wi-Fi 6/6E
+  section_id: '01.01'
+  title: RF Concepts and Spectrum Bands
+  status: pending
+- chapter_id: '01'
+  chapter_title: RF Fundamentals for Wi-Fi 6/6E
+  section_id: '01.02'
+  title: Signal Propagation and Attenuation
+  status: pending
+- chapter_id: '02'
+  chapter_title: Channel Planning and Coexistence
+  section_id: '02.01'
+  title: Channel Selection and DFS Compliance
+  status: pending
+- chapter_id: '02'
+  chapter_title: Channel Planning and Coexistence
+  section_id: '02.02'
+  title: Interference Mitigation Techniques
+  status: pending
+- chapter_id: '03'
+  chapter_title: Roaming Optimization
+  section_id: '03.01'
+  title: Wi-Fi Roaming Mechanisms
+  status: pending
+- chapter_id: '03'
+  chapter_title: Roaming Optimization
+  section_id: '03.02'
+  title: Roaming Optimization Strategies
+  status: pending
+- chapter_id: '04'
+  chapter_title: WPA3 Enterprise Security
+  section_id: '04.01'
+  title: WPA3 Protocol Architecture
+  status: pending
+- chapter_id: '04'
+  chapter_title: WPA3 Enterprise Security
+  section_id: '04.02'
+  title: Implementing WPA3 in Enterprise Networks
+  status: pending
+- chapter_id: '05'
+  chapter_title: Site Survey Analysis
+  section_id: '05.01'
+  title: Pre-Survey Planning and Tools
+  status: pending
+- chapter_id: '05'
+  chapter_title: Site Survey Analysis
+  section_id: '05.02'
+  title: Interpreting Survey Results
+  status: pending
+- chapter_id: '06'
+  chapter_title: Capacity Planning
+  section_id: '06.01'
+  title: Factors Affecting Network Capacity
+  status: pending
+- chapter_id: '06'
+  chapter_title: Capacity Planning
+  section_id: '06.02'
+  title: Capacity Planning Tools and Metrics
+  status: pending
+- chapter_id: '07'
+  chapter_title: Beamforming and Spatial Reuse
+  section_id: '07.01'
+  title: Beamforming Technology Overview
+  status: pending
+- chapter_id: '07'
+  chapter_title: Beamforming and Spatial Reuse
+  section_id: '07.02'
+  title: Optimizing Spatial Reuse
+  status: pending

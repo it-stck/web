@@ -1,0 +1,29 @@
+status: completed
+title: PCI DSS 4 Compliance Infrastructure Design
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Cardholder Data Environment
+  section_id: '01.01'
+  title: CDE Design Principles
+  status: completed
+- chapter_id: '02'
+  chapter_title: Tokenization
+  section_id: '02.01'
+  title: Tokenization Implementation
+  status: completed
+- chapter_id: '03'
+  chapter_title: Scope Reduction
+  section_id: '03.01'
+  title: Scope Minimization Techniques
+  status: completed
+- chapter_id: '04'
+  chapter_title: Customized Approach
+  section_id: '04.01'
+  title: Tailoring Compliance Requirements
+  status: completed
+- chapter_id: '05'
+  chapter_title: Network Segmentation
+  section_id: '05.01'
+  title: Segmentation for CDE Protection
+  status: completed

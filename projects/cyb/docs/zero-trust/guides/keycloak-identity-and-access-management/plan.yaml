@@ -1,0 +1,25 @@
+title: Keycloak Identity and Access Management
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Keycloak Fundamentals
+  sections:
+  - id: '01.01'
+    title: Keycloak Architecture Overview
+    objective: Explain Keycloak's modular architecture, core components (servers,
+      clients, users), and its role in Zero Trust frameworks.
+  - id: '01.02'
+    title: Realm Configuration Basics
+    objective: Demonstrate how to create and configure realms, including access control
+      policies and default settings.
+- id: '02'
+  title: User Federation and Identity Integration
+  sections:
+  - id: '02.01'
+    title: User Federation Setup
+    objective: Guide users through configuring external identity providers (LDAP,
+      Active Directory, SAML) for user federation.
+  - ? ''
+    : ''
+    objective: ''

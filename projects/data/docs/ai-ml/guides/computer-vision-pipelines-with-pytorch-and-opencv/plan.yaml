@@ -1,0 +1,86 @@
+title: Computer Vision Pipelines with PyTorch and OpenCV
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Computer Vision Pipelines
+  sections:
+  - id: '01.01'
+    title: Overview of Computer Vision Workflows
+    objective: Explain the core stages of a computer vision pipeline, from data ingestion
+      to model deployment, and their integration with PyTorch and OpenCV.
+  - id: '01.02'
+    title: PyTorch Fundamentals for CV Tasks
+    objective: Cover essential PyTorch concepts like tensors, transforms, and datasets
+      for building vision models.
+  - id: '01.03'
+    ',': OpenCV Basics for Image Processing
+    objective: Demonstrate core OpenCV functions for image manipulation, filtering,
+      and feature extraction.
+  - id: '01.04'
+    title: Integrating PyTorch and OpenCV in Pipelines
+    objective: Show how to synchronize PyTorch models with OpenCV for real-time processing
+      and visualization.
+- id: '02'
+  title: CNN Architectures for Image Classification
+  sections:
+  - id: '02.01'
+    title: Key CNN Architectures and Use Cases
+    objective: Detail CNN architectures like ResNet, VGG, and EfficientNet, and their
+      suitability for different vision tasks.
+  - id: '02.02'
+    title: Training CNNs with PyTorch
+    objective: Guide readers through CNN training pipelines, including loss functions,
+      optimizers, and validation strategies.
+  - id: '02.03'
+    title: Evaluating and Deploying CNN Models
+    objective: Explain model evaluation metrics and techniques for exporting PyTorch
+      models for deployment.
+- id: '03'
+  title: YOLO for Object Detection
+  sections:
+  - id: '03.01'
+    title: YOLO Architecture and Variants
+    objective: Describe YOLOv5/v8 architecture, anchor boxes, and improvements across
+      versions.
+  - id: '03.02'
+    title: Training YOLO Models with PyTorch
+    objective: Walk through YOLO training with PyTorch, including dataset preparation
+      and hyperparameter tuning.
+  - id: '03.03'
+    title: YOLO Inference and Post-Processing
+    objective: Demonstrate real-time object detection with YOLO, including non-maximum
+      suppression and result visualization.
+- id: '04'
+  title: Image Preprocessing and Augmentation
+  sections:
+  - id: '04.01'
+    title: Image Preprocessing Techniques
+    objective: Cover normalization, resizing, and color space conversion using OpenCV
+      and PyTorch transforms.
+  - id: '04.02'
+    title: Advanced Data Augmentation Strategies
+    objective: Explain techniques like rotation, flipping, and mixup, with PyTorch's
+      torchvision.transforms.
+- id: '05'
+  title: Deployment with ONNX and TensorRT
+  sections:
+  - id: '05.01'
+    title: Exporting Models to ONNX Format
+    objective: Demonstrate how to convert PyTorch models to ONNX and validate the
+      exported graph.
+  - id: '05.02'
+    title: Optimizing Models with TensorRT
+    objective: Guide readers through TensorRT inference optimization and precision
+      modes for production deployment.
+- id: '06'
+  title: Advanced Topics and Troubleshooting
+  sections:
+  - id: '06.01'
+    title: Model Optimization Techniques
+    objective: Discuss pruning, quantization, and knowledge distillation for deploying
+      large vision models.
+  - id: '06.02'
+    title: Common Pitfalls and Debugging
+    objective: Identify common issues in CV pipelines, such as shape mismatches and
+      GPU memory leaks, and provide debugging strategies.

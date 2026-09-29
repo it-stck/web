@@ -1,0 +1,36 @@
+title: Blameless Postmortems and Incident Management
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Incident Command and Response
+  sections:
+  - id: '01.01'
+    title: Incident Command Structure
+    objective: Explain the roles and responsibilities of incident commanders, including
+      escalation protocols and decision-making hierarchies during outages.
+  - id: '01.02'
+    title: Timeline Reconstruction
+    objective: Demonstrate how to systematically reconstruct incident timelines using
+      logs, alerts, and communication records to identify key events and gaps.
+  - id: '01.03'
+    title: Communication Protocols
+    objective: Outline best practices for internal and external communication during
+      incidents, including status updates and stakeholder transparency.
+- id: '02'
+  title: Postmortem Process and Analysis
+  sections:
+  - id: '02.01'
+    title: Postmortem Template Design
+    objective: Provide a template structure for postmortems, including sections for
+      summary, timeline, root cause, and action items, with examples of formatting
+      and content.
+  - id: '02.02'
+    title: Root Cause Analysis Techniques
+    objective: Teach methods for identifying root causes, such as the 5 Whys, fault
+      trees, and dependency analysis, with examples of applying them to real-world
+      incidents.
+  - id: '02.03'
+    title: Action Item Prioritization
+    objective: Guide readers on how to categorize, assign, and track action items
+      from postmortems using frameworks like the RACI matrix and urgency/impact criteria.

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /contact/
+Disallow: /p/
+Disallow: /.well-known/
+
+Sitemap: https://itstck.com/sitemap.xml
+Sitemap: https://itstck.com/blog/sitemap.xml

@@ -1,0 +1,94 @@
+title: IoT Firmware Analysis and Reverse Engineering
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to IoT Firmware Analysis
+  sections:
+  - id: '01.01'
+    title: Firmware Structure and Components
+    objective: Explain the typical structure of IoT firmware, including bootloader,
+      kernel, root filesystem, and application binaries.
+  - id: '01.02'
+    title: Tools and Methodologies Overview
+    objective: Introduce key tools (Binwalk, Ghidra, QEMU) and methodologies for firmware
+      analysis and reverse engineering.
+  - id: '01.03'
+    title: Analysis Workflow and Challenges
+    objective: Outline the step-by-step workflow for firmware analysis, including
+      legal considerations and common challenges.
+- id: '02'
+  title: Binwalk Firmware Extraction
+  sections:
+  - id: '02.01'
+    title: Binwalk Installation and Configuration
+    objective: Guide users through installing Binwalk and configuring it for IoT firmware
+      analysis.
+  - id: '02.02'
+    title: Firmware Extraction Techniques
+    objective: Demonstrate how to use Binwalk to extract embedded files, partitions,
+      and payloads from firmware images.
+  - id: '02.03'
+    title: Analyzing Extracted Files
+    objective: Teach methods to analyze extracted files, including identifying sensitive
+      data and potential vulnerabilities.
+- id: '03'
+  title: Squashfs Filesystem Analysis
+  sections:
+  - id: '03.01'
+    title: Squashfs Structure and Features
+    objective: Detail the structure of Squashfs, including its compression, mounting,
+      and integration in IoT devices.
+  - id: '03.02'
+    title: Extracting and Analyzing Squashfs
+    objective: Explain techniques to extract and analyze Squashfs filesystems for
+      hidden data and vulnerabilities.
+  - id: '03.03'
+    title: Mounting and Inspecting Squashfs
+    objective: Demonstrate how to mount Squashfs images and inspect their contents
+      using command-line tools.
+- id: '04'
+  title: Ghidra for Embedded Reverse Engineering
+  sections:
+  - id: '04.01'
+    title: Ghidra Setup and Configuration
+    objective: Guide users through installing and configuring Ghidra for embedded
+      firmware analysis.
+  - id: '04.02'
+    title: Reverse Engineering Firmware Binaries
+    objective: Teach how to use Ghidra to disassemble, decompile, and analyze embedded
+      firmware binaries.
+  - id: '04.03'
+    title: Identifying Vulnerabilities in Code
+    objective: Show techniques to identify security vulnerabilities, such as buffer
+      overflows and insecure functions, in Ghidra-processed code.
+- id: '05'
+  title: Emulation with QEMU
+  sections:
+  - id: '05.01'
+    title: QEMU Setup for IoT Emulation
+    objective: Explain how to configure QEMU to emulate IoT hardware environments
+      for firmware analysis.
+  - id: '05.02'
+    title: Running and Debugging Firmware in QEMU
+    objective: Demonstrate running IoT firmware in QEMU and using debugging tools
+      to analyze its behavior.
+  - id: '05.03'
+    title: Advanced Emulation Techniques
+    objective: Cover advanced techniques for emulating complex hardware interactions
+      and network protocols.
+- id: '06'
+  title: Hardcoded Credentials Detection
+  sections:
+  - id: '06.01'
+    title: Detecting Hardcoded Credentials in Firmware
+    objective: Teach methods to search for hardcoded credentials in firmware binaries
+      and extracted files.
+  - id: '06.02'
+    title: Automated Credential Scanning Tools
+    objective: Introduce tools and scripts for automating the detection of hardcoded
+      credentials in firmware.
+  - id: '06.03'
+    title: Case Studies and Mitigation Strategies
+    objective: Analyze real-world examples of hardcoded credentials and discuss mitigation
+      strategies for secure development.

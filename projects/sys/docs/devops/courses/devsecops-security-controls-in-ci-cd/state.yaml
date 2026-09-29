@@ -1,0 +1,89 @@
+status: completed
+title: DevSecOps Security Controls in CI CD
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to DevSecOps Security in CI/CD
+  section_id: '01.01'
+  title: DevSecOps Principles and CI/CD Integration
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to DevSecOps Security in CI/CD
+  section_id: '01.02'
+  title: Key Security Controls in CI/CD
+  status: completed
+- chapter_id: '02'
+  chapter_title: SAST and DAST Integration
+  section_id: '02.01'
+  title: Static and Dynamic Analysis Tools
+  status: completed
+- chapter_id: '02'
+  chapter_title: SAST and DAST Integration
+  section_id: '02.02'
+  title: Integrating SAST/DAST into CI/CD Pipelines
+  status: completed
+- chapter_id: '02'
+  chapter_title: SAST and DAST Integration
+  section_id: '02.03'
+  title: Best Practices for SAST/DAST Implementation
+  status: completed
+- chapter_id: '03'
+  chapter_title: Dependency Check and Vulnerability Scanning
+  section_id: '03.01'
+  title: Dependency Vulnerability Risks
+  status: completed
+- chapter_id: '03'
+  chapter_title: Dependency Check and Vulnerability Scanning
+  section_id: '03.02'
+  title: Tools for Dependency Scanning
+  status: completed
+- chapter_id: '03'
+  chapter_title: Dependency Check and Vulnerability Scanning
+  section_id: '03.03'
+  title: Automating Dependency Scans in CI/CD
+  status: completed
+- chapter_id: '04'
+  chapter_title: Secrets Scanning and Management
+  section_id: '04.01'
+  title: Securing Secrets in CI/CD
+  status: completed
+- chapter_id: '04'
+  chapter_title: Secrets Scanning and Management
+  section_id: '04.02'
+  title: Secrets Scanning Tools and Techniques
+  status: completed
+- chapter_id: '04'
+  chapter_title: Secrets Scanning and Management
+  section_id: '04.03'
+  title: Implementing Secure Secret Management
+  status: completed
+- chapter_id: '05'
+  chapter_title: Policy-as-Code and Compliance Automation
+  section_id: '05.01'
+  title: Policy-as-Code Fundamentals
+  status: completed
+- chapter_id: '05'
+  chapter_title: Policy-as-Code and Compliance Automation
+  section_id: '05.02'
+  title: Tools for Policy Enforcement
+  status: completed
+- chapter_id: '05'
+  chapter_title: Policy-as-Code and Compliance Automation
+  section_id: '05.03'
+  title: Policy Integration in CI/CD Pipelines
+  status: completed
+- chapter_id: '06'
+  chapter_title: Conftest and Open Policy Agent (OPA) Integration
+  section_id: '06.01'
+  title: Conftest Overview and Use Cases
+  status: completed
+- chapter_id: '06'
+  chapter_title: Conftest and Open Policy Agent (OPA) Integration
+  section_id: '06.02'
+  title: OPA for Dynamic Policy Enforcement
+  status: completed
+- chapter_id: '06'
+  chapter_title: Conftest and Open Policy Agent (OPA) Integration
+  section_id: '06.03'
+  title: Combining Conftest and OPA for Security
+  status: completed

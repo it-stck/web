@@ -1,0 +1,70 @@
+title: OWASP Top 10 for LLMs and Guardrails
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: OWASP Top 10 for LLMs Overview
+  sections:
+  - id: '01.01'
+    title: Introduction to OWASP Top 10 for LLMs
+    objective: Explain the relevance of OWASP Top 10 for LLMs, highlighting key vulnerabilities
+      and guardrails specific to large language models.
+  - id: '01.02'
+    title: Key Concepts and Terminology
+    objective: Define critical terms such as prompt injection, data poisoning, and
+      model denial-of-service to establish a foundational understanding.
+- id: '02'
+  title: Prompt Injection Vulnerabilities
+  sections:
+  - id: '02.01'
+    title: Understanding Prompt Injection Attacks
+    objective: Detail how attackers exploit input to manipulate model outputs, including
+      real-world examples and attack vectors.
+  - id: '02.02'
+    title: Mitigating Prompt Injection Risks
+    objective: Provide actionable strategies for input sanitization, prompt templating,
+      and runtime validation to prevent injection.
+- id: '03'
+  title: Data Poisoning and Training Risks
+  sections:
+  - id: '03.01'
+    title: Data Poisoning in LLM Training
+    objective: Explain how poisoned training data corrupts model behavior, including
+      techniques for detecting and mitigating such risks.
+  - id: '03.02'
+    title: Secure Data Curation Practices
+    objective: Outline best practices for data filtering, anonymization, and validation
+      to ensure training data integrity.
+- id: '04'
+  title: Model Denial-of-Service (DoS) Attacks
+  sections:
+  - id: '04.01'
+    title: Understanding LLM DoS Vulnerabilities
+    objective: Describe how adversarial inputs can exhaust computational resources,
+      leading to service unavailability.
+  - id: '04.02'
+    title: Defensive Measures Against DoS Attacks
+    objective: Cover rate limiting, input length constraints, and hardware-based protections
+      to prevent resource exhaustion.
+- id: '05'
+  title: Neural Network Guardrails
+  sections:
+  - id: '05.01'
+    title: Implementing Neural Network Guardrails
+    objective: Explain techniques like adversarial training, model distillation, and
+      dynamic thresholding to enhance robustness.
+  - id: '05.02'
+    title: Tools for Guardrail Implementation
+    objective: Review open-source frameworks and libraries for integrating guardrails
+      into LLM pipelines.
+- id: '06'
+  title: LLM Output Sanitization
+  sections:
+  - id: '06.01'
+    title: Securing LLM Output Generation
+    objective: Detail methods for filtering harmful content, ensuring compliance with
+      safety policies, and handling sensitive outputs.
+  - id: '06.02'
+    title: Automated Output Validation Techniques
+    objective: Explore tools and workflows for real-time output sanitization, including
+      regex, keyword filtering, and model-based checks.

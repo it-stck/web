@@ -1,0 +1,47 @@
+title: Endpoint Detection and Response EDR Architecture
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Agent Deployment
+  sections:
+  - id: '01.01'
+    title: Agent Deployment Strategies
+    objective: Explain the different methods for deploying EDR agents across endpoints,
+      including centralized management, agentless approaches, and hybrid models.
+- id: '02'
+  title: Telemetry Collection
+  sections:
+  - id: '02.01'
+    title: Data Types and Protocols
+    objective: Detail the types of telemetry data collected by EDR systems (e.g.,
+      process tree, registry changes) and protocols used for transmission (e.g., HTTP,
+      gRPC).
+- id: '03'
+  title: Behavioral Analysis
+  sections:
+  - id: '03.01'
+    title: Detection Techniques
+    objective: Describe how EDR systems use behavioral analysis to identify malicious
+      activity, including heuristic and machine learning-based methods.
+- id: '04'
+  title: Isolation Policies
+  sections:
+  - id: '04.01'
+    title: Isolation Modes and Enforcement
+    objective: Outline the different isolation policies (e.g., process isolation,
+      network segmentation) and how they are enforced to contain threats.
+- id: '05'
+  title: Automated Playbooks
+  sections:
+  - id: '05.01'
+    title: Playbook Design and Orchestration
+    objective: Explain the creation and execution of automated playbooks for incident
+      response, including integration with SIEM and SOAR platforms.
+- id: '06'
+  title: Tamper Protection
+  sections:
+  - id: '06.01'
+    title: Anti-Tampering Mechanisms
+    objective: Cover techniques to prevent EDR components from being modified or disabled,
+      such as code signing, integrity checks, and runtime protection.

@@ -1,0 +1,48 @@
+title: Progressive Web Apps PWA Mastery
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Foundations of PWA Development
+  sections:
+  - id: '01.01'
+    title: Service Worker Essentials
+    objective: Explain the role of service workers in enabling offline functionality,
+      background sync, and URL interception for PWAs.
+  - id: '01.02'
+    title: Web App Manifest Configuration
+    objective: Detail how to create and register a web app manifest to enable installability,
+      icons, and app-like behavior in browsers.
+- id: '02'
+  title: Offline Capabilities
+  sections:
+  - id: '02.01'
+    title: IndexedDB for Offline Storage
+    objective: Demonstrate how to use IndexedDB to store and retrieve data offline,
+      including schema design and synchronization patterns.
+  - id: '02.02'
+    title: Offline First Architecture Patterns
+    objective: Explore strategies for building offline-first applications with fallback
+      mechanisms and data consistency checks.
+- id: '03'
+  title: Advanced PWA Features
+  sections:
+  - id: '03.01'
+    title: Push Notifications Implementation
+    objective: Guide through setting up push notifications with Firebase Cloud Messaging,
+      including subscription management and payload handling.
+  - id: '03.02'
+    title: Background Sync Mechanics
+    objective: Explain how to use background sync APIs to defer tasks when offline
+      and ensure reliability across network states.
+- id: '04'
+  title: Performance Optimization
+  sections:
+  - id: '04.01'
+    title: Caching Strategies for PWAs
+    objective: Compare cache-first, network-first, and stale-while-revalidate strategies
+      with practical implementation examples.
+  - id: '04.02'
+    title: Service Worker Lifecycle Management
+    objective: Teach how to handle service worker registration, updates, and versioning
+      to ensure smooth user experiences.
