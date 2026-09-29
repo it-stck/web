@@ -1,0 +1,54 @@
+status: completed
+title: Docker and Container Security Hardening
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Image Scanning and Vulnerability Management
+  section_id: '01.01'
+  title: Image Scanning with Docker and Third-Party Tools
+  status: completed
+- chapter_id: '01'
+  chapter_title: Image Scanning and Vulnerability Management
+  section_id: '01.02'
+  title: Vulnerability Management and Patching Strategies
+  status: completed
+- chapter_id: '02'
+  chapter_title: Runtime Security with Rootless Containers and Seccomp
+  section_id: '02.01'
+  title: Rootless Containers for Enhanced Privilege Isolation
+  status: completed
+- chapter_id: '02'
+  chapter_title: Runtime Security with Rootless Containers and Seccomp
+  section_id: '02.02'
+  title: Securing Container Runtimes with Seccomp Profiles
+  status: completed
+- chapter_id: '03'
+  chapter_title: 'Reducing Attack Surface: Capabilities and Build Optimization'
+  section_id: '03.01'
+  title: Dropping Linux Capabilities in Container Processes
+  status: completed
+- chapter_id: '03'
+  chapter_title: 'Reducing Attack Surface: Capabilities and Build Optimization'
+  section_id: '03.02'
+  title: Multi-Stage Builds for Minimal Base Images
+  status: completed
+- chapter_id: '04'
+  chapter_title: Secret Management and Secure Configuration
+  section_id: '04.01'
+  title: Secure Secret Management in Containerized Applications
+  status: completed
+- chapter_id: '04'
+  chapter_title: Secret Management and Secure Configuration
+  section_id: '04.02'
+  title: Hardening Container Configuration Files
+  status: completed
+- chapter_id: '05'
+  chapter_title: Runtime Security Best Practices
+  section_id: '05.01'
+  title: Monitoring and Logging for Container Security
+  status: completed
+- chapter_id: '05'
+  chapter_title: Runtime Security Best Practices
+  section_id: '05.02'
+  title: 'Advanced Runtime Security: Auditing and Compliance'
+  status: completed

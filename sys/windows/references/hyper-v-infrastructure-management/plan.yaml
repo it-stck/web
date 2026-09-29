@@ -1,0 +1,66 @@
+title: Hyper-V Infrastructure Management
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Virtual Switches Configuration
+  sections:
+  - id: '01.01'
+    title: Creating and Configuring Virtual Switches
+    objective: Explain how to create and configure virtual switches in Hyper-V, including
+      VLAN tagging and port mirroring.
+  - id: '01.02'
+    title: Managing Virtual Switch Port Settings
+    objective: Detail how to manage MAC address spoofing, wake-on-LAN, and QoS settings
+      for virtual switch ports.
+  - id: '01.03'
+    title: Troubleshooting Virtual Switch Connectivity
+    objective: Provide steps to diagnose and resolve common virtual switch issues
+      like IP conflicts and network isolation.
+- id: '02'
+  title: Live Migration and High Availability
+  sections:
+  - id: '02.01'
+    title: Live Migration Setup and Execution
+    objective: Outline the prerequisites and steps to perform live migration between
+      Hyper-V hosts with minimal downtime.
+  - id: '02.02'
+    title: Failover Clustering Configuration
+    objective: Guide through setting up and configuring failover clusters for high
+      availability of virtual machines.
+  - id: '02.03'
+    title: Managing Clustered Virtual Machines
+    objective: Explain how to monitor, failover, and manage VMs within a Hyper-V failover
+      cluster environment.
+- id: '03'
+  title: Storage Spaces Direct Implementation
+  sections:
+  - id: '03.01'
+    title: Setting Up Storage Spaces Direct
+    objective: Detail the process of configuring Storage Spaces Direct on Windows
+      Server for software-defined storage.
+  - id: '03.02'
+    title: Optimizing Storage Spaces Performance
+    objective: Provide best practices for tuning Storage Spaces Direct for IOPS, throughput,
+      and redundancy.
+- id: '04'
+  title: VHDX File Optimization
+  sections:
+  - id: '04.01'
+    title: VHDX File Management Best Practices
+    objective: Cover strategies for managing VHDX file growth, compression, and defragmentation.
+  - id: '04.02'
+    title: Tools for VHDX Optimization
+    objective: Explain how to use PowerShell and Disk Management to optimize VHDX
+      virtual hard disks.
+- id: '05'
+  title: Replica and Disaster Recovery
+  sections:
+  - id: '05.01'
+    title: Hyper-V Replica Configuration
+    objective: Walk through enabling and configuring Hyper-V Replica for VM disaster
+      recovery.
+  - id: '05.02'
+    title: Disaster Recovery Procedures
+    objective: Detail steps to execute and validate VM recovery using Hyper-V Replica
+      and backups.

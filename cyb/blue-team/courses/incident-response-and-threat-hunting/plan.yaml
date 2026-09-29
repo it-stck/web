@@ -1,0 +1,51 @@
+title: Incident Response and Threat Hunting
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Incident Response Lifecycle
+  sections:
+  - id: '01.01'
+    title: Introduction to Incident Response
+    objective: Define incident response and explain its role in mitigating security
+      breaches.
+  - id: '01.02'
+    title: Incident Response Phases
+    objective: Detail the phases of the incident response lifecycle, from preparation
+      to post-incident review.
+  - id: '01.03'
+    title: Tools and Documentation
+    objective: Identify key tools for incident response and best practices for documenting
+      incidents.
+- id: '02'
+  title: Data Collection and Analysis
+  sections:
+  - id: '02.01'
+    title: Volatile Data Collection
+    objective: Outline procedures for collecting and preserving volatile data during
+      incident response.
+  - id: '02.02'
+    title: Memory Forensics Fundamentals
+    objective: Explain techniques for analyzing memory dumps to detect malicious activity.
+- id: '03'
+  title: Threat Detection and Indicators
+  sections:
+  - id: '03.01'
+    title: Indicators of Compromise (IoCs)
+    objective: Define IoCs and describe methods for identifying and correlating them
+      in investigations.
+  - id: '03.02'
+    title: Threat Intelligence Integration
+    objective: Explain how to leverage threat intelligence feeds to enhance detection
+      and response.
+- id: '04'
+  title: Advanced Analysis Techniques
+  sections:
+  - id: '04.01'
+    title: Timeline Analysis
+    objective: Demonstrate how to reconstruct and analyze timelines to understand
+      attack sequences.
+  - id: '04.02'
+    title: YARA Rule Development
+    objective: Teach how to create and use YARA rules for detecting malicious artifacts
+      in forensic analysis.

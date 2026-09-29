@@ -1,0 +1,47 @@
+title: Active Directory Replication Troubleshooting
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Understanding Active Directory Replication Fundamentals
+  sections:
+  - id: '01.01'
+    title: Replication Topology and Site Links
+    objective: Explain how replication topology and site links affect replication
+      efficiency and reliability.
+  - id: '01.02'
+    title: Tombstone Lifetime and Replication Conflicts
+    objective: Describe the role of tombstone lifetime in replication and how it impacts
+      object recovery and conflicts.
+- id: '02'
+  title: Using Replication Diagnostic Tools
+  sections:
+  - id: '02.01'
+    title: Using repadmin for Replication Troubleshooting
+    objective: Demonstrate how to use repadmin commands to diagnose and resolve replication
+      issues across domain controllers.
+  - id: '02.02'
+    title: Using dcdiag for Replication Health Checks
+    objective: Show how to run dcdiag to identify replication errors, inconsistencies,
+      and configuration issues.
+- id: '03'
+  title: Analyzing Event Logs for Replication Issues
+  sections:
+  - id: '03.01'
+    title: Interpreting Event Logs for Replication Failures
+    objective: Guide users through analyzing event logs to identify replication-related
+      errors, warnings, and critical alerts.
+- id: '04'
+  title: Common Replication Errors and Solutions
+  sections:
+  - id: '04.01'
+    title: Resolving Common Active Directory Replication Errors
+    objective: Provide step-by-step solutions for frequent replication issues such
+      as replication failures, latency, and inconsistent data.
+- id: '05'
+  title: Advanced Replication Topics
+  sections:
+  - id: '05.01'
+    title: Configuring and Troubleshooting SYSVOL DFS Replication
+    objective: Explain how to configure and troubleshoot SYSVOL replication using
+      DFS Replication (DFS-R) in Active Directory.

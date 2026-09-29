@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "ITSTCK | Tech Blog",
+    "home_page_url": "https://itstck.com/blog/",
+    "feed_url": "https://itstck.com/blog/feed_json_updated.json",
+    "description": "Personal technical blog covering SysAdmin, DevSecOps, Cybersecurity, Linux, and Software Architecture.",
+    "icon": null,
+    "authors": [],
+    "language": "en",
+    "items": [
+        {
+            "id": "https://itstck.com/blog/2026/05/22/hello-world/",
+            "url": "https://itstck.com/blog/2026/05/22/hello-world/",
+            "title": "Hello world",
+            "content_html": "This is the first post",
+            "image": null,
+            "date_modified": "2026-09-29T19:29:45+00:00",
+            "date_published": "2026-05-22T00:00:00+00:00",
+            "authors": [],
+            "tags": [
+                "Hello",
+                "World"
+            ]
+        }
+    ]
+}

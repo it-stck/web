@@ -1,0 +1,124 @@
+status: draft
+title: RAG Systems Architecture and Implementation
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Document Chunking Strategies
+  section_id: '01.01'
+  title: Document Preprocessing Techniques
+  status: pending
+- chapter_id: '01'
+  chapter_title: Document Chunking Strategies
+  section_id: '01.02'
+  title: Chunking Algorithms and Tradeoffs
+  status: pending
+- chapter_id: '01'
+  chapter_title: Document Chunking Strategies
+  section_id: '01.03'
+  title: Tooling for Chunk Generation
+  status: pending
+- chapter_id: '02'
+  chapter_title: Embedding Models for Semantic Representation
+  section_id: '02.01'
+  title: Model Selection for Embeddings
+  status: pending
+- chapter_id: '02'
+  chapter_title: Embedding Models for Semantic Representation
+  section_id: '02.02'
+  title: Custom Embedding Pipelines
+  status: pending
+- chapter_id: '02'
+  chapter_title: Embedding Models for Semantic Representation
+  section_id: '02.03'
+  title: Optimizing Embedding Efficiency
+  status: pending
+- chapter_id: '03'
+  chapter_title: Vector Search and Indexing
+  section_id: '03.01'
+  title: Vector Database Fundamentals
+  status: pending
+- chapter_id: '03'
+  chapter_title: Vector Search and Indexing
+  section_id: '03.02'
+  title: Indexing Strategies
+  status: pending
+- chapter_id: '03'
+  chapter_title: Vector Search and Indexing
+  section_id: '03.03'
+  title: Query Optimization Techniques
+  status: pending
+- chapter_id: '04'
+  chapter_title: Hybrid Retrieval Systems
+  section_id: '04.01'
+  title: Combining Vector and Keyword Search
+  status: pending
+- chapter_id: '04'
+  chapter_title: Hybrid Retrieval Systems
+  section_id: '04.02'
+  title: Weighted Retrieval Ranking
+  status: pending
+- chapter_id: '04'
+  chapter_title: Hybrid Retrieval Systems
+  section_id: '04.03'
+  title: Real-Time Hybrid Indexing
+  status: pending
+- chapter_id: '05'
+  chapter_title: Reranking and Contextual Refinement
+  section_id: '05.01'
+  title: Reranking Architecture
+  status: pending
+- chapter_id: '05'
+  chapter_title: Reranking and Contextual Refinement
+  section_id: '05.02'
+  title: Fine-Tuning for Reranking
+  status: pending
+- chapter_id: '05'
+  chapter_title: Reranking and Contextual Refinement
+  section_id: '05.03'
+  title: Contextual Refinement Techniques
+  status: pending
+- chapter_id: '06'
+  chapter_title: Prompt Engineering for RAG
+  section_id: '06.01'
+  title: Prompt Design Principles
+  status: pending
+- chapter_id: '06'
+  chapter_title: Prompt Engineering for RAG
+  section_id: '06.02'
+  title: Template-Based Prompting
+  status: pending
+- chapter_id: '06'
+  chapter_title: Prompt Engineering for RAG
+  section_id: '06.03'
+  title: Advanced Prompt Optimization
+  status: pending
+- chapter_id: '07'
+  chapter_title: Hallucination Guardrails
+  section_id: '07.01'
+  title: Detecting Hallucinations
+  status: pending
+- chapter_id: '07'
+  chapter_title: Hallucination Guardrails
+  section_id: '07.02'
+  title: Content Validation Pipelines
+  status: pending
+- chapter_id: '07'
+  chapter_title: Hallucination Guardrails
+  section_id: '07.03'
+  title: Mitigating Hallucination Risks
+  status: pending
+- chapter_id: 08
+  chapter_title: Evaluation with Ragas
+  section_id: '08.01'
+  title: Ragas Framework Overview
+  status: pending
+- chapter_id: 08
+  chapter_title: Evaluation with Ragas
+  section_id: '08.02'
+  title: Implementing Evaluation Metrics
+  status: pending
+- chapter_id: 08
+  chapter_title: Evaluation with Ragas
+  section_id: '08.03'
+  title: Benchmarking and Optimization
+  status: pending

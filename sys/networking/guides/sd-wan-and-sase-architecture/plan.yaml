@@ -1,0 +1,60 @@
+title: SD-WAN and SASE Architecture
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to SD-WAN and SASE
+  sections:
+  - id: '01.01'
+    title: SD-WAN and SASE Overview
+    objective: Define SD-WAN and SASE, explaining their roles in modern enterprise
+      networking and how they integrate security and networking functions.
+  - id: '01.02'
+    title: Key Concepts and Benefits
+    objective: Detail the core principles of SD-WAN (overlay networks, centralized
+      control) and SASE (zero-trust, cloud security), and outline their combined advantages
+      for enterprises.
+- id: '02'
+  title: SD-WAN Architecture Fundamentals
+  sections:
+  - id: '02.01'
+    title: Overlay vs. Underlay Networks
+    objective: Differentiate between overlay and underlay networks in SD-WAN, explaining
+      their roles in traffic routing and network segmentation.
+  - id: '02.02'
+    title: Tunnel Encapsulation Techniques
+    objective: Describe common tunneling protocols (e.g., GRE, IPsec, VXLAN) and their
+      use in securing and optimizing SD-WAN traffic.
+- id: '03'
+  title: Security in SASE Architecture
+  sections:
+  - id: '03.01'
+    title: Zero-Trust Network Access (ZTNA)
+    objective: Explain how ZTNA integrates with SASE to enforce strict access controls,
+      eliminate trust assumptions, and secure remote users.
+  - id: '03.02'
+    title: Cloud Access Security Brokers (CASB)
+    objective: Outline the role of CASBs in monitoring, inspecting, and enforcing
+      policies on cloud traffic within a SASE framework.
+- id: '04'
+  title: Cloud Integration and Traffic Management
+  sections:
+  - id: '04.01'
+    title: Cloud Onramp Architecture
+    objective: Detail how cloud onramps enable seamless connectivity between on-premises
+      networks and cloud services in a SASE model.
+  - id: '04.02'
+    title: Traffic Steering and Optimization
+    objective: Explain mechanisms for dynamic traffic steering, including path selection,
+      latency reduction, and quality-of-service (QoS) prioritization.
+- id: '05'
+  title: Advanced Operations and Reliability
+  sections:
+  - id: '05.01'
+    title: Failover and High Availability Policies
+    objective: Describe failover strategies, redundancy mechanisms, and policies to
+      ensure continuous connectivity in SD-WAN/SASE environments.
+  - id: '05.02'
+    title: Troubleshooting and Monitoring
+    objective: Provide techniques for diagnosing performance issues, monitoring network
+      health, and using analytics for proactive maintenance.

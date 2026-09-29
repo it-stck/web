@@ -1,0 +1,109 @@
+title: PowerShell Enterprise Automation
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: PowerShell Objects and the Pipeline
+  sections:
+  - id: '01.01'
+    title: Understanding PowerShell Objects
+    objective: Explain what PowerShell objects are, how to access their properties,
+      and the difference between .NET objects and PowerShell custom objects.
+  - id: '01.02'
+    title: Mastering the Pipeline
+    objective: Demonstrate how to use the pipeline to pass objects between cmdlets,
+      including filtering, sorting, and transforming data.
+  - id: '01.03'
+    title: Working with the Pipeline in Scripts
+    objective: Show how to build complex scripts using the pipeline, including best
+      practices for performance and error handling.
+- id: '02'
+  title: Creating Custom Modules
+  sections:
+  - id: '02.01'
+    title: Module Structure and Best Practices
+    objective: Outline the components of a PowerShell module, including exports, manifests,
+      and folder structure for enterprise use.
+  - id: '02.02'
+    title: Building Cmdlets and Functions
+    objective: Guide users through creating custom cmdlets and functions, including
+      parameter validation and help documentation.
+  - id: '02.03'
+    title: Publishing and Consuming Modules
+    objective: Explain how to publish modules to the PowerShell Gallery and consume
+      them in scripts and modules.
+- id: '03'
+  title: PowerShell Remoting and PSRP
+  sections:
+  - id: '03.01'
+    title: PowerShell Remoting Basics
+    objective: Describe how PowerShell Remoting works, including WinRM configuration
+      and establishing remote sessions.
+  - id: '03.02'
+    title: Advanced PSRP Techniques
+    objective: Demonstrate advanced PowerShell Remoting Protocol (PSRP) features like
+      Runspace pooling and remote job management.
+  - id: '03.03'
+    title: Securing Remote PowerShell
+    objective: Cover best practices for securing remoting sessions, including encryption,
+      authentication, and audit logging.
+- id: '04'
+  title: Error Handling and Debugging
+  sections:
+  - id: '04.01'
+    title: Error Handling Strategies
+    objective: Teach how to implement try/catch/finally blocks, custom error objects,
+      and exit codes for robust automation.
+  - id: '04.02'
+    title: Debugging PowerShell Scripts
+    objective: Explain debugging techniques, including breakpoints, script analysis,
+      and using the Debug cmdlets.
+  - id: '04.03'
+    title: Logging and Monitoring
+    objective: Show how to implement structured logging, event tracing, and monitoring
+      for enterprise scripts.
+- id: '05'
+  title: WMI and CIM Querying
+  sections:
+  - id: '05.01'
+    title: WMI Fundamentals
+    objective: Explain Windows Management Instrumentation (WMI) architecture and how
+      to query system information using WMI classes.
+  - id: '05.02'
+    title: CIM and PowerShell 5.1+ Integration
+    objective: Compare WMI with Common Information Model (CIM) and demonstrate querying
+      using CIM cmdlets.
+  - id: '05.03'
+    title: Advanced WMI/CIM Automation
+    objective: Show how to build scripts that leverage WMI/CIM for system monitoring,
+      inventory, and configuration management.
+- id: '06'
+  title: JIT and JEA Security Models
+  sections:
+  - id: '06.01'
+    title: Just-In-Time (JIT) Administration
+    objective: Explain how to configure JIT access for administrators, including role-based
+      access control and session management.
+  - id: '06.02'
+    title: Just Enough Administration (JEA)
+    objective: Demonstrate creating JEA configurations, restricting cmdlets, and enforcing
+      execution policies for secure automation.
+  - id: '06.03'
+    title: Securing Enterprise PowerShell
+    objective: Cover advanced security practices, including module signing, script
+      execution policies, and audit trails.
+- id: '07'
+  title: REST API Integration
+  sections:
+  - id: '07.01'
+    title: Making REST API Calls
+    objective: Explain how to use Invoke-RestMethod and Invoke-WebRequest to interact
+      with RESTful services and handle HTTP verbs.
+  - id: '07.02'
+    title: Authentication and Headers
+    objective: Show how to implement OAuth, API keys, and custom headers for secure
+      API communication.
+  - id: '07.03'
+    title: Automating API-Driven Systems
+    objective: Demonstrate building scripts that integrate with cloud services, third-party
+      tools, and custom web APIs.

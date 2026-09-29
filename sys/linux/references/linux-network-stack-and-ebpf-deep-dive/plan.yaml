@@ -1,0 +1,63 @@
+title: Linux Network Stack and eBPF Deep Dive
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Linux Network Stack Fundamentals
+  sections:
+  - id: '01.01'
+    title: Linux Network Stack Overview
+    objective: Explain the architecture and components of the Linux network stack,
+      including the role of the kernel, socket layers, and user-space tools.
+  - id: '01.02'
+    title: Socket Options and Configuration
+    objective: Detail how to use socket options (e.g., SO_REUSEADDR, SO_BINDTODEVICE)
+      to fine-tune network behavior at the application layer.
+  - id: '01.03'
+    title: Netfilter and iptables/ nftables
+    objective: Cover Netfilter hooks, iptables/nftables rules, and packet modification
+      techniques for traffic control and filtering.
+- id: '02'
+  title: Routing and Traffic Management
+  sections:
+  - id: '02.01'
+    title: Routing Table Configuration
+    objective: Explain static and dynamic routing table management using ip route,
+      routing policies, and policy-based routing (PBR).
+  - id: '02.02'
+    title: Traffic Control with TC
+    objective: Demonstrate how to use traffic control (tc) tools to shape, prioritize,
+      and monitor network traffic at the kernel level.
+- id: '03'
+  title: eBPF and High-Performance Networking
+  sections:
+  - id: '03.01'
+    title: eBPF Overview and XDP Basics
+    objective: Introduce eBPF technology, its role in the network stack, and how XDP
+      (eXpress Data Path) enables low-latency packet processing.
+  - id: '03.02'
+    title: eBPF for Packet Tracing and Analysis
+    objective: Showcase eBPF-based tools like bpftool and perf to trace, inspect,
+      and analyze network packets in real time.
+- id: '04'
+  title: Advanced Network Configurations
+  sections:
+  - id: '04.01'
+    title: Interface Bonding and Load Balancing
+    objective: Explain how to configure network interface bonding (e.g., active-backup,
+      balance-alb) for redundancy and performance.
+  - id: '04.02'
+    title: VLAN Tagging and 802.1q Configuration
+    objective: Detail VLAN tagging setup using the 802.1q protocol, including virtual
+      interfaces and trunking configurations.
+- id: '05'
+  title: Troubleshooting and Optimization
+  sections:
+  - id: '05.01'
+    title: Packet Tracing with tcpdump and Wireshark
+    objective: Guide users through capturing, analyzing, and troubleshooting network
+      packets using tcpdump and Wireshark.
+  - id: '05.02'
+    title: Performance Monitoring and Optimization
+    objective: Cover tools like sar, iostat, and netstat for diagnosing bottlenecks
+      and optimizing network performance.

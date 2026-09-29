@@ -1,0 +1,50 @@
+title: Social Engineering and OSINT Frameworks
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Social Engineering and OSINT
+  sections:
+  - id: '01.01'
+    title: Domain Footprinting Techniques
+    objective: Teach how to systematically gather and analyze domain-related information
+      to identify potential targets and network infrastructure.
+  - id: '01.02'
+    title: Corporate Reconnaissance Methodologies
+    objective: Explain strategies for collecting publicly available information about
+      organizations to support targeted social engineering campaigns.
+- id: '02'
+  title: 'OSINT Tooling: Shodan & Censys'
+  sections:
+  - id: '02.01'
+    title: Shodan and Censys for Network Discovery
+    objective: Demonstrate how to use Shodan and Censys to scan for exposed devices,
+      services, and vulnerabilities in target networks.
+- id: '03'
+  title: Maltego for Link Analysis
+  sections:
+  - id: '03.01'
+    title: Maltego Framework and Data Mapping
+    objective: Provide hands-on guidance on using Maltego to visualize relationships
+      between entities and uncover hidden connections in OSINT data.
+- id: '04'
+  title: Phishing Frameworks and Automation
+  sections:
+  - id: '04.01'
+    title: Phishing Tools and Campaign Design
+    objective: Outline the use of phishing frameworks like Gophish and Hunter to create,
+      deploy, and analyze phishing campaigns.
+- id: '05'
+  title: Metadata Extraction and Analysis
+  sections:
+  - id: '05.01'
+    title: Extracting Metadata from Digital Artifacts
+    objective: Detail techniques for recovering metadata from documents, images, and
+      other files to uncover hidden contextual clues.
+- id: '06'
+  title: Credential Harvesting Techniques
+  sections:
+  - id: '06.01'
+    title: Password Extraction and Credential Dumping
+    objective: Cover methods for harvesting credentials through tools like Mimikatz,
+      password spraying, and credential stuffing attacks.

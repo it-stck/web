@@ -1,0 +1,64 @@
+status: completed
+title: GitHub Actions and CI CD Pipelines
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Workflow Syntax and Structure
+  section_id: '01.01'
+  title: Introduction to GitHub Actions Workflows
+  status: completed
+- chapter_id: '01'
+  chapter_title: Workflow Syntax and Structure
+  section_id: '01.02'
+  title: Workflow Syntax Fundamentals
+  status: completed
+- chapter_id: '01'
+  chapter_title: Workflow Syntax and Structure
+  section_id: '01.03'
+  title: Job and Step Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Custom Actions and Reusability
+  section_id: '02.01'
+  title: Creating Custom Actions
+  status: completed
+- chapter_id: '02'
+  chapter_title: Custom Actions and Reusability
+  section_id: '02.02'
+  title: Using Action Inputs and Outputs
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Build Strategies
+  section_id: '03.01'
+  title: Matrix Builds for Multi-Configuration
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Build Strategies
+  section_id: '03.02'
+  title: Caching for Build Optimization
+  status: completed
+- chapter_id: '04'
+  chapter_title: Artifact Management and Deployment
+  section_id: '04.01'
+  title: Managing Build Artifacts
+  status: completed
+- chapter_id: '04'
+  chapter_title: Artifact Management and Deployment
+  section_id: '04.02'
+  title: Deployment Automation Patterns
+  status: completed
+- chapter_id: '05'
+  chapter_title: Security and Compliance
+  section_id: '05.01'
+  title: Security Scanning Integration
+  status: completed
+- chapter_id: '06'
+  chapter_title: Workflow Optimization and Best Practices
+  section_id: '06.01'
+  title: Reusable Workflows for Complex Pipelines
+  status: completed
+- chapter_id: '06'
+  chapter_title: Workflow Optimization and Best Practices
+  section_id: '06.02'
+  title: Deployment Gates and Approval Workflows
+  status: completed

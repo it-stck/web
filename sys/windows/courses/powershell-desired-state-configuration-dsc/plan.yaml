@@ -1,0 +1,93 @@
+title: PowerShell Desired State Configuration DSC
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to DSC
+  sections:
+  - id: '01.01'
+    title: DSC Overview and Purpose
+    objective: Explain the purpose of Desired State Configuration (DSC) and its role
+      in automating system configuration management.
+  - id: '01.02'
+    title: Core DSC Concepts
+    objective: Describe key DSC components, including resources, configurations, and
+      the Local Configuration Manager (LCM).
+  - id: '01.03'
+    title: Basic Configuration Syntax
+    objective: Demonstrate how to create and apply a simple DSC configuration using
+      PowerShell.
+- id: '02'
+  title: DSC Resources
+  sections:
+  - id: '02.01'
+    title: Built-in Resource Types
+    objective: Identify and explain common built-in DSC resources such as File, Registry,
+      and Service.
+  - id: '02.02'
+    title: Resource Properties and Parameters
+    objective: Detail how to use resource properties and parameters to define desired
+      states.
+  - id: '02.03'
+    title: Resource Behavior and Operations
+    objective: Explain how DSC resources handle Ensure, Get, Set, and Test operations.
+- id: '03'
+  title: LCM Configuration
+  sections:
+  - id: '03.01'
+    title: LCM Basics and Configuration
+    objective: Configure the Local Configuration Manager (LCM) to enforce desired
+      states on target nodes.
+  - id: '03.02'
+    title: LCM Settings and Reboot Control
+    objective: Manage LCM settings such as RefreshMode, ConfigurationMode, and reboot
+      behavior.
+  - id: '03.03'
+    title: LCM Validation and Compliance
+    objective: Validate node compliance and troubleshoot LCM errors using diagnostic
+      logs.
+- id: '04'
+  title: Pull vs Push Server
+  sections:
+  - id: '04.01'
+    title: Pull Server Architecture
+    objective: Explain how DSC pull servers work and their role in centralized configuration
+      management.
+  - id: '04.02'
+    title: Push Server Configuration
+    objective: Set up and manage DSC push servers to enforce configurations on target
+      nodes.
+  - id: '04.03'
+    title: Pull vs Push Server Comparison
+    objective: Compare pull and push server models, including use cases and deployment
+      scenarios.
+- id: '05'
+  title: Custom DSC Resources
+  sections:
+  - id: '05.01'
+    title: Creating Custom Resources
+    objective: Develop custom DSC resources using PowerShell to manage specialized
+      system components.
+  - id: '05.02'
+    title: Registering and Using Custom Resources
+    objective: Register custom resources with the DSC resource repository and apply
+      them in configurations.
+  - id: '05.03'
+    title: Testing Custom Resources
+    objective: Validate custom resources using the DSC testing framework and debug
+      common issues.
+- id: '06'
+  title: Composite Resources
+  sections:
+  - id: '06.01'
+    title: Creating Composite Resources
+    objective: Build composite resources by combining multiple DSC resources into
+      a single reusable module.
+  - id: '06.02'
+    title: Using Composite Resources in Configurations
+    objective: Integrate composite resources into DSC configurations to simplify complex
+      deployments.
+  - id: '06.03'
+    title: Best Practices for Composite Resources
+    objective: Apply best practices for designing, testing, and maintaining composite
+      DSC resources.

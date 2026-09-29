@@ -1,0 +1,74 @@
+status: completed
+title: Windows Server Security Hardening and GPO
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Group Policy Objects (GPO) Fundamentals
+  section_id: '01.01'
+  title: GPO Architecture and Scope
+  status: completed
+- chapter_id: '01'
+  chapter_title: Group Policy Objects (GPO) Fundamentals
+  section_id: '01.02'
+  title: Creating and Configuring GPOs
+  status: completed
+- chapter_id: '02'
+  chapter_title: LAPS Implementation for Password Management
+  section_id: '02.01'
+  title: LAPS Overview and Requirements
+  status: completed
+- chapter_id: '02'
+  chapter_title: LAPS Implementation for Password Management
+  section_id: '02.02'
+  title: Deploying LAPS with GPO
+  status: completed
+- chapter_id: '03'
+  chapter_title: Enabling Credential Guard
+  section_id: '03.01'
+  title: Credential Guard Requirements and Setup
+  status: completed
+- chapter_id: '03'
+  chapter_title: Enabling Credential Guard
+  section_id: '03.02'
+  title: Configuring Credential Guard Policies
+  status: completed
+- chapter_id: '04'
+  chapter_title: Defender ATP Integration and Configuration
+  section_id: '04.01'
+  title: Windows Defender ATP Overview
+  status: completed
+- chapter_id: '04'
+  chapter_title: Defender ATP Integration and Configuration
+  section_id: '04.02'
+  title: Configuring Defender ATP with GPO
+  status: completed
+- chapter_id: '05'
+  chapter_title: Audit Policies for Security Monitoring
+  section_id: '05.01'
+  title: Audit Policy Framework and Scope
+  status: completed
+- chapter_id: '05'
+  chapter_title: Audit Policies for Security Monitoring
+  section_id: '05.02'
+  title: Configuring Audit Policies via GPO
+  status: completed
+- chapter_id: '06'
+  chapter_title: BitLocker Escrow and Recovery Configuration
+  section_id: '06.01'
+  title: BitLocker Encryption and Escrow Requirements
+  status: completed
+- chapter_id: '06'
+  chapter_title: BitLocker Escrow and Recovery Configuration
+  section_id: '06.02'
+  title: Setting Up BitLocker Escrow with GPO
+  status: completed
+- chapter_id: '07'
+  chapter_title: AppLocker and WDAC for Application Control
+  section_id: '07.01'
+  title: AppLocker Overview and Use Cases
+  status: completed
+- chapter_id: '07'
+  chapter_title: AppLocker and WDAC for Application Control
+  section_id: '07.02'
+  title: WDAC Templates and Policy Enforcement
+  status: completed

@@ -1,0 +1,49 @@
+status: completed
+title: Windows Defender Application Control Hardening
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: WDAC Policies and Configuration
+  section_id: '01.01'
+  title: Creating WDAC Policies
+  status: completed
+- chapter_id: '01'
+  chapter_title: WDAC Policies and Configuration
+  section_id: '01.02'
+  title: Code Integrity Rules
+  status: completed
+- chapter_id: '01'
+  chapter_title: WDAC Policies and Configuration
+  section_id: '01.03'
+  title: Publisher Rules
+  status: completed
+- chapter_id: '02'
+  chapter_title: Audit vs Enforce Modes
+  section_id: '02.01'
+  title: Audit Mode Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Audit vs Enforce Modes
+  section_id: '02.02'
+  title: Enforce Mode Setup
+  status: completed
+- chapter_id: '02'
+  chapter_title: Audit vs Enforce Modes
+  section_id: '02.03'
+  title: Transitioning Between Modes
+  status: completed
+- chapter_id: '03'
+  chapter_title: Managed Installer Integration
+  section_id: '03.01'
+  title: Managed Installer Overview
+  status: completed
+- chapter_id: '03'
+  chapter_title: Managed Installer Integration
+  section_id: '03.02'
+  title: Integration with WDAC
+  status: completed
+- chapter_id: '03'
+  chapter_title: Managed Installer Integration
+  section_id: '03.03'
+  title: Best Practices
+  status: completed

@@ -1,0 +1,94 @@
+title: Rust for Enterprise Systems Programming
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Rust Ownership and Borrowing
+  sections:
+  - id: '01.01'
+    title: Understanding Ownership and Borrowing
+    objective: Explain how Rust's ownership model prevents memory leaks and ensures
+      safe resource management without a garbage collector.
+  - id: '01.02'
+    title: Lifetimes and Borrow Checker Mechanics
+    objective: Demonstrate how lifetime annotations resolve borrowing conflicts and
+      enable safe reference management in complex data structures.
+  - id: '01.03'
+    title: Move Semantics and Value Ownership
+    objective: Detail the behavior of value ownership during function calls, including
+      stack vs heap memory management patterns.
+- id: '02'
+  title: Concurrency and Parallelism in Rust
+  sections:
+  - id: '02.01'
+    title: Thread Safety and Send/Shared Traits
+    objective: Explain Rust's type system guarantees for thread safety through the
+      Send and Sync traits in enterprise-scale concurrent systems.
+  - id: '02.02'
+    title: Arc and Mutex for Shared State Management
+    objective: Demonstrate patterns for safe shared state management using Arc and
+      Mutex in multi-threaded applications.
+  - id: '02.03'
+    title: Async/Await and Non-Blocking I/O
+    objective: Show how Rust's async/await model enables high-performance, non-blocking
+      I/O operations in enterprise services.
+- id: '03'
+  title: Error Handling and Result Types
+  sections:
+  - id: '03.01'
+    title: Result<T, E> and the Propagation Pattern
+    objective: Explain how Result types enable explicit error handling and chain error
+      propagation in complex system workflows.
+  - id: '03.02'
+    title: Custom Error Types and Contextual Messaging
+    objective: Demonstrate creation of domain-specific error types with detailed error
+      messages for enterprise diagnostics.
+  - id: '03.03'
+    title: Error Handling in Async Contexts
+    objective: Show best practices for handling errors in asynchronous operations
+      with tokio and futures crates.
+- id: '04'
+  title: Advanced Type System Patterns
+  sections:
+  - id: '04.01'
+    title: Traits and Abstraction Design
+    objective: Explain how traits enable polymorphism and interface-based design in
+      enterprise systems.
+  - id: '04.02'
+    title: Generics and Type Parameters
+    objective: Demonstrate creation of reusable components through generic type parameters
+      and trait bounds.
+  - id: '04.03'
+    title: Orphan Rule and Crate Design
+    objective: Explain Rust's orphan rule and strategies for designing modular, reusable
+      crates in enterprise environments.
+- id: '05'
+  title: Cargo Ecosystem and Project Management
+  sections:
+  - id: '05.01'
+    title: Cargo Workspaces and Multi-Module Projects
+    objective: Demonstrate structuring large enterprise projects using Cargo workspaces
+      and dependency management.
+  - id: '05.02'
+    title: Custom Build Scripts and Configuration
+    objective: Show how to extend Cargo's build process with custom scripts for enterprise-specific
+      compilation needs.
+  - id: '05.03'
+    title: Dependency Management and Crate Integration
+    objective: Explain best practices for managing dependencies and integrating third-party
+      crates in enterprise systems.
+- id: '06'
+  title: FFI Interoperability and Systems Integration
+  sections:
+  - id: '06.01'
+    title: Unsafe Code and Foreign Function Interfaces
+    objective: Explain how to safely use unsafe code for FFI interactions with C/C++
+      libraries in enterprise systems.
+  - id: '06.02'
+    title: Binding Generation with bindgen
+    objective: Demonstrate creating Rust bindings for C libraries using bindgen for
+      systems integration.
+  - id: '06.03'
+    title: Cross-Language Error Handling Patterns
+    objective: Show strategies for consistent error handling and data serialization
+      between Rust and other language systems.

@@ -1,0 +1,94 @@
+status: draft
+title: Snowflake Data Warehousing Best Practices
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Virtual Warehouses and Scaling
+  section_id: '01.01'
+  title: Understanding Virtual Warehouses
+  status: pending
+- chapter_id: '01'
+  chapter_title: Virtual Warehouses and Scaling
+  section_id: '01.02'
+  title: Scaling Strategies for Workloads
+  status: pending
+- chapter_id: '01'
+  chapter_title: Virtual Warehouses and Scaling
+  section_id: '01.03'
+  title: Cost Management for Virtual Warehouses
+  status: pending
+- chapter_id: '02'
+  chapter_title: Data Modeling for Performance
+  section_id: '02.01'
+  title: Snowflake Data Modeling Principles
+  status: pending
+- chapter_id: '02'
+  chapter_title: Data Modeling for Performance
+  section_id: '02.02'
+  title: Clustering Keys and Query Optimization
+  status: pending
+- chapter_id: '02'
+  chapter_title: Data Modeling for Performance
+  section_id: '02.03'
+  title: Data Modeling for Time-Travel Use Cases
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Management Techniques
+  section_id: '03.01'
+  title: Zero-Copy Cloning for Data Analysis
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Management Techniques
+  section_id: '03.02'
+  title: Time-Travel and Data Versioning
+  status: pending
+- chapter_id: '03'
+  chapter_title: Data Management Techniques
+  section_id: '03.03'
+  title: Data Lifecycle Management
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Ingestion with Snowpipe
+  section_id: '04.01'
+  title: Snowpipe Architecture and Benefits
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Ingestion with Snowpipe
+  section_id: '04.02'
+  title: Configuring and Managing Snowpipe
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Ingestion with Snowpipe
+  section_id: '04.03'
+  title: Securing Snowpipe Data Ingestion
+  status: pending
+- chapter_id: '05'
+  chapter_title: Data Sharing and Collaboration
+  section_id: '05.01'
+  title: Snowflake Data Sharing Overview
+  status: pending
+- chapter_id: '05'
+  chapter_title: Data Sharing and Collaboration
+  section_id: '05.02'
+  title: Setting Up Data Sharing
+  status: pending
+- chapter_id: '05'
+  chapter_title: Data Sharing and Collaboration
+  section_id: '05.03'
+  title: Data Sharing Security and Governance
+  status: pending
+- chapter_id: '06'
+  chapter_title: Cost Management and Optimization
+  section_id: '06.01'
+  title: Monitoring Snowflake Costs
+  status: pending
+- chapter_id: '06'
+  chapter_title: Cost Management and Optimization
+  section_id: '06.02'
+  title: Optimizing Query Costs
+  status: pending
+- chapter_id: '06'
+  chapter_title: Cost Management and Optimization
+  section_id: '06.03'
+  title: Cost-Effective Data Storage Strategies
+  status: pending

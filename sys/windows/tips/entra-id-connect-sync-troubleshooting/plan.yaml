@@ -1,0 +1,39 @@
+title: Entra ID Connect Sync Troubleshooting
+content_type: tips
+language: en
+chapters:
+- id: '01'
+  title: idfix-tool Troubleshooting
+  sections:
+  - id: '01.01'
+    title: Using the idfix-tool for Sync Issues
+    objective: Explain how to use the idfix-tool to diagnose and resolve synchronization
+      issues between Entra ID and on-premises directories.
+- id: '02'
+  title: Synchronization Service Manager
+  sections:
+  - id: '02.01'
+    title: Managing Sync with the Service Manager
+    objective: Guide users through using the Synchronization Service Manager to monitor,
+      configure, and troubleshoot synchronization processes.
+- id: '03'
+  title: Delta Sync Troubleshooting
+  sections:
+  - id: '03.01'
+    title: Resolving Delta Sync Problems
+    objective: Provide steps to troubleshoot and resolve common issues related to
+      delta synchronization in Entra ID Connect.
+- id: '04'
+  title: Attribute Filtering
+  sections:
+  - id: '04.01'
+    title: Troubleshooting Attribute Filtering
+    objective: Detail how to identify and fix issues with attribute filtering configurations
+      in Entra ID Connect synchronization.
+- id: '05'
+  title: Password Hash Sync
+  sections:
+  - id: '05.01'
+    title: Fixing Password Hash Sync Errors
+    objective: Outline methods to diagnose and resolve password hash synchronization
+      errors in Entra ID Connect.

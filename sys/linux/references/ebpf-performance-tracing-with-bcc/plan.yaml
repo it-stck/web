@@ -1,0 +1,79 @@
+title: eBPF Performance Tracing with BCC
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: eBPF and BCC Fundamentals
+  sections:
+  - id: '01.01'
+    title: eBPF Overview and Use Cases
+    objective: Explain what eBPF is, its role in Linux kernel tracing, and common
+      use cases for performance analysis.
+  - id: '01.02'
+    title: BCC Toolchain Architecture
+    objective: Describe the BCC framework components, including libbpf, BPF CO-RE,
+      and the kernel's BPF subsystem.
+  - id: '01.03'
+    title: Setting Up BCC on Linux
+    objective: Provide step-by-step instructions for installing BCC tools and verifying
+      the environment setup.
+- id: '02'
+  title: bpftrace Scripting
+  sections:
+  - id: '02.01'
+    title: bpftrace Basics and Syntax
+    objective: Teach core bpftrace syntax, including probes, actions, and data types
+      for writing tracing scripts.
+  - id: '02.02'
+    title: Writing Performance Tracing Scripts
+    objective: Demonstrate how to create scripts for measuring latency, CPU usage,
+      and I/O operations using bpftrace.
+  - id: '02.03'
+    title: Debugging bpftrace Scripts
+    objective: Explain techniques for troubleshooting script errors, including log
+      output and type-checking.
+- id: '03'
+  title: Kernel Probes and Uprobes
+  sections:
+  - id: '03.01'
+    title: kprobes and kretprobes Overview
+    objective: Detail how kprobes intercept kernel functions and measure execution
+      paths for performance analysis.
+  - id: '03.02'
+    title: Using Uprobes for User-space Tracing
+    objective: Explain deploying uprobes to trace user-space applications and libraries
+      with low overhead.
+  - id: '03.03'
+    title: Advanced Probe Configuration
+    objective: Cover probe placement strategies, symbol resolution, and avoiding instrumentation
+      conflicts.
+- id: '04'
+  title: Tracepoints and Event Collection
+  sections:
+  - id: '04.01'
+    title: Linux Tracepoint Mechanism
+    objective: Describe the tracepoint infrastructure, including kernel event definitions
+      and registration.
+  - id: '04.02'
+    title: Collecting Tracepoint Data with BCC
+    objective: Show how to use BCC to capture and analyze tracepoint events from kernel
+      and drivers.
+  - id: '04.03'
+    title: Filtering and Aggregating Tracepoint Data
+    objective: Explain techniques for processing tracepoint data with BPF programs
+      and BCC tools.
+- id: '05'
+  title: Performance Profiling Techniques
+  sections:
+  - id: '05.01'
+    title: CPU and Memory Profiling with BCC
+    objective: Demonstrate profiling tools like perf_events and BPF-based CPU flamegraphs
+      for performance bottlenecks.
+  - id: '05.02'
+    title: I/O and Network Latency Analysis
+    objective: Explain measuring disk I/O latency and network packet processing with
+      BCC programs.
+  - id: '05.03'
+    title: Benchmarking with BCC Tools
+    objective: Cover using BCC for benchmarking system calls, lock contention, and
+      context switches in production environments.

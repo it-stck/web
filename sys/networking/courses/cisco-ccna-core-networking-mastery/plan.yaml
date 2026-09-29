@@ -1,0 +1,78 @@
+title: Cisco CCNA Core Networking Mastery
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: OSI Model and Network Fundamentals
+  sections:
+  - id: '01.01'
+    title: OSI Model Layers and Functions
+    objective: Explain the seven layers of the OSI model, their roles, and how they
+      facilitate end-to-end communication.
+  - id: '01.02'
+    title: TCP/IP Protocol Suite Overview
+    objective: Compare OSI layers to TCP/IP model layers and identify key protocols
+      operating at each layer.
+- id: '02'
+  title: IPv4 and IPv6 Subnetting
+  sections:
+  - id: '02.01'
+    title: IPv4 Addressing and Subnetting
+    objective: Calculate subnet masks, host ranges, and CIDR notation for IPv4 networks.
+  - id: '02.02'
+    title: IPv6 Addressing and Subnetting
+    objective: Configure and troubleshoot IPv6 addressing, including EUI-64 and subnetting
+      techniques.
+- id: '03'
+  title: VLANs and Trunking
+  sections:
+  - id: '03.01'
+    title: VLAN Concepts and Configuration
+    objective: Design VLANs for network segmentation and configure VLANs on Cisco
+      switches.
+  - id: '03.02'
+    title: Trunking Protocols and Configuration
+    objective: Implement VLAN trunking using IEEE 802.1Q and configure trunk ports
+      for inter-VLAN routing.
+- id: '04'
+  title: Spanning Tree Protocols
+  sections:
+  - id: '04.01'
+    title: STP Fundamentals and Operation
+    objective: Explain STP convergence, port roles, and how to prevent network loops.
+  - id: '04.02'
+    title: RSTP Enhancements and Configuration
+    objective: Configure Rapid Spanning Tree Protocol (RSTP) and troubleshoot common
+      convergence issues.
+- id: '05'
+  title: OSPF Routing Protocol
+  sections:
+  - id: '05.01'
+    title: OSPF Network Types and Neighbor Discovery
+    objective: Configure OSPF on different network types and troubleshoot adjacency
+      issues.
+  - id: '05.02'
+    title: OSPF LSAs and Route Calculation
+    objective: Analyze OSPF link-state advertisements (LSAs) and explain how Dijkstra's
+      algorithm determines best paths.
+- id: '06'
+  title: NAT and PAT Configuration
+  sections:
+  - id: '06.01'
+    title: NAT Translation and Configuration
+    objective: Implement static and dynamic NAT to translate private IP addresses
+      to public ones.
+  - id: '06.02'
+    title: PAT and Overload Configuration
+    objective: Configure Port Address Translation (PAT) to conserve public IP addresses.
+- id: '07'
+  title: Network Security Fundamentals
+  sections:
+  - id: '07.01'
+    title: DHCP Snooping and IP Source Guard
+    objective: Enable DHCP snooping to prevent IP address spoofing and configure IP
+      source guard.
+  - id: '07.02'
+    title: Access Control Lists (ACLs) Implementation
+    objective: Design and apply standard and extended ACLs to filter traffic based
+      on source/destination IP and port.

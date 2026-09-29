@@ -1,0 +1,79 @@
+status: completed
+title: Prometheus and Grafana Enterprise Observability
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Prometheus Architecture
+  section_id: '01.01'
+  title: Core Components and Data Model
+  status: completed
+- chapter_id: '01'
+  chapter_title: Prometheus Architecture
+  section_id: '01.02'
+  title: Federation and Distributed Architecture
+  status: completed
+- chapter_id: '01'
+  chapter_title: Prometheus Architecture
+  section_id: '01.03'
+  title: High Availability and Scalability Patterns
+  status: completed
+- chapter_id: '02'
+  chapter_title: 'PromQL: Querying Metrics'
+  section_id: '02.01'
+  title: Basic Query Syntax and Aggregation
+  status: completed
+- chapter_id: '02'
+  chapter_title: 'PromQL: Querying Metrics'
+  section_id: '02.02'
+  title: Advanced Querying Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: 'PromQL: Querying Metrics'
+  section_id: '02.03'
+  title: Subqueries and Pipeline Operators
+  status: completed
+- chapter_id: '03'
+  chapter_title: Alertmanager Configuration
+  section_id: '03.01'
+  title: Alert Routing and Escalation Policies
+  status: completed
+- chapter_id: '03'
+  chapter_title: Alertmanager Configuration
+  section_id: '03.02'
+  title: Notification Templates and Customization
+  status: completed
+- chapter_id: '03'
+  chapter_title: Alertmanager Configuration
+  section_id: '03.03'
+  title: Alert Suppression and Deduplication
+  status: completed
+- chapter_id: '04'
+  chapter_title: Grafana Dashboards
+  section_id: '04.01'
+  title: Connecting to Prometheus Data Sources
+  status: completed
+- chapter_id: '04'
+  chapter_title: Grafana Dashboards
+  section_id: '04.02'
+  title: Dashboard Design Patterns for SRE
+  status: completed
+- chapter_id: '04'
+  chapter_title: Grafana Dashboards
+  section_id: '04.03'
+  title: Advanced Dashboard Features
+  status: completed
+- chapter_id: '05'
+  chapter_title: Metrics Retention Strategies
+  section_id: '05.01'
+  title: Retention Policies and Storage Configuration
+  status: completed
+- chapter_id: '05'
+  chapter_title: Metrics Retention Strategies
+  section_id: '05.02'
+  title: Data Archiving and Tiered Storage
+  status: completed
+- chapter_id: '05'
+  chapter_title: Metrics Retention Strategies
+  section_id: '05.03'
+  title: Compliance and Data Retention Policies
+  status: completed

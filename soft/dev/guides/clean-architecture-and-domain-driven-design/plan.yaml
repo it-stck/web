@@ -1,0 +1,52 @@
+title: Clean Architecture and Domain-Driven Design
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Foundations of Clean Architecture and DDD
+  sections:
+  - id: '01.01'
+    title: Introduction to Clean Architecture
+    objective: Explain the core principles of Clean Architecture, including separation
+      of concerns, dependency inversion, and the role of layers in software design.
+  - id: '01.02'
+    title: Introduction to Domain-Driven Design
+    objective: Define Domain-Driven Design (DDD) and its purpose in modeling complex
+      business domains through collaboration between developers and domain experts.
+  - id: '01.03'
+    title: Bounded Contexts in DDD
+    objective: Describe bounded contexts as the primary mechanism for defining boundaries
+      between distinct domains and avoiding modeling conflicts.
+- id: '02'
+  title: Core DDD Concepts
+  sections:
+  - id: '02.01'
+    title: Entities, Value Objects, and Aggregates
+    objective: Differentiate between entities, value objects, and aggregates, and
+      explain their roles in maintaining domain invariants.
+  - id: '02.02'
+    title: Modeling Business Rules with Entities
+    objective: Demonstrate how entities and aggregates encapsulate business logic
+      and enforce domain rules through invariants.
+- id: '03'
+  title: Application Layer and Use Cases
+  sections:
+  - id: '03.01'
+    title: Use Cases in Clean Architecture
+    objective: Explain how use cases represent application services that orchestrate
+      domain interactions and enforce business rules.
+  - id: '03.02'
+    title: Implementing the Repository Pattern
+    objective: Detail the repository pattern as a mechanism for abstracting data access
+      while maintaining separation between domain logic and infrastructure.
+- id: '04'
+  title: Architectural Strategies
+  sections:
+  - id: '04.01'
+    title: Dependency Inversion Principle
+    objective: Illustrate how dependency inversion enables flexible, maintainable
+      systems by decoupling abstractions from concrete implementations.
+  - id: '04.02'
+    title: Hexagonal Architecture Implementation
+    objective: Show how hexagonal architecture (ports and adapters) aligns with Clean
+      Architecture principles to enable testability and decoupling.

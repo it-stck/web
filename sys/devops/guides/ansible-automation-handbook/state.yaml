@@ -1,0 +1,59 @@
+status: completed
+title: Ansible Automation Handbook
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Ansible Automation
+  section_id: '01.01'
+  title: Overview of Ansible
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Ansible Automation
+  section_id: '01.02'
+  title: Understanding Idempotency
+  status: completed
+- chapter_id: '02'
+  chapter_title: Inventory Management
+  section_id: '02.01'
+  title: Static Inventory Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Inventory Management
+  section_id: '02.02'
+  title: Dynamic Inventory Concepts
+  status: completed
+- chapter_id: '03'
+  chapter_title: Playbooks and Execution
+  section_id: '03.01'
+  title: Playbook Structure and Syntax
+  status: completed
+- chapter_id: '03'
+  chapter_title: Playbooks and Execution
+  section_id: '03.02'
+  title: Best Practices for Playbook Design
+  status: completed
+- chapter_id: '04'
+  chapter_title: Roles and Modularization
+  section_id: '04.01'
+  title: Role Structure and Organization
+  status: completed
+- chapter_id: '04'
+  chapter_title: Roles and Modularization
+  section_id: '04.02'
+  title: Role Best Practices
+  status: completed
+- chapter_id: '05'
+  chapter_title: Security with Ansible Vault
+  section_id: '05.01'
+  title: Securing Sensitive Data
+  status: completed
+- chapter_id: '06'
+  chapter_title: Custom Modules and Plugins
+  section_id: '06.01'
+  title: Creating Custom Modules
+  status: completed
+- chapter_id: '07'
+  chapter_title: AWX/Tower Integration
+  section_id: '07.01'
+  title: Integrating with AWX/Tower
+  status: completed

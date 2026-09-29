@@ -1,0 +1,36 @@
+title: Hardware Hacking with JTAG and UART
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: UART Hacking Fundamentals
+  sections:
+  - id: '01.01'
+    title: UART Pinout Discovery
+    objective: Teach how to identify and map UART pinouts on embedded devices using
+      multimeters, logic analyzers, and signal probing techniques.
+  - id: '01.02'
+    title: Bus Pirate for UART Communication
+    objective: Demonstrate configuring and using the Bus Pirate device to establish
+      UART communication with target hardware for data interception and command injection.
+- id: '02'
+  title: JTAG Tooling Setup
+  sections:
+  - id: '02.01'
+    title: OpenOCD Configuration and Usage
+    objective: Guide users through installing, configuring, and operating OpenOCD
+      to interface with JTAG-enabled devices for firmware analysis.
+- id: '03'
+  title: JTAG Debugging Techniques
+  sections:
+  - id: '03.01'
+    title: JTAG Debugging Workflow
+    objective: Explain how to leverage JTAG for real-time debugging, breakpoint setting,
+      and register inspection in embedded systems.
+- id: '04'
+  title: Memory Dumping with JTAG
+  sections:
+  - id: '04.01'
+    title: JTAG-Based Memory Extraction
+    objective: Detail methods for dumping firmware and volatile memory from devices
+      using JTAG interfaces, including toolchains and post-processing techniques.

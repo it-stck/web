@@ -1,0 +1,54 @@
+status: completed
+title: Agentic AI Workflows with LangGraph
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to LangGraph and Agentic Workflows
+  section_id: '01.01'
+  title: What is LangGraph and Why Use It for Agentic Workflows
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to LangGraph and Agentic Workflows
+  section_id: '01.02'
+  title: 'Core Concepts: Nodes, Edges, and Graph Structures'
+  status: completed
+- chapter_id: '02'
+  chapter_title: State Management in Agentic Workflows
+  section_id: '02.01'
+  title: Tracking and Persisting Workflow State
+  status: completed
+- chapter_id: '02'
+  chapter_title: State Management in Agentic Workflows
+  section_id: '02.02'
+  title: Stateful Node Design Patterns
+  status: completed
+- chapter_id: '03'
+  chapter_title: Tool Integration and Execution
+  section_id: '03.01'
+  title: Calling External Tools and APIs
+  status: completed
+- chapter_id: '03'
+  chapter_title: Tool Integration and Execution
+  section_id: '03.02'
+  title: Error Handling and Retry Logic for Tool Calls
+  status: completed
+- chapter_id: '04'
+  chapter_title: Multi-Agent Collaboration
+  section_id: '04.01'
+  title: Designing Multi-Agent Systems with LangGraph
+  status: completed
+- chapter_id: '04'
+  chapter_title: Multi-Agent Collaboration
+  section_id: '04.02'
+  title: Agent Interoperability and Data Sharing
+  status: completed
+- chapter_id: '05'
+  chapter_title: Human-in-the-Loop Integration
+  section_id: '05.01'
+  title: Incorporating Human Feedback Loops
+  status: completed
+- chapter_id: '05'
+  chapter_title: Human-in-the-Loop Integration
+  section_id: '05.02'
+  title: Monitoring and Auditing Agentic Workflows
+  status: completed

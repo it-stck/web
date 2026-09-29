@@ -1,0 +1,71 @@
+title: Privilege Escalation Techniques in Windows and Linux
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Privilege Escalation
+  sections:
+  - id: '01.01'
+    title: Understanding Privilege Escalation
+    objective: Define privilege escalation, explain its significance in offensive
+      security, and describe common scenarios where it occurs.
+  - id: '01.02'
+    title: Windows vs. Linux Escalation Mechanisms
+    objective: Compare privilege models in Windows (Local System, UAC) and Linux (sudo,
+      root), highlighting architectural differences.
+- id: '02'
+  title: Misconfigured Services and Unquoted Paths
+  sections:
+  - id: '02.01'
+    title: Exploiting Misconfigured Services
+    objective: Identify and exploit misconfigured services in both Windows and Linux
+      to gain elevated privileges.
+  - id: '02.02'
+    title: Unquoted Service Paths in Windows
+    objective: Demonstrate how unquoted service paths in Windows allow path traversal
+      and privilege escalation.
+  - id: '02.03'
+    title: Unquoted Service Paths in Linux
+    objective: Explain how unquoted paths in Linux service configurations lead to
+      arbitrary code execution.
+- id: '03'
+  title: Linux-Specific Escalation Techniques
+  sections:
+  - id: '03.01'
+    title: Sudo Abuse and Configuration Exploits
+    objective: Detail sudo misconfigurations, including NOPASSWD, and demonstrate
+      exploitation using tools like sudoedit.
+  - id: '03.02'
+    title: Exploiting SUID Binaries
+    objective: Analyze SUID binary vulnerabilities, including environment variable
+      manipulation and setuid exploitation.
+  - id: '03.03'
+    title: Token Manipulation in Linux
+    objective: Explain techniques like token impersonation and pivot attacks using
+      tools such as ptunnel and su.
+- id: '04'
+  title: Windows-Specific Escalation Techniques
+  sections:
+  - id: '04.01'
+    title: Token Manipulation and Impersonation
+    objective: Describe Windows token manipulation methods, including impersonation
+      and privilege dropping with tools like Impacket.
+  - id: '04.02'
+    title: Kernel-Mode Exploits in Windows
+    objective: Cover kernel exploits such as EoP (Elevation of Privilege) vulnerabilities
+      and their exploitation using tools like Exploit-DB.
+- id: '05'
+  title: Advanced Techniques and Mitigations
+  sections:
+  - id: '05.01'
+    title: Potato Attacks and Privilege Escalation
+    objective: Explain potato attacks (e.g., LinEnum, Windows' PsExec) and their role
+      in escalating privileges through service exploitation.
+  - id: '05.02'
+    title: Kernel Exploits Across Platforms
+    objective: Discuss cross-platform kernel exploits, including Linux'sDirty COW
+      and Windows' privilege escalation via kernel vulnerabilities.
+  - id: '05.03'
+    title: Mitigating Privilege Escalation Risks
+    objective: Provide strategies to prevent escalation, such as least-privilege principles,
+      secure service configurations, and kernel hardening.

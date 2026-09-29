@@ -1,0 +1,79 @@
+status: completed
+title: eBPF Performance Tracing with BCC
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: eBPF and BCC Fundamentals
+  section_id: '01.01'
+  title: eBPF Overview and Use Cases
+  status: completed
+- chapter_id: '01'
+  chapter_title: eBPF and BCC Fundamentals
+  section_id: '01.02'
+  title: BCC Toolchain Architecture
+  status: completed
+- chapter_id: '01'
+  chapter_title: eBPF and BCC Fundamentals
+  section_id: '01.03'
+  title: Setting Up BCC on Linux
+  status: completed
+- chapter_id: '02'
+  chapter_title: bpftrace Scripting
+  section_id: '02.01'
+  title: bpftrace Basics and Syntax
+  status: completed
+- chapter_id: '02'
+  chapter_title: bpftrace Scripting
+  section_id: '02.02'
+  title: Writing Performance Tracing Scripts
+  status: completed
+- chapter_id: '02'
+  chapter_title: bpftrace Scripting
+  section_id: '02.03'
+  title: Debugging bpftrace Scripts
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kernel Probes and Uprobes
+  section_id: '03.01'
+  title: kprobes and kretprobes Overview
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kernel Probes and Uprobes
+  section_id: '03.02'
+  title: Using Uprobes for User-space Tracing
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kernel Probes and Uprobes
+  section_id: '03.03'
+  title: Advanced Probe Configuration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Tracepoints and Event Collection
+  section_id: '04.01'
+  title: Linux Tracepoint Mechanism
+  status: completed
+- chapter_id: '04'
+  chapter_title: Tracepoints and Event Collection
+  section_id: '04.02'
+  title: Collecting Tracepoint Data with BCC
+  status: completed
+- chapter_id: '04'
+  chapter_title: Tracepoints and Event Collection
+  section_id: '04.03'
+  title: Filtering and Aggregating Tracepoint Data
+  status: completed
+- chapter_id: '05'
+  chapter_title: Performance Profiling Techniques
+  section_id: '05.01'
+  title: CPU and Memory Profiling with BCC
+  status: completed
+- chapter_id: '05'
+  chapter_title: Performance Profiling Techniques
+  section_id: '05.02'
+  title: I/O and Network Latency Analysis
+  status: completed
+- chapter_id: '05'
+  chapter_title: Performance Profiling Techniques
+  section_id: '05.03'
+  title: Benchmarking with BCC Tools
+  status: completed

@@ -1,0 +1,64 @@
+title: Threat Hunting with KQL in Microsoft Sentinel
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: KQL Fundamentals for Threat Hunting
+  sections:
+  - id: '01.01'
+    title: Introduction to KQL in Microsoft Sentinel
+    objective: Explain the role of Kusto Query Language (KQL) in Microsoft Sentinel
+      for log analysis and threat detection.
+  - id: '01.02'
+    title: KQL Query Structure and Syntax
+    objective: Teach core KQL syntax elements like tables, filters, joins, and aggregation
+      functions for querying Sentinel data.
+  - id: '01.03'
+    title: Summarizing and Rendering Log Data
+    objective: Demonstrate how to use KQL to summarize log data and render results
+      for actionable insights.
+- id: '02'
+  title: Event Correlation and Pattern Recognition
+  sections:
+  - id: '02.01'
+    title: Event Correlation Techniques
+    objective: Outline methods for correlating disparate events across log sources
+      to identify potential threats.
+  - id: '02.02'
+    title: Pattern Recognition in Log Data
+    objective: Show how to detect anomalies and patterns using KQL for indicators
+      of compromise (IoCs).
+  - id: '02.03'
+    title: Time-Series Analysis for Threat Detection
+    objective: Explain how to analyze temporal relationships between events to uncover
+      stealthy attack behaviors.
+- id: '03'
+  title: Advanced Hunting Queries
+  sections:
+  - id: '03.01'
+    title: Building Targeted Hunting Queries
+    objective: Guide users in crafting KQL queries to detect specific attack stages
+      like lateral movement or data exfiltration.
+  - id: '03.02'
+    title: Query Optimization and Performance
+    objective: Provide best practices for optimizing KQL queries to reduce execution
+      time and resource usage.
+  - id: '03.03'
+    title: Validating Hunting Query Effectiveness
+    objective: Describe techniques for testing and refining KQL queries using historical
+      data and false positive reduction.
+- id: '04'
+  title: Workbooks and Dashboards for Threat Hunting
+  sections:
+  - id: '04.01'
+    title: Creating Hunting Workbooks in Sentinel
+    objective: Explain how to build reusable KQL-based workbooks for structured threat
+      hunting workflows.
+  - id: '04.02'
+    title: Designing Effective Dashboards
+    objective: Teach principles for designing dashboards that visualize hunting results
+      and track threat indicators.
+  - id: '04.03'
+    title: Integrating Workbooks with Automation
+    objective: Demonstrate how to automate threat hunting processes by linking workbooks
+      to alerts and playbooks.

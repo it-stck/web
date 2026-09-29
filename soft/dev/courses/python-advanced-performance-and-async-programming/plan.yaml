@@ -1,0 +1,64 @@
+title: Python Advanced Performance and Async Programming
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Asynchronous Programming with asyncio
+  sections:
+  - id: '01.01'
+    title: asyncio Event Loop Fundamentals
+    objective: Explain the asyncio event loop architecture, its role in managing asynchronous
+      tasks, and how it coordinates coroutines and callbacks.
+  - id: '01.02'
+    title: Generators and Coroutines
+    objective: Demonstrate how generators and coroutines enable asynchronous programming
+      in Python, including suspension and resumption of execution.
+  - id: '01.03'
+    title: Async/Await Syntax and Best Practices
+    objective: Teach the syntax and idiomatic patterns for using async/await, including
+      error handling and task management in async code.
+- id: '02'
+  title: 'Concurrency: Multiprocessing vs. Threading'
+  sections:
+  - id: '02.01'
+    title: Multiprocessing in Python
+    objective: Detail how multiprocessing leverages multiple CPUs, overcome GIL limitations,
+      and manage inter-process communication.
+  - id: '02.02'
+    title: Threading and the Global Interpreter Lock
+    objective: Explain threading mechanics, the GIL's impact on CPU-bound vs I/O-bound
+      tasks, and strategies for parallelism.
+  - id: '02.03'
+    title: When to Use Multiprocessing vs Threading
+    objective: Compare use cases for multiprocessing and threading, including performance
+      trade-offs and resource management.
+- id: '03'
+  title: Performance Optimization Techniques
+  sections:
+  - id: '03.01'
+    title: Memory Profiling and Optimization
+    objective: Teach tools like memory_profiler, identify memory leaks, and optimize
+      object allocation and garbage collection.
+  - id: '03.02'
+    title: Caching Strategies for Python
+    objective: Explore in-memory caching (e.g., functools.lru_cache), Redis integration,
+      and cache invalidation patterns.
+  - id: '03.03'
+    title: Cython for Performance Boost
+    objective: Demonstrate how Cython compiles Python to C, optimize type annotations,
+      and accelerate CPU-bound code.
+- id: '04'
+  title: Type Hints and Static Analysis
+  sections:
+  - id: '04.01'
+    title: Type Hints for Maintainability
+    objective: Show how type hints improve code clarity, enable IDE support, and reduce
+      runtime errors through static analysis.
+  - id: '04.02'
+    title: Static Analysis Tools (mypy, Pyright)
+    objective: Explain configuring and using mypy, Pyright, and other tools to enforce
+      type safety and detect bugs.
+  - id: '04.03'
+    title: Integration with Development Workflows
+    objective: Cover type hinting best practices, including docstrings, third-party
+      libraries, and CI/CD pipeline integration.

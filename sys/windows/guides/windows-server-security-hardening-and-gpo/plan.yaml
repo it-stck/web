@@ -1,0 +1,81 @@
+title: Windows Server Security Hardening and GPO
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Group Policy Objects (GPO) Fundamentals
+  sections:
+  - id: '01.01'
+    title: GPO Architecture and Scope
+    objective: Explain the structure of Group Policy Objects, including how GPOs are
+      linked to domains, OUs, and WMI filters.
+  - id: '01.02'
+    title: Creating and Configuring GPOs
+    objective: Demonstrate how to create GPOs using the Group Policy Management Console
+      (GPMC) and configure basic security settings.
+- id: '02'
+  title: LAPS Implementation for Password Management
+  sections:
+  - id: '02.01'
+    title: LAPS Overview and Requirements
+    objective: Describe Local Administrator Password Solution (LAPS) architecture,
+      prerequisites, and its role in securing service account passwords.
+  - id: '02.02'
+    title: Deploying LAPS with GPO
+    objective: Walk through deploying LAPS using Group Policy Preferences and configuring
+      password storage in Active Directory.
+- id: '03'
+  title: Enabling Credential Guard
+  sections:
+  - id: '03.01'
+    title: Credential Guard Requirements and Setup
+    objective: Outline system requirements for Credential Guard and guide users through
+      enabling it via Group Policy and Hyper-V settings.
+  - id: '03.02'
+    title: Configuring Credential Guard Policies
+    objective: Detail how to configure Credential Guard using GPOs and verify its
+      effectiveness with PowerShell cmdlets.
+- id: '04'
+  title: Defender ATP Integration and Configuration
+  sections:
+  - id: '04.01'
+    title: Windows Defender ATP Overview
+    objective: Introduce Windows Defender ATP features, including endpoint detection,
+      threat intelligence, and integration with Microsoft Sentinel.
+  - id: '04.02'
+    title: Configuring Defender ATP with GPO
+    objective: Explain how to deploy and configure Defender ATP using Group Policy
+      to enforce security baselines and monitoring policies.
+- id: '05'
+  title: Audit Policies for Security Monitoring
+  sections:
+  - id: '05.01'
+    title: Audit Policy Framework and Scope
+    objective: Explain the Windows audit policy framework, including event logging,
+      audit trails, and compliance requirements.
+  - id: '05.02'
+    title: Configuring Audit Policies via GPO
+    objective: Demonstrate how to use Group Policy to enable auditing for security
+      events, account management, and system integrity.
+- id: '06'
+  title: BitLocker Escrow and Recovery Configuration
+  sections:
+  - id: '06.01'
+    title: BitLocker Encryption and Escrow Requirements
+    objective: Outline BitLocker encryption prerequisites, the role of Active Directory
+      Domain Services (AD DS) in escrow, and recovery key management.
+  - id: '06.02'
+    title: Setting Up BitLocker Escrow with GPO
+    objective: Guide users through configuring BitLocker recovery key storage in AD
+      DS and automating escrow via Group Policy.
+- id: '07'
+  title: AppLocker and WDAC for Application Control
+  sections:
+  - id: '07.01'
+    title: AppLocker Overview and Use Cases
+    objective: Explain AppLocker's role in application control, including file, executable,
+      and publisher rule types for restricting software execution.
+  - id: '07.02'
+    title: WDAC Templates and Policy Enforcement
+    objective: Detail how to create and deploy Windows Defender Application Control
+      (WDAC) policies using GPO to enforce trusted application whitelists.

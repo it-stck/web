@@ -1,0 +1,69 @@
+status: draft
+title: REST and gRPC API Design Standards
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: REST Foundations
+  section_id: '01.01'
+  title: HTTP Verbs and Status Codes
+  status: pending
+- chapter_id: '01'
+  chapter_title: REST Foundations
+  section_id: '01.02'
+  title: RESTful Resource Design
+  status: pending
+- chapter_id: '02'
+  chapter_title: REST Documentation
+  section_id: '02.01'
+  title: OpenAPI Specification Basics
+  status: pending
+- chapter_id: '02'
+  chapter_title: REST Documentation
+  section_id: '02.02'
+  title: Swagger Integration
+  status: pending
+- chapter_id: '02'
+  chapter_title: REST Documentation
+  section_id: '02.03'
+  title: API Versioning Patterns
+  status: pending
+- chapter_id: '03'
+  chapter_title: gRPC Fundamentals
+  section_id: '03.01'
+  title: Protobuf Message Definitions
+  status: pending
+- chapter_id: '03'
+  chapter_title: gRPC Fundamentals
+  section_id: '03.02'
+  title: gRPC vs REST Comparison
+  status: pending
+- chapter_id: '03'
+  chapter_title: gRPC Fundamentals
+  section_id: '03.03'
+  title: Streaming Patterns
+  status: pending
+- chapter_id: '04'
+  chapter_title: API Governance
+  section_id: '04.01'
+  title: Rate Limiting Implementation
+  status: pending
+- chapter_id: '04'
+  chapter_title: API Governance
+  section_id: '04.02'
+  title: Pagination and Filtering
+  status: pending
+- chapter_id: '04'
+  chapter_title: API Governance
+  section_id: '04.03'
+  title: Security Best Practices
+  status: pending
+- chapter_id: '05'
+  chapter_title: Authentication Standards
+  section_id: '05.01'
+  title: JWT Token Structure
+  status: pending
+- chapter_id: '05'
+  chapter_title: Authentication Standards
+  section_id: '05.02'
+  title: OAuth2 Implementation
+  status: pending

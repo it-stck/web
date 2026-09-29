@@ -1,0 +1,138 @@
+title: AWS Cloud Architecture Well-Architected Framework
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Core Principles of the Well-Archited Framework
+  sections:
+  - id: '01.01'
+    title: Framework Overview and Pillars
+    objective: Explain the AWS Well-Architected Framework's five pillars and their
+      relevance to cloud architecture design.
+  - id: '01.02'
+    title: Operational Excellence Foundations
+    objective: Detail practices for automating operations, monitoring, and incident
+      response in AWS environments.
+  - id: '01.03'
+    title: Security Best Practices
+    objective: Outline security principles for data protection, access control, and
+      compliance in AWS architectures.
+- id: '02'
+  title: Virtual Private Cloud (VPC) Design
+  sections:
+  - id: '02.01'
+    title: VPC Design Principles
+    objective: Teach scalable, secure VPC architecture patterns for AWS environments.
+  - id: '02.02'
+    title: Network Security and Isolation
+    objective: Explain strategies for securing VPCs, including subnets, firewalls,
+      and private networking.
+  - id: '02.03'
+    title: Traffic Optimization and Routing
+    objective: Cover best practices for routing, load balancing, and network performance
+      tuning in VPCs.
+- id: '03'
+  title: Identity and Access Management (IAM)
+  sections:
+  - id: '03.01'
+    title: IAM Roles and Policies
+    objective: Demonstrate how to create IAM roles, policies, and permissions for
+      secure resource access.
+  - id: '03.02'
+    title: Least Privilege and Auditing
+    objective: Explain implementing least-privilege access and auditing IAM activities
+      for compliance.
+  - id: '03.03'
+    title: Cross-Account and Federated Access
+    objective: Detail strategies for managing access across AWS accounts and federated
+      identity integration.
+- id: '04'
+  title: EC2 Auto-Scaling and Compute Optimization
+  sections:
+  - id: '04.01'
+    title: Auto-Scaling Architecture
+    objective: Explain designing auto-scaling groups for dynamic workloads and traffic
+      spikes.
+  - id: '04.02'
+    title: Compute Resource Optimization
+    objective: Cover best practices for instance sizing, lifecycle management, and
+      cost-effective scaling.
+  - id: '04.03'
+    title: Integration with CloudWatch
+    objective: Teach how to monitor EC2 instances and auto-scaling events using CloudWatch
+      metrics.
+- id: '05'
+  title: S3 Lifecycle Management and Security
+  sections:
+  - id: '05.01'
+    title: S3 Lifecycle Policies
+    objective: Detail configuring lifecycle rules for data retention, archiving, and
+      deletion in S3 buckets.
+  - id: '05.02'
+    title: Data Security and Encryption
+    objective: Explain securing S3 data with encryption, access controls, and bucket
+      policies.
+  - id: '05.03'
+    title: Cost Optimization for Storage
+    objective: Cover strategies for reducing S3 storage costs through tiered storage
+      classes and lifecycle automation.
+- id: '06'
+  title: RDS Aurora and Database Best Practices
+  sections:
+  - id: '06.01'
+    title: Aurora Architecture and Features
+    objective: Explain Aurora's architecture, multi-AZ deployment, and performance
+      optimization techniques.
+  - id: '06.02'
+    title: Database Security and Backup
+    objective: Detail securing RDS instances, managing backups, and implementing disaster
+      recovery strategies.
+  - id: '06.03'
+    title: Query Optimization and Scaling
+    objective: Cover query tuning, read replicas, and scaling strategies for Aurora
+      databases.
+- id: '07'
+  title: DynamoDB and NoSQL Design
+  sections:
+  - id: '07.01'
+    title: DynamoDB Architecture and Use Cases
+    objective: Explain DynamoDB's key-value and document store capabilities for scalable
+      applications.
+  - id: '07.02'
+    title: Consistency Models and Performance
+    objective: Detail strong consistency, eventual consistency, and strategies for
+      optimizing read/write throughput.
+  - id: '07.03'
+    title: Cost Management and Indexing
+    objective: Cover partition key design, indexing best practices, and cost optimization
+      for DynamoDB tables.
+- id: 08
+  title: Monitoring and Compliance with CloudWatch/CloudTrail
+  sections:
+  - id: '08.01'
+    title: CloudWatch Metrics and Alarms
+    objective: Explain setting up metrics, dashboards, and alarms for real-time resource
+      monitoring.
+  - id: '08.02'
+    title: CloudTrail for Auditing
+    objective: Detail configuring CloudTrail for logging API calls and ensuring compliance
+      with audit requirements.
+  - id: '08.03'
+    title: Integration with Security Tools
+    objective: Cover integrating CloudWatch and CloudTrail with third-party security
+      and compliance platforms.
+- id: 09
+  title: Disaster Recovery and Reliability
+  sections:
+  - id: '09.01'
+    title: Disaster Recovery Strategies
+    objective: Explain designing multi-region architectures, replication, and failover
+      mechanisms for critical workloads.
+  - id: '09.02'
+    title: Backup and Restore Patterns
+    objective: Detail backup strategies for EC2, RDS, and S3, along with automated
+      restore procedures.
+  - id: '09.03'
+    title: High Availability and Resilience
+    objective: Cover designing fault-tolerant systems with auto-scaling, load balancers,
+      and redundancy patterns.

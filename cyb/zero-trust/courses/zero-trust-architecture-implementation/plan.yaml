@@ -1,0 +1,79 @@
+title: Zero Trust Architecture Implementation
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Core Principles of Zero Trust
+  sections:
+  - id: '01.01'
+    title: Never-Trust-Always-Verify Framework
+    objective: Explain the foundational principle of Zero Trust, including the shift
+      from perimeter-based security to continuous verification of all entities.
+  - id: '01.02'
+    title: Least Privilege Access
+    objective: Detail how Zero Trust enforces minimal access rights and dynamic policy
+      enforcement to limit lateral movement.
+  - id: '01.03'
+    title: Data Protection in Zero Trust
+    objective: Describe strategies for encrypting data at rest and in transit, and
+      how Zero Trust integrates with data sovereignty requirements.
+- id: '02'
+  title: Microsegmentation Implementation
+  sections:
+  - id: '02.01'
+    title: Network Microsegmentation Overview
+    objective: Define microsegmentation and its role in isolating workloads to prevent
+      internal threats and lateral breaches.
+  - id: '02.02'
+    title: Policy-Based Segmentation
+    objective: Demonstrate how to create granular security policies using tools like
+      firewalls, SDNs, and cloud-native security groups.
+  - id: '02.03'
+    title: Integration with Zero Trust
+    objective: Explain how microsegmentation complements Zero Trust by enforcing access
+      controls at the application and workload level.
+- id: '03'
+  title: Identity-Perimeter Architecture
+  sections:
+  - id: '03.01'
+    title: Identity as the New Perimeter
+    objective: Outline how identity verification replaces traditional network boundaries
+      as the primary security control.
+  - id: '03.02'
+    title: Keycloak Integration for IAM
+    objective: Provide step-by-step guidance on configuring Keycloak as an identity
+      provider for Zero Trust authentication.
+  - id: '03.03'
+    title: OAuth2/OIDC for Federated Access
+    objective: Explain OAuth2/OIDC protocols and their role in enabling secure, decentralized
+      identity verification across systems.
+- id: '04'
+  title: Device Trust and PKI
+  sections:
+  - id: '04.01'
+    title: Device Authentication in Zero Trust
+    objective: Detail methods for verifying device integrity, including hardware-based
+      attestation and secure boot processes.
+  - id: '04.02'
+    title: Public Key Infrastructure (PKI) Integration
+    objective: Describe how PKI enables secure communication and certificate-based
+      authentication in Zero Trust environments.
+  - id: '04.03'
+    title: HashiCorp Vault for Secret Management
+    objective: Demonstrate using HashiCorp Vault to securely store and manage cryptographic
+      keys and credentials in Zero Trust workflows.
+- id: '05'
+  title: Continuous Evaluation and Monitoring
+  sections:
+  - id: '05.01'
+    title: Real-Time Risk Assessment
+    objective: Explain how continuous monitoring and adaptive policies dynamically
+      adjust access based on user and device behavior.
+  - id: '05.02'
+    title: Automated Threat Detection
+    objective: Cover tools and techniques for detecting anomalies, such as machine
+      learning models and SIEM integration.
+  - id: '05.03'
+    title: Incident Response and Remediation
+    objective: Provide a framework for responding to breaches, including revoking
+      access and re-evaluating trust levels.

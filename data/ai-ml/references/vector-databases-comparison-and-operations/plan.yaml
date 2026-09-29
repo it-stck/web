@@ -1,0 +1,37 @@
+title: Vector Databases Comparison and Operations
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Core Concepts and Indexing Methods
+  sections:
+  - id: '01.01'
+    title: Introduction to Vector Databases
+    objective: Define vector databases, explain their role in AI/ML workflows, and
+      describe common use cases such as similarity search and embedding storage.
+  - id: '01.02'
+    title: 'Indexing Techniques: HNSW, Cosine, Dot, and Euclidean'
+    objective: Detail the mathematical principles and performance trade-offs of HNSW
+      indexing, cosine similarity, dot product, and Euclidean distance metrics.
+  - id: '01.03'
+    title: Filtering and Metadata Operations
+    objective: Explain how to combine vector similarity searches with metadata filters
+      and discuss schema design for hybrid queries.
+- id: '02'
+  title: Vector Database Systems Comparison
+  sections:
+  - id: '02.01'
+    title: Overview of qdrant, PGVector, Chroma, and Pinecone
+    objective: Compare the architecture, scalability, and feature sets of qdrant,
+      PGVector, Chroma, and Pinecone for different deployment scenarios.
+- id: '03'
+  title: Advanced Operations and Optimization
+  sections:
+  - id: '03.01'
+    title: Sharding Vector Indexes
+    objective: Describe sharding strategies for distributed vector databases and their
+      impact on query parallelism and fault tolerance.
+  - id: '03.02'
+    title: Latency Benchmarking and Optimization
+    objective: Outline methodologies for measuring query latency, identifying bottlenecks,
+      and optimizing vector database performance.

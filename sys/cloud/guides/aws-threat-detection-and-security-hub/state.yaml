@@ -1,0 +1,64 @@
+status: completed
+title: AWS Threat Detection and Security Hub
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to AWS Threat Detection
+  section_id: '01.01'
+  title: AWS Threat Detection Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to AWS Threat Detection
+  section_id: '01.02'
+  title: Core Components and Integration
+  status: completed
+- chapter_id: '02'
+  chapter_title: GuardDuty Finding Analysis
+  section_id: '02.01'
+  title: GuardDuty Setup and Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: GuardDuty Finding Analysis
+  section_id: '02.02'
+  title: Analyzing GuardDuty Findings
+  status: completed
+- chapter_id: '03'
+  chapter_title: Security Hub Controls and Automation
+  section_id: '03.01'
+  title: Security Hub Controls Configuration
+  status: completed
+- chapter_id: '03'
+  chapter_title: Security Hub Controls and Automation
+  section_id: '03.02'
+  title: Automating Security Hub Workflows
+  status: completed
+- chapter_id: '04'
+  chapter_title: Macie for Sensitive Data Protection
+  section_id: '04.01'
+  title: Macie Data Discovery and Classification
+  status: completed
+- chapter_id: '04'
+  chapter_title: Macie for Sensitive Data Protection
+  section_id: '04.02'
+  title: Macie Integration with Security Hub
+  status: completed
+- chapter_id: '05'
+  chapter_title: AWS Config Rules for Compliance
+  section_id: '05.01'
+  title: AWS Config Rule Creation
+  status: completed
+- chapter_id: '05'
+  chapter_title: AWS Config Rules for Compliance
+  section_id: '05.02'
+  title: Monitoring Compliance with Config
+  status: completed
+- chapter_id: '06'
+  chapter_title: Remediation with AWS Lambda
+  section_id: '06.01'
+  title: Lambda Triggers for Security Events
+  status: completed
+- chapter_id: '06'
+  chapter_title: Remediation with AWS Lambda
+  section_id: '06.02'
+  title: Automated Remediation Patterns
+  status: completed

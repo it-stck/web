@@ -1,0 +1,49 @@
+title: Windows Defender Application Control Hardening
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: WDAC Policies and Configuration
+  sections:
+  - id: '01.01'
+    title: Creating WDAC Policies
+    objective: Teach how to create and configure Windows Defender Application Control
+      (WDAC) policies using the Microsoft Management Console (MMC) and PowerShell.
+  - id: '01.02'
+    title: Code Integrity Rules
+    objective: Explain how to define code integrity rules to restrict execution of
+      unsigned or untrusted code.
+  - id: '01.03'
+    title: Publisher Rules
+    objective: Detail the process of configuring publisher rules to allow or block
+      specific software publishers.
+- id: '02'
+  title: Audit vs Enforce Modes
+  sections:
+  - id: '02.01'
+    title: Audit Mode Configuration
+    objective: Describe how to configure Windows Defender Application Control to operate
+      in audit mode for monitoring without enforcement.
+  - id: '02.02'
+    title: Enforce Mode Setup
+    objective: Explain the steps to set up and manage WDAC in enforce mode to block
+      unauthorized applications.
+  - id: '02.03'
+    title: Transitioning Between Modes
+    objective: Provide guidance on transitioning from audit to enforce mode and vice
+      versa, including considerations for each transition.
+- id: '03'
+  title: Managed Installer Integration
+  sections:
+  - id: '03.01'
+    title: Managed Installer Overview
+    objective: Explain the role of managed installer in WDAC and its importance in
+      controlling application installation.
+  - id: '03.02'
+    title: Integration with WDAC
+    objective: Detail how to integrate managed installer with WDAC policies to enforce
+      application installation rules.
+  - id: '03.03'
+    title: Best Practices
+    objective: Outline best practices for configuring and managing managed installer
+      within a WDAC environment.

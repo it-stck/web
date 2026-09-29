@@ -1,0 +1,64 @@
+status: draft
+title: Python Advanced Performance and Async Programming
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Asynchronous Programming with asyncio
+  section_id: '01.01'
+  title: asyncio Event Loop Fundamentals
+  status: pending
+- chapter_id: '01'
+  chapter_title: Asynchronous Programming with asyncio
+  section_id: '01.02'
+  title: Generators and Coroutines
+  status: pending
+- chapter_id: '01'
+  chapter_title: Asynchronous Programming with asyncio
+  section_id: '01.03'
+  title: Async/Await Syntax and Best Practices
+  status: pending
+- chapter_id: '02'
+  chapter_title: 'Concurrency: Multiprocessing vs. Threading'
+  section_id: '02.01'
+  title: Multiprocessing in Python
+  status: pending
+- chapter_id: '02'
+  chapter_title: 'Concurrency: Multiprocessing vs. Threading'
+  section_id: '02.02'
+  title: Threading and the Global Interpreter Lock
+  status: pending
+- chapter_id: '02'
+  chapter_title: 'Concurrency: Multiprocessing vs. Threading'
+  section_id: '02.03'
+  title: When to Use Multiprocessing vs Threading
+  status: pending
+- chapter_id: '03'
+  chapter_title: Performance Optimization Techniques
+  section_id: '03.01'
+  title: Memory Profiling and Optimization
+  status: pending
+- chapter_id: '03'
+  chapter_title: Performance Optimization Techniques
+  section_id: '03.02'
+  title: Caching Strategies for Python
+  status: pending
+- chapter_id: '03'
+  chapter_title: Performance Optimization Techniques
+  section_id: '03.03'
+  title: Cython for Performance Boost
+  status: pending
+- chapter_id: '04'
+  chapter_title: Type Hints and Static Analysis
+  section_id: '04.01'
+  title: Type Hints for Maintainability
+  status: pending
+- chapter_id: '04'
+  chapter_title: Type Hints and Static Analysis
+  section_id: '04.02'
+  title: Static Analysis Tools (mypy, Pyright)
+  status: pending
+- chapter_id: '04'
+  chapter_title: Type Hints and Static Analysis
+  section_id: '04.03'
+  title: Integration with Development Workflows
+  status: pending

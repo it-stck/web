@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>ITSTCK | Tech Blog</title>
+    <description>Personal technical blog covering SysAdmin, DevSecOps, Cybersecurity, Linux, and Software Architecture.</description>
+    <link>https://itstck.com/blog/</link>
+    <atom:link href="https://itstck.com/blog/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    
+    
+    <docs>https://github.com/it-stck/web/projects/blog</docs>
+    <language>en</language>
+
+    
+    <pubDate>Tue, 29 Sep 2026 19:31:47 -0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 19:31:47 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.19.0</generator>
+
+    
+    
+    <image>
+      <url>None</url>
+      <title>ITSTCK | Tech Blog</title>
+      <link>https://itstck.com/blog/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>Hello world</title>
+      
+      
+      
+      
+        
+      <category>Hello</category>
+        
+      <category>World</category>
+        
+      
+      <description>This is the first post</description>
+      <link>https://itstck.com/blog/2026/05/22/hello-world/</link>
+      <pubDate>Tue, 29 Sep 2026 19:29:45 +0000</pubDate>
+      <source url="https://itstck.com/blog/feed_rss_updated.xml">ITSTCK | Tech Blog</source>
+      
+      <guid isPermaLink="true">https://itstck.com/blog/2026/05/22/hello-world/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>

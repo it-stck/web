@@ -1,0 +1,39 @@
+status: completed
+title: Hardening Enterprise Linux Servers
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Security Modules (SELinux and AppArmor)
+  section_id: '01.01'
+  title: SELinux and AppArmor Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: Authentication (PAM)
+  section_id: '02.01'
+  title: PAM Configuration for Secure Authentication
+  status: completed
+- chapter_id: '03'
+  chapter_title: Secure Remote Access (SSH)
+  section_id: '03.01'
+  title: SSH Hardening Techniques
+  status: completed
+- chapter_id: '04'
+  chapter_title: Firewall Configuration (firewalld and nftables)
+  section_id: '04.01'
+  title: Configuring firewalld and nftables for Network Security
+  status: completed
+- chapter_id: '05'
+  chapter_title: System Monitoring and Logging (auditd)
+  section_id: '05.01'
+  title: Implementing auditd for Security Auditing
+  status: completed
+- chapter_id: '06'
+  chapter_title: Data Protection (LUKS)
+  section_id: '06.01'
+  title: LUKS Disk Encryption for Data Security
+  status: completed
+- chapter_id: '07'
+  chapter_title: Kernel Security (kernel-hardening)
+  section_id: '07.01'
+  title: Kernel Hardening Techniques
+  status: completed

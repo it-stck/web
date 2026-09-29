@@ -1,0 +1,34 @@
+status: draft
+title: Endpoint Detection and Response EDR Architecture
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Agent Deployment
+  section_id: '01.01'
+  title: Agent Deployment Strategies
+  status: pending
+- chapter_id: '02'
+  chapter_title: Telemetry Collection
+  section_id: '02.01'
+  title: Data Types and Protocols
+  status: pending
+- chapter_id: '03'
+  chapter_title: Behavioral Analysis
+  section_id: '03.01'
+  title: Detection Techniques
+  status: pending
+- chapter_id: '04'
+  chapter_title: Isolation Policies
+  section_id: '04.01'
+  title: Isolation Modes and Enforcement
+  status: pending
+- chapter_id: '05'
+  chapter_title: Automated Playbooks
+  section_id: '05.01'
+  title: Playbook Design and Orchestration
+  status: pending
+- chapter_id: '06'
+  chapter_title: Tamper Protection
+  section_id: '06.01'
+  title: Anti-Tampering Mechanisms
+  status: pending

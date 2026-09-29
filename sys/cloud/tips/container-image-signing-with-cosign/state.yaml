@@ -1,0 +1,49 @@
+status: completed
+title: Container Image Signing with Cosign
+content_type: tips
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Container Image Signing
+  section_id: '01.01'
+  title: Overview of Container Image Signing
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Container Image Signing
+  section_id: '01.02'
+  title: Cosign and Sigstore Integration
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Container Image Signing
+  section_id: '01.03'
+  title: Keyless Signing with Cosign
+  status: completed
+- chapter_id: '02'
+  chapter_title: Sigstore Components
+  section_id: '02.01'
+  title: Fulcio - Certificate Issuance
+  status: completed
+- chapter_id: '02'
+  chapter_title: Sigstore Components
+  section_id: '02.02'
+  title: Rekor - Transparency Log Integration
+  status: completed
+- chapter_id: '03'
+  chapter_title: Verification and Policy Enforcement
+  section_id: '03.01'
+  title: Kyverno for Signature Verification
+  status: completed
+- chapter_id: '03'
+  chapter_title: Verification and Policy Enforcement
+  section_id: '03.02'
+  title: Registry Policies for Signed Images
+  status: completed
+- chapter_id: '04'
+  chapter_title: Troubleshooting and Best Practices
+  section_id: '04.01'
+  title: Common Issues and Solutions
+  status: completed
+- chapter_id: '04'
+  chapter_title: Troubleshooting and Best Practices
+  section_id: '04.02'
+  title: Best Practices for Secure Signing
+  status: completed

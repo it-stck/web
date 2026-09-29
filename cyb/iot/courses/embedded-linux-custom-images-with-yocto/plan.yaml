@@ -1,0 +1,79 @@
+title: Embedded Linux Custom Images with Yocto
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Yocto Project Fundamentals
+  sections:
+  - id: '01.01'
+    title: Yocto Architecture and Components
+    objective: Explain the Yocto Project architecture, including the OECG, BitBake,
+      and metadata layers, and their roles in building embedded Linux systems.
+  - id: '01.02'
+    title: Yocto Workflow Overview
+    objective: Outline the complete Yocto workflow from source code retrieval to image
+      generation, including key commands and directory structure.
+  - id: '01.03'
+    ',': Yocto Layer Management
+    objective: Describe how to manage and integrate layers in Yocto, including layer
+      configuration and dependency resolution.
+- id: '02'
+  title: Yocto Recipes and BitBake
+  sections:
+  - id: '02.01'
+    title: Recipe Structure and Syntax
+    objective: Detail the components of a Yocto recipe (SRC_URI, S, do_compile, etc.)
+      and best practices for writing maintainable recipes.
+  - id: '02.02'
+    title: Recipe Variables and Dependencies
+    objective: Explain how to use variables, inheritance, and dependency management
+      in recipes to customize builds.
+  - id: '02.03'
+    title: BitBake Execution and Debugging
+    objective: Demonstrate BitBake task execution, task isolation, and debugging techniques
+      for resolving build failures.
+- id: '03'
+  title: Custom Layer Development
+  sections:
+  - id: '03.01'
+    title: Creating a Custom Yocto Layer
+    objective: Guide the creation of a custom layer, including layer configuration
+      files and integration with existing layers.
+  - id: '03.02'
+    title: Recipe Customization in Layers
+    objective: Show how to modify or extend existing recipes within a layer for specific
+      hardware or software requirements.
+  - id: '03.03'
+    title: Layer Recipe Management
+    objective: Explain techniques for organizing recipes, handling versioning, and
+      resolving conflicts in multi-layer projects.
+- id: '04'
+  title: Cross-Compilation and Optimization
+  sections:
+  - id: '04.01'
+    title: Cross-Compilation Toolchains
+    objective: Detail the configuration and use of cross-compilation toolchains in
+      Yocto for target architecture compatibility.
+  - id: '04.02'
+    title: Optimizing Builds for Embedded Systems
+    objective: Discuss strategies for optimizing build size, performance, and resource
+      usage in Yocto projects.
+  - id: '04.03'
+    title: Custom Kernel and Driver Integration
+    objective: Explain how to integrate custom kernels and hardware drivers into Yocto
+      builds using recipes and layers.
+- id: '05'
+  title: Devtool and Development Workflow
+  sections:
+  - id: '05.01'
+    title: Devtool Setup and Usage
+    objective: Demonstrate how to use Devtool for creating, building, and debugging
+      application packages in Yocto.
+  - id: '05.02'
+    title: Devtool for Kernel Development
+    objective: Show advanced Devtool techniques for kernel module development and
+      debugging in embedded Linux.
+  - id: '05.03'
+    title: Troubleshooting Yocto Builds
+    objective: Provide strategies for diagnosing and resolving common Yocto build
+      errors, including log analysis and recipe debugging.

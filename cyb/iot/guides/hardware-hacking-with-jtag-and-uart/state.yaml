@@ -1,0 +1,29 @@
+status: completed
+title: Hardware Hacking with JTAG and UART
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: UART Hacking Fundamentals
+  section_id: '01.01'
+  title: UART Pinout Discovery
+  status: completed
+- chapter_id: '01'
+  chapter_title: UART Hacking Fundamentals
+  section_id: '01.02'
+  title: Bus Pirate for UART Communication
+  status: completed
+- chapter_id: '02'
+  chapter_title: JTAG Tooling Setup
+  section_id: '02.01'
+  title: OpenOCD Configuration and Usage
+  status: completed
+- chapter_id: '03'
+  chapter_title: JTAG Debugging Techniques
+  section_id: '03.01'
+  title: JTAG Debugging Workflow
+  status: completed
+- chapter_id: '04'
+  chapter_title: Memory Dumping with JTAG
+  section_id: '04.01'
+  title: JTAG-Based Memory Extraction
+  status: completed

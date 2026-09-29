@@ -1,0 +1,59 @@
+title: Agentic AI Workflows with LangGraph
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to LangGraph and Agentic Workflows
+  sections:
+  - id: '01.01'
+    title: What is LangGraph and Why Use It for Agentic Workflows
+    objective: Define LangGraph's role in building structured, composable AI workflows
+      and explain its advantages over traditional pipeline approaches.
+  - id: '01.02'
+    title: 'Core Concepts: Nodes, Edges, and Graph Structures'
+    objective: Explain how nodes represent tasks, edges define data flow, and graph
+      structures enable complex workflow orchestration in LangGraph.
+- id: '02'
+  title: State Management in Agentic Workflows
+  sections:
+  - id: '02.01'
+    title: Tracking and Persisting Workflow State
+    objective: Demonstrate techniques for managing intermediate states, memory retention,
+      and checkpointing in LangGraph workflows.
+  - id: '02.02'
+    title: Stateful Node Design Patterns
+    objective: Show how to implement stateful nodes for context-aware decision-making
+      and dynamic workflow evolution.
+- id: '03'
+  title: Tool Integration and Execution
+  sections:
+  - id: '03.01'
+    title: Calling External Tools and APIs
+    objective: Guide on integrating LangGraph with external tools via tool calling
+      patterns and handling asynchronous operations.
+  - id: '03.02'
+    title: Error Handling and Retry Logic for Tool Calls
+    objective: Explain strategies for robust tool execution with retries, timeouts,
+      and failure recovery in LangGraph.
+- id: '04'
+  title: Multi-Agent Collaboration
+  sections:
+  - id: '04.01'
+    title: Designing Multi-Agent Systems with LangGraph
+    objective: Outline patterns for coordinating multiple agents, including role assignment,
+      communication protocols, and task delegation.
+  - id: '04.02'
+    title: Agent Interoperability and Data Sharing
+    objective: Demonstrate how to enable secure data exchange and context sharing
+      between agents in a LangGraph-based system.
+- id: '05'
+  title: Human-in-the-Loop Integration
+  sections:
+  - id: '05.01'
+    title: Incorporating Human Feedback Loops
+    objective: Show methods for embedding human oversight, approval steps, and iterative
+      refinement in LangGraph workflows.
+  - id: '05.02'
+    title: Monitoring and Auditing Agentic Workflows
+    objective: Explain tools and practices for logging, tracking, and auditing human-agent
+      interactions in production systems.

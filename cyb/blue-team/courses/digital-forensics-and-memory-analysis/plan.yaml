@@ -1,0 +1,82 @@
+title: Digital Forensics and Memory Analysis
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Digital Forensics
+  sections:
+  - id: '01.01'
+    title: Digital Forensics Principles
+    objective: Explain the core principles of digital forensics, including chain of
+      custody, preservation, and analysis methodologies.
+  - id: '01.02'
+    title: Legal and Ethical Considerations
+    objective: Discuss legal frameworks and ethical guidelines governing digital forensic
+      investigations.
+  - id: '01.03'
+    title: Tools and Workflows
+    objective: Overview essential tools (Volatility, KAPE, etc.) and standard forensic
+      workflows for memory and disk analysis.
+- id: '02'
+  title: Memory Analysis Fundamentals
+  sections:
+  - id: '02.01'
+    title: Memory Acquisition Concepts
+    objective: Describe memory acquisition processes, including RAM dumping and image
+      verification techniques.
+  - id: '02.02'
+    title: Volatility Framework Overview
+    objective: Introduce the Volatility Framework, its plugins, and use cases for
+      memory analysis.
+  - id: '02.03'
+    title: Memory Analysis Techniques
+    objective: Demonstrate methods for analyzing memory dumps, including process enumeration
+      and artifact extraction.
+- id: '03'
+  title: Triage and Initial Analysis
+  sections:
+  - id: '03.01'
+    title: KAPE Triage Tool
+    objective: Explain how KAPE automates triage tasks like memory analysis, disk
+      imaging, and artifact collection.
+  - id: '03.02'
+    title: Volatility vs. KAPE
+    objective: Compare Volatility and KAPE for triage, highlighting strengths and
+      use cases for each tool.
+- id: '04'
+  title: Data Source Analysis
+  sections:
+  - id: '04.01'
+    title: Registry Analysis
+    objective: Teach how to extract and interpret Windows registry hives for forensic
+      insights.
+  - id: '04.02'
+    title: Event Log Parsing
+    objective: Detail techniques for parsing and analyzing Windows event logs to detect
+      security incidents.
+  - id: '04.03'
+    title: MFT and USNJRNL Analysis
+    objective: Explain how to analyze the Master File Table (MFT) and USNJRNL for
+      file system artifact recovery.
+- id: '05'
+  title: Browser and User Artifacts
+  sections:
+  - id: '05.01'
+    title: Browser Artifact Locations
+    objective: Identify common locations of browser artifacts (cache, history, cookies)
+      across major browsers.
+  - id: '05.02'
+    title: Analyzing Browser Data
+    objective: Demonstrate methods for extracting and analyzing browser artifacts
+      to reconstruct user activity.
+- id: '06'
+  title: Disk Imaging and Preservation
+  sections:
+  - id: '06.01'
+    title: Disk Imaging Techniques
+    objective: Outline best practices for creating forensic disk images, including
+      tools and verification methods.
+  - id: '06.02'
+    title: Image Analysis Workflow
+    objective: Explain how to analyze disk images using forensic tools to recover
+      deleted files and metadata.

@@ -1,0 +1,56 @@
+title: BGP Routing Protocol and ISP Architecture
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: BGP Fundamentals
+  sections:
+  - id: '01.01'
+    title: BGP Overview and Key Concepts
+    objective: Explain the purpose of BGP in ISP networks, its role as an exterior
+      gateway protocol, and core concepts like AS numbers and BGP states.
+  - id: '01.02'
+    title: BGP Attributes and Decision Process
+    objective: Detail BGP attributes (MED, LOCAL_PREF, AS_PATH) and how they influence
+      route selection during the BGP best-path algorithm.
+  - id: '01.03'
+    title: 'IBGP vs. EBGP: Differences and Use Cases'
+    objective: Compare internal (IBGP) and external (EBGP) BGP operations, including
+      neighbor relationships, route propagation, and split-horizon rules.
+- id: '02'
+  title: BGP Scalability and Architecture
+  sections:
+  - id: '02.01'
+    title: Route Reflectors and Confederations
+    objective: Describe how route reflectors eliminate IBGP full mesh requirements
+      and how BGP confederations partition ASes for scalability.
+  - id: '02.02'
+    title: BGP Peerings and Session Types
+    objective: Outline BGP peer session types (eBGP, iBGP, multihop) and their configuration
+      in ISP backbones.
+- id: '03'
+  title: BGP Path Selection and Optimization
+  sections:
+  - id: '03.01'
+    title: BGP Path Selection Criteria
+    objective: Explain the BGP best-path selection process, including AS_PATH, NEXT_HOP,
+      and LOCAL_PREF attributes.
+  - id: '03.02'
+    title: AS-Path Prepending and Its Impact
+    objective: Demonstrate how AS-path prepending manipulates BGP path attributes
+      to influence route selection and traffic engineering.
+- id: '04'
+  title: BGP Policy and Traffic Control
+  sections:
+  - id: '04.01'
+    title: BGP Communities and Tagging
+    objective: Detail BGP community attributes and their use in policy-based route
+      advertising and filtering across ISP networks.
+  - id: '04.02'
+    title: BGP Peering Policies and Best Practices
+    objective: Outline strategies for configuring BGP peering policies, including
+      route filtering, prefix limits, and session authentication.
+  - id: '04.03'
+    title: Route Filtering and Prefix Control
+    objective: Explain techniques for filtering BGP routes using prefix lists, route
+      maps, and prefix-based access control lists.

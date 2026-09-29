@@ -1,0 +1,39 @@
+status: completed
+title: MQTT and CoAP IoT Protocol Security
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: MQTT Security Fundamentals
+  section_id: '01.01'
+  title: MQTT TLS Implementation
+  status: completed
+- chapter_id: '01'
+  chapter_title: MQTT Security Fundamentals
+  section_id: '01.02'
+  title: Broker Authentication Mechanisms
+  status: completed
+- chapter_id: '01'
+  chapter_title: MQTT Security Fundamentals
+  section_id: '01.03'
+  title: Topic-Based Access Control
+  status: completed
+- chapter_id: '02'
+  chapter_title: CoAP Security Fundamentals
+  section_id: '02.01'
+  title: CoAP DTLS Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: CoAP Security Fundamentals
+  section_id: '02.02'
+  title: Payload Encryption Techniques
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Security Integration
+  section_id: '03.01'
+  title: Cross-Protocol Security Best Practices
+  status: completed
+- chapter_id: '03'
+  chapter_title: Advanced Security Integration
+  section_id: '03.02'
+  title: Securing Hybrid MQTT/CoAP Systems
+  status: completed

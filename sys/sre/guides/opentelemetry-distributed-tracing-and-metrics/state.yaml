@@ -1,0 +1,59 @@
+status: completed
+title: OpenTelemetry Distributed Tracing and Metrics
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to OpenTelemetry
+  section_id: '01.01'
+  title: What is OpenTelemetry?
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to OpenTelemetry
+  section_id: '01.02'
+  title: Why Use OpenTelemetry?
+  status: completed
+- chapter_id: '02'
+  chapter_title: Core Concepts and Architecture
+  section_id: '02.01'
+  title: OpenTelemetry Collector Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: Core Concepts and Architecture
+  section_id: '02.02'
+  title: Trace Context and Propagation
+  status: completed
+- chapter_id: '02'
+  chapter_title: Core Concepts and Architecture
+  section_id: '02.03'
+  title: Metrics in OpenTelemetry
+  status: completed
+- chapter_id: '03'
+  chapter_title: Implementation and Instrumentation
+  section_id: '03.01'
+  title: Auto-Instrumentation with OpenTelemetry
+  status: completed
+- chapter_id: '03'
+  chapter_title: Implementation and Instrumentation
+  section_id: '03.02'
+  title: Manual Instrumentation Techniques
+  status: completed
+- chapter_id: '04'
+  chapter_title: Integration with Observability Tools
+  section_id: '04.01'
+  title: Jaeger Integration with OpenTelemetry
+  status: completed
+- chapter_id: '04'
+  chapter_title: Integration with Observability Tools
+  section_id: '04.02'
+  title: Logs and Metrics Correlation
+  status: completed
+- chapter_id: '05'
+  chapter_title: Advanced Topics and Best Practices
+  section_id: '05.01'
+  title: Optimizing Trace Sampling Rates
+  status: completed
+- chapter_id: '05'
+  chapter_title: Advanced Topics and Best Practices
+  section_id: '05.02'
+  title: Troubleshooting OpenTelemetry Pipelines
+  status: completed

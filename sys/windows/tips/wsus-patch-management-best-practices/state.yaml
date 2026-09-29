@@ -1,0 +1,34 @@
+status: completed
+title: WSUS Patch Management Best Practices
+content_type: tips
+sections:
+- chapter_id: '01'
+  chapter_title: WSUS Database Cleanup Strategies
+  section_id: '01.01'
+  title: Optimizing WSUS Database Performance
+  status: completed
+- chapter_id: '02'
+  chapter_title: Grouping Strategies for Patch Management
+  section_id: '02.01'
+  title: Efficient Patch Grouping Techniques
+  status: completed
+- chapter_id: '03'
+  chapter_title: Declining Superseded Patches
+  section_id: '03.01'
+  title: Managing Superseded Updates
+  status: completed
+- chapter_id: '04'
+  chapter_title: Automating Maintenance with Scripts
+  section_id: '04.01'
+  title: Creating Maintenance Scripts for WSUS
+  status: completed
+- chapter_id: '05'
+  chapter_title: Client Troubleshooting in WSUS
+  section_id: '05.01'
+  title: Resolving Common Client Connectivity Issues
+  status: completed
+- chapter_id: '06'
+  chapter_title: WSUS Reporting and Analytics
+  section_id: '06.01'
+  title: Generating Custom WSUS Reports
+  status: completed

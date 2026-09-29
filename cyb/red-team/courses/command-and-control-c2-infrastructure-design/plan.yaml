@@ -1,0 +1,78 @@
+title: Command and Control C2 Infrastructure Design
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: C2 Fundamentals
+  sections:
+  - id: '01.01'
+    title: C2 Architecture Overview
+    objective: Explain the core components of a C2 infrastructure, including command
+      channels, data exfiltration mechanisms, and persistence methods.
+  - id: '01.02'
+    title: Communication Protocols
+    objective: Compare TCP/IP, HTTP, and custom protocols used in C2 operations, emphasizing
+      their strengths and weaknesses for different environments.
+  - id: '01.03'
+    title: Redirector Mechanics
+    objective: Detail how C2 redirectors function, including their role in obfuscating
+      command traffic and bypassing network defenses.
+- id: '02'
+  title: C2 Redirectors
+  sections:
+  - id: '02.01'
+    title: Redirector Implementation
+    objective: Demonstrate how to design and deploy C2 redirectors using proxy servers
+      and TLS interception techniques.
+  - id: '02.02'
+    title: Advanced Redirector Configurations
+    objective: Explore dynamic redirector setups for multi-stage C2 operations and
+      load balancing across compromised hosts.
+- id: '03'
+  title: Domain-Fronting Techniques
+  sections:
+  - id: '03.01'
+    title: Domain-Fronting Mechanics
+    objective: Explain how domain-fronting leverages HTTP/2 multiplexing to mask C2
+      traffic as legitimate HTTPS traffic.
+  - id: '03.02'
+    title: Practical Domain-Fronting Setup
+    objective: Guide readers through configuring domain-fronting with tools like nghttp2
+      and custom TLS certificates.
+- id: '04'
+  title: Malleable C2 Profiles
+  sections:
+  - id: '04.01'
+    title: Dynamic Configuration
+    objective: Describe how malleable C2 profiles enable adaptive command execution
+      through encoded payloads and runtime parameterization.
+  - id: '04.02'
+    title: Profile Encoding Techniques
+    objective: Demonstrate methods for encoding C2 commands using base64, XOR, and
+      custom serialization formats.
+- id: '05'
+  title: Sliver-C2 Framework
+  sections:
+  - id: '05.01'
+    title: Sliver-C2 Architecture
+    objective: Outline the modular design of Sliver-C2, including its agentless C2
+      capabilities and cross-platform support.
+  - id: '05.02'
+    title: Sliver-C2 Integration
+    objective: Show how to integrate Sliver-C2 with other tools for C2 redirection,
+      domain-fronting, and evasion.
+- id: '06'
+  title: Evasion Techniques
+  sections:
+  - id: '06.01'
+    title: Traffic Obfuscation
+    objective: Explain methods for encrypting or disguising C2 traffic to evade deep
+      packet inspection (DPI) and firewall rules.
+  - id: '06.02'
+    title: Anti-Analysis Tactics
+    objective: Discuss techniques for evading endpoint analysis tools, including code
+      obfuscation and process injection.
+  - id: '06.03'
+    title: Environment-Specific Evasion
+    objective: Cover strategies for adapting C2 infrastructure to bypass cloud security,
+      IDS/IPS, and application-layer filters.

@@ -1,0 +1,94 @@
+status: completed
+title: GDPR Technical Compliance and Privacy
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: GDPR Technical Compliance Foundations
+  section_id: '01.01'
+  title: GDPR Technical Compliance Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: GDPR Technical Compliance Foundations
+  section_id: '01.02'
+  title: Data Protection Principles
+  status: completed
+- chapter_id: '01'
+  chapter_title: GDPR Technical Compliance Foundations
+  section_id: '01.03'
+  title: Legal Basis for Data Processing
+  status: completed
+- chapter_id: '02'
+  chapter_title: Data Minimization Techniques
+  section_id: '02.01'
+  title: Data Minimization Definition and Scope
+  status: completed
+- chapter_id: '02'
+  chapter_title: Data Minimization Techniques
+  section_id: '02.02'
+  title: Implementing Data Minimization
+  status: completed
+- chapter_id: '02'
+  chapter_title: Data Minimization Techniques
+  section_id: '02.03'
+  title: Challenges in Data Minimization
+  status: completed
+- chapter_id: '03'
+  chapter_title: Pseudonymization Implementation
+  section_id: '03.01'
+  title: Pseudonymization Concepts
+  status: completed
+- chapter_id: '03'
+  chapter_title: Pseudonymization Implementation
+  section_id: '03.02'
+  title: Technical Frameworks for Pseudonymization
+  status: completed
+- chapter_id: '03'
+  chapter_title: Pseudonymization Implementation
+  section_id: '03.03'
+  title: Pseudonymization in Data Pipelines
+  status: completed
+- chapter_id: '04'
+  chapter_title: Right-to-be-Forgotten Compliance
+  section_id: '04.01'
+  title: Right-to-be-Forgotten Requirements
+  status: completed
+- chapter_id: '04'
+  chapter_title: Right-to-be-Forgotten Compliance
+  section_id: '04.02'
+  title: Technical Erasure Mechanisms
+  status: completed
+- chapter_id: '04'
+  chapter_title: Right-to-be-Forgotten Compliance
+  section_id: '04.03'
+  title: Auditing Erasure Compliance
+  status: completed
+- chapter_id: '05'
+  chapter_title: Privacy-by-Design Integration
+  section_id: '05.01'
+  title: Privacy-by-Design Framework
+  status: completed
+- chapter_id: '05'
+  chapter_title: Privacy-by-Design Integration
+  section_id: '05.02'
+  title: Privacy Impact Assessments
+  status: completed
+- chapter_id: '05'
+  chapter_title: Privacy-by-Design Integration
+  section_id: '05.03'
+  title: Privacy-Enhancing Technologies
+  status: completed
+- chapter_id: '06'
+  chapter_title: Data Protection Impact Assessments (DPIA)
+  section_id: '06.01'
+  title: DPIA Purpose and Scope
+  status: completed
+- chapter_id: '06'
+  chapter_title: Data Protection Impact Assessments (DPIA)
+  section_id: '06.02'
+  title: Technical DPIA Workflow
+  status: completed
+- chapter_id: '06'
+  chapter_title: Data Protection Impact Assessments (DPIA)
+  section_id: '06.03'
+  title: DPIA Documentation and Review
+  status: completed

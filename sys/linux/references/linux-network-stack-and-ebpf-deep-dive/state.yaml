@@ -1,0 +1,59 @@
+status: completed
+title: Linux Network Stack and eBPF Deep Dive
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Linux Network Stack Fundamentals
+  section_id: '01.01'
+  title: Linux Network Stack Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Linux Network Stack Fundamentals
+  section_id: '01.02'
+  title: Socket Options and Configuration
+  status: completed
+- chapter_id: '01'
+  chapter_title: Linux Network Stack Fundamentals
+  section_id: '01.03'
+  title: Netfilter and iptables/ nftables
+  status: completed
+- chapter_id: '02'
+  chapter_title: Routing and Traffic Management
+  section_id: '02.01'
+  title: Routing Table Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Routing and Traffic Management
+  section_id: '02.02'
+  title: Traffic Control with TC
+  status: completed
+- chapter_id: '03'
+  chapter_title: eBPF and High-Performance Networking
+  section_id: '03.01'
+  title: eBPF Overview and XDP Basics
+  status: completed
+- chapter_id: '03'
+  chapter_title: eBPF and High-Performance Networking
+  section_id: '03.02'
+  title: eBPF for Packet Tracing and Analysis
+  status: completed
+- chapter_id: '04'
+  chapter_title: Advanced Network Configurations
+  section_id: '04.01'
+  title: Interface Bonding and Load Balancing
+  status: completed
+- chapter_id: '04'
+  chapter_title: Advanced Network Configurations
+  section_id: '04.02'
+  title: VLAN Tagging and 802.1q Configuration
+  status: completed
+- chapter_id: '05'
+  chapter_title: Troubleshooting and Optimization
+  section_id: '05.01'
+  title: Packet Tracing with tcpdump and Wireshark
+  status: completed
+- chapter_id: '05'
+  chapter_title: Troubleshooting and Optimization
+  section_id: '05.02'
+  title: Performance Monitoring and Optimization
+  status: completed

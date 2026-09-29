@@ -1,0 +1,39 @@
+status: draft
+title: Serverless Architectures with AWS Lambda
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Foundational Concepts
+  section_id: '01.01'
+  title: Event Source Mappings
+  status: pending
+- chapter_id: '01'
+  chapter_title: Foundational Concepts
+  section_id: '01.02'
+  title: API Gateway Integration
+  status: pending
+- chapter_id: '02'
+  chapter_title: Advanced Configuration
+  section_id: '02.01'
+  title: Concurrency Limits and Management
+  status: pending
+- chapter_id: '02'
+  chapter_title: Advanced Configuration
+  section_id: '02.02'
+  title: Lambda Layers and Extensions
+  status: pending
+- chapter_id: '03'
+  chapter_title: Orchestration and Workflow
+  section_id: '03.01'
+  title: Step Functions Integration
+  status: pending
+- chapter_id: '04'
+  chapter_title: Performance Optimization
+  section_id: '04.01'
+  title: Mitigating Cold Starts
+  status: pending
+- chapter_id: '04'
+  chapter_title: Performance Optimization
+  section_id: '04.02'
+  title: X-Ray Tracing for Debugging
+  status: pending

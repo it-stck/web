@@ -1,0 +1,49 @@
+status: draft
+title: Microservices Architecture Patterns
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Microservices Architecture
+  section_id: '01.01'
+  title: Overview of Microservices Architecture
+  status: pending
+- chapter_id: '01'
+  chapter_title: Introduction to Microservices Architecture
+  section_id: '01.02'
+  title: API Gateway Pattern
+  status: pending
+- chapter_id: '01'
+  chapter_title: Introduction to Microservices Architecture
+  section_id: '01.03'
+  title: Service Mesh Pattern
+  status: pending
+- chapter_id: '02'
+  chapter_title: Distributed Transactions and Event-Driven Systems
+  section_id: '02.01'
+  title: Saga Pattern for Distributed Transactions
+  status: pending
+- chapter_id: '02'
+  chapter_title: Distributed Transactions and Event-Driven Systems
+  section_id: '02.02'
+  title: Event Sourcing Pattern
+  status: pending
+- chapter_id: '02'
+  chapter_title: Distributed Transactions and Event-Driven Systems
+  section_id: '02.03'
+  title: CQRS Pattern for Event-Driven Systems
+  status: pending
+- chapter_id: '03'
+  chapter_title: Resilience and Observability
+  section_id: '03.01'
+  title: Circuit Breaker Pattern
+  status: pending
+- chapter_id: '03'
+  chapter_title: Resilience and Observability
+  section_id: '03.02'
+  title: Distributed Tracing for Observability
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Management Strategies
+  section_id: '04.01'
+  title: Database-per-Service Pattern
+  status: pending

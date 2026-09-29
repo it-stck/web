@@ -1,0 +1,67 @@
+title: Wireless Network Hacking and Defense Analysis
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Wireless Network Fundamentals
+  sections:
+  - id: '01.01'
+    title: Wireless Network Architecture and Protocols
+    objective: Explain the physical and logical structure of wireless networks, including
+      802.11 standards, frequency bands, and channel utilization.
+  - id: '01.02'
+    title: Wireless Security Concepts and Vulnerabilities
+    objective: Detail fundamental security principles (confidentiality, integrity,
+      availability) and common vulnerabilities in wireless networks.
+  - id: '01.03'
+    title: Tools for Wireless Network Analysis
+    objective: Introduce essential tools like Wireshark, aircrack-ng, and Kismet for
+      capturing and analyzing wireless traffic.
+- id: '02'
+  title: WPA2/WPA3 Cracking Techniques
+  sections:
+  - id: '02.01'
+    title: Understanding WPA2/WPA3 Protocols
+    objective: Outline the cryptographic mechanisms of WPA2/WPA3, including Pre-Shared
+      Keys (PSK) and Enterprise EAP frameworks.
+  - id: '02.02'
+    title: Capturing and Analyzing Handshakes
+    objective: Demonstrate how to capture WPA/WPA3 handshakes using packet sniffing
+      and analyze them for vulnerabilities.
+  - id: '02.03'
+    title: Cracking WPA2/WPA3 with Dictionary and Brute-Force Attacks
+    objective: Explain dictionary attacks, brute-force methods, and the use of tools
+      like hashcat and john the ripper for PSK recovery.
+- id: '03'
+  title: Rogue Access Point and Evil Twin Attacks
+  sections:
+  - id: '03.01'
+    title: Rogue Access Point Detection and Mitigation
+    objective: Describe how to identify rogue APs through traffic analysis and implement
+      countermeasures like MAC address filtering.
+  - id: '03.02'
+    title: Evil Twin Attack Mechanics and Prevention
+    objective: Explain the creation and detection of evil twin APs, and strategies
+      to prevent impersonation attacks.
+- id: '04'
+  title: EAP-Hammer and Deauthentication Attacks
+  sections:
+  - id: '04.01'
+    title: 'EAP-Hammer: Targeting Enterprise Authentication'
+    objective: Detail how EAP-Hammer exploits EAPOL handshakes to disrupt enterprise
+      Wi-Fi authentication protocols.
+  - id: '04.02'
+    title: Deauthentication Attacks and Mitigation
+    objective: Explain the mechanics of deauthentication attacks and countermeasures
+      like TKIP rekeying and client-side protections.
+- id: '05'
+  title: Enterprise WiFi Audit and Defense
+  sections:
+  - id: '05.01'
+    title: Enterprise WiFi Security Assessment Framework
+    objective: Provide a structured approach to auditing enterprise networks, including
+      policy review and vulnerability scanning.
+  - id: '05.02'
+    title: Hardening Enterprise Wireless Infrastructure
+    objective: Recommend best practices for securing enterprise Wi-Fi, such as WPA3-Enterprise,
+      RADIUS integration, and regular audits.

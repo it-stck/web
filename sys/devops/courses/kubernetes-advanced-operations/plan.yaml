@@ -1,0 +1,64 @@
+title: Kubernetes Advanced Operations
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Cluster Bootstrap and Initialization
+  sections:
+  - id: '01.01'
+    title: Cluster Bootstrap Techniques
+    objective: Explain the various methods for bootstrapping a Kubernetes cluster,
+      including kubeadm, kops, and cloud-provider integration.
+- id: '02'
+  title: Data Persistence and Backup
+  sections:
+  - id: '02.01'
+    title: etcd Backup and Restore
+    objective: Demonstrate how to perform regular backups of etcd and restore it in
+      case of failure.
+  - id: '02.02'
+    title: Disaster Recovery Strategies
+    objective: Outline best practices for disaster recovery in Kubernetes clusters,
+      including backup, replication, and failover mechanisms.
+- id: '03'
+  title: Kubernetes Extensions
+  sections:
+  - id: '03.01'
+    title: Custom Resource Definitions
+    objective: Define and implement custom resources to extend Kubernetes API for
+      domain-specific applications.
+  - id: '03.02'
+    title: Operators and Operator Patterns
+    objective: Design and deploy operators to manage complex stateful applications
+      using Kubernetes APIs.
+- id: '04'
+  title: Tooling and Deployment
+  sections:
+  - id: '04.01'
+    title: Helm Chart Development
+    objective: Create and manage Helm charts for packaging and deploying Kubernetes
+      applications.
+- id: '05'
+  title: Security and Network Policies
+  sections:
+  - id: '05.01'
+    title: Role-Based Access Control
+    objective: Implement RBAC to enforce granular access control in Kubernetes clusters.
+  - id: '05.02'
+    title: Network Policy Enforcement
+    objective: Configure network policies to isolate workloads and secure inter-pod
+      communication.
+- id: '06'
+  title: Scalability and Resilience
+  sections:
+  - id: '06.01'
+    title: Cluster Autoscaling
+    objective: Configure cluster autoscaling to dynamically adjust node counts based
+      on workload demands.
+- id: '07'
+  title: GitOps with Argo CD
+  sections:
+  - id: '07.01'
+    title: Argo CD Continuous Deployment
+    objective: Implement GitOps workflows using Argo CD to automate application deployment
+      and management.

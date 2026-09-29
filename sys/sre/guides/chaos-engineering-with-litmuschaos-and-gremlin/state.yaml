@@ -1,0 +1,94 @@
+status: completed
+title: Chaos Engineering with LitmusChaos and Gremlin
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Chaos Engineering
+  section_id: '01.01'
+  title: Chaos Engineering Fundamentals
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Chaos Engineering
+  section_id: '01.02'
+  title: 'Tools Overview: LitmusChaos and Gremlin'
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Chaos Engineering
+  section_id: '01.03'
+  title: Setting Up Chaos Engineering Practices
+  status: completed
+- chapter_id: '02'
+  chapter_title: Fault Injection with LitmusChaos
+  section_id: '02.01'
+  title: Getting Started with LitmusChaos
+  status: completed
+- chapter_id: '02'
+  chapter_title: Fault Injection with LitmusChaos
+  section_id: '02.02'
+  title: LitmusChaos Fault Types and Use Cases
+  status: completed
+- chapter_id: '02'
+  chapter_title: Fault Injection with LitmusChaos
+  section_id: '02.03'
+  title: LitmusChaos Best Practices
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kubernetes Chaos with Gremlin
+  section_id: '03.01'
+  title: Gremlin Kubernetes Chaos Setup
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kubernetes Chaos with Gremlin
+  section_id: '03.02'
+  title: Advanced Kubernetes Chaos Scenarios
+  status: completed
+- chapter_id: '03'
+  chapter_title: Kubernetes Chaos with Gremlin
+  section_id: '03.03'
+  title: Gremlin and Observability Integration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Resilience Testing Strategies
+  section_id: '04.01'
+  title: Designing Resilience Tests
+  status: completed
+- chapter_id: '04'
+  chapter_title: Resilience Testing Strategies
+  section_id: '04.02'
+  title: Automating Resilience Workflows
+  status: completed
+- chapter_id: '04'
+  chapter_title: Resilience Testing Strategies
+  section_id: '04.03'
+  title: Post-Experiment Analysis
+  status: completed
+- chapter_id: '05'
+  chapter_title: Steady-State and Chaos Orchestration
+  section_id: '05.01'
+  title: Understanding Steady-State in Chaos
+  status: completed
+- chapter_id: '05'
+  chapter_title: Steady-State and Chaos Orchestration
+  section_id: '05.02'
+  title: Orchestration with Chaos Mesh and Litmus
+  status: completed
+- chapter_id: '05'
+  chapter_title: Steady-State and Chaos Orchestration
+  section_id: '05.03'
+  title: Chaos Hypothesis Validation
+  status: completed
+- chapter_id: '06'
+  chapter_title: Game Days and Real-World Applications
+  section_id: '06.01'
+  title: Planning and Executing Game Days
+  status: completed
+- chapter_id: '06'
+  chapter_title: Game Days and Real-World Applications
+  section_id: '06.02'
+  title: Postmortem Analysis for Game Days
+  status: completed
+- chapter_id: '06'
+  chapter_title: Game Days and Real-World Applications
+  section_id: '06.03'
+  title: Scaling Chaos Engineering to Production
+  status: completed

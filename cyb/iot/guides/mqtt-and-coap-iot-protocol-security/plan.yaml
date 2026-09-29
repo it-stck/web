@@ -1,0 +1,41 @@
+title: MQTT and CoAP IoT Protocol Security
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: MQTT Security Fundamentals
+  sections:
+  - id: '01.01'
+    title: MQTT TLS Implementation
+    objective: Explain how to configure TLS for MQTT clients and brokers to ensure
+      encrypted communication over insecure networks.
+  - id: '01.02'
+    title: Broker Authentication Mechanisms
+    objective: Detail authentication methods for MQTT brokers, including username/password,
+      certificate-based, and token-based approaches.
+  - id: '01.03'
+    title: Topic-Based Access Control
+    objective: Describe how to implement fine-grained topic permissions to restrict
+      publish/subscriber privileges in MQTT systems.
+- id: '02'
+  title: CoAP Security Fundamentals
+  sections:
+  - id: '02.01'
+    title: CoAP DTLS Configuration
+    objective: Outline the setup and configuration of DTLS for CoAP to secure device-to-device
+      communication in constrained environments.
+  - id: '02.02'
+    title: Payload Encryption Techniques
+    objective: Explore methods for encrypting CoAP payload data using AES-CBC and
+      other lightweight cryptographic algorithms.
+- id: '03'
+  title: Advanced Security Integration
+  sections:
+  - id: '03.01'
+    title: Cross-Protocol Security Best Practices
+    objective: Compare security strategies for MQTT and CoAP, emphasizing interoperability
+      and resilience against common IoT threats.
+  - id: '03.02'
+    title: Securing Hybrid MQTT/CoAP Systems
+    objective: Provide a framework for securing systems that use both MQTT and CoAP,
+      including certificate management and protocol-specific mitigations.

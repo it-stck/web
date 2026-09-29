@@ -1,0 +1,84 @@
+status: completed
+title: Web Performance Tuning and Core Web Vitals
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Core Web Vitals Overview
+  section_id: '01.01'
+  title: Understanding LCP, INP, and CLS
+  status: completed
+- chapter_id: '01'
+  chapter_title: Core Web Vitals Overview
+  section_id: '01.02'
+  title: Measuring Core Web Vitals
+  status: completed
+- chapter_id: '02'
+  chapter_title: Optimizing Largest Contentful Paint (LCP)
+  section_id: '02.01'
+  title: LCP Fundamentals and Impact
+  status: completed
+- chapter_id: '02'
+  chapter_title: Optimizing Largest Contentful Paint (LCP)
+  section_id: '02.02'
+  title: Strategies for LCP Optimization
+  status: completed
+- chapter_id: '03'
+  chapter_title: Optimizing Interaction to Next Paint (INP)
+  section_id: '03.01'
+  title: INP and User Experience
+  status: completed
+- chapter_id: '03'
+  chapter_title: Optimizing Interaction to Next Paint (INP)
+  section_id: '03.02'
+  title: Reducing INP Through Code Improvements
+  status: completed
+- chapter_id: '04'
+  chapter_title: Optimizing Cumulative Layout Shift (CLS)
+  section_id: '04.01'
+  title: CLS Causes and Consequences
+  status: completed
+- chapter_id: '04'
+  chapter_title: Optimizing Cumulative Layout Shift (CLS)
+  section_id: '04.02'
+  title: Preventing Layout Shifts
+  status: completed
+- chapter_id: '05'
+  chapter_title: Code Splitting Techniques
+  section_id: '05.01'
+  title: Dynamic Import and Code Splitting
+  status: completed
+- chapter_id: '05'
+  chapter_title: Code Splitting Techniques
+  section_id: '05.02'
+  title: Splitting by Route and Feature
+  status: completed
+- chapter_id: '06'
+  chapter_title: Image Optimization Strategies
+  section_id: '06.01'
+  title: Image Formats and Compression
+  status: completed
+- chapter_id: '06'
+  chapter_title: Image Optimization Strategies
+  section_id: '06.02'
+  title: Responsive Images and Lazy Loading
+  status: completed
+- chapter_id: '07'
+  chapter_title: Critical CSS Implementation
+  section_id: '07.01'
+  title: Critical CSS Concepts
+  status: completed
+- chapter_id: '07'
+  chapter_title: Critical CSS Implementation
+  section_id: '07.02'
+  title: Generating and Injecting Critical CSS
+  status: completed
+- chapter_id: 08
+  chapter_title: Resource Hints and Performance Optimization
+  section_id: '08.01'
+  title: Understanding Resource Hints
+  status: completed
+- chapter_id: 08
+  chapter_title: Resource Hints and Performance Optimization
+  section_id: '08.02'
+  title: Implementing Resource Hints
+  status: completed

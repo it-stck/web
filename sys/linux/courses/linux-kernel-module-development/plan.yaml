@@ -1,0 +1,99 @@
+title: Linux Kernel Module Development
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Module Compilation Basics
+  sections:
+  - id: '01.01'
+    title: Kernel Module Overview
+    objective: Explain what kernel modules are, their role in Linux, and how they
+      differ from user-space programs.
+  - id: '01.02'
+    title: Development Environment Setup
+    objective: Guide the reader through installing kernel headers, configuring the
+      build environment, and setting up cross-compilation tools.
+  - id: '01.03'
+    title: Writing a Simple Module
+    objective: Demonstrate creating a basic "Hello World" module with init/exit functions
+      and module parameters.
+  - id: '01.04'
+    title: Compilation and Loading
+    objective: Teach how to compile modules using make, inspect object files, and
+      load/unload modules with insmod/rmmod.
+- id: '02'
+  title: Character Device Implementation
+  sections:
+  - id: '02.01'
+    title: Character Device Fundamentals
+    objective: Explain device numbers, device drivers, and the role of character devices
+      in Linux.
+  - id: '02.02'
+    title: Creating a Character Device
+    objective: Show how to register a device with alloc_chrdev_region() and create
+      device files in /dev.
+  - id: '02.03'
+    title: File Operation Implementation
+    objective: Detail implementing open(), read(), write(), and release() functions
+      for device interaction.
+  - id: '02.04'
+    title: Device Driver Lifecycle
+    objective: Cover module initialization, device registration, and proper cleanup
+      procedures.
+- id: '03'
+  title: Procfs and Sysfs Interface
+  sections:
+  - id: '03.01'
+    title: Procfs Filesystem Overview
+    objective: Explain how procfs provides kernel-state visibility and its use cases
+      for debugging and monitoring.
+  - id: '03.02'
+    title: Sysfs Filesystem Fundamentals
+    objective: Describe sysfs's role in exposing device and driver information to
+      user space.
+  - id: '03.03'
+    title: Creating Procfs Entries
+    objective: Demonstrate creating files in /proc with proc_create() and implementing
+      read callbacks.
+  - id: '03.04'
+    title: Sysfs Attribute Implementation
+    objective: Show how to create sysfs attributes for exposing device parameters
+      and status.
+- id: '04'
+  title: Kernel Concurrency Models
+  sections:
+  - id: '04.01'
+    title: Concurrency Challenges
+    objective: Explain race conditions, preemptive multitasking, and the need for
+      synchronization in kernel code.
+  - id: '04.02'
+    title: Spinlocks and Mutexes
+    objective: Compare spinlock and mutex usage, and demonstrate proper locking in
+      critical sections.
+  - id: '04.03'
+    title: Atomic Operations
+    objective: Show how to use atomic_t and cmpxchg for safe integer manipulation
+      in concurrent code.
+  - id: '04.04'
+    title: Interrupt Handling
+    objective: Explain interrupt context constraints and safe practices for handling
+      interrupts in modules.
+- id: '05'
+  title: Memory Allocation Techniques
+  sections:
+  - id: '05.01'
+    title: Kernel Memory Overview
+    objective: Differentiate between user-space and kernel-space memory, and explain
+      memory management challenges.
+  - id: '05.02'
+    title: Kmalloc and Kfree Usage
+    objective: Demonstrate allocating and freeing memory with kmalloc() and kfree(),
+      including size constraints.
+  - id: '05.03'
+    title: Slab Allocator Fundamentals
+    objective: Explain how the slab allocator optimizes memory allocation for kernel
+      objects.
+  - id: '05.04'
+    title: Memory Management Best Practices
+    objective: Cover memory leak detection, alignment requirements, and safe usage
+      patterns for kernel allocators.

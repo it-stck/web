@@ -1,0 +1,34 @@
+status: draft
+title: Cloud FinOps and Cost Optimization Strategies
+content_type: tips
+sections:
+- chapter_id: '01'
+  chapter_title: Instance Cost Optimization
+  section_id: '01.01'
+  title: Reserved Instances and Savings Plans
+  status: pending
+- chapter_id: '01'
+  chapter_title: Instance Cost Optimization
+  section_id: '01.02'
+  title: Spot Instances for Cost Efficiency
+  status: pending
+- chapter_id: '02'
+  chapter_title: Storage Cost Optimization
+  section_id: '02.01'
+  title: Storage Tiering Strategies
+  status: pending
+- chapter_id: '02'
+  chapter_title: Storage Cost Optimization
+  section_id: '02.02'
+  title: Idle Resource Cleanup
+  status: pending
+- chapter_id: '03'
+  chapter_title: Cost Governance and Monitoring
+  section_id: '03.01'
+  title: Cost Allocation Tags
+  status: pending
+- chapter_id: '03'
+  chapter_title: Cost Governance and Monitoring
+  section_id: '03.02'
+  title: Anomaly Detection and Alerts
+  status: pending

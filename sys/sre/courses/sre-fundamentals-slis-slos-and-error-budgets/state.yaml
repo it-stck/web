@@ -1,0 +1,64 @@
+status: completed
+title: SRE Fundamentals SLIs SLOs and Error Budgets
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: SRE Fundamentals and Core Principles
+  section_id: '01.01'
+  title: What is Site Reliability Engineering?
+  status: completed
+- chapter_id: '01'
+  chapter_title: SRE Fundamentals and Core Principles
+  section_id: '01.02'
+  title: SLIs, SLOs, and Error Budgets Overview
+  status: completed
+- chapter_id: '02'
+  chapter_title: SLIs and SLOs in Practice
+  section_id: '02.01'
+  title: Defining and Measuring SLIs
+  status: completed
+- chapter_id: '02'
+  chapter_title: SLIs and SLOs in Practice
+  section_id: '02.02'
+  title: Establishing and Managing SLOs
+  status: completed
+- chapter_id: '03'
+  chapter_title: Error Budgets and Reliability Trade-Offs
+  section_id: '03.01'
+  title: Calculating and Managing Error Budgets
+  status: completed
+- chapter_id: '03'
+  chapter_title: Error Budgets and Reliability Trade-Offs
+  section_id: '03.02'
+  title: Reliability vs. Other Business Goals
+  status: completed
+- chapter_id: '04'
+  chapter_title: Toil Reduction and Operational Excellence
+  section_id: '04.01'
+  title: Identifying and Reducing Toil
+  status: completed
+- chapter_id: '04'
+  chapter_title: Toil Reduction and Operational Excellence
+  section_id: '04.02'
+  title: Tools and Practices for Toil Reduction
+  status: completed
+- chapter_id: '05'
+  chapter_title: Alerting Burn Rate and Incident Management
+  section_id: '05.01'
+  title: Understanding Alerting Burn Rate
+  status: completed
+- chapter_id: '05'
+  chapter_title: Alerting Burn Rate and Incident Management
+  section_id: '05.02'
+  title: Mitigating Alert Fatigue
+  status: completed
+- chapter_id: '06'
+  chapter_title: SRE Metrics and Observability
+  section_id: '06.01'
+  title: Key Metrics for SRE Success
+  status: completed
+- chapter_id: '06'
+  chapter_title: SRE Metrics and Observability
+  section_id: '06.02'
+  title: Building an Observability Stack
+  status: completed

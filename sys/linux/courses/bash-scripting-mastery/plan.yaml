@@ -1,0 +1,127 @@
+title: BASH Scripting Mastery
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Variables and Arrays
+  sections:
+  - id: '01.01'
+    title: Variable Declaration and Scope
+    objective: Teach how to declare, assign, and scope variables in BASH scripts,
+      including local vs global variables.
+  - id: '01.02'
+    title: Array Manipulation
+    objective: Explain array creation, indexing, iteration, and common array operations
+      like concatenation and slicing.
+  - id: '01.03'
+    title: Special Variables and Parameters
+    objective: Detail the use of positional parameters ($@, $*), special variables
+      ($0, $?), and command-line argument handling.
+- id: '02'
+  title: Control Structures
+  sections:
+  - id: '02.01'
+    title: Conditional Statements
+    objective: Cover if-else, case, and test commands for implementing logic-based
+      flow control.
+  - id: '02.02'
+    title: Loops and Iteration
+    objective: Explain for, while, until loops, and their use with arrays and ranges.
+  - id: '02.03'
+    title: Loop Control and Break/Continue
+    objective: Demonstrate how to use break, continue, and exit within loops for fine-grained
+      control.
+- id: '03'
+  title: Functions and Scope
+  sections:
+  - id: '03.01'
+    title: Function Definition and Invocation
+    objective: Teach how to define, call, and pass arguments to functions in BASH
+      scripts.
+  - id: '03.02'
+    title: Local Variables and Scope
+    objective: Explain local variable declaration, function scoping, and avoiding
+      name collisions.
+  - id: '03.03'
+    title: Function Return Values
+    objective: Detail how to return values from functions using exit codes and output
+      redirection.
+- id: '04'
+  title: Regular Expressions
+  sections:
+  - id: '04.01'
+    title: Pattern Matching Basics
+    objective: Introduce regex syntax for matching text, character classes, and quantifiers.
+  - id: '04.02'
+    title: Regex in Conditional Tests
+    objective: Show how to use regex with [[ ... ]] and grep for pattern matching
+      in scripts.
+  - id: '04.03'
+    title: Regex Substitution
+    objective: Explain sed and tr commands for text substitution using regular expressions.
+- id: '05'
+  title: Text Processing Tools
+  sections:
+  - id: '05.01'
+    title: sed Command Fundamentals
+    objective: Teach stream editing with sed for search, replace, and file manipulation.
+  - id: '05.02'
+    title: awk for Data Analysis
+    objective: Explain awk's field processing, pattern matching, and report generation
+      capabilities.
+  - id: '05.03'
+    title: Combining sed and awk
+    objective: Demonstrate advanced text processing workflows using sed and awk together.
+- id: '06'
+  title: Error Handling
+  sections:
+  - id: '06.01'
+    title: Exit Codes and Debugging
+    objective: Explain how to check exit codes, use set -e for script termination,
+      and enable debugging.
+  - id: '06.02'
+    title: Trap Command for Cleanup
+    objective: Detail using trap to handle signals and perform cleanup in scripts.
+  - id: '06.03'
+    title: Error Logging and Reporting
+    objective: Show how to implement error logging, message formatting, and user feedback
+      mechanisms.
+- id: '07'
+  title: Command-Line Arguments
+  sections:
+  - id: '07.01'
+    title: getopts for Argument Parsing
+    objective: Teach how to use getopts for structured command-line option parsing.
+  - id: '07.02'
+    title: Handling Positional Parameters
+    objective: Explain processing of $@, $*, and shift for argument manipulation.
+- id: 08
+  title: Process Redirection
+  sections:
+  - id: '08.01'
+    title: Input/Output Redirection
+    objective: Cover file descriptor redirection using >, <, >>, and | for pipes.
+  - id: '08.02'
+    title: Here Documents and Herestrings
+    objective: Explain passing multi-line input to commands using here documents and
+      herestrings.
+- id: 09
+  title: Advanced Topics
+  sections:
+  - id: '09.01'
+    title: Subshells and Background Jobs
+    objective: Detail subshell creation with ( ), background execution, and process
+      substitution.
+  - id: '09.02'
+    title: Process Substitution
+    objective: Explain using <() and >( ) for inter-process communication and data
+      streams.
+- id: '10'
+  title: Script Logging and Debugging
+  sections:
+  - id: '10.01'
+    title: Logging Best Practices
+    objective: Teach structured logging with timestamps, log levels, and file rotation.
+  - id: '10.02'
+    title: Debugging Techniques
+    objective: Explain using set -x, strace, and gdb for script debugging and analysis.

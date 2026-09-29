@@ -1,0 +1,109 @@
+status: completed
+title: PowerShell Enterprise Automation
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: PowerShell Objects and the Pipeline
+  section_id: '01.01'
+  title: Understanding PowerShell Objects
+  status: completed
+- chapter_id: '01'
+  chapter_title: PowerShell Objects and the Pipeline
+  section_id: '01.02'
+  title: Mastering the Pipeline
+  status: completed
+- chapter_id: '01'
+  chapter_title: PowerShell Objects and the Pipeline
+  section_id: '01.03'
+  title: Working with the Pipeline in Scripts
+  status: completed
+- chapter_id: '02'
+  chapter_title: Creating Custom Modules
+  section_id: '02.01'
+  title: Module Structure and Best Practices
+  status: completed
+- chapter_id: '02'
+  chapter_title: Creating Custom Modules
+  section_id: '02.02'
+  title: Building Cmdlets and Functions
+  status: completed
+- chapter_id: '02'
+  chapter_title: Creating Custom Modules
+  section_id: '02.03'
+  title: Publishing and Consuming Modules
+  status: completed
+- chapter_id: '03'
+  chapter_title: PowerShell Remoting and PSRP
+  section_id: '03.01'
+  title: PowerShell Remoting Basics
+  status: completed
+- chapter_id: '03'
+  chapter_title: PowerShell Remoting and PSRP
+  section_id: '03.02'
+  title: Advanced PSRP Techniques
+  status: completed
+- chapter_id: '03'
+  chapter_title: PowerShell Remoting and PSRP
+  section_id: '03.03'
+  title: Securing Remote PowerShell
+  status: completed
+- chapter_id: '04'
+  chapter_title: Error Handling and Debugging
+  section_id: '04.01'
+  title: Error Handling Strategies
+  status: completed
+- chapter_id: '04'
+  chapter_title: Error Handling and Debugging
+  section_id: '04.02'
+  title: Debugging PowerShell Scripts
+  status: completed
+- chapter_id: '04'
+  chapter_title: Error Handling and Debugging
+  section_id: '04.03'
+  title: Logging and Monitoring
+  status: completed
+- chapter_id: '05'
+  chapter_title: WMI and CIM Querying
+  section_id: '05.01'
+  title: WMI Fundamentals
+  status: completed
+- chapter_id: '05'
+  chapter_title: WMI and CIM Querying
+  section_id: '05.02'
+  title: CIM and PowerShell 5.1+ Integration
+  status: completed
+- chapter_id: '05'
+  chapter_title: WMI and CIM Querying
+  section_id: '05.03'
+  title: Advanced WMI/CIM Automation
+  status: completed
+- chapter_id: '06'
+  chapter_title: JIT and JEA Security Models
+  section_id: '06.01'
+  title: Just-In-Time (JIT) Administration
+  status: completed
+- chapter_id: '06'
+  chapter_title: JIT and JEA Security Models
+  section_id: '06.02'
+  title: Just Enough Administration (JEA)
+  status: completed
+- chapter_id: '06'
+  chapter_title: JIT and JEA Security Models
+  section_id: '06.03'
+  title: Securing Enterprise PowerShell
+  status: completed
+- chapter_id: '07'
+  chapter_title: REST API Integration
+  section_id: '07.01'
+  title: Making REST API Calls
+  status: completed
+- chapter_id: '07'
+  chapter_title: REST API Integration
+  section_id: '07.02'
+  title: Authentication and Headers
+  status: completed
+- chapter_id: '07'
+  chapter_title: REST API Integration
+  section_id: '07.03'
+  title: Automating API-Driven Systems
+  status: completed

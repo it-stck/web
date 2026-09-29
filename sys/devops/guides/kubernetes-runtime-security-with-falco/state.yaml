@@ -1,0 +1,64 @@
+status: completed
+title: Kubernetes Runtime Security with Falco
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to Falco and Kubernetes Security
+  section_id: '01.01'
+  title: Overview of Falco and Kubernetes Security Challenges
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to Falco and Kubernetes Security
+  section_id: '01.02'
+  title: Falco Architecture and Integration with Kubernetes
+  status: completed
+- chapter_id: '02'
+  chapter_title: Falco Rules and Detection Logic
+  section_id: '02.01'
+  title: Understanding Falco Rules and Rule Syntax
+  status: completed
+- chapter_id: '02'
+  chapter_title: Falco Rules and Detection Logic
+  section_id: '02.02'
+  title: Writing and Testing Basic Falco Rules
+  status: completed
+- chapter_id: '03'
+  chapter_title: Syscall Monitoring for Runtime Security
+  section_id: '03.01'
+  title: Syscall Monitoring Fundamentals with Falco
+  status: completed
+- chapter_id: '03'
+  chapter_title: Syscall Monitoring for Runtime Security
+  section_id: '03.02'
+  title: Configuring Syscall-Based Detection Policies
+  status: completed
+- chapter_id: '04'
+  chapter_title: Kubernetes Audit Logs Integration
+  section_id: '04.01'
+  title: Correlating Falco Alerts with Kubernetes Audit Logs
+  status: completed
+- chapter_id: '04'
+  chapter_title: Kubernetes Audit Logs Integration
+  section_id: '04.02'
+  title: Analyzing Combined Security Event Data
+  status: completed
+- chapter_id: '05'
+  chapter_title: Alert Outputs and Monitoring Integration
+  section_id: '05.01'
+  title: Configuring Falco Alert Outputs
+  status: completed
+- chapter_id: '05'
+  chapter_title: Alert Outputs and Monitoring Integration
+  section_id: '05.02'
+  title: Visualizing Falco Alerts with Monitoring Tools
+  status: completed
+- chapter_id: '06'
+  chapter_title: Custom Detections and Advanced Use Cases
+  section_id: '06.01'
+  title: Building Custom Falco Rules for Advanced Threats
+  status: completed
+- chapter_id: '06'
+  chapter_title: Custom Detections and Advanced Use Cases
+  section_id: '06.02'
+  title: Deploying and Validating Custom Security Policies
+  status: completed

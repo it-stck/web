@@ -1,0 +1,46 @@
+title: Wireshark Network Traffic Analysis Reference
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Display Filters
+  sections:
+  - id: '01.01'
+    title: Display Filters
+    objective: Teach users how to construct and apply display filters in Wireshark
+      to efficiently analyze network traffic.
+- id: '02'
+  title: TCP Handshake Analysis
+  sections:
+  - id: '02.01'
+    title: TCP Handshake Analysis
+    objective: Explain the three-way TCP handshake process and demonstrate how to
+      analyze it using Wireshark.
+- id: '03'
+  title: Retransmissions and Latency Analysis
+  sections:
+  - id: '03.01'
+    title: Retransmissions and Latency Analysis
+    objective: Guide users in identifying retransmissions and latency issues in TCP
+      traffic using Wireshark.
+- id: '04'
+  title: HTTP2 and QUIC Decryption
+  sections:
+  - id: '04.01'
+    title: HTTP2 and QUIC Decryption
+    objective: Provide instructions on decrypting HTTP2 and QUIC traffic in Wireshark
+      for detailed analysis.
+- id: '05'
+  title: DNS Troubleshooting
+  sections:
+  - id: '05.01'
+    title: DNS Troubleshooting
+    objective: Demonstrate how to use Wireshark to troubleshoot DNS-related issues
+      and analyze DNS traffic.
+- id: '06'
+  title: VoIP and SIP Capture
+  sections:
+  - id: '06.01'
+    title: VoIP and SIP Capture
+    objective: Show users how to capture and analyze VoIP and SIP traffic using Wireshark
+      for troubleshooting and optimization.

@@ -1,0 +1,79 @@
+status: completed
+title: Purple Team Operations with Atomic Red Team
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Atomic Red Team Fundamentals
+  section_id: '01.01'
+  title: Atomic Red Team Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Atomic Red Team Fundamentals
+  section_id: '01.02'
+  title: Setting Up Atomic Red Team
+  status: completed
+- chapter_id: '01'
+  chapter_title: Atomic Red Team Fundamentals
+  section_id: '01.03'
+  title: Core Concepts and Terminology
+  status: completed
+- chapter_id: '02'
+  chapter_title: MITRE ATT&CK Mapping
+  section_id: '02.01'
+  title: Mapping Atomic Tests to MITRE ATT&CK
+  status: completed
+- chapter_id: '02'
+  chapter_title: MITRE ATT&CK Mapping
+  section_id: '02.02'
+  title: Customizing MITRE-Mapped Techniques
+  status: completed
+- chapter_id: '02'
+  chapter_title: MITRE ATT&CK Mapping
+  section_id: '02.03'
+  title: 'Case Studies: MITRE Integration'
+  status: completed
+- chapter_id: '03'
+  chapter_title: Execution Frameworks
+  section_id: '03.01'
+  title: Designing Execution Frameworks
+  status: completed
+- chapter_id: '03'
+  chapter_title: Execution Frameworks
+  section_id: '03.02'
+  title: Automating Atomic Test Execution
+  status: completed
+- chapter_id: '03'
+  chapter_title: Execution Frameworks
+  section_id: '03.03'
+  title: CI/CD Integration for Red Team Operations
+  status: completed
+- chapter_id: '04'
+  chapter_title: Detection Validation
+  section_id: '04.01'
+  title: Validating Detection Rules
+  status: completed
+- chapter_id: '04'
+  chapter_title: Detection Validation
+  section_id: '04.02'
+  title: Evasion Techniques and Countermeasures
+  status: completed
+- chapter_id: '04'
+  chapter_title: Detection Validation
+  section_id: '04.03'
+  title: Tools for Detection Validation
+  status: completed
+- chapter_id: '05'
+  chapter_title: Telemetry Gap Analysis
+  section_id: '05.01'
+  title: Analyzing Telemetry Coverage
+  status: completed
+- chapter_id: '05'
+  chapter_title: Telemetry Gap Analysis
+  section_id: '05.02'
+  title: Identifying Critical Telemetry Gaps
+  status: completed
+- chapter_id: '05'
+  chapter_title: Telemetry Gap Analysis
+  section_id: '05.03'
+  title: Remediating Telemetry Gaps
+  status: completed

@@ -1,0 +1,95 @@
+title: MLOps with MLflow and Kubeflow
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Experiment Tracking with MLflow
+  sections:
+  - id: '01.01'
+    title: Introduction to Experiment Tracking
+    objective: Explain the importance of experiment tracking in MLOps and its role
+      in reproducibility and model comparison.
+  - id: '01.02'
+    title: MLflow Tracking Overview
+    objective: Describe MLflow's core components (tracking, registry, models) and
+      how they enable experiment management.
+  - id: '01.03'
+    title: Logging Metrics and Artifacts
+    objective: Demonstrate how to log hyperparameters, metrics, and artifacts using
+      MLflow's tracking API.
+- id: '02'
+  title: Model Registry and Lifecycle Management
+  sections:
+  - id: '02.01'
+    title: Model Registry Concepts
+    objective: Define model registry functionality and its role in versioning, deployment,
+      and governance.
+  - id: '02.03'
+    ', ':
+      id: '02.02'
+      title: MLflow Model Registry Integration
+      objective: Show how to register, version, and deploy models using MLflow's model
+        registry interface.
+    title: Model Lifecycle Stages
+    objective: Outline the stages of model lifecycle (development, testing, production)
+      and how the registry supports them.
+- id: '03'
+  title: Data Versioning with DVC
+  sections:
+  - id: '03.01'
+    title: Data Versioning Fundamentals
+    objective: Explain the challenges of data drift and how data versioning addresses
+      reproducibility in ML pipelines.
+  - id: '03.02'
+    title: DVC Integration with MLflow
+    objective: Demonstrate using DVC for versioning datasets and integrating with
+      MLflow experiments.
+  - id: '03.03'
+    title: Data Pipeline Workflows
+    objective: Design end-to-end data versioning workflows combining DVC, MLflow,
+      and cloud storage.
+- id: '04'
+  title: Pipeline Orchestration with Kubeflow
+  sections:
+  - id: '04.01'
+    title: Kubeflow Architecture Overview
+    objective: Describe Kubeflow's components and how it enables scalable ML pipeline
+      orchestration.
+  - id: '04.02'
+    title: Kubeflow Pipelines Setup
+    objective: Guide users through installing Kubeflow and creating their first pipeline
+      using KFP SDK.
+  - id: '04.03'
+    title: Advanced Pipeline Patterns
+    objective: Explore branching, parameter tuning, and integration with MLflow tracking
+      in Kubeflow pipelines.
+- id: '05'
+  title: Model Monitoring and Drift Detection
+  sections:
+  - id: '05.01'
+    title: Model Performance Monitoring
+    objective: Explain how to monitor model accuracy, latency, and resource usage
+      in production.
+  - id: '05.02'
+    title: Drift Detection Techniques
+    objective: Compare statistical methods (e.g., Kolmogorov-Smirnov) for detecting
+      data and model drift.
+  - id: '05.03'
+    title: Alerting and Remediation
+    objective: Design monitoring workflows with MLflow and integrate alerting systems
+      for drift events.
+- id: '06'
+  title: CI/CD for Machine Learning
+  sections:
+  - id: '06.01'
+    title: CI/CD Principles for ML
+    objective: Outline the unique challenges of ML deployment and how CI/CD pipelines
+      address them.
+  - id: '06.02'
+    title: Automating Model Deployments
+    objective: Demonstrate automating model promotion through registry stages using
+      MLflow and Kubeflow.
+  - id: '06.03'
+    title: Blue-Green Deployment Strategies
+    objective: Implement blue-green deployment patterns for minimizing downtime during
+      model updates.

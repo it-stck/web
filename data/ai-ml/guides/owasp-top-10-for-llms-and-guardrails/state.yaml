@@ -1,0 +1,64 @@
+status: completed
+title: OWASP Top 10 for LLMs and Guardrails
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: OWASP Top 10 for LLMs Overview
+  section_id: '01.01'
+  title: Introduction to OWASP Top 10 for LLMs
+  status: completed
+- chapter_id: '01'
+  chapter_title: OWASP Top 10 for LLMs Overview
+  section_id: '01.02'
+  title: Key Concepts and Terminology
+  status: completed
+- chapter_id: '02'
+  chapter_title: Prompt Injection Vulnerabilities
+  section_id: '02.01'
+  title: Understanding Prompt Injection Attacks
+  status: completed
+- chapter_id: '02'
+  chapter_title: Prompt Injection Vulnerabilities
+  section_id: '02.02'
+  title: Mitigating Prompt Injection Risks
+  status: completed
+- chapter_id: '03'
+  chapter_title: Data Poisoning and Training Risks
+  section_id: '03.01'
+  title: Data Poisoning in LLM Training
+  status: completed
+- chapter_id: '03'
+  chapter_title: Data Poisoning and Training Risks
+  section_id: '03.02'
+  title: Secure Data Curation Practices
+  status: completed
+- chapter_id: '04'
+  chapter_title: Model Denial-of-Service (DoS) Attacks
+  section_id: '04.01'
+  title: Understanding LLM DoS Vulnerabilities
+  status: completed
+- chapter_id: '04'
+  chapter_title: Model Denial-of-Service (DoS) Attacks
+  section_id: '04.02'
+  title: Defensive Measures Against DoS Attacks
+  status: completed
+- chapter_id: '05'
+  chapter_title: Neural Network Guardrails
+  section_id: '05.01'
+  title: Implementing Neural Network Guardrails
+  status: completed
+- chapter_id: '05'
+  chapter_title: Neural Network Guardrails
+  section_id: '05.02'
+  title: Tools for Guardrail Implementation
+  status: completed
+- chapter_id: '06'
+  chapter_title: LLM Output Sanitization
+  section_id: '06.01'
+  title: Securing LLM Output Generation
+  status: completed
+- chapter_id: '06'
+  chapter_title: LLM Output Sanitization
+  section_id: '06.02'
+  title: Automated Output Validation Techniques
+  status: completed

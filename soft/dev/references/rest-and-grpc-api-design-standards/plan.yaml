@@ -1,0 +1,70 @@
+title: REST and gRPC API Design Standards
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: REST Foundations
+  sections:
+  - id: '01.01'
+    title: HTTP Verbs and Status Codes
+    objective: Teach proper usage of HTTP verbs (GET, POST, PUT, DELETE) and status
+      codes (200, 404, 500) for RESTful endpoints.
+  - id: '01.02'
+    title: RESTful Resource Design
+    objective: Explain naming conventions, URL structure, and idempotency principles
+      for designing consistent REST APIs.
+- id: '02'
+  title: REST Documentation
+  sections:
+  - id: '02.01'
+    title: OpenAPI Specification Basics
+    objective: Describe the OpenAPI 3.0 format for documenting REST APIs, including
+      paths, parameters, and responses.
+  - id: '02.02'
+    title: Swagger Integration
+    objective: Demonstrate how to generate interactive API documentation using Swagger
+      UI with OpenAPI specs.
+  - id: '02.03'
+    title: API Versioning Patterns
+    objective: Compare versioning strategies (URL, header, accept headers) and their
+      tradeoffs in REST APIs.
+- id: '03'
+  title: gRPC Fundamentals
+  sections:
+  - id: '03.01'
+    title: Protobuf Message Definitions
+    objective: Show how to define request/response schemas using protobuf syntax for
+      gRPC services.
+  - id: '03.02'
+    title: gRPC vs REST Comparison
+    objective: Contrast gRPC's binary protocol with REST's text-based format for performance
+      and use case scenarios.
+  - id: '03.03'
+    title: Streaming Patterns
+    objective: Explain bidirectional streaming and server-side streaming in gRPC implementations.
+- id: '04'
+  title: API Governance
+  sections:
+  - id: '04.01'
+    title: Rate Limiting Implementation
+    objective: Detail middleware patterns for enforcing request rate limits in both
+      REST and gRPC APIs.
+  - id: '04.02'
+    title: Pagination and Filtering
+    objective: Demonstrate offset/limit patterns, cursor-based pagination, and query
+      parameter filtering techniques.
+  - id: '04.03'
+    title: Security Best Practices
+    objective: Outline TLS requirements, authentication strategies, and authorization
+      patterns for APIs.
+- id: '05'
+  title: Authentication Standards
+  sections:
+  - id: '05.01'
+    title: JWT Token Structure
+    objective: Explain the components of JSON Web Tokens and their use in stateless
+      authentication.
+  - id: '05.02'
+    title: OAuth2 Implementation
+    objective: Demonstrate how to integrate OAuth2 flows (authorization code, implicit)
+      with API gateways.

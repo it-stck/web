@@ -1,0 +1,80 @@
+title: OAuth2 and OpenID Connect Deep Dive
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Authorization Code Grant Flow
+  sections:
+  - id: '01.01'
+    title: Authorization Code Grant Overview
+    objective: Explain the core components and sequence of the authorization code
+      grant flow in OAuth2, including client redirection, user authentication, and
+      token exchange.
+  - id: '01.02'
+    title: Security Considerations for Authorization Code Flow
+    objective: Identify common vulnerabilities (e.g., CSRF, token leakage) and mitigation
+      strategies for the authorization code grant flow.
+  - id: '01.03'
+    title: Integration with Identity Providers
+    objective: Demonstrate how to implement the authorization code flow with Keycloak
+      and HashiCorp Vault for secure token issuance.
+- id: '02'
+  title: PKCE Flow for Public Clients
+  sections:
+  - id: '02.01'
+    title: PKCE Flow Mechanics
+    objective: Detail the PKCE flow's components (code verifier, code challenge) and
+      how it enhances security for public clients in OAuth2.
+  - id: '02.02'
+    title: Mitigating Replay Attacks with PKCE
+    objective: Explain how PKCE prevents replay attacks and ensures the authorization
+      code is tied to a specific client session.
+  - id: '02.03'
+    title: Implementing PKCE in Real-World Scenarios
+    objective: Provide code examples and configuration guidelines for PKCE integration
+      in mobile and single-page applications.
+- id: '03'
+  title: JWT Token Validation
+  sections:
+  - id: '03.01'
+    title: JWT Structure and Claims
+    objective: Break down the JWT payload (header, claims, signature) and explain
+      standard claims (sub, iss, exp) in OpenID Connect.
+  - id: '03.02'
+    title: Validation Algorithms and Trust Chains
+    objective: Describe JWT validation steps, including signature verification, issuer
+      validation, and certificate chain trust in PKI.
+  - id: '03.03'
+    title: Tools for JWT Debugging and Analysis
+    objective: Recommend tools (e.g., jwt.io, Keycloak Admin Console) for inspecting,
+      validating, and troubleshooting JWT tokens.
+- id: '04'
+  title: Token Introspection
+  sections:
+  - id: '04.01'
+    title: Token Introspection Endpoint
+    objective: Explain the purpose and mechanics of the OAuth2 token introspection
+      endpoint for checking token validity and scopes.
+  - id: '04.02'
+    title: Use Cases and Security Implications
+    objective: Discuss scenarios where token introspection is critical (e.g., API
+      gateways) and its impact on system security and performance.
+  - id: '04.03'
+    title: Integration with Vault and Keycloak
+    objective: Provide configuration examples for using token introspection with HashiCorp
+      Vault and Keycloak for dynamic secret management.
+- id: '05'
+  title: Scopes and Claims Management
+  sections:
+  - id: '05.01'
+    title: Scopes in OAuth2 and OpenID Connect
+    objective: Define scopes as permission boundaries, explain scope hierarchy, and
+      demonstrate scope assignment in Keycloak.
+  - id: '05.02'
+    title: Claim Types and Custom Claims
+    objective: Classify standard claims (e.g., email, roles) and guide on extending
+      OpenID Connect with custom claims in JWTs.
+  - id: '05.03'
+    title: Best Practices for Scope and Claim Usage
+    objective: Recommend strategies for minimizing privilege escalation risks and
+      ensuring compliance with least-privilege principles.

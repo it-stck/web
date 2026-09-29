@@ -1,0 +1,52 @@
+title: Container Image Signing with Cosign
+content_type: tips
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Container Image Signing
+  sections:
+  - id: '01.01'
+    title: Overview of Container Image Signing
+    objective: Explain the importance of container image signing in securing software
+      supply chains and its role in preventing tampering and ensuring authenticity.
+  - id: '01.02'
+    title: Cosign and Sigstore Integration
+    objective: Describe how Cosign integrates with the Sigstore project to provide
+      cryptographic signing and verification of container images.
+  - id: '01.03'
+    title: Keyless Signing with Cosign
+    objective: Detail the Cosign keyless signing workflow, including how it eliminates
+      the need for private key management while maintaining cryptographic integrity.
+- id: '02'
+  title: Sigstore Components
+  sections:
+  - id: '02.01'
+    title: Fulcio - Certificate Issuance
+    objective: Explain how Fulcio, a component of Sigstore, issues time-bound certificates
+      for secure signing of container images.
+  - id: '02.02'
+    title: Rekor - Transparency Log Integration
+    objective: Outline the role of Rekor in storing cryptographic logs of signatures
+      for auditability and transparency in container image verification.
+- id: '03'
+  title: Verification and Policy Enforcement
+  sections:
+  - id: '03.01'
+    title: Kyverno for Signature Verification
+    objective: Demonstrate how Kyverno enforces signature verification policies to
+      ensure only signed container images are deployed in Kubernetes environments.
+  - id: '03.02'
+    title: Registry Policies for Signed Images
+    objective: Provide guidance on configuring container registry policies to enforce
+      mandatory signature checks for image pulls and pushes.
+- id: '04'
+  title: Troubleshooting and Best Practices
+  sections:
+  - id: '04.01'
+    title: Common Issues and Solutions
+    objective: Identify common challenges in container image signing workflows and
+      provide actionable troubleshooting steps for Cosign, Fulcio, and Rekor.
+  - id: '04.02'
+    title: Best Practices for Secure Signing
+    objective: Recommend security best practices for implementing and maintaining
+      a robust container image signing and verification strategy.

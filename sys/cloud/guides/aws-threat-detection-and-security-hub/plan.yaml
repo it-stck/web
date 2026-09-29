@@ -1,0 +1,74 @@
+title: AWS Threat Detection and Security Hub
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to AWS Threat Detection
+  sections:
+  - id: '01.01'
+    title: AWS Threat Detection Overview
+    objective: Explain the purpose and scope of AWS Threat Detection services, including
+      GuardDuty, Security Hub, Macie, and Config, and their role in enterprise security.
+  - id: '01.02'
+    title: Core Components and Integration
+    objective: Describe how GuardDuty, Security Hub, Macie, and Config integrate to
+      provide unified threat detection, compliance, and data protection across AWS
+      environments.
+- id: '02'
+  title: GuardDuty Finding Analysis
+  sections:
+  - id: '02.01'
+    title: GuardDuty Setup and Configuration
+    objective: Guide readers through configuring GuardDuty for threat detection, including
+      enabling integrations with Security Hub and setting up member accounts.
+  - id: '02.02'
+    title: Analyzing GuardDuty Findings
+    objective: Teach how to interpret GuardDuty findings, prioritize threats, and
+      use Security Hub to centralize and correlate findings from multiple sources.
+- id: '03'
+  title: Security Hub Controls and Automation
+  sections:
+  - id: '03.01'
+    title: Security Hub Controls Configuration
+    objective: Explain how to define and deploy Security Hub controls for compliance,
+      including customizing controls for specific security policies and regulatory
+      requirements.
+  - id: '03.02'
+    title: Automating Security Hub Workflows
+    objective: Demonstrate automating Security Hub workflows using AWS services like
+      CloudFormation and Lambda to enforce security policies across cloud resources.
+- id: '04'
+  title: Macie for Sensitive Data Protection
+  sections:
+  - id: '04.01'
+    title: Macie Data Discovery and Classification
+    objective: Walk through using Macie to discover and classify sensitive data in
+      S3 buckets, databases, and other storage services, with integration into Security
+      Hub.
+  - id: '04.02'
+    title: Macie Integration with Security Hub
+    objective: Show how to connect Macie findings to Security Hub for centralized
+      monitoring and automated response to data exposure risks.
+- id: '05'
+  title: AWS Config Rules for Compliance
+  sections:
+  - id: '05.01'
+    title: AWS Config Rule Creation
+    objective: Instruct on creating custom AWS Config rules to enforce security and
+      compliance standards, including using managed rules for common security policies.
+  - id: '05.02'
+    title: Monitoring Compliance with Config
+    objective: Explain how to use AWS Config to track compliance status, generate
+      reports, and integrate findings with Security Hub for unified monitoring.
+- id: '06'
+  title: Remediation with AWS Lambda
+  sections:
+  - id: '06.01'
+    title: Lambda Triggers for Security Events
+    objective: Detail how to create Lambda functions triggered by Security Hub findings
+      or Config rule violations to automate remediation actions.
+  - id: '06.02'
+    title: Automated Remediation Patterns
+    objective: Provide examples of Lambda-based remediation workflows, such as isolating
+      compromised instances, rotating credentials, or blocking IP addresses in security
+      groups.

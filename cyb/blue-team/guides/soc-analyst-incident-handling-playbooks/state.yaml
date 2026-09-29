@@ -1,0 +1,124 @@
+status: draft
+title: SOC Analyst Incident Handling Playbooks
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Phishing Investigation
+  section_id: '01.01'
+  title: Initial Assessment and Triage
+  status: pending
+- chapter_id: '01'
+  chapter_title: Phishing Investigation
+  section_id: '01.02'
+  title: Email Header Analysis and Source Verification
+  status: pending
+- chapter_id: '01'
+  chapter_title: Phishing Investigation
+  section_id: '01.03'
+  title: User Verification and Phishing Simulation
+  status: pending
+- chapter_id: '01'
+  chapter_title: Phishing Investigation
+  section_id: '01.04'
+  title: Evidence Collection and Preservation
+  status: pending
+- chapter_id: '02'
+  chapter_title: Ransomware Response
+  section_id: '02.01'
+  title: Ransomware Identification and Impact Assessment
+  status: pending
+- chapter_id: '02'
+  chapter_title: Ransomware Response
+  section_id: '02.02'
+  title: Isolation and Containment Strategies
+  status: pending
+- chapter_id: '02'
+  chapter_title: Ransomware Response
+  section_id: '02.03'
+  title: Data Backup and Recovery Planning
+  status: pending
+- chapter_id: '02'
+  chapter_title: Ransomware Response
+  section_id: '02.04'
+  title: Decryption Tools and Negotiation Tactics
+  status: pending
+- chapter_id: '03'
+  chapter_title: Compromised Credentials
+  section_id: '03.01'
+  title: Credential Theft Detection and Monitoring
+  status: pending
+- chapter_id: '03'
+  chapter_title: Compromised Credentials
+  section_id: '03.02'
+  title: Password Reset and Account Lockout Procedures
+  status: pending
+- chapter_id: '03'
+  chapter_title: Compromised Credentials
+  section_id: '03.03'
+  title: Credential Dumping and Privilege Escalation Mitigation
+  status: pending
+- chapter_id: '03'
+  chapter_title: Compromised Credentials
+  section_id: '03.04'
+  title: Post-Incident Credential Auditing
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Exfiltration Triage
+  section_id: '04.01'
+  title: Identifying Data Exfiltration Channels
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Exfiltration Triage
+  section_id: '04.02'
+  title: Traffic Analysis and Payload Inspection
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Exfiltration Triage
+  section_id: '04.03'
+  title: Containment and Data Loss Prevention
+  status: pending
+- chapter_id: '04'
+  chapter_title: Data Exfiltration Triage
+  section_id: '04.04'
+  title: Forensic Analysis of Exfiltrated Data
+  status: pending
+- chapter_id: '05'
+  chapter_title: Unauthorized Access
+  section_id: '05.01'
+  title: Access Pattern Analysis and Anomaly Detection
+  status: pending
+- chapter_id: '05'
+  chapter_title: Unauthorized Access
+  section_id: '05.02'
+  title: Session Monitoring and Termination
+  status: pending
+- chapter_id: '05'
+  chapter_title: Unauthorized Access
+  section_id: '05.03'
+  title: Privilege Escalation and Role Management
+  status: pending
+- chapter_id: '05'
+  chapter_title: Unauthorized Access
+  section_id: '05.04'
+  title: Post-Incident Access Review
+  status: pending
+- chapter_id: '06'
+  chapter_title: Malware Containment
+  section_id: '06.01'
+  title: Malware Classification and Behavior Analysis
+  status: pending
+- chapter_id: '06'
+  chapter_title: Malware Containment
+  section_id: '06.02'
+  title: Quarantine and Disposal Procedures
+  status: pending
+- chapter_id: '06'
+  chapter_title: Malware Containment
+  section_id: '06.03'
+  title: Threat Intelligence Integration
+  status: pending
+- chapter_id: '06'
+  chapter_title: Malware Containment
+  section_id: '06.04'
+  title: Post-Incident Malware Analysis
+  status: pending

@@ -1,0 +1,139 @@
+status: draft
+title: AWS Cloud Architecture Well-Architected Framework
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Core Principles of the Well-Archited Framework
+  section_id: '01.01'
+  title: Framework Overview and Pillars
+  status: pending
+- chapter_id: '01'
+  chapter_title: Core Principles of the Well-Archited Framework
+  section_id: '01.02'
+  title: Operational Excellence Foundations
+  status: pending
+- chapter_id: '01'
+  chapter_title: Core Principles of the Well-Archited Framework
+  section_id: '01.03'
+  title: Security Best Practices
+  status: pending
+- chapter_id: '02'
+  chapter_title: Virtual Private Cloud (VPC) Design
+  section_id: '02.01'
+  title: VPC Design Principles
+  status: pending
+- chapter_id: '02'
+  chapter_title: Virtual Private Cloud (VPC) Design
+  section_id: '02.02'
+  title: Network Security and Isolation
+  status: pending
+- chapter_id: '02'
+  chapter_title: Virtual Private Cloud (VPC) Design
+  section_id: '02.03'
+  title: Traffic Optimization and Routing
+  status: pending
+- chapter_id: '03'
+  chapter_title: Identity and Access Management (IAM)
+  section_id: '03.01'
+  title: IAM Roles and Policies
+  status: pending
+- chapter_id: '03'
+  chapter_title: Identity and Access Management (IAM)
+  section_id: '03.02'
+  title: Least Privilege and Auditing
+  status: pending
+- chapter_id: '03'
+  chapter_title: Identity and Access Management (IAM)
+  section_id: '03.03'
+  title: Cross-Account and Federated Access
+  status: pending
+- chapter_id: '04'
+  chapter_title: EC2 Auto-Scaling and Compute Optimization
+  section_id: '04.01'
+  title: Auto-Scaling Architecture
+  status: pending
+- chapter_id: '04'
+  chapter_title: EC2 Auto-Scaling and Compute Optimization
+  section_id: '04.02'
+  title: Compute Resource Optimization
+  status: pending
+- chapter_id: '04'
+  chapter_title: EC2 Auto-Scaling and Compute Optimization
+  section_id: '04.03'
+  title: Integration with CloudWatch
+  status: pending
+- chapter_id: '05'
+  chapter_title: S3 Lifecycle Management and Security
+  section_id: '05.01'
+  title: S3 Lifecycle Policies
+  status: pending
+- chapter_id: '05'
+  chapter_title: S3 Lifecycle Management and Security
+  section_id: '05.02'
+  title: Data Security and Encryption
+  status: pending
+- chapter_id: '05'
+  chapter_title: S3 Lifecycle Management and Security
+  section_id: '05.03'
+  title: Cost Optimization for Storage
+  status: pending
+- chapter_id: '06'
+  chapter_title: RDS Aurora and Database Best Practices
+  section_id: '06.01'
+  title: Aurora Architecture and Features
+  status: pending
+- chapter_id: '06'
+  chapter_title: RDS Aurora and Database Best Practices
+  section_id: '06.02'
+  title: Database Security and Backup
+  status: pending
+- chapter_id: '06'
+  chapter_title: RDS Aurora and Database Best Practices
+  section_id: '06.03'
+  title: Query Optimization and Scaling
+  status: pending
+- chapter_id: '07'
+  chapter_title: DynamoDB and NoSQL Design
+  section_id: '07.01'
+  title: DynamoDB Architecture and Use Cases
+  status: pending
+- chapter_id: '07'
+  chapter_title: DynamoDB and NoSQL Design
+  section_id: '07.02'
+  title: Consistency Models and Performance
+  status: pending
+- chapter_id: '07'
+  chapter_title: DynamoDB and NoSQL Design
+  section_id: '07.03'
+  title: Cost Management and Indexing
+  status: pending
+- chapter_id: 08
+  chapter_title: Monitoring and Compliance with CloudWatch/CloudTrail
+  section_id: '08.01'
+  title: CloudWatch Metrics and Alarms
+  status: pending
+- chapter_id: 08
+  chapter_title: Monitoring and Compliance with CloudWatch/CloudTrail
+  section_id: '08.02'
+  title: CloudTrail for Auditing
+  status: pending
+- chapter_id: 08
+  chapter_title: Monitoring and Compliance with CloudWatch/CloudTrail
+  section_id: '08.03'
+  title: Integration with Security Tools
+  status: pending
+- chapter_id: 09
+  chapter_title: Disaster Recovery and Reliability
+  section_id: '09.01'
+  title: Disaster Recovery Strategies
+  status: pending
+- chapter_id: 09
+  chapter_title: Disaster Recovery and Reliability
+  section_id: '09.02'
+  title: Backup and Restore Patterns
+  status: pending
+- chapter_id: 09
+  chapter_title: Disaster Recovery and Reliability
+  section_id: '09.03'
+  title: High Availability and Resilience
+  status: pending

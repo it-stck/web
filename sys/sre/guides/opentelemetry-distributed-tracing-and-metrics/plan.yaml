@@ -1,0 +1,105 @@
+title: OpenTelemetry Distributed Tracing and Metrics
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to OpenTelemetry
+  sections:
+  - id: '01.01'
+    title: Overview of OpenTelemetry
+    objective: Explain what OpenTelemetry is and its role in observability for distributed
+      systems.
+  - id: '01.02'
+    title: Key Concepts and Terminology
+    objective: Define core concepts like traces, metrics, logs, and their relationship
+      in observability.
+  - id: '01.03'
+    title: Benefits and Use Cases
+    objective: Discuss the advantages of OpenTelemetry and typical use cases in SRE
+      and observability.
+- id: '02'
+  title: OpenTelemetry Collector
+  sections:
+  - id: '02.01'
+    title: Installation and Setup
+    objective: Guide users through installing and configuring the OpenTelemetry Collector
+      on various platforms.
+  - id: '02.02'
+    title: Configuration and Processing Pipelines
+    objective: Explain how to set up processing pipelines for filtering, transforming,
+      and routing telemetry data.
+  - id: '02.03'
+    title: Exporting Data to Monitoring Tools
+    objective: Detail how to configure the Collector to export data to tools like
+      Prometheus, Jaeger, and Grafana.
+- id: '03'
+  title: Auto-Instrumentation
+  sections:
+  - id: '03.01'
+    title: How Auto-Instrumentation Works
+    objective: Explain the mechanism of auto-instrumentation for libraries and frameworks.
+  - id: '03.02'
+    title: Use Cases and Limitations
+    objective: Discuss scenarios where auto-instrumentation is useful and its limitations
+      in complex environments.
+  - id: '03.03'
+    title: Integrating with Existing Code
+    objective: Provide guidance on integrating auto-instrumentation with legacy or
+      custom codebases.
+- id: '04'
+  title: Trace Context and Propagation
+  sections:
+  - id: '04.01'
+    title: Understanding Trace Context
+    objective: Explain the trace context headers (W3C/TraceContext) and their role
+      in distributed tracing.
+  - id: '04.02'
+    title: Implementing Trace Propagation
+    objective: Detail how to implement trace propagation across services and network
+      boundaries.
+  - id: '04.03'
+    title: Challenges and Best Practices
+    objective: Address common challenges like header injection and best practices
+      for maintaining trace context.
+- id: '05'
+  title: Integrating with Jaeger
+  sections:
+  - id: '05.01'
+    title: Setting Up Jaeger with OpenTelemetry
+    objective: Guide users through configuring Jaeger as a distributed tracing backend
+      for OpenTelemetry.
+  - id: '05.02'
+    title: Configuring Tracing and Sampling
+    objective: Explain how to configure sampling rates and tracing parameters for
+      optimal performance.
+  - id: '05.03'
+    title: Querying and Visualizing Traces
+    objective: Detail how to query and visualize traces using Jaeger's UI and API.
+- id: '06'
+  title: Logs, Metrics, and Correlation
+  sections:
+  - id: '06.01'
+    title: Correlating Logs with Traces
+    objective: Explain methods to link logs with traces using trace IDs and span IDs.
+  - id: '06.02'
+    title: Metrics Integration with Traces
+    objective: Discuss integrating metrics with trace data for comprehensive observability.
+  - ? ''
+    : ''
+    title: Tools for Correlation
+    objective: Introduce tools and techniques for correlating logs, metrics, and traces
+      in real-time.
+- id: '07'
+  title: Best Practices and Troubleshooting
+  sections:
+  - id: '07.01'
+    title: Optimizing Tracing Performance
+    objective: Provide tips for minimizing performance overhead in distributed tracing.
+  - id: '07.02'
+    title: Common Issues and Solutions
+    objective: Address common issues like missing traces, data loss, and sampling
+      bias.
+  - id: '07.03'
+    title: Advanced Configuration Tips
+    objective: Share advanced strategies for configuring OpenTelemetry in hybrid or
+      multi-cloud environments.

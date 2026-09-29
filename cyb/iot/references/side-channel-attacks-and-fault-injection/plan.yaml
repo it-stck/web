@@ -1,0 +1,51 @@
+title: Side Channel Attacks and Fault Injection
+content_type: references
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Side-Channel Attacks
+  sections:
+  - id: '01.01'
+    title: Principles of Side-Channel Analysis
+    objective: Explain the fundamental principles of side-channel attacks, including
+      data leakage through physical measurements and the relationship between implementation
+      details and cryptographic vulnerabilities.
+  - id: '01.02'
+    title: Simple Power Analysis (SPA)
+    objective: Demonstrate how to perform simple power analysis to extract cryptographic
+      keys by analyzing power consumption patterns during cryptographic operations.
+  - id: '01.03'
+    title: Differential Power Analysis (DPA)
+    objective: Teach the methodology of differential power analysis, including statistical
+      correlation between power traces and cryptographic key hypotheses.
+- id: '02'
+  title: Fault Injection Techniques
+  sections:
+  - id: '02.01'
+    title: Clock Glitching
+    objective: Detail the implementation of clock glitching attacks, including hardware
+      setup, timing manipulation, and exploitation of timing vulnerabilities in embedded
+      systems.
+  - id: '02.02'
+    title: Voltage Glitching
+    objective: Explain voltage glitching techniques, including methods to induce faults
+      via power supply manipulation and their impact on cryptographic operations.
+  - id: '02.03'
+    title: Simple Fault Injection
+    objective: Outline basic fault injection methods, such as reset glitches and input
+      manipulation, and their use in bypassing authentication mechanisms.
+- id: '03'
+  title: Countermeasures and Mitigation
+  sections:
+  - id: '03.01'
+    title: Side-Channel Countermeasure Design
+    objective: Review hardware and software countermeasures for side-channel attacks,
+      including masking, shuffling, and constant-time implementations.
+  - id: '03.02'
+    title: Fault Detection and Resilience
+    objective: Discuss fault detection mechanisms, error-correcting codes, and runtime
+      integrity checks to mitigate fault injection attacks.
+  - id: '03.03'
+    title: Secure System Design Principles
+    objective: Provide guidelines for designing secure embedded systems, including
+      isolation techniques, hardware security modules (HSMs), and secure boot mechanisms.

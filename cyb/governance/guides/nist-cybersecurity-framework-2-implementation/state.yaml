@@ -1,0 +1,139 @@
+status: completed
+title: NIST Cybersecurity Framework 2 Implementation
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: Introduction to NIST CSF 2.0
+  section_id: '01.01'
+  title: NIST CSF 2.0 Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to NIST CSF 2.0
+  section_id: '01.02'
+  title: Core Principles and Alignment
+  status: completed
+- chapter_id: '01'
+  chapter_title: Introduction to NIST CSF 2.0
+  section_id: '01.03'
+  title: Implementation Roadmap
+  status: completed
+- chapter_id: '02'
+  chapter_title: Identify Function
+  section_id: '02.01'
+  title: Core Functions of Identify
+  status: completed
+- chapter_id: '02'
+  chapter_title: Identify Function
+  section_id: '02.02'
+  title: Implementation Steps
+  status: completed
+- chapter_id: '02'
+  chapter_title: Identify Function
+  section_id: '02.03'
+  title: Integration with Other Frameworks
+  status: completed
+- chapter_id: '03'
+  chapter_title: Protect Function
+  section_id: '03.01'
+  title: Core Functions of Protect
+  status: completed
+- chapter_id: '03'
+  chapter_title: Protect Function
+  section_id: '03.02'
+  title: Implementation Steps
+  status: completed
+- chapter_id: '03'
+  chapter_title: Protect Function
+  section_id: '03.03'
+  title: Compliance with PCI DSS and SOC 2
+  status: completed
+- chapter_id: '04'
+  chapter_title: Detect Function
+  section_id: '04.01'
+  title: Core Functions of Detect
+  status: completed
+- chapter_id: '04'
+  chapter_title: Detect Function
+  section_id: '04.02'
+  title: Implementation Steps
+  status: completed
+- chapter_id: '04'
+  chapter_title: Detect Function
+  section_id: '04.03'
+  title: Integration with NIST CSF 2.0
+  status: completed
+- chapter_id: '05'
+  chapter_title: Respond Function
+  section_id: '05.01'
+  title: Core Functions of Respond
+  status: completed
+- chapter_id: '05'
+  chapter_title: Respond Function
+  section_id: '05.02'
+  title: Implementation Steps
+  status: completed
+- chapter_id: '05'
+  chapter_title: Respond Function
+  section_id: '05.03'
+  title: Compliance with GDPR and SOC 2
+  status: completed
+- chapter_id: '06'
+  chapter_title: Recover Function
+  section_id: '06.01'
+  title: Core Functions of Recover
+  status: completed
+- chapter_id: '06'
+  chapter_title: Recover Function
+  section_id: '06.02'
+  title: Implementation Steps
+  status: completed
+- chapter_id: '06'
+  chapter_title: Recover Function
+  section_id: '06.03'
+  title: Integration with PCI DSS
+  status: completed
+- chapter_id: '07'
+  chapter_title: Govern Function
+  section_id: '07.01'
+  title: Core Functions of Govern
+  status: completed
+- chapter_id: '07'
+  chapter_title: Govern Function
+  section_id: '07.02'
+  title: Implementation Steps
+  status: completed
+- chapter_id: '07'
+  chapter_title: Govern Function
+  section_id: '07.03'
+  title: Alignment with ISO 27001
+  status: completed
+- chapter_id: 08
+  chapter_title: Organizational Profiles
+  section_id: '08.01'
+  title: Creating Organizational Profiles
+  status: completed
+- chapter_id: 08
+  chapter_title: Organizational Profiles
+  section_id: '08.02'
+  title: Mapping to NIST CSF 2.0
+  status: completed
+- chapter_id: 09
+  chapter_title: Tier Assessments
+  section_id: '09.01'
+  title: Understanding Tier Assessments
+  status: completed
+- chapter_id: 09
+  chapter_title: Tier Assessments
+  section_id: '09.02'
+  title: Conducting Tier Assessments
+  status: completed
+- chapter_id: '10'
+  chapter_title: Action Plans
+  section_id: '10.01'
+  title: Developing Action Plans
+  status: completed
+- chapter_id: '10'
+  chapter_title: Action Plans
+  section_id: '10.02'
+  title: Monitoring and Updating Plans
+  status: completed

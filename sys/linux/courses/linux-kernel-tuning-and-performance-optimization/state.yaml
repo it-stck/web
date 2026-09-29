@@ -1,0 +1,129 @@
+status: completed
+title: Linux Kernel Tuning and Performance Optimization
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: Sysctl Parameters and Kernel Configuration
+  section_id: '01.01'
+  title: Sysctl Parameter Overview
+  status: completed
+- chapter_id: '01'
+  chapter_title: Sysctl Parameters and Kernel Configuration
+  section_id: '01.02'
+  title: Network Performance Tuning
+  status: completed
+- chapter_id: '01'
+  chapter_title: Sysctl Parameters and Kernel Configuration
+  section_id: '01.03'
+  title: Memory Management Tuning
+  status: completed
+- chapter_id: '01'
+  chapter_title: Sysctl Parameters and Kernel Configuration
+  section_id: '01.04'
+  title: Storage I/O Tuning
+  status: completed
+- chapter_id: '02'
+  chapter_title: Memory Management and Swap Optimization
+  section_id: '02.01'
+  title: Linux Virtual Memory Architecture
+  status: completed
+- chapter_id: '02'
+  chapter_title: Memory Management and Swap Optimization
+  section_id: '02.02'
+  title: Swap Space Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Memory Management and Swap Optimization
+  section_id: '02.03'
+  title: Swappiness Tuning
+  status: completed
+- chapter_id: '03'
+  chapter_title: I/O Schedulers and Disk Performance
+  section_id: '03.01'
+  title: I/O Scheduler Overview
+  status: completed
+- chapter_id: '03'
+  chapter_title: I/O Schedulers and Disk Performance
+  section_id: '03.02'
+  title: Scheduler Configuration
+  status: completed
+- chapter_id: '03'
+  chapter_title: I/O Schedulers and Disk Performance
+  section_id: '03.03'
+  title: Advanced I/O Optimization
+  status: completed
+- chapter_id: '04'
+  chapter_title: Cgroups v2 and Resource Management
+  section_id: '04.01'
+  title: Cgroups v2 Architecture
+  status: completed
+- chapter_id: '04'
+  chapter_title: Cgroups v2 and Resource Management
+  section_id: '04.02'
+  title: CPU and Memory Limiting
+  status: completed
+- chapter_id: '04'
+  chapter_title: Cgroups v2 and Resource Management
+  section_id: '04.03'
+  title: Cgroups Monitoring and Debugging
+  status: completed
+- chapter_id: '05'
+  chapter_title: CPU Frequency Scaling and Power Management
+  section_id: '05.01'
+  title: CPU Governor Overview
+  status: completed
+- chapter_id: '05'
+  chapter_title: CPU Frequency Scaling and Power Management
+  section_id: '05.02'
+  title: Dynamic Frequency Scaling
+  status: completed
+- chapter_id: '05'
+  chapter_title: CPU Frequency Scaling and Power Management
+  section_id: '05.03'
+  title: Real-Time CPU Scheduling
+  status: completed
+- chapter_id: '06'
+  chapter_title: eBPF Monitoring and Kernel Telemetry
+  section_id: '06.01'
+  title: eBPF Fundamentals
+  status: completed
+- chapter_id: '06'
+  chapter_title: eBPF Monitoring and Kernel Telemetry
+  section_id: '06.02'
+  title: Performance Monitoring with eBPF
+  status: completed
+- chapter_id: '06'
+  chapter_title: eBPF Monitoring and Kernel Telemetry
+  section_id: '06.03'
+  title: eBPF for Security and Debugging
+  status: completed
+- chapter_id: '07'
+  chapter_title: Profiling Tools and Performance Analysis
+  section_id: '07.01'
+  title: perf Tool Suite
+  status: completed
+- chapter_id: '07'
+  chapter_title: Profiling Tools and Performance Analysis
+  section_id: '07.02'
+  title: SystemTap for Dynamic Tracing
+  status: completed
+- chapter_id: '07'
+  chapter_title: Profiling Tools and Performance Analysis
+  section_id: '07.03'
+  title: Analyzing Profiling Data
+  status: completed
+- chapter_id: 08
+  chapter_title: Advanced Swap and Memory Optimization
+  section_id: '08.01'
+  title: Swap Partition Best Practices
+  status: completed
+- chapter_id: 08
+  chapter_title: Advanced Swap and Memory Optimization
+  section_id: '08.02'
+  title: Memory Pressure Mitigation
+  status: completed
+- chapter_id: 08
+  chapter_title: Advanced Swap and Memory Optimization
+  section_id: '08.03'
+  title: Persistent Memory and Swap
+  status: completed

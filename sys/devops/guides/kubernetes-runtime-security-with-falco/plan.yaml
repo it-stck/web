@@ -1,0 +1,70 @@
+title: Kubernetes Runtime Security with Falco
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Falco and Kubernetes Security
+  sections:
+  - id: '01.01'
+    title: Overview of Falco and Kubernetes Security Challenges
+    objective: Explain the role of Falco in securing Kubernetes environments and common
+      security risks in containerized workloads.
+  - id: '01.02'
+    title: Falco Architecture and Integration with Kubernetes
+    objective: Describe Falco's architecture, its integration with Kubernetes components,
+      and how it monitors runtime behavior.
+- id: '02'
+  title: Falco Rules and Detection Logic
+  sections:
+  - id: '02.01'
+    title: Understanding Falco Rules and Rule Syntax
+    objective: Teach how to read and interpret Falco rules, including event matching
+      and condition logic.
+  - id: '02.02'
+    title: Writing and Testing Basic Falco Rules
+    objective: Guide users through creating and testing simple rules for detecting
+      container runtime anomalies.
+- id: '03'
+  title: Syscall Monitoring for Runtime Security
+  sections:
+  - id: '03.01'
+    title: Syscall Monitoring Fundamentals with Falco
+    objective: Explain how Falco leverages Linux syscalls to detect suspicious process
+      behavior in containers.
+  - id: '03.02'
+    title: Configuring Syscall-Based Detection Policies
+    objective: Demonstrate configuring Falco to monitor specific syscalls for security
+      events in Kubernetes workloads.
+- id: '04'
+  title: Kubernetes Audit Logs Integration
+  sections:
+  - id: '04.01'
+    title: Correlating Falco Alerts with Kubernetes Audit Logs
+    objective: Show how to integrate Falco with Kubernetes audit logs for contextual
+      security event analysis.
+  - id: '04.02'
+    title: Analyzing Combined Security Event Data
+    objective: Provide techniques for analyzing Falco alerts and Kubernetes audit
+      logs to identify advanced threats.
+- id: '05'
+  title: Alert Outputs and Monitoring Integration
+  sections:
+  - id: '05.01'
+    title: Configuring Falco Alert Outputs
+    objective: Explain how to configure Falco to output alerts to Prometheus, ELK,
+      or cloud-native logging systems.
+  - id: '05.02'
+    title: Visualizing Falco Alerts with Monitoring Tools
+    objective: Guide users in setting up dashboards and alerts for real-time Falco
+      security event monitoring.
+- id: '06'
+  title: Custom Detections and Advanced Use Cases
+  sections:
+  - id: '06.01'
+    title: Building Custom Falco Rules for Advanced Threats
+    objective: Teach how to develop custom rules for detecting zero-day attacks or
+      insider threats in Kubernetes.
+  - id: '06.02'
+    title: Deploying and Validating Custom Security Policies
+    objective: Demonstrate deploying custom Falco rules in production and validating
+      their effectiveness through testing.

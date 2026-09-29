@@ -1,0 +1,67 @@
+title: RAG Systems Architecture and Implementation
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Foundations of RAG Systems
+  sections:
+  - id: '01.01'
+    title: Document Chunking Strategies
+    objective: Explain how to split documents into manageable chunks while preserving
+      semantic meaning and context.
+  - id: '01.02'
+    title: Embedding Model Selection
+    objective: Compare embedding models (e.g., Sentence Transformers, BERT) and their
+      impact on retrieval quality and computational efficiency.
+  - id: '01.03'
+    title: Vector Database Fundamentals
+    objective: Describe vector database architectures (e.g., FAISS, Pinecone) and
+      their role in storing and querying embeddings.
+- id: '02'
+  title: Retrieval and Indexing
+  sections:
+  - id: '02.01'
+    title: Vector Search Implementation
+    objective: Implement a vector search system using embedding models and vector
+      databases for efficient similarity retrieval.
+  - id: '02.02'
+    ',': Hybrid Retrieval Systems
+    objective: Design hybrid retrieval systems combining vector search with keyword-based
+      search for balanced precision and recall.
+  - id: '02.03'
+    title: Retrieval Optimization Techniques
+    objective: Optimize retrieval performance through techniques like pruning, indexing,
+      and approximate nearest neighbor algorithms.
+- id: '03'
+  title: Query Enhancement and Reranking
+  sections:
+  - id: '03.01'
+    title: Query Reranking Models
+    objective: Implement reranking models (e.g., BM25, neural networks) to refine
+      search results after initial retrieval.
+  - id: '03.02'
+    title: Prompt Engineering for RAG
+    objective: Design effective prompts that integrate retrieved context with LLMs
+      to improve answer relevance and accuracy.
+- id: '04'
+  title: Guardrails and Reliability
+  sections:
+  - id: '04.01'
+    title: Hallucination Detection
+    objective: Implement techniques to detect and mitigate hallucinations in RAG-generated
+      responses.
+  - id: '04.02'
+    title: Relevance Filtering
+    objective: Develop filters to ensure retrieved documents are contextually relevant
+      to the user query.
+- id: '05'
+  title: Evaluation and Deployment
+  sections:
+  - id: '05.01'
+    title: RAG System Evaluation
+    objective: Apply Ragas and other metrics to quantitatively assess retrieval accuracy,
+      answer quality, and system efficiency.
+  - id: '05.02'
+    title: Production-Grade RAG Pipelines
+    objective: Design scalable pipelines for deploying RAG systems in production environments
+      with monitoring and feedback loops.

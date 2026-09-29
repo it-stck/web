@@ -1,0 +1,54 @@
+status: draft
+title: BGP Routing Protocol and ISP Architecture
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: BGP Fundamentals
+  section_id: '01.01'
+  title: BGP Overview and Key Concepts
+  status: pending
+- chapter_id: '01'
+  chapter_title: BGP Fundamentals
+  section_id: '01.02'
+  title: BGP Attributes and Decision Process
+  status: pending
+- chapter_id: '01'
+  chapter_title: BGP Fundamentals
+  section_id: '01.03'
+  title: 'IBGP vs. EBGP: Differences and Use Cases'
+  status: pending
+- chapter_id: '02'
+  chapter_title: BGP Scalability and Architecture
+  section_id: '02.01'
+  title: Route Reflectors and Confederations
+  status: pending
+- chapter_id: '02'
+  chapter_title: BGP Scalability and Architecture
+  section_id: '02.02'
+  title: BGP Peerings and Session Types
+  status: pending
+- chapter_id: '03'
+  chapter_title: BGP Path Selection and Optimization
+  section_id: '03.01'
+  title: BGP Path Selection Criteria
+  status: pending
+- chapter_id: '03'
+  chapter_title: BGP Path Selection and Optimization
+  section_id: '03.02'
+  title: AS-Path Prepending and Its Impact
+  status: pending
+- chapter_id: '04'
+  chapter_title: BGP Policy and Traffic Control
+  section_id: '04.01'
+  title: BGP Communities and Tagging
+  status: pending
+- chapter_id: '04'
+  chapter_title: BGP Policy and Traffic Control
+  section_id: '04.02'
+  title: BGP Peering Policies and Best Practices
+  status: pending
+- chapter_id: '04'
+  chapter_title: BGP Policy and Traffic Control
+  section_id: '04.03'
+  title: Route Filtering and Prefix Control
+  status: pending

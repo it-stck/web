@@ -1,0 +1,55 @@
+title: GCP Networking and Interconnect
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Core Networking Concepts in GCP
+  sections:
+  - id: '01.01'
+    title: Understanding VPCs and Subnets
+    objective: Explain the structure and components of GCP Virtual Private Clouds
+      (VPCs) and subnets, including regional and global configurations.
+  - id: '01.02'
+    title: Network Service Tiers
+    objective: Compare the standard and premium network service tiers in GCP, discussing
+      their performance, latency, and use cases.
+  - id: '01.03'
+    title: Cloud DNS Overview
+    objective: Describe the role of Cloud DNS in managing domain name resolution within
+      GCP networks and its integration with VPCs.
+- id: '02'
+  title: Inter-VPC Connectivity
+  sections:
+  - id: '02.01'
+    title: VPC Peering
+    objective: Explain how VPC peering enables private network connectivity between
+      two VPCs and discuss its use cases, limitations, and configuration steps.
+  - id: '02.02'
+    title: Shared VPC
+    objective: Detail the architecture and benefits of Shared VPC, including resource
+      sharing, security considerations, and management best practices.
+- id: '03'
+  title: Connectivity to On-Premises and Other Clouds
+  sections:
+  - id: '03.01'
+    title: Cloud VPN
+    objective: Explain how Cloud VPN establishes secure, encrypted connections between
+      GCP networks and on-premises data centers, including configuration and troubleshooting
+      tips.
+  - id: '03.02'
+    title: Cloud Interconnect
+    objective: Describe Cloud Interconnect solutions for high-speed, private connectivity
+      between GCP and on-premises or other cloud environments, including Direct Peering
+      and Partner Interconnect options.
+- id: '04'
+  title: Traffic Management and Security
+  sections:
+  - id: '04.01'
+    title: Load Balancing
+    objective: Explain the different types of load balancing (application, network,
+      and managed instance groups) in GCP, their use cases, and configuration strategies.
+  - id: '04.02'
+    title: Firewall Rules
+    objective: Detail how to configure and manage firewall rules in GCP to control
+      inbound and outbound traffic at the network and instance levels, including best
+      practices for security.

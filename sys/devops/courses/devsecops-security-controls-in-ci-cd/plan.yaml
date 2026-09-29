@@ -1,0 +1,90 @@
+title: DevSecOps Security Controls in CI CD
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to DevSecOps Security in CI/CD
+  sections:
+  - id: '01.01'
+    title: DevSecOps Principles and CI/CD Integration
+    objective: Explain the core principles of DevSecOps and how security is integrated
+      into CI/CD pipelines to ensure secure software delivery.
+  - id: '01.02'
+    title: Key Security Controls in CI/CD
+    objective: Identify essential security controls such as static analysis, dependency
+      checks, secrets management, and policy enforcement in CI/CD workflows.
+- id: '02'
+  title: SAST and DAST Integration
+  sections:
+  - id: '02.01'
+    title: Static and Dynamic Analysis Tools
+    objective: Review tools for static application security testing (SAST) and dynamic
+      application security testing (DAST) and their roles in identifying vulnerabilities.
+  - id: '02.02'
+    title: Integrating SAST/DAST into CI/CD Pipelines
+    objective: Demonstrate how to embed SAST and DAST tools into CI/CD pipelines to
+      automate vulnerability detection during builds and tests.
+  - id: '02.03'
+    title: Best Practices for SAST/DAST Implementation
+    objective: Provide guidelines for configuring, optimizing, and interpreting results
+      from SAST and DAST tools in CI/CD environments.
+- id: '03'
+  title: Dependency Check and Vulnerability Scanning
+  sections:
+  - id: '03.01'
+    title: Dependency Vulnerability Risks
+    objective: Explain how third-party dependencies introduce security risks and the
+      importance of continuous vulnerability scanning.
+  - id: '03.02'
+    title: Tools for Dependency Scanning
+    objective: Evaluate tools like Dependabot, Snyk, and OWASP Dependency-Check for
+      identifying and mitigating vulnerable dependencies.
+  - id: '03.03'
+    title: Automating Dependency Scans in CI/CD
+    objective: Outline strategies for integrating dependency scanning into CI/CD pipelines
+      to enforce secure dependency updates.
+- id: '04'
+  title: Secrets Scanning and Management
+  sections:
+  - id: '04.01'
+    title: Securing Secrets in CI/CD
+    objective: Discuss the risks of hardcoding secrets in repositories and the importance
+      of scanning for exposed credentials in CI/CD workflows.
+  - id: '04.02'
+    title: Secrets Scanning Tools and Techniques
+    objective: Compare tools like GitGuardian, TruffleHog, and GitHub Secret Scanning,
+      and explain their use cases for detecting leaked secrets.
+  - id: '04.03'
+    title: Implementing Secure Secret Management
+    objective: Guide readers on using secret management tools (e.g., HashiCorp Vault,
+      AWS Secrets Manager) and best practices for CI/CD integration.
+- id: '05'
+  title: Policy-as-Code and Compliance Automation
+  sections:
+  - id: '05.01'
+    title: Policy-as-Code Fundamentals
+    objective: Define policy-as-code and its role in enforcing security and compliance
+      standards through automated policy checks in CI/CD.
+  - id: '05.02'
+    title: Tools for Policy Enforcement
+    objective: Explore tools like Open Policy Agent (OPA) and Conftest for defining
+      and enforcing infrastructure and application policies.
+  - id: '05.03'
+    title: Policy Integration in CI/CD Pipelines
+    objective: Demonstrate how to integrate policy-as-code into CI/CD pipelines to
+      enforce compliance and security rules during deployments.
+- id: '06'
+  title: Conftest and Open Policy Agent (OPA) Integration
+  sections:
+  - id: '06.01'
+    title: Conftest Overview and Use Cases
+    objective: Explain how Conftest is used to validate Kubernetes manifests and other
+      configuration files against security policies.
+  - id: '06.02'
+    title: OPA for Dynamic Policy Enforcement
+    objective: Describe how Open Policy Agent (OPA) enables runtime policy enforcement
+      and its integration with CI/CD pipelines.
+  - id: '06.03'
+    title: Combining Conftest and OPA for Security
+    objective: Showcase advanced use cases for combining Conftest and OPA to create
+      a unified security and compliance framework in DevOps workflows.

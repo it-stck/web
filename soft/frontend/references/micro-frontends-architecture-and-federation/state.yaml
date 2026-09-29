@@ -1,0 +1,79 @@
+status: completed
+title: Micro Frontends Architecture and Federation
+content_type: references
+sections:
+- chapter_id: '01'
+  chapter_title: Foundations of Micro Frontends
+  section_id: '01.01'
+  title: What Are Micro Frontends?
+  status: completed
+- chapter_id: '01'
+  chapter_title: Foundations of Micro Frontends
+  section_id: '01.02'
+  title: Benefits and Challenges
+  status: completed
+- chapter_id: '01'
+  chapter_title: Foundations of Micro Frontends
+  section_id: '01.03'
+  title: Micro Frontends vs. Microservices
+  status: completed
+- chapter_id: '02'
+  chapter_title: Module Federation and Webpack 5
+  section_id: '02.01'
+  title: Module Federation Basics
+  status: completed
+- chapter_id: '02'
+  chapter_title: Module Federation and Webpack 5
+  section_id: '02.02'
+  title: Webpack 5 Configuration
+  status: completed
+- chapter_id: '02'
+  chapter_title: Module Federation and Webpack 5
+  section_id: '02.03'
+  title: Federated Module Communication
+  status: completed
+- chapter_id: '03'
+  chapter_title: Deployment and Shared Dependencies
+  section_id: '03.01'
+  title: Isolated Deployments
+  status: completed
+- chapter_id: '03'
+  chapter_title: Deployment and Shared Dependencies
+  section_id: '03.02'
+  title: Shared Dependency Management
+  status: completed
+- chapter_id: '03'
+  chapter_title: Deployment and Shared Dependencies
+  section_id: '03.03'
+  title: Performance Considerations
+  status: completed
+- chapter_id: '04'
+  chapter_title: Advanced Integration Patterns
+  section_id: '04.01'
+  title: Single-Spa Integration
+  status: completed
+- chapter_id: '04'
+  chapter_title: Advanced Integration Patterns
+  section_id: '04.02'
+  title: Custom Container Solutions
+  status: completed
+- chapter_id: '04'
+  chapter_title: Advanced Integration Patterns
+  section_id: '04.03'
+  title: Security Best Practices
+  status: completed
+- chapter_id: '05'
+  chapter_title: Troubleshooting and Optimization
+  section_id: '05.01'
+  title: Common Integration Pitfalls
+  status: completed
+- chapter_id: '05'
+  chapter_title: Troubleshooting and Optimization
+  section_id: '05.02'
+  title: Performance Monitoring
+  status: completed
+- chapter_id: '05'
+  chapter_title: Troubleshooting and Optimization
+  section_id: '05.03'
+  title: Scaling Strategies
+  status: completed

@@ -1,0 +1,53 @@
+title: Hardening Enterprise Linux Servers
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Security Modules (SELinux and AppArmor)
+  sections:
+  - id: '01.01'
+    title: SELinux and AppArmor Overview
+    objective: Explain the purpose and architecture of SELinux and AppArmor, and when
+      to use each for application-level security.
+- id: '02'
+  title: Authentication (PAM)
+  sections:
+  - id: '02.01'
+    title: PAM Configuration for Secure Authentication
+    objective: Detail how to configure PAM modules to enforce multi-factor authentication,
+      account lockouts, and session management.
+- id: '03'
+  title: Secure Remote Access (SSH)
+  sections:
+  - id: '03.01'
+    title: SSH Hardening Techniques
+    objective: Outline steps to secure SSH access, including key-based authentication,
+      port changes, and disabling root login.
+- id: '04'
+  title: Firewall Configuration (firewalld and nftables)
+  sections:
+  - id: '04.01'
+    title: Configuring firewalld and nftables for Network Security
+    objective: Demonstrate how to set up and manage firewalld or nftables to enforce
+      strict inbound/outbound traffic rules.
+- id: '05'
+  title: System Monitoring and Logging (auditd)
+  sections:
+  - id: '05.01'
+    title: Implementing auditd for Security Auditing
+    objective: Explain how to configure auditd to track system calls, file accesses,
+      and detect unauthorized activities.
+- id: '06'
+  title: Data Protection (LUKS)
+  sections:
+  - id: '06.01'
+    title: LUKS Disk Encryption for Data Security
+    objective: Guide users through setting up LUKS encryption on Linux volumes to
+      protect data at rest.
+- id: '07'
+  title: Kernel Security (kernel-hardening)
+  sections:
+  - id: '07.01'
+    title: Kernel Hardening Techniques
+    objective: Describe methods to secure the Linux kernel, including disabling unused
+      features, patching vulnerabilities, and enforcing security policies.

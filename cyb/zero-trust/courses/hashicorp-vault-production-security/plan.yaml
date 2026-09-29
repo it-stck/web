@@ -1,0 +1,82 @@
+title: HashiCorp Vault Production Security
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Introduction to HashiCorp Vault Security Foundations
+  sections:
+  - id: '01.01'
+    title: Zero Trust Principles in Vault Architecture
+    objective: Explain how Zero Trust principles align with Vault's design for secure
+      secret management.
+  - id: '01.02'
+    title: Vault Core Security Concepts Overview
+    objective: Describe Vault's security model, including dynamic secrets, lease management,
+      and access control.
+- id: '02'
+  title: Secret Engines and Dynamic Secret Management
+  sections:
+  - id: '02.01'
+    title: Secret Engine Overview and Use Cases
+    objective: Identify use cases for secret engines and explain their role in automating
+      credential management.
+  - ? ''
+    : ''
+    title: Configuring and Auditing Secret Engines
+    objective: Demonstrate how to configure secret engines, set policies, and audit
+      their operations.
+- id: '03'
+  title: Transit Encryption for Data Protection
+  sections:
+  - id: '03.01'
+    title: Transit Engine Architecture and Encryption Workflows
+    objective: Detail how the Transit engine encrypts data at rest and in transit
+      using AES-256 and HMAC.
+  - id: '03.02'
+    title: Key Rotation and Data Encryption Best Practices
+    objective: Outline strategies for automated key rotation, data encryption, and
+      secure key storage.
+- id: '04'
+  title: AppRole Authentication and Access Control
+  sections:
+  - id: '04.01'
+    title: AppRole Authentication Mechanism and Use Cases
+    objective: Explain how AppRole authentication works and when to use it for machine-to-machine
+      access.
+  - id: '04.02'
+    title: Role Management and Policy Enforcement
+    objective: Demonstrate how to define roles, manage access tokens, and enforce
+      least-privilege policies.
+- id: '05'
+  title: PKI Engine for Certificate Management
+  sections:
+  - id: '05.01'
+    title: PKI Engine Architecture and Certificate Lifecycle
+    objective: Describe how the PKI engine issues, rotates, and revokes TLS certificates
+      securely.
+  - id: '05.02'
+    title: Integrating PKI with External Certificate Authorities
+    objective: Explain how to configure Vault to act as a CA or integrate with external
+      CAs for certificate management.
+- id: '06'
+  title: High Availability and Disaster Recovery in Vault
+  sections:
+  - id: '06.01'
+    title: Vault High Availability Cluster Design
+    objective: Detail the architecture of Vault HA clusters, including storage backends
+      and redundancy strategies.
+  - id: '06.02'
+    title: Disaster Recovery Planning and Backup Strategies
+    objective: Outline steps for regular backups, snapshot management, and recovery
+      from data loss scenarios.
+- id: '07'
+  title: Advanced Security Operations and Troubleshooting
+  sections:
+  - id: '07.01'
+    title: Monitoring and Alerting for Vault Security
+    objective: Explain how to set up monitoring, audit logging, and real-time alerts
+      for suspicious activities.
+  - id: '07.02'
+    title: Troubleshooting Common Security and Configuration Issues
+    objective: Provide diagnostic techniques for resolving authentication failures,
+      policy conflicts, and encryption errors.

@@ -1,0 +1,79 @@
+title: High Availability Clustering with Pacemaker
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Corosync Messaging Fundamentals
+  sections:
+  - id: '01.01'
+    title: Corosync Messaging Overview
+    objective: Explain the role of Corosync in cluster communication and its core
+      components like the messaging layer and transport protocols.
+  - id: '01.02'
+    title: Configuring Corosync Messaging
+    objective: Detail the steps to configure Corosync's messaging layer, including
+      transport settings, authentication, and cluster node discovery.
+  - id: '01.03'
+    title: Securing Corosync Communication
+    objective: Outline methods to secure Corosync messaging using TLS, authentication
+      mechanisms, and firewall configurations.
+- id: '02'
+  title: Pacemaker Resources and Cluster Configuration
+  sections:
+  - id: '02.01'
+    title: Pacemaker Resource Management
+    objective: Describe how Pacemaker manages resources, including resource agents,
+      constraints, and failover policies.
+  - id: '02.02'
+    title: Creating and Managing Resources
+    objective: Provide step-by-step instructions for defining resources (e.g., services,
+      IP addresses) and managing their lifecycle in a cluster.
+  - id: '02.03'
+    title: Resource Groups and Colocation
+    objective: Explain how to group related resources and enforce colocation constraints
+      to ensure coordinated failover.
+- id: '03'
+  title: STONITH Fencing and Node Protection
+  sections:
+  - id: '03.01'
+    title: STONITH Fencing Concepts
+    objective: Define STONITH (Shoot The Other Node In The Head) and its critical
+      role in preventing split-brain scenarios in clusters.
+  - id: '03.02'
+    title: Configuring STONITH Devices
+    objective: Guide users through setting up STONITH devices (e.g., IPMI, APC UPS)
+      and defining fencing policies in Pacemaker.
+  - id: '03.03'
+    title: Testing and Validating Fencing
+    objective: Demonstrate how to test STONITH configurations using simulated failures
+      and verify fencing effectiveness.
+- id: '04'
+  title: Virtual IP Failover and Network Resilience
+  sections:
+  - id: '04.01'
+    title: Virtual IP Address Configuration
+    objective: Explain how to configure and manage virtual IP addresses (VIPs) for
+      high availability services in a cluster.
+  - id: '04.02'
+    title: VIP Failover Automation
+    objective: Detail the process of automating VIP failover using Pacemaker resources
+      and CRM (Cluster Resource Manager) commands.
+  - id: '04.03'
+    title: Network Resilience Best Practices
+    objective: Provide strategies for ensuring network resilience, including multi-homed
+      nodes and redundant VIP configurations.
+- id: '05'
+  title: Cluster Monitoring and Maintenance
+  sections:
+  - id: '05.01'
+    title: Monitoring Cluster Health
+    objective: Describe tools like `crm_mon`, `pcs status`, and `corosync-quorum`
+      to monitor cluster node status and resource availability.
+  - id: '05.02'
+    title: Setting Up Cluster Alerts
+    objective: Explain how to configure alerts for critical cluster events using systemd,
+      email, or external monitoring tools.
+  - id: '05.03'
+    title: Cluster Maintenance and Troubleshooting
+    objective: Outline procedures for maintenance tasks like node shutdowns, resource
+      migration, and resolving common cluster failures.

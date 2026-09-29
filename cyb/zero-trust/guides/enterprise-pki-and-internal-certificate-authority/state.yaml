@@ -1,0 +1,44 @@
+status: completed
+title: Enterprise PKI and Internal Certificate Authority
+content_type: guides
+sections:
+- chapter_id: '01'
+  chapter_title: PKI Fundamentals and CA Hierarchy
+  section_id: '01.01'
+  title: Root CA and Sub-CA Architecture
+  status: completed
+- chapter_id: '01'
+  chapter_title: PKI Fundamentals and CA Hierarchy
+  section_id: '01.02'
+  title: Designing a Multi-CA Infrastructure
+  status: completed
+- chapter_id: '02'
+  chapter_title: Certificate Revocation Mechanisms
+  section_id: '02.01'
+  title: Certificate Revocation with CRLs
+  status: completed
+- chapter_id: '02'
+  chapter_title: Certificate Revocation Mechanisms
+  section_id: '02.02'
+  title: OCSP Stapling for Real-Time Revocation
+  status: completed
+- chapter_id: '03'
+  chapter_title: TLS Mutual Authentication
+  section_id: '03.01'
+  title: Implementing TLS Mutual Auth
+  status: completed
+- chapter_id: '03'
+  chapter_title: TLS Mutual Authentication
+  section_id: '03.02'
+  title: Use Cases and Security Considerations
+  status: completed
+- chapter_id: '04'
+  chapter_title: Automated Certificate Management
+  section_id: '04.01'
+  title: Auto-Renewal with PKI Tools
+  status: completed
+- chapter_id: '04'
+  chapter_title: Automated Certificate Management
+  section_id: '04.02'
+  title: Integrating Renewal with CI/CD Pipelines
+  status: completed

@@ -1,0 +1,49 @@
+title: Enterprise PKI and Internal Certificate Authority
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: PKI Fundamentals and CA Hierarchy
+  sections:
+  - id: '01.01'
+    title: Root CA and Sub-CA Architecture
+    objective: Explain the roles of root Certificate Authorities (CAs) and sub-CAs
+      in establishing trust hierarchies, including key management and certificate
+      issuance workflows.
+  - id: '01.02'
+    title: Designing a Multi-CA Infrastructure
+    objective: Outline best practices for structuring enterprise PKI with multiple
+      CAs, including segmentation, access control, and certificate lifetime policies.
+- id: '02'
+  title: Certificate Revocation Mechanisms
+  sections:
+  - id: '02.01'
+    title: Certificate Revocation with CRLs
+    objective: Detail the implementation and management of Certificate Revocation
+      Lists (CRLs), including generation, distribution, and validation processes.
+  - id: '02.02'
+    title: OCSP Stapling for Real-Time Revocation
+    objective: Describe how Online Certificate Status Protocol (OCSP) stapling improves
+      revocation checking efficiency and security in TLS connections.
+- id: '03'
+  title: TLS Mutual Authentication
+  sections:
+  - id: '03.01'
+    title: Implementing TLS Mutual Auth
+    objective: Provide step-by-step guidance on configuring TLS mutual authentication
+      using client and server certificates in enterprise environments.
+  - id: '03.02'
+    title: Use Cases and Security Considerations
+    objective: Explore scenarios where TLS mutual authentication is critical (e.g.,
+      API gateways, internal services) and address potential security pitfalls.
+- id: '04'
+  title: Automated Certificate Management
+  sections:
+  - id: '04.01'
+    title: Auto-Renewal with PKI Tools
+    objective: Explain how to automate certificate renewal using tools like HashiCorp
+      Vault, ACME protocols, and cron jobs to prevent expiration risks.
+  - id: '04.02'
+    title: Integrating Renewal with CI/CD Pipelines
+    objective: Demonstrate integrating certificate auto-renewal into DevOps workflows
+      to ensure continuous compliance and uptime.

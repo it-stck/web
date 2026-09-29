@@ -1,0 +1,67 @@
+title: Ansible Automation Handbook
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Introduction to Ansible Automation
+  sections:
+  - id: '01.01'
+    title: Overview of Ansible
+    objective: Explain what Ansible is, its core principles, and its role in DevOps
+      automation.
+  - id: '01.02'
+    title: Understanding Idempotency
+    objective: Define idempotency in Ansible and demonstrate how it ensures consistent
+      system states.
+- id: '02'
+  title: Inventory Management
+  sections:
+  - id: '02.01'
+    title: Static Inventory Configuration
+    objective: Teach how to define and manage static inventory hosts and groups in
+      Ansible.
+  - id: '02.02'
+    title: Dynamic Inventory Concepts
+    objective: Explain dynamic inventory scripts and how they integrate with cloud
+      providers and APIs.
+- id: '03'
+  title: Playbooks and Execution
+  sections:
+  - id: '03.01'
+    title: Playbook Structure and Syntax
+    objective: Detail the components of an Ansible playbook, including tasks, handlers,
+      and variables.
+  - id: '03.02'
+    title: Best Practices for Playbook Design
+    objective: Provide guidelines for writing efficient, reusable, and maintainable
+      playbooks.
+- id: '04'
+  title: Roles and Modularization
+  sections:
+  - id: '04.01'
+    title: Role Structure and Organization
+    objective: Explain how to create and organize Ansible roles for reusable automation
+      logic.
+  - id: '04.02'
+    title: Role Best Practices
+    objective: Cover strategies for versioning, dependency management, and role reuse.
+- id: '05'
+  title: Security with Ansible Vault
+  sections:
+  - id: '05.01'
+    title: Securing Sensitive Data
+    objective: Demonstrate how to use Ansible Vault to encrypt credentials and secrets.
+- id: '06'
+  title: Custom Modules and Plugins
+  sections:
+  - id: '06.01'
+    title: Creating Custom Modules
+    objective: Guide users through developing and testing custom Ansible modules for
+      unique workflows.
+- id: '07'
+  title: AWX/Tower Integration
+  sections:
+  - id: '07.01'
+    title: Integrating with AWX/Tower
+    objective: Explain how to deploy Ansible playbooks to AWX/Tower for orchestration
+      and scheduling.

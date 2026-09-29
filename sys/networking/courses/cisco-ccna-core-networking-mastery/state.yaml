@@ -1,0 +1,74 @@
+status: draft
+title: Cisco CCNA Core Networking Mastery
+content_type: courses
+sections:
+- chapter_id: '01'
+  chapter_title: OSI Model and Network Fundamentals
+  section_id: '01.01'
+  title: OSI Model Layers and Functions
+  status: pending
+- chapter_id: '01'
+  chapter_title: OSI Model and Network Fundamentals
+  section_id: '01.02'
+  title: TCP/IP Protocol Suite Overview
+  status: pending
+- chapter_id: '02'
+  chapter_title: IPv4 and IPv6 Subnetting
+  section_id: '02.01'
+  title: IPv4 Addressing and Subnetting
+  status: pending
+- chapter_id: '02'
+  chapter_title: IPv4 and IPv6 Subnetting
+  section_id: '02.02'
+  title: IPv6 Addressing and Subnetting
+  status: pending
+- chapter_id: '03'
+  chapter_title: VLANs and Trunking
+  section_id: '03.01'
+  title: VLAN Concepts and Configuration
+  status: pending
+- chapter_id: '03'
+  chapter_title: VLANs and Trunking
+  section_id: '03.02'
+  title: Trunking Protocols and Configuration
+  status: pending
+- chapter_id: '04'
+  chapter_title: Spanning Tree Protocols
+  section_id: '04.01'
+  title: STP Fundamentals and Operation
+  status: pending
+- chapter_id: '04'
+  chapter_title: Spanning Tree Protocols
+  section_id: '04.02'
+  title: RSTP Enhancements and Configuration
+  status: pending
+- chapter_id: '05'
+  chapter_title: OSPF Routing Protocol
+  section_id: '05.01'
+  title: OSPF Network Types and Neighbor Discovery
+  status: pending
+- chapter_id: '05'
+  chapter_title: OSPF Routing Protocol
+  section_id: '05.02'
+  title: OSPF LSAs and Route Calculation
+  status: pending
+- chapter_id: '06'
+  chapter_title: NAT and PAT Configuration
+  section_id: '06.01'
+  title: NAT Translation and Configuration
+  status: pending
+- chapter_id: '06'
+  chapter_title: NAT and PAT Configuration
+  section_id: '06.02'
+  title: PAT and Overload Configuration
+  status: pending
+- chapter_id: '07'
+  chapter_title: Network Security Fundamentals
+  section_id: '07.01'
+  title: DHCP Snooping and IP Source Guard
+  status: pending
+- chapter_id: '07'
+  chapter_title: Network Security Fundamentals
+  section_id: '07.02'
+  title: Access Control Lists (ACLs) Implementation
+  status: pending

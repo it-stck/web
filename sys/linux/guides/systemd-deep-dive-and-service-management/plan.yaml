@@ -1,0 +1,70 @@
+title: Systemd Deep Dive and Service Management
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Unit Files and Service Configuration
+  sections:
+  - id: '01.01'
+    title: Understanding Systemd Unit Files
+    objective: Explain the structure and purpose of systemd unit files, including
+      service, socket, and timer units.
+  - id: '01.02'
+    title: Writing Custom Service Unit Files
+    objective: Demonstrate how to create and configure custom systemd service units
+      with example use cases.
+  - id: '01.03'
+    title: Unit File Syntax and Best Practices
+    objective: Detail the syntax rules and best practices for writing maintainable
+      systemd unit files.
+- id: '02'
+  title: Targets and Runlevel Management
+  sections:
+  - id: '02.01'
+    title: Systemd Targets and Runlevels
+    objective: Compare systemd targets with traditional init runlevels and explain
+      their role in system state management.
+  - id: '02.02'
+    title: Managing Targets and Multi-User Environments
+    objective: Show how to switch between targets and configure multi-user systemd
+      environments.
+- id: '03'
+  title: Journalctl and Logging
+  sections:
+  - id: '03.01'
+    title: Systemd Journalctl Basics
+    objective: Introduce journalctl as the systemd logging utility and its integration
+      with journald.
+  - id: '03.02'
+    title: Querying and Filtering Journal Logs
+    objective: Teach how to use journalctl commands to filter, search, and analyze
+      system logs.
+- id: '04'
+  title: Systemd Timers and Scheduling
+  sections:
+  - id: '04.01'
+    title: Systemd Timer Units Overview
+    objective: Explain how systemd timers enable scheduled service execution and their
+      relationship to unit files.
+  - id: '04.02'
+    title: Configuring Systemd Timers
+    objective: Demonstrate creating and managing systemd timers for recurring tasks.
+- id: '05'
+  title: Resource Limits and Sandboxing
+  sections:
+  - id: '05.01'
+    title: Setting Resource Limits for Services
+    objective: Show how to use systemd to enforce CPU, memory, and I/O limits on services.
+- id: '06'
+  title: Sandboxing and Containers
+  sections:
+  - id: '06.01'
+    title: Using nspawn for Containerization
+    objective: Explain how to use systemd-nspawn to create sandboxed container environments.
+- id: '07'
+  title: Troubleshooting Systemd Issues
+  sections:
+  - id: '07.01'
+    title: Diagnosing Boot Failures with Systemd
+    objective: Guide users through identifying and resolving systemd-related boot
+      issues using journal logs and service status checks.

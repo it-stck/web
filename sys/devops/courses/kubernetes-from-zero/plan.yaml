@@ -1,0 +1,139 @@
+title: Kubernetes from Zero
+content_type: courses
+language: en
+chapters:
+- id: '01'
+  title: Kubernetes Architecture
+  sections:
+  - id: '01.01'
+    title: Core Concepts and Components
+    objective: Explain Kubernetes' core concepts (nodes, clusters, control plane)
+      and the roles of key components (API server, etcd, kubelet).
+  - id: '01.02'
+    title: Cluster Architecture and Design Patterns
+    objective: Describe the architecture of a Kubernetes cluster, including master
+      and worker nodes, and common design patterns for scalability and high availability.
+  - id: '01.03'
+    title: Networking and Security Model
+    objective: Outline Kubernetes' networking model (CNI, pod communication) and security
+      foundations (RBAC, namespace isolation).
+- id: '02'
+  title: Installation and Setup
+  sections:
+  - id: '02.01'
+    title: Prerequisites and Environment Setup
+    objective: List system requirements and prepare the environment for Kubernetes
+      installation (OS, Docker, kubeconfig).
+  - id: '02.02'
+    title: Single-Node Cluster Installation
+    objective: Install a single-node Kubernetes cluster using kubeadm, kops, or Minikube
+      with detailed step-by-step instructions.
+  - id: '02.03'
+    title: Multi-Node Cluster Setup
+    objective: Deploy a multi-node Kubernetes cluster with master and worker nodes,
+      including TLS configuration and etcd setup.
+- id: '03'
+  title: Workloads and Pods
+  sections:
+  - id: '03.01'
+    title: Pod Structure and Lifecycle
+    objective: Explain pod architecture (containers, volumes, init containers) and
+      lifecycle phases (pending, running, terminated).
+  - id: '03.02'
+    title: Pod Management and Orchestration
+    objective: Demonstrate pod creation, scheduling, and management using YAML manifests
+      and kubectl commands.
+  - id: '03.03'
+    title: Pod Security and Best Practices
+    objective: Discuss pod security contexts, privilege escalation prevention, and
+      best practices for secure pod configuration.
+- id: '04'
+  title: Deployments and Services
+  sections:
+  - id: '04.01'
+    title: Deployment Concepts and Strategies
+    objective: Explain deployment objects, rollout strategies (rolling update, blue-green),
+      and rollback mechanisms.
+  - id: '04.02'
+    title: Service Types and Networking
+    objective: Describe Kubernetes services (ClusterIP, NodePort, LoadBalancer) and
+      how they enable network accessibility for pods.
+  - id: '04.03'
+    title: Service Mesh Integration
+    objective: Outline integration of service meshes (Istio, Linkerd) with Kubernetes
+      services for advanced traffic management.
+- id: '05'
+  title: Ingress and External Access
+  sections:
+  - id: '05.01'
+    title: Ingress Controllers and Configuration
+    objective: Configure ingress controllers (NGINX, Traefik) to manage external HTTP/HTTPS
+      traffic to cluster services.
+  - id: '05.02'
+    title: TLS Termination and Certificate Management
+    objective: Implement TLS termination with ingress resources and integrate certificate
+      management tools (Cert-Manager).
+  - id: '05.03'
+    title: Ingress Routing and Path Matching
+    objective: Configure advanced routing rules, path-based routing, and annotation-based
+      configuration for ingress controllers.
+- id: '06'
+  title: Storage and Volumes
+  sections:
+  - id: '06.01'
+    title: Persistent Volumes and Claims
+    objective: Implement persistent storage with PV/PVC, including dynamic provisioning
+      and storage classes.
+  - id: '06.02'
+    title: Volume Types and CSI Integration
+    objective: Discuss supported volume types (hostPath, NFS, cloud providers) and
+      CSI (Container Storage Interface) integration.
+  - id: '06.03'
+    title: Stateful Applications and Operators
+    objective: Deploy stateful applications using StatefulSets and explore operator
+      patterns for managing custom storage workflows.
+- id: '07'
+  title: Security and Compliance
+  sections:
+  - id: '07.01'
+    title: RBAC and Access Control
+    objective: Configure Role-Based Access Control (RBAC) to manage permissions for
+      users, service accounts, and clusters.
+  - id: '07.02'
+    title: Network Policies and Pod Security
+    objective: Implement network policies for microservices communication and enforce
+      pod security policies (PSP) for container hardening.
+  - id: '07.03'
+    title: Secrets Management and Encryption
+    objective: Secure sensitive data using Kubernetes secrets, init containers, and
+      encryption at rest/in transit.
+- id: 08
+  title: Observability and Monitoring
+  sections:
+  - id: '08.01'
+    title: Metrics and Logging Integration
+    objective: Integrate Prometheus/Grafana for metrics and Elasticsearch/Logstash/Kibana
+      (ELK) for centralized logging in Kubernetes.
+  - id: '08.02'
+    title: Tracing and Distributed Context
+    objective: Implement distributed tracing with Jaeger or OpenTelemetry for debugging
+      microservices communication.
+  - id: '08.03'
+    title: Service Mesh Observability
+    objective: Configure observability features in service meshes (Istio metrics,
+      tracing, and distributed logging).
+- id: 09
+  title: Troubleshooting and Optimization
+  sections:
+  - id: '09.01'
+    title: Debugging Pods and Deployments
+    objective: Use kubectl commands, logs, describe, and debug tools to diagnose pod
+      failures and deployment issues.
+  - id: '09.02'
+    title: Performance Tuning and Scaling
+    objective: Optimize cluster performance with resource limits, horizontal pod autoscaling
+      (HPA), and kube-scheduler tuning.
+  - id: '09.03'
+    title: Common Errors and Mitigation
+    objective: Identify and resolve common issues (node taints, resource contention,
+      network policies) with real-world troubleshooting scenarios.

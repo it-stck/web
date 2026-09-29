@@ -1,0 +1,118 @@
+title: SOC Analyst Incident Handling Playbooks
+content_type: guides
+language: en
+chapters:
+- id: '01'
+  title: Phishing Investigation
+  sections:
+  - id: '01.01'
+    title: Initial Assessment and Triage
+    objective: Teach SOC analysts how to prioritize and categorize phishing incidents
+      based on severity, impact, and potential data exposure.
+  - id: '01.02'
+    title: Email Header Analysis and Source Verification
+    objective: Explain techniques for analyzing email headers, DNS records, and SPF/DKIM
+      records to identify spoofed domains and compromised mail servers.
+  - id: '01.03'
+    title: User Verification and Phishing Simulation
+    objective: Outline methods for verifying user authenticity through multi-factor
+      authentication checks and correlating phishing simulations with real-world attacks.
+  - id: '01.04'
+    title: Evidence Collection and Preservation
+    objective: Detail procedures for capturing email artifacts, browser history, and
+      network traffic to preserve digital evidence for legal or forensic analysis.
+- id: '02'
+  title: Ransomware Response
+  sections:
+  - id: '02.01'
+    title: Ransomware Identification and Impact Assessment
+    objective: Guide analysts in distinguishing ransomware from other malware through
+      file encryption patterns, process anomalies, and network behavior analysis.
+  - id: '02.02'
+    title: Isolation and Containment Strategies
+    objective: Provide step-by-step instructions for isolating infected systems, disconnecting
+      networks, and preventing lateral propagation of ransomware.
+  - id: '02.03'
+    title: Data Backup and Recovery Planning
+    objective: Explain how to verify backup integrity, prioritize recovery of critical
+      systems, and mitigate data loss during ransomware incidents.
+  - id: '02.04'
+    title: Decryption Tools and Negotiation Tactics
+    objective: Review available decryption tools, ransomware-specific decryption keys,
+      and best practices for negotiating with attackers while minimizing exposure.
+- id: '03'
+  title: Compromised Credentials
+  sections:
+  - id: '03.01'
+    title: Credential Theft Detection and Monitoring
+    objective: Describe how to detect credential theft through anomalous login patterns,
+      geolocation mismatches, and session hijacking indicators.
+  - id: '03.02'
+    title: Password Reset and Account Lockout Procedures
+    objective: Outline secure password reset workflows, account lockout policies,
+      and multi-factor authentication enforcement during credential compromise.
+  - id: '03.03'
+    title: Credential Dumping and Privilege Escalation Mitigation
+    objective: Detail techniques for preventing credential dumping (e.g., LSASS memory
+      extraction) and limiting elevated privileges in compromised environments.
+  - id: '03.04'
+    title: Post-Incident Credential Auditing
+    objective: Explain how to audit credentials across systems, enforce password complexity
+      policies, and implement just-in-time access controls.
+- id: '04'
+  title: Data Exfiltration Triage
+  sections:
+  - id: '04.01'
+    title: Identifying Data Exfiltration Channels
+    objective: Teach methods for detecting data exfiltration via DNS tunneling, HTTP/HTTPS
+      traffic, and encrypted payloads using network monitoring tools.
+  - id: '04.02'
+    title: Traffic Analysis and Payload Inspection
+    objective: Guide analysts in inspecting exfiltrated data for sensitive patterns,
+      using packet capture tools and deep packet inspection techniques.
+  - id: '04.03'
+    title: Containment and Data Loss Prevention
+    objective: Provide strategies for blocking exfiltration paths, encrypting sensitive
+      data at rest, and implementing DLP policies to prevent unauthorized transfers.
+  - id: '04.04'
+    title: Forensic Analysis of Exfiltrated Data
+    objective: Detail how to analyze exfiltrated data for indicators of compromise,
+      attacker intent, and potential downstream breaches.
+- id: '05'
+  title: Unauthorized Access
+  sections:
+  - id: '05.01'
+    title: Access Pattern Analysis and Anomaly Detection
+    objective: Explain how to identify unauthorized access through user behavior analytics,
+      privilege misuse, and access pattern deviations.
+  - id: '05.02'
+    title: Session Monitoring and Termination
+    objective: Outline procedures for real-time monitoring of active sessions, terminating
+      suspicious sessions, and logging session metadata for forensic review.
+  - id: '05.03'
+    title: Privilege Escalation and Role Management
+    objective: Detail techniques for preventing privilege escalation, enforcing least-privilege
+      access, and auditing role-based access controls (RBAC).
+  - id: '05.04'
+    title: Post-Incident Access Review
+    objective: Explain how to conduct post-incident access audits, revoke unnecessary
+      permissions, and update access policies based on incident findings.
+- id: '06'
+  title: Malware Containment
+  sections:
+  - id: '06.01'
+    title: Malware Classification and Behavior Analysis
+    objective: Guide analysts in classifying malware types (e.g., viruses, worms,
+      ransomware) and analyzing behavior through static and dynamic analysis techniques.
+  - id: '06.02'
+    title: Quarantine and Disposal Procedures
+    objective: Provide step-by-step instructions for isolating infected endpoints,
+      safely disposing of malware samples, and sanitizing affected systems.
+  - id: '06.03'
+    title: Threat Intelligence Integration
+    objective: Explain how to leverage threat intelligence feeds, malware signatures,
+      and IoCs (Indicators of Compromise) to identify and block known malicious payloads.
+  - id: '06.04'
+    title: Post-Incident Malware Analysis
+    objective: Detail how to perform post-incident analysis of malware samples, reverse-engineer
+      payloads, and update defensive controls to prevent future attacks.
