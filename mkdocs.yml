@@ -119,6 +119,10 @@ extra:
     actions:
       - accept
       - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true
 
 # ── Navigation Architecture (Multi-Domain Tabs) ──
 nav:
