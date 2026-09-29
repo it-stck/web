@@ -2,12 +2,10 @@
 
 # ITSTCK | Open Technical Stack & Knowledge Base
 
-[![Site Status](https://img.shields.io/website?url=https%3A%2F%2Fitstck.com&label=itstck.com&color=0284c7&style=flat-square)](https://itstck.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-38bdf8.svg?style=flat-square)](LICENSE)
-[![Built with MkDocs Material](https://img.shields.io/badge/Built%20with-MkDocs%20Material-0f172a.svg?style=flat-square&logo=mkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-
-*Enterprise multi-project documentation covering Cloud Architecture, DevOps, Cybersecurity, Linux Systems, Software Engineering, Data & AI Engineering.*
+[![Site Status](https://img.shields.io/website?url=https%3A%2F%2Fitstck.com&style=for-the-badge&logo=cloudflare&color=0EA5E9)](https://itstck.com)
+[![Built with MkDocs Material](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](.github/CONTRIBUTING.md)
 
 [🌐 Live Website](https://itstck.com/) • [📚 Blog Hub](https://itstck.com/blog/) • [🤝 Contribute](#contributing) • [📬 Contact](https://itstck.com/contact/)
 
